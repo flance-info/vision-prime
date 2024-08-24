@@ -19,4 +19,4 @@ Desktop.ini # Windows desktop icon settings
 # Others
 *.log   # Log files
 
-
+web/node_modules/
