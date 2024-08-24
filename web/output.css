@@ -854,6 +854,10 @@ video {
   margin-top: -40px;
 }
 
+.ml-\[calc\(91\%-100vw\)\] {
+  margin-left: calc(91% - 100vw);
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1740,6 +1744,10 @@ video {
 
 .max-w-full {
   max-width: 100%;
+}
+
+.max-w-\[1170px\] {
+  max-width: 1170px;
 }
 
 .flex-1 {
