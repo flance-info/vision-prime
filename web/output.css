@@ -858,6 +858,14 @@ video {
   margin-left: calc(91% - 100vw);
 }
 
+.mt-\[55px\] {
+  margin-top: 55px;
+}
+
+.ml-\[-120px\] {
+  margin-left: -120px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -2905,6 +2913,10 @@ video {
   line-height: normal;
 }
 
+.leading-\[80px\] {
+  line-height: 80px;
+}
+
 .tracking-\[-0\.01em\] {
   letter-spacing: -0.01em;
 }
@@ -3761,6 +3773,10 @@ body {
   .mq850\:leading-\[67px\] {
     line-height: 67px;
   }
+
+  .mq850\:leading-\[64px\] {
+    line-height: 64px;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -3977,5 +3993,9 @@ body {
 
   .mq450\:leading-\[50px\] {
     line-height: 50px;
+  }
+
+  .mq450\:leading-\[28px\] {
+    line-height: 28px;
   }
 }
