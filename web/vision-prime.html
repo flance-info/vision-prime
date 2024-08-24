@@ -441,7 +441,7 @@
 					class="w-[1810px] h-[1060px] relative bg-dark-gray hidden max-w-full z-[0]"
 			></div>
 			<div
-					class="w-[1170px] flex flex-row items-start justify-center py-0 pl-0 pr-px box-border max-w-full text-general-1-primary"
+					class="w-[1170px] flex flex-row items-start justify-center py-0 pl-0 pr-px box-border max-w-full text-general-1-primary ml-[5%]"
 			>
 				<div
 						class="w-[613px] flex flex-col items-start justify-start pt-[22px] px-0 pb-[119px] box-border gap-[21px] max-w-full z-[1]"
@@ -470,7 +470,7 @@
 				</div>
 			</div>
 			<div
-					class="w-[1170px] grid flex-row items-start justify-start gap-[30px] max-w-full grid-cols-[repeat(3,_minmax(277px,_1fr))] z-[1] text-11xl lg:justify-center lg:grid-cols-[repeat(2,_minmax(277px,_481px))] mq850:grid-cols-[minmax(277px,_1fr)]"
+					class="ml-[5%] w-[1170px] grid flex-row items-start justify-start gap-[30px] max-w-full grid-cols-[repeat(3,_minmax(277px,_1fr))] z-[1] text-11xl lg:justify-center lg:grid-cols-[repeat(2,_minmax(277px,_481px))] mq850:grid-cols-[minmax(277px,_1fr)]"
 			>
 				<div
 						class="h-[522px] flex flex-col items-start justify-start py-[60px] px-[50px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/basic@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq450:gap-5 mq450:pl-5 mq450:pr-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border"
@@ -745,35 +745,33 @@
 					</button>
 				</div>
 			</div>
-			<div
-					class="w-[1545px] !m-[0] absolute top-[-120px] right-[-110px] bg-general-1-primary flex flex-row items-start justify-start py-[54px] px-[100px] box-border gap-[139px] max-w-full z-[8] text-left font-button-dm-sans-16 mq1500:flex-wrap"
-			>
-				<div
-						class="w-[670px] flex flex-col items-start justify-start gap-5 min-w-[670px] max-w-full lg:min-w-full mq1500:flex-1"
-				>
-					<b class="relative leading-[22px] uppercase"
-					>Let’s Work Together</b
-					>
-					<h3
-							class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]"
-					>
-						If you have a potential project or and think we’d be the ideal
-						partner to bring it to life, please get in touch
-						at hello@visionprime.ae.
-					</h3>
+			<div class="w-full max-w-full !m-0 absolute top-[-120px] right-[-5%] flex flex-row items-start justify-between box-border z-[8] text-left font-button-dm-sans-16 mq1500:flex-wrap" style="display: flex;">
+				<!-- Left Side (White Background) -->
+				<div class="bg-general-white flex-1"></div>
+
+				<!-- Middle Section (Primary Background) -->
+				<div class="flex flex-row w-full max-w-[1170px] py-[54px] px-[54px] bg-general-1-primary relative z-10 mr-[-2px]">
+					<div class="w-[670px] flex flex-col items-start justify-start gap-5 min-w-[670px] max-w-full lg:min-w-full mq1500:flex-1">
+						<b class="relative leading-[22px] uppercase">Let’s Work Together</b>
+						<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
+							If you have a potential project or think we’d be the&nbsp;ideal partner to bring it to life, please get in touch at&nbsp;hello@visionprime.ae.
+						</h3>
+					</div>
+					<div class="flex flex-col items-start justify-start pt-9 px-0 pb-0">
+						<button class="cursor-pointer border-general-white border-[2px] border-solid py-[18px] px-[38px] bg-[transparent] overflow-hidden flex flex-row items-start justify-start">
+							<div class="relative text-base tracking-[0.4em] leading-[18px] uppercase font-medium font-subtitles-16 text-general-white text-center whitespace-nowrap">
+								Get in touch
+							</div>
+						</button>
+					</div>
 				</div>
-				<div class="flex flex-col items-start justify-start pt-9 px-0 pb-0">
-					<button
-							class="cursor-pointer border-general-white border-[2px] border-solid py-[18px] px-[38px] bg-[transparent] overflow-hidden flex flex-row items-start justify-start"
-					>
-						<div
-								class="relative text-base tracking-[0.4em] leading-[18px] uppercase font-medium font-subtitles-16 text-general-white text-center whitespace-nowrap"
-						>
-							Get in touch
-						</div>
-					</button>
-				</div>
+
+				<!-- Right Side (Primary Background) -->
+				<div class="bg-general-1-primary flex-1 relative z-10 min-h-[240px]"></div>
 			</div>
+
+
+
 		</div>
 		<div
 				class="self-stretch bg-elements-neutral-4 flex flex-col items-center justify-start pt-[132px] px-5 pb-[100px] box-border gap-[179px] max-w-full z-[6] mt-[-110px] text-general-1-primary lg:gap-[89px] lg:pt-[132px] lg:pb-[65px] lg:box-border mq450:gap-[22px] mq850:gap-[45px] mq850:pb-[42px] mq850:box-border"
