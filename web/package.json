@@ -1,0 +1,19 @@
+{
+  "name": "vision_prime_work",
+  "version": "1.0.0",
+  "description": "Note: Please ensure you have installed <code><a href=\"https://nodejs.org/en/download/\">nodejs</a></code>",
+  "scripts": {
+    "start": "parcel ./*.html ",
+    "build": "parcel build ./*.html  --dist-dir ./build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "parcel": "^2.7.0",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10"
+  },
+  "main": "tailwind.config.js",
+  "keywords": []
+}
