@@ -740,14 +740,14 @@
 				</div>
 
 				<!-- Right Side (Primary Background) -->
-				<div class="bg-general-1-primary flex-1 relative z-10 min-h-[240px]"></div>
+				<div class="bg-general-1-primary flex-1 relative z-10 mq1500:h-[210px] h-[240px]"></div>
 			</div>
 
 
 
 		</div>
 	</section>
-		<section
+	<section
 			class="self-stretch flex flex-col items-start justify-start max-w-full text-center text-base text-general-white font-subtitles-16"
 	>
 
@@ -1023,157 +1023,164 @@
 		</div>
 	</section>
 	<section
-			class="self-stretch flex flex-row items-start justify-start flex-wrap content-start pt-0 px-0 pb-[110px] box-border max-w-full [row-gap:20px] text-center text-base text-general-1-primary font-subtitles-16 lg:pb-[71px] lg:box-border mq450:pb-[46px] mq450:box-border"
+			class="self-stretch flex flex-row items-start justify-start
+			flex-wrap content-start pt-0 px-0 pb-[110px] box-border max-w-full
+			[row-gap:20px] text-center text-base text-general-1-primary font-subtitles-16
+			lg:pb-[71px] lg:box-border mq450:pb-[46px] mq450:box-border "
 	>
 		<div
-				class="h-[110px] w-[110px] relative bg-elements-neutral-4 z-[5]"
+				class="h-[110px] w-[110px] relative bg-elements-neutral-4 z-[5] mq1500:hidden"
 		></div>
 		<div
-				class="flex-1 flex flex-row items-start justify-start relative min-w-[1176px] max-w-full mq1500:min-w-full"
+				class="flex-1 flex flex-row items-center justify-center relative min-w-[1176px] max-w-full mq1500:min-w-full"
 		>
 			<div
-					class="h-full w-full absolute !m-[0] bottom-[-110px] left-[-110px] bg-general-1-primary z-[3]"
+					class="h-full w-full absolute !m-[0] bottom-[-110px] left-[-110px] bg-general-1-primary z-[3] lg:hidden"
 			></div>
 			<div
-					class="flex-1 flex flex-col items-start justify-start pt-8 px-[280px] pb-[110px] box-border gap-[179px] bg-[url('/wp-content/themes/vision-prime/web/public/numbers-title-container@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full z-[4] lg:gap-[89px] lg:pl-[140px] lg:pr-[140px] lg:box-border mq450:gap-[22px] mq450:pt-5 mq450:px-5 mq450:pb-[46px] mq450:box-border mq850:gap-[45px] mq850:pt-[21px] mq850:px-[70px] mq850:pb-[71px] mq850:box-border"
-			>
-				<div
-						class="w-[1140px] flex flex-row items-start justify-center max-w-full"
-				>
+					class="flex-1 flex flex-col items-center justify-center pt-8
+					 pb-[110px] box-border gap-[100px]
+					bg-[url('/wp-content/themes/vision-prime/web/public/numbers-title-container@3x.png')]
+					bg-cover bg-no-repeat bg-[top] z-[4]  w-full"	>
+
+				<div class="flex-row w-full max-w-[1170px]">
+					<div class="h-[120px] relative block left-[5px] top-[-95px] flex justify-center items-center">
+					<div class="h-px w-[120px] !m-[0] top-[-79px]  bg-general-1-primary [transform:_rotate(90deg)] [transform-origin:0_0]"></div>
+				</div>
 					<div
-							class="w-[502px] flex flex-col items-start justify-start gap-[31px] max-w-full mq850:gap-[15px]"
+							class="max-w-[1170px] flex flex-row items-start justify-center w-full ml-[-50px]"
 					>
 						<div
-								class="self-stretch flex flex-row items-start justify-center py-0 px-5"
+								class=" flex flex-col items-center justify-start gap-[31px] w-full mq850:gap-[15px]"
 						>
-							<div class="flex flex-row items-start justify-start relative">
-								<div
-										class="h-px w-[120px] absolute !m-[0] bottom-[67px] left-[calc(50%_+_0.5px)] bg-general-1-primary [transform:_rotate(90deg)] [transform-origin:0_0]"
-								></div>
-								<div
-										class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[1]"
+							<div
+									class="self-stretch flex flex-row items-center justify-center py-0 "
+							>
+								<div class="flex flex-row items-center justify-start relative">
+
+									<h2 class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[1]"									>
+										By the Numbers
+									</h2>
+								</div>
+							</div>
+							<h2
+									class="m-0 self-stretch relative text-41xl leading-[66px] font-normal font-heading-1-72 text-general-white z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
+							>
+								Why Vision Prime?
+							</h2>
+						</div>
+					</div>
+					<div
+							class="max-w-[1170px] flex flex-col items-start justify-start gap-[60px] w-full text-left text-41xl font-button-dm-sans-16 lg:gap-[30px]"
+					>
+						<div
+								class="self-stretch flex flex-row items-start justify-center gap-10 lg:flex-wrap mq850:gap-5"
+						>
+							<div
+									class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px]"
+							>
+								<b
+										class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
+								>300+</b
 								>
-									By the Numbers
+								<div
+										class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white inline-block min-w-[94px]"
+								>
+									customers
+								</div>
+							</div>
+							<div class="flex flex-col items-start justify-start gap-2.5">
+								<b
+										class="relative tracking-[-0.03em] leading-[66px] inline-block min-w-[110px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
+								>91%</b
+								>
+								<div
+										class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white"
+								>
+									of customers recommend us
+								</div>
+							</div>
+							<div
+									class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] text-center"
+							>
+								<b
+										class="w-9 relative tracking-[-0.03em] leading-[66px] inline-block mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
+								>3</b
+								>
+								<div
+										class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left"
+								>
+									years of financial responsibility
+								</div>
+							</div>
+							<div
+									class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] text-center"
+							>
+								<b
+										class="w-[35px] relative tracking-[-0.03em] leading-[66px] inline-block mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
+								>2</b
+								>
+								<div
+										class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left"
+								>
+									regions, single provider
 								</div>
 							</div>
 						</div>
-						<h1
-								class="m-0 self-stretch relative text-41xl leading-[66px] font-normal font-heading-1-72 text-general-white z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
-						>
-							Why Vision Prime?
-						</h1>
-					</div>
-				</div>
-				<div
-						class="w-[1140px] flex flex-col items-start justify-start gap-[60px] max-w-full text-left text-41xl font-button-dm-sans-16 lg:gap-[30px]"
-				>
-					<div
-							class="self-stretch flex flex-row items-start justify-center gap-10 lg:flex-wrap mq850:gap-5"
-					>
 						<div
-								class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px]"
+								class="self-stretch flex flex-row items-start justify-center gap-10 lg:flex-wrap mq850:gap-5"
 						>
-							<b
-									class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
-							>300+</b
-							>
 							<div
-									class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white inline-block min-w-[94px]"
+									class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px]"
 							>
-								customers
+								<b
+										class="relative tracking-[-0.03em] leading-[66px] inline-block min-w-[57px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
+								>15</b
+								>
+								<div
+										class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white inline-block min-w-[115px]"
+								>
+									service areas
+								</div>
 							</div>
-						</div>
-						<div class="flex flex-col items-start justify-start gap-2.5">
-							<b
-									class="relative tracking-[-0.03em] leading-[66px] inline-block min-w-[110px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
-							>91%</b
-							>
 							<div
-									class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white"
+									class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px]"
 							>
-								of customers recommend us
+								<b
+										class="relative tracking-[-0.03em] leading-[66px] inline-block min-w-[62px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
+								>10</b
+								>
+								<div
+										class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white inline-block min-w-[125px]"
+								>
+									partner banks
+								</div>
 							</div>
-						</div>
-						<div
-								class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] text-center"
-						>
-							<b
-									class="w-9 relative tracking-[-0.03em] leading-[66px] inline-block mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
-							>3</b
-							>
 							<div
-									class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left"
+									class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px] text-center"
 							>
-								years of financial responsibility
+								<b
+										class="w-[57px] relative tracking-[-0.03em] leading-[66px] inline-block min-w-[57px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
+								>15</b
+								>
+								<div
+										class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left"
+								>
+									accounting programs
+								</div>
 							</div>
-						</div>
-						<div
-								class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] text-center"
-						>
-							<b
-									class="w-[35px] relative tracking-[-0.03em] leading-[66px] inline-block mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
-							>2</b
-							>
 							<div
-									class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left"
+									class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px] text-center"
 							>
-								regions, single provider
-							</div>
-						</div>
-					</div>
-					<div
-							class="self-stretch flex flex-row items-start justify-center gap-10 lg:flex-wrap mq850:gap-5"
-					>
-						<div
-								class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px]"
-						>
-							<b
-									class="relative tracking-[-0.03em] leading-[66px] inline-block min-w-[57px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
-							>15</b
-							>
-							<div
-									class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white inline-block min-w-[115px]"
-							>
-								service areas
-							</div>
-						</div>
-						<div
-								class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px]"
-						>
-							<b
-									class="relative tracking-[-0.03em] leading-[66px] inline-block min-w-[62px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
-							>10</b
-							>
-							<div
-									class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white inline-block min-w-[125px]"
-							>
-								partner banks
-							</div>
-						</div>
-						<div
-								class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px] text-center"
-						>
-							<b
-									class="w-[57px] relative tracking-[-0.03em] leading-[66px] inline-block min-w-[57px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
-							>15</b
-							>
-							<div
-									class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left"
-							>
-								accounting programs
-							</div>
-						</div>
-						<div
-								class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px] text-center"
-						>
-							<b
-									class="w-[190px] relative tracking-[-0.03em] leading-[66px] inline-block mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
-							>1 000+</b
-							>
-							<div
-									class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left"
-							>
-								transactions through payment agents
+								<b
+										class="w-[190px] relative tracking-[-0.03em] leading-[66px] inline-block mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
+								>1 000+</b
+								>
+								<div
+										class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left"
+								>
+									transactions through payment agents
+								</div>
 							</div>
 						</div>
 					</div>
