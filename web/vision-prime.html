@@ -54,7 +54,9 @@
 
 
 <div
-		class="w-full relative bg-general-white overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal] text-left text-xs text-general-1-primary font-button-dm-sans-16"
+		class="w-full relative bg-general-white overflow-hidden flex flex-col items-start
+		justify-start leading-[normal] tracking-[normal] text-left text-xs text-general-1-primary
+		font-button-dm-sans-16"
 >
 	<section class="self-stretch flex flex-row items-start justify-center max-w-full bg-general-8-secondary">
 		<div class="w-[1170px] flex flex-col items-end justify-start max-w-full ">
@@ -191,15 +193,22 @@
 	<section
 			class="self-stretch flex flex-col items-center justify-between pt-0 px-0 pb-[110px] box-border max-w-full text-left text-base text-general-white font-heading-1-72 lg:pb-[71px] lg:box-border mq850:pb-[46px] mq850:box-border"
 	>
-		<div class="w-full flex flex-row items-start justify-start relative max-w-full ml-[10%]">
-			<div class="h-full w-full absolute !m-[0] bottom-[-110px] right-[10%] bg-general-1-primary z-[2]"></div>
+		<div class="w-full flex flex-row items-start justify-start relative max-w-full ml-[10%] lg:ml-[0px]">
+			<div class="h-full w-full absolute !m-[0] bottom-[-110px] right-[10%] bg-general-1-primary z-[2] lg:right-[0px]"></div>
 			<div class="flex-1 flex flex-col items-center justify-start pt-0 pb-[110px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/title2@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full z-[3] lg:pl-[140px] lg:pr-[140px] lg:pb-[71px] lg:box-border mq450:pl-5 mq450:pr-5 mq450:pb-[46px] mq450:box-border mq850:gap-10 mq850:box-border">
-				<div class="w-full max-w-[1170px] ml-[calc(91%-100vw)] gap-6 flex flex-col items-center">
-					<div class="w-[1139.5px] h-[120px] flex flex-row items-start justify-start py-0 pl-[569px] pr-[450px]
-					box-border max-w-full lg:pl-[284px] lg:pr-[225px] lg:box-border mq450:pl-5 mq450:pr-5 mq450:box-border mq850:pl-[142px] mq850:pr-28
-					 mq850:box-border ml-[-120px]">
-						<div class="h-px flex-1 relative bg-general-1-primary [transform:_rotate(90deg)] mt-[55px]"></div>
-					</div>
+				<div class="w-full max-w-[1170px] ml-[calc(91%-100vw)] gap-6 flex flex-col items-center lg:ml-[0px]">
+
+
+					<div class="w-full flex flex-row mb-[10px] mt-[0px]">
+				<div class="w-[50%] h-[120px] border-general-1-primary border-r border-solid "></div>
+				<div class="w-[50%] "></div>
+			</div>
+
+
+
+
+
+
 					<div class="w-[1140px] flex flex-row items-start justify-center max-w-full text-center text-general-1-primary font-subtitles-16">
 						<div class="relative tracking-[0.4em] leading-[18px] uppercase font-medium">
 							Experience
@@ -273,7 +282,7 @@
 			class="self-stretch flex flex-row items-start justify-center pt-0  pb-[180px] box-border max-w-full text-left text-base text-general-1-primary font-subtitles-16 lg:pb-[117px] lg:box-border mq850:pb-[76px] mq850:box-border"
 	>
 		<div
-				class="w-[1170px] flex flex-col items-start justify-start gap-[60px] max-w-full lg:gap-[30px]"
+				class="w-[1170px] flex flex-col items-start justify-start gap-[60px] max-w-full lg:gap-[30px] lg:mx-[20px]"
 		>
 			<div class="self-stretch flex flex-col items-start justify-center py-0  box-border max-w-full text-center">
 				<div class="h-[120px] relative block left-[50%] ">
@@ -435,7 +444,10 @@
 			class="self-stretch flex flex-col items-start justify-start max-w-full text-center text-base text-general-white font-subtitles-16"
 	>
 		<div
-				class="w-full right-[5%] bg-dark-gray flex flex-col items-center justify-start pt-[120px] pb-[100px] pl-[130px] pr-5 box-border relative gap-[54px] max-w-full z-[7] lg:pl-[65px] lg:pt-[78px] lg:pb-[65px] lg:box-border mq850:gap-[27px] mq850:pl-8 mq850:pt-[51px] mq850:pb-[42px] mq850:box-border"
+				class="w-full right-[5%] bg-dark-gray flex
+				flex-col items-center justify-start pt-[120px]
+				pb-[100px] pl-[130px] pr-5 box-border relative gap-[54px]
+				 z-[7] lg:pl-[65px] lg:pt-[78px] lg:pb-[65px] lg:box-border mq850:gap-[27px] mq850:pl-8 mq850:pt-[51px] mq850:pb-[42px] lg:right-[0px]"
 		>
 			<div
 					class="max-w-[1170px] w-full max-h-[1060px] relative bg-dark-gray hidden  z-[0]"
@@ -467,7 +479,7 @@
 				</div>
 			</div>
 			<div
-					class="ml-[5%] w-[1170px] grid flex-row items-start justify-start gap-[30px] max-w-full grid-cols-[repeat(3,_minmax(277px,_1fr))] z-[1] text-11xl lg:justify-center lg:grid-cols-[repeat(2,_minmax(277px,_481px))] mq850:grid-cols-[minmax(277px,_1fr)]"
+					class="ml-[5%] mq1050:ml-[0px] w-[1170px] grid flex-row items-start justify-start gap-[30px] max-w-full grid-cols-[repeat(3,_minmax(277px,_1fr))] z-[1] text-11xl lg:justify-center lg:grid-cols-[repeat(2,_minmax(277px,_481px))] mq850:grid-cols-[minmax(277px,_1fr)]"
 			>
 				<div
 						class="h-[522px] flex flex-col items-start justify-start py-[60px] px-[50px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/basic@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq450:gap-5 mq450:pl-5 mq450:pr-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border"
@@ -718,13 +730,14 @@
 					</button>
 				</div>
 			</div>
-			<div class="w-full max-w-full !m-0 absolute top-[-120px] right-[-5%] flex flex-row items-start justify-between box-border z-[8] text-left font-button-dm-sans-16 mq1500:flex-wrap" style="display: flex;">
+			<div class="w-full max-w-full !m-0 absolute top-[-120px] right-[-5%] lg:right-[0px] flex flex-row items-start
+			justify-between box-border z-[8] text-left font-button-dm-sans-16 mq1500:flex-wrap" >
 				<!-- Left Side (White Background) -->
-				<div class="bg-general-white flex-1"></div>
+				<div class="bg-general-white flex-1 lg:hidden"></div>
 
 				<!-- Middle Section (Primary Background) -->
 				<div class="flex flex-row w-full max-w-[1170px] py-[54px] px-[54px] bg-general-1-primary relative z-10 mr-[-2px]">
-					<div class="w-[670px] flex flex-col items-start justify-start gap-5 min-w-[670px] max-w-full lg:min-w-full mq1500:flex-1">
+					<div class=" flex flex-col items-start justify-start gap-5  mq1500:flex-1 ">
 						<b class="relative leading-[22px] uppercase">Let’s Work Together</b>
 						<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
 							If you have a potential project or think we’d be the&nbsp;ideal partner to bring it to life, please get in touch at&nbsp;hello@visionprime.ae.
@@ -740,7 +753,7 @@
 				</div>
 
 				<!-- Right Side (Primary Background) -->
-				<div class="bg-general-1-primary flex-1 relative z-10 mq1500:h-[210px] h-[240px]"></div>
+				<div class="bg-general-1-primary flex-1 relative z-10 mq1500:h-[210px] h-[210px]"></div>
 			</div>
 
 
@@ -1511,24 +1524,7 @@
 			</div>
 		</div>
 	</section>
-	<div class="hidden flex-row items-end justify-start gap-[5px] text-lg">
-		<b class="h-6 relative leading-[24px] flex items-end">Get details</b>
-		<div class="h-6 w-6 relative">
-			<img
-					class="absolute top-[2px] left-[2px] w-[22px] h-[22px]"
-					alt=""
-					src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightarrow-chevronright-1.svg"
-			/>
 
-			<div
-					class="absolute top-[12px] left-[3px] bg-general-1-primary w-3 h-0.5"
-			></div>
-		</div>
-	</div>
-	<b
-			class="w-[130px] h-0 relative text-base leading-[22px] uppercase hidden"
-	>What We Offer</b
-	>
 	<section
 			class="self-stretch flex flex-row items-start justify-start flex-wrap content-start [row-gap:20px] max-w-full text-center text-base text-general-white font-subtitles-16"
 	>
@@ -2787,6 +2783,102 @@
 			</footer>
 		</div>
 	</section>
+
+	<div
+						class="flex-1 bg-general-1-primary flex flex-col hidden
+						items-start justify-start py-[60px] pl-[60px] pr-[29px] box-border
+						gap-5 max-w-full z-[1] mq450:pl-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border"
+				>
+
+					<input
+							class="w-80 [border:none] [outline:none] bg-general-white flex flex-row items-start justify-start py-[15px] px-5 box-border font-paragraph-16 text-base text-gray-200 whitespace-nowrap z-[1]"
+							placeholder="Full name *"
+							type="text"
+					/>
+
+					<input
+							class="w-80 [border:none] [outline:none] bg-general-white flex flex-row items-start justify-start py-[15px] px-5 box-border font-paragraph-16 text-base text-gray-200 whitespace-nowrap z-[1]"
+							placeholder="Your E-mail *"
+							type="text"
+					/>
+
+					<div
+							class="w-80 bg-general-white overflow-x-auto flex flex-row items-start justify-start py-[15px] px-[11px] box-border gap-1.5 z-[1] text-general-8-secondary"
+					>
+						<div
+								class="h-[60px] w-80 relative bg-general-white shrink-0 hidden"
+						></div>
+						<div
+								class="flex flex-col items-start justify-start pt-[5px] pb-0 pl-0 pr-1"
+						>
+							<img
+									class="w-7 h-5 relative z-[1]"
+									loading="lazy"
+									alt=""
+									src="/wp-content/themes/vision-prime/web/public/flags--ae-united-arab-emirates.svg"
+							/>
+						</div>
+						<a
+								class="[text-decoration:none] relative leading-[30px] text-[inherit] inline-block min-w-[37px] whitespace-nowrap z-[1]"
+						>+971</a
+						>
+						<div
+								class="flex flex-col items-start justify-start pt-[8.4px] pb-0 pl-0 pr-[3px]"
+						>
+							<img
+									class="w-3.5 h-3.5 relative z-[1]"
+									alt=""
+									src="/wp-content/themes/vision-prime/web/public/9-icons--arrow-1-down.svg"
+							/>
+						</div>
+						<div
+								class="flex flex-col items-start justify-start py-0 pl-0 pr-1"
+						>
+							<div class="w-px h-[30px] relative bg-silver z-[1]"></div>
+						</div>
+						<div
+								class="relative leading-[30px] text-gray-200 inline-block min-w-[115px] z-[1]"
+						>
+							Phone number
+						</div>
+					</div>
+					<div
+							class="w-80 bg-general-white flex flex-row items-start justify-between py-[15px] pl-5 pr-[15px] box-border gap-5 z-[1]"
+					>
+						<div class="h-[60px] w-80 relative bg-general-white hidden"></div>
+						<div class="relative leading-[30px] z-[1]">
+							Select a service required
+						</div>
+						<div
+								class="flex flex-col items-start justify-start pt-2 px-0 pb-0"
+						>
+							<img
+									class="w-3.5 h-3.5 relative z-[1]"
+									alt=""
+									src="/wp-content/themes/vision-prime/web/public/9-icons--arrow-1-down-1.svg"
+							/>
+						</div>
+					</div>
+					<div class="self-stretch h-[140px] relative">
+						<div
+								class="absolute h-full top-[0px] bottom-[0px] left-[0px] bg-general-white w-80 z-[1]"
+						></div>
+						<div
+								class="absolute top-[18px] left-[20px] leading-[30px] inline-block w-[331px] z-[2]"
+						>
+							Your request
+						</div>
+					</div>
+					<button
+							class="cursor-pointer [border:none] py-[21px] px-10 bg-general-8-secondary overflow-hidden flex flex-row items-start justify-start z-[1]"
+					>
+						<div
+								class="relative text-base tracking-[0.4em] leading-[18px] uppercase font-medium font-subtitles-16 text-general-white text-center inline-block min-w-[91px]"
+						>
+							Submit
+						</div>
+					</button>
+				</div>
 </div>
 </body>
 </html>
