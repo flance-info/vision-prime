@@ -1810,6 +1810,10 @@ video {
   max-width: 100%;
 }
 
+.max-w-\[764px\] {
+  max-width: 764px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -2048,6 +2052,10 @@ video {
 
 .gap-\[9\.2px\] {
   gap: 9.2px;
+}
+
+.gap-\[68px\] {
+  gap: 68px;
 }
 
 .gap-x-\[30px\] {
