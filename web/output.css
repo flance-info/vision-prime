@@ -790,6 +790,14 @@ video {
   top: 86.8%;
 }
 
+.left-\[60px\] {
+  left: 60px;
+}
+
+.top-\[-25px\] {
+  top: -25px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1786,6 +1794,10 @@ video {
   max-width: 100%;
 }
 
+.max-w-\[781px\] {
+  max-width: 781px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -2053,6 +2065,10 @@ video {
 
 .whitespace-pre-wrap {
   white-space: pre-wrap;
+}
+
+.break-words {
+  overflow-wrap: break-word;
 }
 
 .rounded {
@@ -3828,6 +3844,10 @@ body {
 @media screen and (max-width: 450px) {
   .mq450\:box-border {
     box-sizing: border-box;
+  }
+
+  .mq450\:w-auto {
+    width: auto;
   }
 
   .mq450\:min-w-full {
