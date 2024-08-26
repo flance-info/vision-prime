@@ -156,3 +156,7 @@ body .intl-tel-input.separate-dial-code .selected-flag {
     background-color:#fff;
     display: table;
 }
+
+body .elementor-element {
+    padding: 0px;
+}

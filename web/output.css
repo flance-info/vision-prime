@@ -3288,6 +3288,10 @@ body .intl-tel-input.separate-dial-code .selected-flag {
   display: table;
 }
 
+body .elementor-element {
+  padding: 0px;
+}
+
 .hover\:bg-darkolivegreen:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(138 120 71 / var(--tw-bg-opacity));

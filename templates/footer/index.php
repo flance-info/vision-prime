@@ -6,48 +6,6 @@ $socials_instagram_url = get_theme_mod( 'ms_lms_starter_socials_instagram' );
 $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 ?>
 
-<footer class="footer">
-	<div class="container">
-		<div class="copyright">
-
-		</div>
-		<ul class="social-list">
-			<?php
-			$socials = array(
-					'twitter'   => array(
-							'url'  => $socials_twitter_url,
-							'icon' => 'fab fa-twitter',
-					),
-					'facebook'  => array(
-							'url'  => $socials_facebook_url,
-							'icon' => 'fab fa-facebook',
-					),
-					'instagram' => array(
-							'url'  => $socials_instagram_url,
-							'icon' => 'fab fa-instagram',
-					),
-					'youtube'   => array(
-							'url'  => $socials_youtube_url,
-							'icon' => 'fab fa-youtube',
-					),
-			);
-			foreach ( $socials as $network => $data ) :
-				if ( $data['url'] ) :
-					?>
-					<li>
-						<a href="<?php echo esc_url( $data['url'] ); ?>">
-							<i aria-hidden="true" class="<?php echo esc_attr( $data['icon'] ); ?>"></i>
-						</a>
-					</li>
-				<?php
-				endif;
-			endforeach;
-			?>
-		</ul>
-		</ul>
-	</div>
-</footer>
-
 <section
 		class="flex flex-row items-start justify-start py-0 pl-0
 			gap-20 w-full text-center text-base text-general-1-primary font-subtitles-16
@@ -60,22 +18,22 @@ $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 			>
 				<div class="h-[120px] border-general-1-primary border-solid  border-l-[1px]"></div>
 				<div
-						class="max-w-[622px] h-[200px] flex flex-col items-start justify-start relative gap-[21px] w-full z-[1]"
+						class="max-w-full h-[200px] flex flex-col items-start justify-start relative gap-[21px] w-full z-[1]"
 				>
 
 					<div
-							class="max-w-[622px] !m-[0] absolute top-[22px] left-[0px] flex flex-col items-start justify-start gap-[21px] w-full"
+							class="max-w-full !m-[0] absolute top-[22px] left-[0px] flex flex-col items-start justify-start gap-[21px] w-full"
 					>
 						<div
 								class="relative tracking-[0.4em] leading-[36px] uppercase font-medium"
 						>
 							Feedback Form
 						</div>
-						<h1
-								class="m-0 self-stretch relative text-35xl leading-[60px] font-normal font-heading-1-72 text-general-white mq450:text-13xl mq450:leading-[36px] mq850:text-24xl mq850:leading-[48px]"
+						<h2
+								class="m-0 self-stretch relative text-35xl text-left  leading-[60px] font-normal font-heading-1-72 text-general-white mq450:text-13xl mq450:leading-[36px] mq850:text-24xl mq850:leading-[48px]"
 						>
 							Let’s Discuss Your Project
-						</h1>
+						</h2>
 					</div>
 				</div>
 				<div
