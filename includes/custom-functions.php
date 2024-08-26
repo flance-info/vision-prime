@@ -47,6 +47,16 @@ if ( ! function_exists( 'starter_setup' ) ) {
 						'ms-lms-starter-theme-main-menu' => esc_html__( 'Header menu', 'starter-text-domain' ),
 				)
 		);
+		register_nav_menus(
+				array(
+						'footer-one' => esc_html__( 'Footer One', 'starter-text-domain' ),
+				)
+		);
+		register_nav_menus(
+				array(
+						'footer-two' => esc_html__( 'Footer Two', 'starter-text-domain' ),
+				)
+		);
 	}
 }
 add_action( 'after_setup_theme', 'starter_setup' );

@@ -1,9 +1,9 @@
 <?php
-$socials_twitter_url         = get_theme_mod( 'ms_lms_starter_socials_twitter' );
-$socials_facebook_url        = get_theme_mod( 'ms_lms_starter_socials_facebook' );
-$socials_instagram_url       = get_theme_mod( 'ms_lms_starter_socials_instagram' );
-$socials_youtube_url         = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 
+$socials_twitter_url   = get_theme_mod( 'ms_lms_starter_socials_twitter' );
+$socials_facebook_url  = get_theme_mod( 'ms_lms_starter_socials_facebook' );
+$socials_instagram_url = get_theme_mod( 'ms_lms_starter_socials_instagram' );
+$socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 ?>
 
 <footer class="footer">
@@ -14,24 +14,23 @@ $socials_youtube_url         = get_theme_mod( 'ms_lms_starter_socials_youtube' )
 		<ul class="social-list">
 			<?php
 			$socials = array(
-				'twitter'   => array(
-					'url'  => $socials_twitter_url,
-					'icon' => 'fab fa-twitter',
-				),
-				'facebook'  => array(
-					'url'  => $socials_facebook_url,
-					'icon' => 'fab fa-facebook',
-				),
-				'instagram' => array(
-					'url'  => $socials_instagram_url,
-					'icon' => 'fab fa-instagram',
-				),
-				'youtube'   => array(
-					'url'  => $socials_youtube_url,
-					'icon' => 'fab fa-youtube',
-				),
+					'twitter'   => array(
+							'url'  => $socials_twitter_url,
+							'icon' => 'fab fa-twitter',
+					),
+					'facebook'  => array(
+							'url'  => $socials_facebook_url,
+							'icon' => 'fab fa-facebook',
+					),
+					'instagram' => array(
+							'url'  => $socials_instagram_url,
+							'icon' => 'fab fa-instagram',
+					),
+					'youtube'   => array(
+							'url'  => $socials_youtube_url,
+							'icon' => 'fab fa-youtube',
+					),
 			);
-
 			foreach ( $socials as $network => $data ) :
 				if ( $data['url'] ) :
 					?>
@@ -40,11 +39,11 @@ $socials_youtube_url         = get_theme_mod( 'ms_lms_starter_socials_youtube' )
 							<i aria-hidden="true" class="<?php echo esc_attr( $data['icon'] ); ?>"></i>
 						</a>
 					</li>
-					<?php
+				<?php
 				endif;
 			endforeach;
 			?>
-			</ul>
+		</ul>
 		</ul>
 	</div>
 </footer>
@@ -221,37 +220,54 @@ $socials_youtube_url         = get_theme_mod( 'ms_lms_starter_socials_youtube' )
 			<div
 					class="self-stretch flex flex-row items-center justify-center py-0 pl-0 pr-[30px] gap-[30px] mq450:gap-[15px] mq450:flex-wrap"
 			>
-				<div
-						class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[101px]"
-				>
-					<a
-							class="[text-decoration:none] relative leading-[22px] font-bold text-[inherit] inline-block min-w-[50px]"
-					>About</a
-					>
-					<b class="relative leading-[22px] inline-block min-w-[119px]"
-					>Business Setup</b
-					>
-					<b class="relative leading-[22px] inline-block min-w-[102px]"
-					>Our Services</b
-					>
-					<b class="self-stretch relative leading-[22px]">Resources</b>
-				</div>
-				<div
-						class="flex-1 flex flex-col items-start justify-start py-0 pl-0 pr-0.5 box-border gap-2.5 min-w-[101px]"
-				>
-					<b class="relative leading-[22px] inline-block min-w-[64px]"
-					>Careers</b
-					>
-					<b class="relative leading-[22px] inline-block min-w-[90px]"
-					>Contact Us</b
-					>
-					<b class="relative leading-[22px] inline-block min-w-[112px]"
-					>Privacy Policy</b
-					>
-					<b class="relative leading-[22px] whitespace-nowrap"
-					>Terms & Conditions</b
-					>
-				</div>
+
+				<?php
+				$menu_name = 'footer-one'; // The theme location you specified
+				$locations = get_nav_menu_locations();
+				if ( isset( $locations[ $menu_name ] ) ) {
+					$menu_id    = $locations[ $menu_name ];
+					$menu_items = wp_get_nav_menu_items( $menu_id );
+					if ( $menu_items ) { ?>
+						<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[101px]">
+							<?php
+							foreach ( $menu_items as $menu_item ) :
+								$title = esc_html( $menu_item->title );
+								$url = esc_url( $menu_item->url );
+								?>
+
+								<b class="self-stretch relative leading-[22px]"><a href="<?php echo $url ?>"> <?php echo $title ?></a></b>        <?php
+							endforeach;
+							?>
+
+						</div>
+						<?php
+					}
+				}
+				?>
+				<?php
+				$menu_name = 'footer-two'; // The theme location you specified
+				$locations = get_nav_menu_locations();
+				if ( isset( $locations[ $menu_name ] ) ) {
+					$menu_id    = $locations[ $menu_name ];
+					$menu_items = wp_get_nav_menu_items( $menu_id );
+					if ( $menu_items ) { ?>
+						<div class="flex-1 flex flex-col items-start justify-start py-0 pl-0 pr-0.5 box-border gap-2.5 min-w-[180px]">
+							<?php
+							foreach ( $menu_items as $menu_item ) :
+								$title = esc_html( $menu_item->title );
+								$url = esc_url( $menu_item->url );
+								?>
+
+								<b class="self-stretch relative leading-[22px]"><a href="<?php echo $url ?>"> <?php echo $title ?></a></b>        <?php
+							endforeach;
+							?>
+
+						</div>
+						<?php
+					}
+				}
+				?>
+
 			</div>
 			<div
 					class="w-[62.97%] h-[22.05%] absolute !m-[0] top-[86.8%] right-[37.03%] bottom-[-8.85%] left-[0%] overflow-hidden hidden z-[2]"
