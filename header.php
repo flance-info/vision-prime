@@ -11,6 +11,11 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<div
+		class="w-full relative bg-general-white overflow-hidden flex flex-col items-start
+		justify-start leading-[normal] tracking-[normal] text-left text-xs text-general-1-primary
+		font-button-dm-sans-16 wrapper"
+>
 <?php
 wp_body_open();
 get_template_part( 'templates/header/index' );
