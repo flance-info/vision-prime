@@ -93,101 +93,8 @@ $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 			<div
 					class="max-w-[440px] w-full flex flex-row items-start justify-start relative  text-left text-gray-200 font-paragraph-16"
 			>
-				<div
-						class="flex-1 bg-general-1-primary flex flex-col
-						items-start justify-start py-[60px] pl-[60px] pr-[29px] box-border
-						gap-5 max-w-full z-[1] mq450:pl-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border"
-				>
+				<?php echo do_shortcode('[contact-form-7 id="b2b5601" title="Untitled"]'); ?>
 
-					<input
-							class="w-80 [border:none] [outline:none] bg-general-white flex flex-row items-start justify-start py-[15px] px-5 box-border font-paragraph-16 text-base text-gray-200 whitespace-nowrap z-[1]"
-							placeholder="Full name *"
-							type="text"
-					/>
-
-					<input
-							class="w-80 [border:none] [outline:none] bg-general-white flex flex-row items-start justify-start py-[15px] px-5 box-border font-paragraph-16 text-base text-gray-200 whitespace-nowrap z-[1]"
-							placeholder="Your E-mail *"
-							type="text"
-					/>
-
-					<div
-							class="w-80 bg-general-white overflow-x-auto flex flex-row items-start justify-start py-[15px] px-[11px] box-border gap-1.5 z-[1] text-general-8-secondary"
-					>
-						<div
-								class="h-[60px] w-80 relative bg-general-white shrink-0 hidden"
-						></div>
-						<div
-								class="flex flex-col items-start justify-start pt-[5px] pb-0 pl-0 pr-1"
-						>
-							<img
-									class="w-7 h-5 relative z-[1]"
-									loading="lazy"
-									alt=""
-									src="/wp-content/themes/vision-prime/web/public/flags--ae-united-arab-emirates.svg"
-							/>
-						</div>
-						<a
-								class="[text-decoration:none] relative leading-[30px] text-[inherit] inline-block min-w-[37px] whitespace-nowrap z-[1]"
-						>+971</a
-						>
-						<div
-								class="flex flex-col items-start justify-start pt-[8.4px] pb-0 pl-0 pr-[3px]"
-						>
-							<img
-									class="w-3.5 h-3.5 relative z-[1]"
-									alt=""
-									src="/wp-content/themes/vision-prime/web/public/9-icons--arrow-1-down.svg"
-							/>
-						</div>
-						<div
-								class="flex flex-col items-start justify-start py-0 pl-0 pr-1"
-						>
-							<div class="w-px h-[30px] relative bg-silver z-[1]"></div>
-						</div>
-						<div
-								class="relative leading-[30px] text-gray-200 inline-block min-w-[115px] z-[1]"
-						>
-							Phone number
-						</div>
-					</div>
-					<div
-							class="w-80 bg-general-white flex flex-row items-start justify-between py-[15px] pl-5 pr-[15px] box-border gap-5 z-[1]"
-					>
-						<div class="h-[60px] w-80 relative bg-general-white hidden"></div>
-						<div class="relative leading-[30px] z-[1]">
-							Select a service required
-						</div>
-						<div
-								class="flex flex-col items-start justify-start pt-2 px-0 pb-0"
-						>
-							<img
-									class="w-3.5 h-3.5 relative z-[1]"
-									alt=""
-									src="/wp-content/themes/vision-prime/web/public/9-icons--arrow-1-down-1.svg"
-							/>
-						</div>
-					</div>
-					<div class="self-stretch h-[140px] relative">
-						<div
-								class="absolute h-full top-[0px] bottom-[0px] left-[0px] bg-general-white w-80 z-[1]"
-						></div>
-						<div
-								class="absolute top-[18px] left-[20px] leading-[30px] inline-block w-[331px] z-[2]"
-						>
-							Your request
-						</div>
-					</div>
-					<button
-							class="cursor-pointer [border:none] py-[21px] px-10 bg-general-8-secondary overflow-hidden flex flex-row items-start justify-start z-[1]"
-					>
-						<div
-								class="relative text-base tracking-[0.4em] leading-[18px] uppercase font-medium font-subtitles-16 text-general-white text-center inline-block min-w-[91px]"
-						>
-							Submit
-						</div>
-					</button>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -323,12 +230,7 @@ $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 			</div>
 		</div>
 
-		<?php
-		$twitter_url   = get_theme_mod( 'ms_lms_starter_socials_twitter', '' );
-		$facebook_url  = get_theme_mod( 'ms_lms_starter_socials_facebook', '' );
-		$instagram_url = get_theme_mod( 'ms_lms_starter_socials_instagram', '' );
-		$youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube', '' );
-		?>
+
 		<div
 				class="flex-1 flex flex-col items-start justify-start gap-[30px] min-w-[277px] max-w-full"
 		>
@@ -341,20 +243,20 @@ $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 			?>
 
 			<div class="social-icons flex flex-row gap-4">
+					<a href="<?php echo esc_url( $facebook_url ); ?>" target="_blank" rel="noopener noreferrer">
+					<img class="h-[33px] w-[33px] relative rounded min-h-[33px]" loading="lazy" alt="Facebook" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg"/>
+				</a>
 				<a href="<?php echo esc_url( $twitter_url ); ?>" target="_blank" rel="noopener noreferrer">
 					<img class="h-[33px] w-[33px] relative rounded min-h-[33px]" loading="lazy" alt="Twitter" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg"/>
 				</a>
 
-				<a href="<?php echo esc_url( $facebook_url ); ?>" target="_blank" rel="noopener noreferrer">
-					<img class="h-[33px] w-[33px] relative rounded min-h-[33px]" loading="lazy" alt="Facebook" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg"/>
-				</a>
 
 				<a href="<?php echo esc_url( $instagram_url ); ?>" target="_blank" rel="noopener noreferrer">
 					<img class="h-[33px] w-[33px] relative rounded min-h-[33px]" loading="lazy" alt="Instagram" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg"/>
 				</a>
 
 				<a href="<?php echo esc_url( $youtube_url ); ?>" target="_blank" rel="noopener noreferrer">
-					<img class="h-[33px] w-[33px] relative rounded min-h-[33px]" loading="lazy" alt="YouTube" src="/wp-content/themes/vision-prime/web/public/link--youtube.svg"/>
+					<img class="h-[33px] w-[33px] relative rounded min-h-[33px]" loading="lazy" alt="YouTube" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg"/>
 				</a>
 			</div>
 
@@ -375,7 +277,7 @@ $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 				src="/wp-content/themes/vision-prime/web/public/rectangle-691.svg"
 		/>
 
-		<footer
+		<copyright
 				class="self-stretch flex flex-row items-center justify-center pt-0 px-[375px] pb-[26px] box-border max-w-full text-left text-xs text-gray-400 font-primary-paragraph-paragraph-5 lg:pl-[187px] lg:pr-[187px] lg:box-border mq850:pl-[93px] mq850:pr-[93px] mq850:box-border"
 		>
 			<div
@@ -385,17 +287,17 @@ $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 					© 2024
 				</div>
 				<div
-						class="relative leading-[22px] text-general-white inline-block min-w-[69px]"
+						class="relative leading-[22px] text-general-white inline-block min-w-[69px] mr-[3px]"
 				>
 					Vision Prime
 				</div>
 				<div
-						class="relative leading-[22px] whitespace-pre-wrap inline-block min-w-[112px]"
+						class="relative leading-[22px]  inline-block min-w-[112px]"
 				>
 					| All rights reserved
 				</div>
 			</div>
-		</footer>
+		</copyright>
 	</div>
 </footer>
 

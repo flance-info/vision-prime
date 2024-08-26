@@ -2,14 +2,157 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  @apply leading-[normal] m-0;
+	@apply leading-[normal] m-0;
 }
+
 *,
 ::before,
 ::after {
-  border-width: 0;
+	border-width: 0;
 }
 
 .wrapper .elementor {
-    width: 100%;
+	width: 100%;
+}
+
+./* Custom class to remove border */
+.cf7-no-border {
+    border: none;
+}
+
+/* Custom class to remove outline */
+.cf7-no-outline {
+    outline: none;
+}
+
+/* Other classes from your original style */
+.cf7-bg-white {
+    background-color: #ffffff; /* Replace with your actual color code */
+}
+
+.cf7-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cf7-items-start {
+    align-items: flex-start;
+}
+
+.cf7-justify-start {
+    justify-content: flex-start;
+}
+
+.cf7-padding {
+    padding: 15px 5px; /* Adjust as needed */
+}
+
+.cf7-text-gray {
+    color: #999999; /* Replace with your actual color code */
+}
+
+.cf7-whitespace-nowrap {
+    white-space: nowrap;
+}
+
+.cf7-z-index-1 {
+    z-index: 1;
+}
+
+
+/* Custom class for padding right 15px */
+.cf7-pr-15px {
+    padding-right: 15px;
+}
+
+/* Custom class for padding left 15px */
+.cf7-pl-15px {
+    padding-left: 15px;
+}
+
+/* Custom class for padding top 15px */
+.cf7-pt-15px {
+    padding-top: 15px;
+}
+
+/* Custom class for padding bottom 15px */
+.cf7-pb-15px {
+    padding-bottom: 15px;
+}
+
+/* Combined padding classes */
+.cf7-py-15px {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* General box-border class */
+.cf7-box-border {
+    box-sizing: border-box;
+}
+
+/* Custom class for gap 5 */
+.cf7-gap-5 {
+    gap: 5px;
+}
+/* Custom class for height 140px */
+.cf7-h-140px {
+    height: 140px;
+}
+
+.cf7-leading-30px {
+    line-height: 30px;
+}
+
+/* Custom class for minimum width 115px */
+.cf7-min-w-115px {
+    min-width: 115px;
+}
+
+.cf7-custom-button {
+	--tw-text-opacity: 1;
+	color: rgb(255 255 255 / var(--tw-text-opacity));
+	letter-spacing: 0.4em;
+	line-height: 18px;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	min-width: 91px;
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.cf-width-320{
+	width: 320px;
+}
+
+/* Custom class to style placeholder text with 40% opacity and background */
+.cf7-custom-input {
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text color */
+}
+
+.cf7-custom-input::placeholder {
+    color: rgba(0, 0, 0, 0.4); /* Black placeholder text with 40% opacity */
+    opacity: 1; /* Ensure full opacity for the placeholder text itself */
+}
+.cf7-cs-pd-20{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+input.wpcf7-form-control.wpcf7-phonetext.wpcf7-text.wpcf7-validates-as-phonetext {
+    height: 50px;
+    width: 300px;
+    border: none !important;
+	outline: none;
+}
+
+body .intl-tel-input.separate-dial-code .selected-flag {
+    background-color:#fff;
+    display: table;
 }
