@@ -322,40 +322,42 @@ $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 				>
 			</div>
 		</div>
+
+		<?php
+		$twitter_url   = get_theme_mod( 'ms_lms_starter_socials_twitter', '' );
+		$facebook_url  = get_theme_mod( 'ms_lms_starter_socials_facebook', '' );
+		$instagram_url = get_theme_mod( 'ms_lms_starter_socials_instagram', '' );
+		$youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube', '' );
+		?>
 		<div
 				class="flex-1 flex flex-col items-start justify-start gap-[30px] min-w-[277px] max-w-full"
 		>
-			<div
-					class="overflow-hidden flex flex-row items-center justify-start gap-2.5"
-			>
-				<img
-						class="h-[33px] w-[33px] relative rounded min-h-[33px]"
-						loading="lazy"
-						alt=""
-						src="/wp-content/themes/vision-prime/web/public/link--facebook.svg"
-				/>
+			<?php
+			// Get the social media URLs from the Customizer settings, or assign null if not set
+			$twitter_url   = get_theme_mod( 'ms_lms_starter_socials_twitter', null );
+			$facebook_url  = get_theme_mod( 'ms_lms_starter_socials_facebook', null );
+			$instagram_url = get_theme_mod( 'ms_lms_starter_socials_instagram', null );
+			$youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube', null );
+			?>
 
-				<img
-						class="h-[33px] w-[33px] relative rounded min-h-[33px]"
-						loading="lazy"
-						alt=""
-						src="/wp-content/themes/vision-prime/web/public/link--twitter.svg"
-				/>
+			<div class="social-icons flex flex-row gap-4">
+				<a href="<?php echo esc_url( $twitter_url ); ?>" target="_blank" rel="noopener noreferrer">
+					<img class="h-[33px] w-[33px] relative rounded min-h-[33px]" loading="lazy" alt="Twitter" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg"/>
+				</a>
 
-				<img
-						class="h-[33px] w-[33px] relative rounded min-h-[33px]"
-						loading="lazy"
-						alt=""
-						src="/wp-content/themes/vision-prime/web/public/link--instagram.svg"
-				/>
+				<a href="<?php echo esc_url( $facebook_url ); ?>" target="_blank" rel="noopener noreferrer">
+					<img class="h-[33px] w-[33px] relative rounded min-h-[33px]" loading="lazy" alt="Facebook" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg"/>
+				</a>
 
-				<img
-						class="h-[33px] w-[33px] relative rounded min-h-[33px]"
-						loading="lazy"
-						alt=""
-						src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg"
-				/>
+				<a href="<?php echo esc_url( $instagram_url ); ?>" target="_blank" rel="noopener noreferrer">
+					<img class="h-[33px] w-[33px] relative rounded min-h-[33px]" loading="lazy" alt="Instagram" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg"/>
+				</a>
+
+				<a href="<?php echo esc_url( $youtube_url ); ?>" target="_blank" rel="noopener noreferrer">
+					<img class="h-[33px] w-[33px] relative rounded min-h-[33px]" loading="lazy" alt="YouTube" src="/wp-content/themes/vision-prime/web/public/link--youtube.svg"/>
+				</a>
 			</div>
+
 			<b
 					class="self-stretch h-[72px] relative leading-[24px] inline-block"
 			>Office 105, Level 1, Emaar Square – Building 4, Sheikh Mohammed
