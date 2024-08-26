@@ -1,23 +1,19 @@
-<?php get_header(); ?>
-	<div id="wrapper" class="wrapper">
-		<div class="container">
-			<?php if ( have_posts() ) : ?>
-				<div class="pages-template">
-					<?php
-					while ( have_posts() ) {
-						the_post();
-						?>
-						<section class="page-content">
-							<div class="entry-content">
-								<?php
-								// Render the content, including Elementor if applicable
-								the_content();
-								?>
-							</div>
-						</section>
-					<?php } ?>
-				</div>
-			<?php endif; ?>
-		</div>
+<div
+		class="w-full relative bg-general-white overflow-hidden flex flex-col items-start
+		justify-start leading-[normal] tracking-[normal] text-left text-xs text-general-1-primary
+		font-button-dm-sans-16"
+>
+	<?php get_header(); ?>
+	<div>
+		<?php if ( have_posts() ) : ?>
+			<?php
+			while ( have_posts() ) {
+				the_post();
+				the_content();
+				?>
+			<?php } ?>
+
+		<?php endif; ?>
 	</div>
-<?php get_footer(); ?>
+	<?php get_footer(); ?>
+</div>
