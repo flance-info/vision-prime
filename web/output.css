@@ -1846,6 +1846,14 @@ video {
   grid-template-columns: repeat(4, minmax(202px, 1fr));
 }
 
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -3636,6 +3644,10 @@ body .elementor-element {
     grid-template-columns: repeat(2, minmax(277px, 481px));
   }
 
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:flex-wrap {
     flex-wrap: wrap;
   }
@@ -3716,6 +3728,10 @@ body .elementor-element {
 @media screen and (max-width: 1050px) {
   .mq1050\:ml-\[0px\] {
     margin-left: 0px;
+  }
+
+  .mq1050\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .mq1050\:flex-wrap {
