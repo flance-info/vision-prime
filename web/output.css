@@ -1226,6 +1226,14 @@ video {
   min-height: 880px;
 }
 
+.min-h-full {
+  min-height: 100%;
+}
+
+.min-h-\[490px\] {
+  min-height: 490px;
+}
+
 .w-11 {
   width: 2.75rem;
 }
@@ -3606,6 +3614,10 @@ body .elementor-element {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:min-h-\[490px\] {
+    min-height: 490px;
   }
 
   .lg\:min-w-full {
