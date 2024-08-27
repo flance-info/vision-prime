@@ -100,7 +100,7 @@ $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 								$url = esc_url( $menu_item->url );
 								?>
 
-								<b class="self-stretch relative leading-[22px]"><a href="<?php echo $url ?>"> <?php echo $title ?></a></b>        <?php
+								<b class="self-stretch relative leading-[22px]  hover:[text-decoration:underline]"><a href="<?php echo $url ?>"> <?php echo $title ?></a></b>        <?php
 							endforeach;
 							?>
 
@@ -123,7 +123,7 @@ $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 								$url = esc_url( $menu_item->url );
 								?>
 
-								<b class="self-stretch relative leading-[22px]"><a href="<?php echo $url ?>"> <?php echo $title ?></a></b>        <?php
+								<b class="self-stretch relative leading-[22px]  hover:[text-decoration:underline]"><a href="<?php echo $url ?>"> <?php echo $title ?></a></b>        <?php
 							endforeach;
 							?>
 
@@ -162,9 +162,7 @@ $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 			<div
 					class="self-stretch overflow-hidden flex flex-col items-start justify-start gap-2.5"
 			>
-				<b class="relative leading-[24px] whitespace-nowrap"
-				>800-LICENSE (542 3673)</b
-				>
+					<a href="tel:+97145677333" class="relative leading-[24px] whitespace-nowrap font-bold hover:[text-decoration:underline]">800-LICENSE (542 3673)</a>
 				<div
 						class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-gray-300"
 				>
@@ -174,17 +172,17 @@ $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 			<div
 					class="self-stretch overflow-hidden flex flex-col items-start justify-start gap-2.5"
 			>
-				<b class="relative leading-[24px] whitespace-nowrap"
-				>+971 4 567 7333</b
-				>
+				<a href="tel:+97145677333" class="relative leading-[24px] whitespace-nowrap font-bold hover:[text-decoration:underline]">
+					+971 4 567 7333
+				</a>
+
 				<div
 						class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-gray-300"
 				>
 					or email us at
 				</div>
-				<b class="relative leading-[24px] whitespace-nowrap"
-				>hello@visionprime.ae</b
-				>
+				<a href="mailto:hello@visionprime.ae" class="relative leading-[24px] font-bold whitespace-nowrap hover:[text-decoration:underline]">hello@visionprime.ae</a>
+
 			</div>
 		</div>
 

@@ -2103,14 +2103,6 @@ video {
   border-width: 2px;
 }
 
-.border-\[1px\] {
-  border-width: 1px;
-}
-
-.border-\[0\.5px\] {
-  border-width: 0.5px;
-}
-
 .border-l-\[1px\] {
   border-left-width: 1px;
 }
@@ -3300,16 +3292,15 @@ body .elementor-element {
   padding: 0px;
 }
 
-.hover\:border-\[0\.5px\]:hover {
-  border-width: 0.5px;
-}
-
-.hover\:border-\[2px\]:hover {
-  border-width: 2px;
-}
-
-.hover\:border-2:hover {
-  border-width: 2px;
+.cf7-custom-button:hover {
+  background-color: transparent;
+  /* Equivalent to hover:bg-[transparent] */
+  border: 2px solid #ffffff;
+  /* Equivalent to hover:border-custom-gold */
+  box-shadow: inset 0 0 0 2px rgba(162, 144, 97, var(--tw-text-opacity));
+  /* Equivalent to hover:[box-shadow:inset_0_0_0_2px_var(--custom-gold)] */
+  color: #ffffff;
+  /* Equivalent to hover:border-text-general-white */
 }
 
 .hover\:border-solid:hover {
@@ -3320,14 +3311,17 @@ body .elementor-element {
   border-color: rgba(162, 144, 97, var(--tw-text-opacity));
 }
 
-.hover\:border-general-white:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
 .hover\:border-general-1-primary:hover {
   --tw-border-opacity: 1;
   border-color: rgb(162 144 97 / var(--tw-border-opacity));
+}
+
+.hover\:bg-\[transparent\]:hover {
+  background-color: transparent;
+}
+
+.hover\:bg-custom-gold:hover {
+  background-color: rgba(162, 144, 97, var(--tw-text-opacity));
 }
 
 .hover\:bg-darkolivegreen:hover {
@@ -3345,21 +3339,8 @@ body .elementor-element {
   background-color: rgb(242 247 249 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-custom-gold:hover {
-  background-color: rgba(162, 144, 97, var(--tw-text-opacity));
-}
-
-.hover\:bg-\[transparent\]:hover {
-  background-color: transparent;
-}
-
 .hover\:text-custom-gold:hover {
   color: rgba(162, 144, 97, var(--tw-text-opacity));
-}
-
-.hover\:text-general-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:text-general-1-primary:hover {
@@ -3367,20 +3348,17 @@ body .elementor-element {
   color: rgb(162 144 97 / var(--tw-text-opacity));
 }
 
+.hover\:text-general-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .hover\:\[box-shadow\:inset_0_0_0_2px\]:hover {
   box-shadow: inset 0 0 0 2px;
 }
 
-.hover\:\[box-shadow\:inset_0_0_0_2px_\#ccc\]:hover {
-  box-shadow: inset 0 0 0 2px #ccc;
-}
-
-.hover\:\[box-shadow\:inset_0_0_0_2px_custom-gold\]:hover {
-  box-shadow: inset 0 0 0 2px custom-gold;
-}
-
-.hover\:\[box-shadow\:inset_0_0_0_5px_\#ccc\]:hover {
-  box-shadow: inset 0 0 0 5px #ccc;
+.hover\:\[text-decoration\:underline\]:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 1875px) {
