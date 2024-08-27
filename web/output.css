@@ -3339,6 +3339,11 @@ body .elementor-element {
   background-color: rgb(242 247 249 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-general-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .hover\:text-custom-gold:hover {
   color: rgba(162, 144, 97, var(--tw-text-opacity));
 }
