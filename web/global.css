@@ -166,3 +166,16 @@ body .elementor-element {
     box-shadow: inset 0 0 0 2px rgba(162, 144, 97, var(--tw-text-opacity)); /* Equivalent to hover:[box-shadow:inset_0_0_0_2px_var(--custom-gold)] */
     color: #ffffff; /* Equivalent to hover:border-text-general-white */
 }
+
+
+@property --num {
+        syntax: '<integer>';
+        initial-value: 0;
+        inherits: false;
+    }
+
+@supports (counter-set: var(--tw)) {
+	.supports-\[counter-set\]\:before\:content-\[counter\(num\)\]::before {
+		margin-right: -10px;
+	}
+}

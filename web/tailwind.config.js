@@ -11,6 +11,25 @@ module.exports = {
 
   theme: {
     extend: {
+       keyframes: {
+        fadeInOut: {
+          '0%, 100%': { opacity: 0 },
+          '50%': { opacity: 1 },
+        },
+        fadeIn: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        },
+        fadeOut: {
+          '0%': { opacity: 1 },
+          '100%': { opacity: 0 },
+        },
+      },
+      animation: {
+        fadeInOut: 'fadeInOut 3s ease-in-out infinite',
+        fadeIn: 'fadeIn 1s ease-in forwards',
+        fadeOut: 'fadeOut 1s ease-out forwards',
+      },
       colors: {
         "general-white": "#fff",
         "general-8-secondary": "#000",

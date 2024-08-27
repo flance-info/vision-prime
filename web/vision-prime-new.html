@@ -6,6 +6,8 @@
 
 	<link rel="stylesheet" href="./output.css"/>
 	<script src="./homepage.js" defer></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 	<link
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
@@ -211,9 +213,11 @@
 								Experience
 							</div>
 						</div>
-						<h1 class="m-0 w-[1140px] relative text-53xl leading-[80px] font-normal font-inherit text-center inline-block max-w-full mq450:text-24xl mq450:leading-[50px] mq850:text-39xl mq850:leading-[64px]">
+						<h1 class="m-0 animate-fadeInOut w-[1140px] relative text-53xl leading-[80px] font-normal font-inherit text-center inline-block max-w-full mq450:text-24xl mq450:leading-[50px] mq850:text-39xl mq850:leading-[64px]">
 							Effortless Business Setup in Dubai and the UAE
 						</h1>
+
+
 						<div class="w-[1140px] flex flex-row items-start justify-center max-w-full text-5xl font-button-dm-sans-16">
 							<h3 class="m-0 relative text-inherit tracking-[-0.01em] leading-[36px] font-bold font-inherit mq450:text-lgi mq450:leading-[28px]">
 								Focus on running your business in Dubai, and let us handle the heavy lifting.
@@ -654,7 +658,7 @@
 						class="ml-[5%] mq1050:ml-[0px] w-[1170px] grid flex-row items-start justify-start gap-[30px] max-w-full grid-cols-[repeat(3,_minmax(277px,_1fr))] z-[1] text-11xl lg:justify-center lg:grid-cols-[repeat(2,_minmax(277px,_481px))] mq850:grid-cols-[minmax(277px,_1fr)]"
 				>
 					<div
-							class="h-[522px] flex flex-col items-start justify-start py-[60px] px-[50px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/basic@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq450:gap-5 mq450:pl-5 mq450:pr-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border"
+							class="h-[522px] cursor-pointer  hover:scale-110 flex flex-col items-start justify-start py-[60px] px-[50px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/basic@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq450:gap-5 mq450:pl-5 mq450:pr-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border"
 					>
 						<h2
 								class="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]"
@@ -738,7 +742,7 @@
 						</button>
 					</div>
 					<div
-							class="flex flex-col items-start justify-start py-[60px] px-[50px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/basic1@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq450:gap-5 mq450:pl-5 mq450:pr-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border"
+							class="flex flex-col cursor-pointer hover:scale-110 items-start justify-start py-[60px] px-[50px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/basic1@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq450:gap-5 mq450:pl-5 mq450:pr-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border"
 					>
 						<h2
 								class="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]"
@@ -825,7 +829,7 @@
 						</button>
 					</div>
 					<div
-							class="flex flex-col items-start justify-start py-[60px] px-[50px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/basic2@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq450:gap-5 mq450:pl-5 mq450:pr-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border"
+							class="flex flex-col cursor-pointer hover:scale-110 items-start justify-start py-[60px] px-[50px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/basic2@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq450:gap-5 mq450:pl-5 mq450:pr-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border"
 					>
 						<h2
 								class="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]"
@@ -1252,21 +1256,28 @@
 								<div
 										class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] "
 								>
-									<b
-											class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
-									>300+</b
-									>
+
+
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]
+									 transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:300]'">
+										<span class="supports-[counter-set]:sr-only">300</span>+
+									</b>
+
 									<div
 											class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white inline-block min-w-[94px]"
 									>
 										customers
 									</div>
 								</div>
+
+
 								<div class="flex flex-col items-start justify-start gap-2.5">
-									<b
-											class="relative tracking-[-0.03em] leading-[66px] inline-block min-w-[110px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
-									>91%</b
-									>
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]
+									 transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:90]'">
+										<span class="supports-[counter-set]:sr-only">90</span>%
+									</b>
 									<div
 											class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white"
 									>
@@ -1276,10 +1287,12 @@
 								<div
 										class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] text-center"
 								>
-									<b
-											class="w-9 relative tracking-[-0.03em] leading-[66px] inline-block mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
-									>3</b
-									>
+
+										<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]
+									 transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:3]'">
+										<span class="supports-[counter-set]:sr-only">3</span>
+									</b>
 									<div
 											class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left"
 									>
@@ -1289,10 +1302,12 @@
 								<div
 										class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] text-center "
 								>
-									<b
-											class="w-[35px] relative tracking-[-0.03em] leading-[66px] inline-block mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
-									>2</b
-									>
+
+										<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]
+									 transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:2]'">
+										<span class="supports-[counter-set]:sr-only">2</span>
+									</b>
 									<div
 											class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left"
 									>
@@ -1306,10 +1321,11 @@
 								<div
 										class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px]"
 								>
-									<b
-											class="relative tracking-[-0.03em] leading-[66px] inline-block min-w-[57px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
-									>15</b
-									>
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]
+									 transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:15]'">
+										<span class="supports-[counter-set]:sr-only">15</span>
+									</b>
 									<div
 											class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white inline-block min-w-[115px]"
 									>
@@ -1319,10 +1335,11 @@
 								<div
 										class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px]"
 								>
-									<b
-											class="relative tracking-[-0.03em] leading-[66px] inline-block min-w-[62px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
-									>10</b
-									>
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]
+									 transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:10]'">
+										<span class="supports-[counter-set]:sr-only">10</span>
+									</b>
 									<div
 											class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white inline-block min-w-[125px]"
 									>
@@ -1332,10 +1349,11 @@
 								<div
 										class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px] text-center"
 								>
-									<b
-											class="w-[57px] relative tracking-[-0.03em] leading-[66px] inline-block min-w-[57px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
-									>15</b
-									>
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]
+									 transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:15]'">
+										<span class="supports-[counter-set]:sr-only">15</span>
+									</b>
 									<div
 											class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left"
 									>
@@ -1345,10 +1363,11 @@
 								<div
 										class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px] text-center"
 								>
-									<b
-											class="w-[190px] relative tracking-[-0.03em] leading-[66px] inline-block mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"
-									>1 000+</b
-									>
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]
+									 transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:1000]'">
+										<span class="supports-[counter-set]:sr-only">1000</span>+
+									</b>
 									<div
 											class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left"
 									>
@@ -1544,7 +1563,7 @@
 					</div>
 				</div>
 				<div
-						class="h-[375px] overflow-hidden flex flex-col items-start justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info1@3x.png')] bg-cover bg-no-repeat bg-[top]"
+						class="h-[375px] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-opacity-75 overflow-hidden flex flex-col items-start justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info1@3x.png')] bg-cover bg-no-repeat bg-[top]"
 				>
 					<h3
 							class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]"
@@ -1590,7 +1609,7 @@
 					</div>
 				</div>
 				<div
-						class="h-[375px] overflow-hidden flex flex-col items-start justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info2@3x.png')] bg-cover bg-no-repeat bg-[top]"
+						class="h-[375px] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-opacity-75 overflow-hidden flex flex-col items-start justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info2@3x.png')] bg-cover bg-no-repeat bg-[top]"
 				>
 					<h3
 							class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]"
@@ -1636,7 +1655,7 @@
 					</div>
 				</div>
 				<div
-						class="overflow-hidden flex flex-col items-start justify-end pt-[200px] pb-[25px] pl-[25px] pr-5 gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info3@3x.png')] bg-cover bg-no-repeat bg-[top] mq450:pt-[130px] mq450:pb-5 mq450:box-border"
+						class="overflow-hidden cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-opacity-75 flex flex-col items-start justify-end pt-[200px] pb-[25px] pl-[25px] pr-5 gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info3@3x.png')] bg-cover bg-no-repeat bg-[top] mq450:pt-[130px] mq450:pb-5 mq450:box-border"
 				>
 					<h3
 							class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]"

@@ -19,6 +19,22 @@ function vision_prime_enqueue_styles() {
 		time(),
 		true
 	);
+
+	wp_enqueue_script(
+		'alpinejs-intersect',
+		'https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js',
+		array(),
+		null,
+		true
+	);
+	wp_enqueue_script(
+		'alpinejs',
+		'https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js',
+		array(),
+		null,
+		true
+	);
+
 	wp_enqueue_style(
 		'vision-prime-output',
 		get_template_directory_uri() . '/web/output.css',
