@@ -17,6 +17,7 @@ module.exports = {
         darkslategray: "#333",
         "general-1-secondary": "#0e163d",
         "general-1-primary": "#a29061",
+        'custom-gold': "rgba(162, 144, 97, var(--tw-text-opacity))",
         "general-1-secondary-variant": "#414562",
         "elements-neutral-2": "#bfd4e4",
         gray: {
