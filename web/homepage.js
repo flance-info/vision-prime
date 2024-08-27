@@ -19,4 +19,41 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 
 	showTab(0);
+
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+	const accordionHeaders = document.querySelectorAll(".accordion-header");
+
+	accordionHeaders.forEach(header => {
+		header.addEventListener("click", function () {
+			const content = this.nextElementSibling;
+			const icon = this.querySelector("img");
+			const accordionItem = this.parentElement;
+
+			// Toggle the visibility of the accordion content
+			content.classList.toggle("hidden");
+
+			// Toggle the arrow direction
+			icon.classList.toggle("rotate-180");
+
+			// Toggle bg-general-white class based on content visibility
+			accordionItem.classList.toggle("bg-general-white", !content.classList.contains("hidden"));
+
+			// Close other accordion items
+			accordionHeaders.forEach(item => {
+				if (item !== header) {
+					const otherContent = item.nextElementSibling;
+					const otherIcon = item.querySelector("img");
+					const otherAccordionItem = item.parentElement;
+
+					otherContent.classList.add("hidden");
+					otherIcon.classList.remove("rotate-180");
+					otherAccordionItem.classList.remove("bg-general-white");
+				}
+			});
+		});
+	});
+});
+
+
