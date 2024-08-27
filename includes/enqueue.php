@@ -1,4 +1,5 @@
 <?php
+
 // phpcs:ignoreFile
 if ( ! function_exists( 'vcn_starter_styles_and_scripts' ) && ! is_admin() ) {
 	function vcn_starter_styles_and_scripts() {
@@ -11,7 +12,13 @@ if ( ! function_exists( 'vcn_starter_styles_and_scripts' ) && ! is_admin() ) {
 }
 add_action( 'wp_enqueue_scripts', 'vcn_starter_styles_and_scripts' );
 function vision_prime_enqueue_styles() {
-	// Enqueue the output.css file located in your theme directory
+	wp_enqueue_script(
+		'homepage-script',
+		get_template_directory_uri() . '/web/homepage.js',
+		array( 'jquery' ),
+		time(),
+		true
+	);
 	wp_enqueue_style(
 		'vision-prime-output',
 		get_template_directory_uri() . '/web/output.css',

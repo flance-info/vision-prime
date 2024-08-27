@@ -256,99 +256,23 @@ $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 		</copyright>
 	</div>
 </footer>
+<div class="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true" id="myModal" style="display: none;">
+  <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+  <div class="fixed inset-0 z-10 overflow-y-auto">
+    <div class="flex items-start justify-center min-h-full p-4 text-center sm:items-center sm:p-0">
+      <div class="relative bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:max-w-lg sm:w-full">
+        <div class="bg-general-1-primary ">
+          <div class="sm:flex sm:items-start pr-[25px]">
+<?php echo do_shortcode('[contact-form-7 id="b2b5601" title="Untitled"]'); ?>
 
-<div
-		class="flex-1 bg-general-1-primary flex flex-col hidden
-						items-start justify-start py-[60px] pl-[60px] pr-[29px] box-border
-						gap-5 max-w-full z-[1] mq450:pl-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border"
->
-
-	<input
-			class="w-80 [border:none] [outline:none] bg-general-white flex flex-row items-start justify-start py-[15px] px-5 box-border font-paragraph-16 text-base text-gray-200 whitespace-nowrap z-[1]"
-			placeholder="Full name *"
-			type="text"
-	/>
-
-	<input
-			class="w-80 [border:none] [outline:none] bg-general-white flex flex-row items-start justify-start py-[15px] px-5 box-border font-paragraph-16 text-base text-gray-200 whitespace-nowrap z-[1]"
-			placeholder="Your E-mail *"
-			type="text"
-	/>
-
-	<div
-			class="w-80 bg-general-white overflow-x-auto flex flex-row items-start justify-start py-[15px] px-[11px] box-border gap-1.5 z-[1] text-general-8-secondary"
-	>
-		<div
-				class="h-[60px] w-80 relative bg-general-white shrink-0 hidden"
-		></div>
-		<div
-				class="flex flex-col items-start justify-start pt-[5px] pb-0 pl-0 pr-1"
-		>
-			<img
-					class="w-7 h-5 relative z-[1]"
-					loading="lazy"
-					alt=""
-					src="/wp-content/themes/vision-prime/web/public/flags--ae-united-arab-emirates.svg"
-			/>
-		</div>
-		<a
-				class="[text-decoration:none] relative leading-[30px] text-[inherit] inline-block min-w-[37px] whitespace-nowrap z-[1]"
-		>+971</a
-		>
-		<div
-				class="flex flex-col items-start justify-start pt-[8.4px] pb-0 pl-0 pr-[3px]"
-		>
-			<img
-					class="w-3.5 h-3.5 relative z-[1]"
-					alt=""
-					src="/wp-content/themes/vision-prime/web/public/9-icons--arrow-1-down.svg"
-			/>
-		</div>
-		<div
-				class="flex flex-col items-start justify-start py-0 pl-0 pr-1"
-		>
-			<div class="w-px h-[30px] relative bg-silver z-[1]"></div>
-		</div>
-		<div
-				class="relative leading-[30px] text-gray-200 inline-block min-w-[115px] z-[1]"
-		>
-			Phone number
-		</div>
-	</div>
-	<div
-			class="w-80 bg-general-white flex flex-row items-start justify-between py-[15px] pl-5 pr-[15px] box-border gap-5 z-[1]"
-	>
-		<div class="h-[60px] w-80 relative bg-general-white hidden"></div>
-		<div class="relative leading-[30px] z-[1]">
-			Select a service required
-		</div>
-		<div
-				class="flex flex-col items-start justify-start pt-2 px-0 pb-0"
-		>
-			<img
-					class="w-3.5 h-3.5 relative z-[1]"
-					alt=""
-					src="/wp-content/themes/vision-prime/web/public/9-icons--arrow-1-down-1.svg"
-			/>
-		</div>
-	</div>
-	<div class="self-stretch h-[140px] relative">
-		<div
-				class="absolute h-full top-[0px] bottom-[0px] left-[0px] bg-general-white w-80 z-[1]"
-		></div>
-		<div
-				class="absolute top-[18px] left-[20px] leading-[30px] inline-block w-[331px] z-[2]"
-		>
-			Your request
-		</div>
-	</div>
-	<button
-			class="cursor-pointer [border:none] py-[21px] px-10 bg-general-8-secondary overflow-hidden flex flex-row items-start justify-start z-[1]"
-	>
-		<div
-				class="relative text-base tracking-[0.4em] leading-[18px] uppercase font-medium font-subtitles-16 text-general-white text-center inline-block min-w-[91px]"
-		>
-			Submit
-		</div>
-	</button>
+          </div>
+        </div>
+       <button type="button" class="absolute top-4 right-4 text-white hover:text-gray-300 focus:outline-none" onclick="closeModal()">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+      </div>
+    </div>
+  </div>
 </div>
