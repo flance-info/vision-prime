@@ -946,6 +946,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1857,6 +1861,14 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.list-decimal {
+  list-style-type: decimal;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .grid-cols-\[repeat\(3\2c _minmax\(277px\2c _1fr\)\)\] {
@@ -3133,6 +3145,10 @@ video {
 
 .mix-blend-darken {
   mix-blend-mode: darken;
+}
+
+.outline {
+  outline-style: solid;
 }
 
 .transition-transform {
