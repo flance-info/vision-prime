@@ -108,7 +108,31 @@ document.addEventListener('DOMContentLoaded', () => {
     const slides = document.querySelectorAll('.slider');
     const nextButton = document.getElementById('next');
     const prevButton = document.getElementById('prev');
+	const nextButtonOne = document.getElementById('nextm');
+    const prevButtonOne = document.getElementById('prevp');
     let index = 0;
+
+	 nextButton.addEventListener('click', () => {
+        index = (index + 1) % slides.length;
+        showSlide(index);
+    });
+
+    prevButton.addEventListener('click', () => {
+		console.log('rrrr');
+        index = (index - 1 + slides.length) % slides.length;
+        showSlide(index);
+    });
+
+	 nextButtonOne.addEventListener('click', () => {
+		 console.log('sssssrrrr');
+        index = (index + 1) % slides.length;
+        showSlide(index);
+    });
+
+    prevButtonOne.addEventListener('click', () => {
+        index = (index - 1 + slides.length) % slides.length;
+        showSlide(index);
+    });
 
     function showSlide(idx) {
         slides.forEach((slide, i) => {
@@ -119,15 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    nextButton.addEventListener('click', () => {
-        index = (index + 1) % slides.length;
-        showSlide(index);
-    });
 
-    prevButton.addEventListener('click', () => {
-        index = (index - 1 + slides.length) % slides.length;
-        showSlide(index);
-    });
 
     // Initialize the first slide as visible
     showSlide(index);
