@@ -95,10 +95,49 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Auto-slide (optional)
+	/*
     setInterval(() => {
         nextButton.click();
-    }, 5000); // Change slide every 5 seconds
+    }, 20000); // Change slide every 5 seconds
+    */
+
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const slides = document.querySelectorAll('.slider');
+    const nextButton = document.getElementById('next');
+    const prevButton = document.getElementById('prev');
+    let index = 0;
+
+    function showSlide(idx) {
+        slides.forEach((slide, i) => {
+            slide.classList.add('hidden');
+            if (i === idx) {
+                slide.classList.remove('hidden');
+            }
+        });
+    }
+
+    nextButton.addEventListener('click', () => {
+        index = (index + 1) % slides.length;
+        showSlide(index);
+    });
+
+    prevButton.addEventListener('click', () => {
+        index = (index - 1 + slides.length) % slides.length;
+        showSlide(index);
+    });
+
+    // Initialize the first slide as visible
+    showSlide(index);
+
+    // Auto-slide (optional)
+    setInterval(() => {
+        nextButton.click();
+    }, 225000); // Change slide every 5 seconds
+});
+
 
 
 
