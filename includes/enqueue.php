@@ -99,6 +99,10 @@ function vision_prime_enqueue_styles() {
         }
         "
 	);
+
+	wp_register_style( 'starter-navigation', get_template_directory_uri() . '/assets/css/components/header/navigation.css', array(), time() );
+		wp_enqueue_script( 'starter-header', get_template_directory_uri() . '/assets/js/components/header/header.js', array( 'jquery' ), time(), true );
+		wp_enqueue_style( 'starter-navigation' );
 }
 
 add_action( 'wp_enqueue_scripts', 'vision_prime_enqueue_styles' );

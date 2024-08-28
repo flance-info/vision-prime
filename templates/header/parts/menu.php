@@ -1,5 +1,5 @@
 <header
-		class="self-stretch bg-general-white flex flex-row items-center justify-center py-[15px] box-border top-[0] z-[99] sticky max-w-full gap-5 text-right text-base text-general-8-secondary font-subtitles-16  lg:box-border  mq450:box-border mq850:box-border"
+		class="self-stretch bg-general-white flex flex-row items-center justify-center py-[15px] box-border top-[0] z-[11111] sticky max-w-full gap-5 text-right text-base text-general-8-secondary font-subtitles-16  lg:box-border  mq450:box-border mq850:box-border"
 >
 	<div class="w-[1170px] flex flex-row items-end justify-between max-w-full ">
 		<div class="flex flex-row items-center justify-center py-0 px-[3px]">
@@ -54,8 +54,29 @@ transform transition-transform duration-300 group-hover:rotate-180" src="/wp-con
 		}
 		?>
 
+		<?php
+		$menu_args = array(
+				'depth'          => 3,
+				'container'      => false,
+				'items_wrap'     => '%3$s',
+				'fallback_cb'    => false,
+				'theme_location' => 'ms-lms-starter-theme-main-menu',
+		);
+		?>
+		<div class="navigation mr-[20px]">
+			<div class="navigation-menu">
+				<ul class="starter-menu menu">
+					<?php wp_nav_menu( $menu_args ); ?>
+				</ul>
 
+				<div class="mobile-switcher">
+					<span></span> <span></span> <span></span>
+				</div>
+			</div>
+		</div>
 	</div>
+
+
 </header>
 
 
