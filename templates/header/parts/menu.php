@@ -6,31 +6,61 @@
 			<?php get_template_part( 'templates/header/parts/logo' ); ?>
 		</div>
 		<?php
-		$menu_name = 'ms-lms-starter-theme-main-menu'; // The theme location you specified
-		$locations = get_nav_menu_locations();
-		if ( isset( $locations[ $menu_name ] ) ) {
-			$menu_id    = $locations[ $menu_name ];
-			$menu_items = wp_get_nav_menu_items( $menu_id );
-			if ( $menu_items ) { ?>
-				<div class="flex flex-row items-center justify-center py-5 px-0 box-border gap-[30px] max-w-full lg:hidden mq850:gap-5">
-					<?php
-					foreach ( $menu_items as $menu_item ) :
-						$title = esc_html( $menu_item->title );
-						$url = esc_url( $menu_item->url );
-						?>
-						<div class="flex flex-row items-center justify-start gap-1.5">
-							<a class="[text-decoration:none] relative tracking-[0.04em] leading-[18px] uppercase font-medium text-[inherit] whitespace-nowrap" href="<?php echo $url ?>"> <?php echo $title ?> </a>
-							<img class="h-[18px] w-[18px] relative overflow-hidden shrink-0 min-h-[18px]" src="/wp-content/themes/vision-prime/web/public/feather-iconschevrondown.svg"/>
-						</div>
-					<?php
-					endforeach;
-					?>
+$menu_name = 'ms-lms-starter-theme-main-menu'; // The theme location you specified
+$locations = get_nav_menu_locations();
 
-				</div>
-				<?php
-			}
-		}
-		?>
+if (isset($locations[$menu_name])) {
+    $menu_id    = $locations[$menu_name];
+    $menu_items = wp_get_nav_menu_items($menu_id);
+
+    if ($menu_items) {
+        // Create an array to hold the menu items by their parent IDs
+        $menu_item_parents = [];
+
+        foreach ($menu_items as $menu_item) {
+            // Group menu items by their parent IDs
+            $menu_item_parents[$menu_item->menu_item_parent][] = $menu_item;
+        }
+
+        echo '<div class="flex flex-row items-center justify-center py-5 px-0 box-border gap-[30px] max-w-full lg:hidden mq850:gap-5">';
+
+        foreach ($menu_item_parents[0] as $menu_item) { // Start with the top-level items
+            $title = esc_html($menu_item->title);
+            $url = esc_url($menu_item->url);
+            $has_children = isset($menu_item_parents[$menu_item->ID]);
+            ?>
+
+            <div class="relative flex flex-col items-end justify-start gap-1.5 group">
+                <a class="[text-decoration:none] relative tracking-[0.04em] leading-[18px] uppercase font-medium text-[inherit] whitespace-nowrap" href="<?php echo $url ?>">
+                    <?php echo $title ?>
+
+					<img class="h-[18px] w-[18px] relative overflow-hidden shrink-0 min-h-[18px]" src="/wp-content/themes/vision-prime/web/public/feather-iconschevrondown.svg" alt="Submenu Icon"/>
+
+				</a>
+				<?php if ( $has_children ): ?>
+					<div class="absolute right-[0px] hidden mt-2 bg-white shadow-lg rounded-md w-48 group-hover:block z-10 w-full text-left min-h-[100px] top-[8px]">
+						<ul class="py-2">
+							<?php foreach ( $menu_item_parents[ $menu_item->ID ] as $child ): ?>
+								<li>
+									<a href="<?php echo esc_url( $child->url ); ?>" class="block px-4 py-2  hover:bg-elements-neutral-4">
+										<?php echo esc_html( $child->title ); ?>
+									</a>
+								</li>
+							<?php endforeach; ?>
+						</ul>
+					</div>
+				<?php endif; ?>
+            </div>
+            <?php
+        }
+
+        echo '</div>';
+    }
+}
+?>
+
+
+
 
 	</div>
 </header>

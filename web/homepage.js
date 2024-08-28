@@ -118,13 +118,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     prevButton.addEventListener('click', () => {
-		console.log('rrrr');
+
         index = (index - 1 + slides.length) % slides.length;
         showSlide(index);
     });
 
 	 nextButtonOne.addEventListener('click', () => {
-		 console.log('sssssrrrr');
+
         index = (index + 1) % slides.length;
         showSlide(index);
     });
@@ -153,6 +153,31 @@ document.addEventListener('DOMContentLoaded', () => {
         nextButton.click();
     }, 225000); // Change slide every 5 seconds
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Select all menu items that have submenus
+    const dropdownToggles = document.querySelectorAll('.group');
+
+    dropdownToggles.forEach(toggle => {
+        const dropdown = toggle.querySelector('div');
+
+        // Mouse hover event for desktop view
+        toggle.addEventListener('mouseenter', () => {
+            dropdown.classList.remove('hidden');
+        });
+
+        toggle.addEventListener('mouseleave', () => {
+            dropdown.classList.add('hidden');
+        });
+
+        // Click event for mobile view
+        toggle.querySelector('a').addEventListener('click', (e) => {
+            e.preventDefault(); // Prevent link navigation
+            dropdown.classList.toggle('hidden');
+        });
+    });
+});
+
 
 
 

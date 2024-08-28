@@ -150,7 +150,7 @@
 			>
 				<div class="flex flex-row items-center justify-start gap-1.5">
 					<a
-							class="[text-decoration:none] relative tracking-[0.04em] leading-[18px] uppercase font-medium text-[inherit] whitespace-nowrap"
+							class="[text-decoration:none] relative tracking-[0.04em] leading-[18px] uppercase font-medium text-[inherit] whitespace-nowrap top-[30px] min-h-[100px]"
 					>Business Setup Services</a
 					>
 					<img
@@ -158,6 +158,19 @@
 							alt=""
 							src="/wp-content/themes/vision-prime/web/public/feather-iconschevrondown.svg"
 					/>
+
+					   <div class="absolute left-0 mt-2 bg-white shadow-lg rounded-md w-48 group-hover:block z-10 w-full text-left min-h-[100px] top-[8px] ">
+        <ul class="py-2">
+
+            <?php foreach ($menu_item_parents[$menu_item->ID] as $child): ?>
+                <li>
+                    <a href="<?php echo esc_url($child->url); ?>" class="block px-4 py-2 text-gray-700 hover:bg-elements-neutral-4">
+                        <?php echo esc_html($child->title); ?>
+                    </a>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
 				</div>
 				<div class="flex flex-row items-center justify-start gap-2.5">
 					<a
