@@ -1,7 +1,8 @@
 <section class="self-stretch flex flex-row items-start justify-center max-w-full bg-general-8-secondary">
 	<div class="w-[1170px] flex flex-col items-end justify-start max-w-full ">
+
 		<div
-				class="bg-general-8-secondary overflow-x-auto flex flex-row items-start justify-start py-4   gap-[60px] z-[5] text-general-white font-montserrat lg:gap-[30px]  lg:box-border mq850:gap-[15px] mq850:box-border"
+				class="bg-general-8-secondary overflow-x-auto flex flex-row mq850:flex-col mq850:ml-[20px] mq850:mr-[20px] items-start justify-start py-4   gap-[60px] z-[5] text-general-white font-montserrat lg:gap-[30px]  lg:box-border mq850:gap-[15px] mq850:box-border"
 		>
 			<div class="flex flex-row items-start justify-start gap-[7px]">
 				<div class="flex flex-col items-start justify-start pt-px px-0 pb-0">

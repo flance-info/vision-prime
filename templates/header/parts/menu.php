@@ -18,7 +18,7 @@
 					// Group menu items by their parent IDs
 					$menu_item_parents[ $menu_item->menu_item_parent ][] = $menu_item;
 				}
-				echo '<div class="flex flex-row items-center justify-center py-5 px-0 box-border gap-[30px] max-w-full lg:hidden mq850:gap-5">';
+				echo '<div class="flex flex-row items-center justify-center py-5 px-0 box-border gap-[30px] max-w-full mq1024:hidden mq850:gap-5">';
 				foreach ( $menu_item_parents[0] as $menu_item ) { // Start with the top-level items
 					$title        = esc_html( $menu_item->title );
 					$url          = esc_url( $menu_item->url );
@@ -63,7 +63,7 @@ transform transition-transform duration-300 group-hover:rotate-180" src="/wp-con
 				'theme_location' => 'ms-lms-starter-theme-main-menu',
 		);
 		?>
-		<div class="navigation mr-[20px]">
+		<div class="navigation mr-[20px] hidden mq1024:flex">
 			<div class="navigation-menu">
 				<ul class="starter-menu menu">
 					<?php wp_nav_menu( $menu_args ); ?>

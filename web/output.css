@@ -3690,7 +3690,6 @@ nav .parent > ul.sub-menu:before {
 }
 
 .navigation {
-  display: flex;
 }
 
 .navigation .navigation-menu .starter-menu {
@@ -4027,8 +4026,7 @@ nav .parent > ul.sub-menu:before {
     display: flex;
     align-items: center;
     justify-content: center;
-    content: "\e907";
-    font-family: ms-lms-icon;
+    content: ">";
     position: absolute;
     top: 0;
     right: 0;
@@ -4685,6 +4683,23 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
   }
 }
 
+@media (max-width: 1200px) {
+  .navigation .navigation-menu .menu {
+    display: none;
+    width: auto;
+    visibility: hidden;
+    box-shadow: 0 4px 10px -2px rgba(0, 0, 0, .15);
+    opacity: 0;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body   #wpadminbar {
+    position: fixed;
+  }
+}
+
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
@@ -5152,6 +5167,14 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
   .mq1050\:flex-wrap {
     flex-wrap: wrap;
   }
+
+  .mq1024\:flex {
+    display: flex;
+  }
+
+  .mq1024\:hidden {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -5365,6 +5388,14 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 }
 
 @media screen and (max-width: 850px) {
+  .mq850\:ml-\[20px\] {
+    margin-left: 20px;
+  }
+
+  .mq850\:mr-\[20px\] {
+    margin-right: 20px;
+  }
+
   .mq850\:box-border {
     box-sizing: border-box;
   }
@@ -5747,4 +5778,3 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     line-height: 50px;
   }
 }
-
