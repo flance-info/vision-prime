@@ -1899,6 +1899,14 @@ video {
   max-width: 100%;
 }
 
+.max-w-\[1140px\] {
+  max-width: 1140px;
+}
+
+.max-w-\[900px\] {
+  max-width: 900px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
