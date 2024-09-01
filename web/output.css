@@ -1019,6 +1019,10 @@ video {
   margin-top: 50px;
 }
 
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
