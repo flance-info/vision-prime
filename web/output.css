@@ -2369,6 +2369,10 @@ video {
   border-style: solid;
 }
 
+.border-none {
+  border-style: none;
+}
+
 .border-general-1-primary {
   --tw-border-opacity: 1;
   border-color: rgb(162 144 97 / var(--tw-border-opacity));
@@ -5238,6 +5242,11 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     justify-content: flex-start;
   }
 
+  .mq1225\:px-\[187px\] {
+    padding-left: 187px;
+    padding-right: 187px;
+  }
+
   .mq1225\:pl-\[187px\] {
     padding-left: 187px;
   }
@@ -5792,6 +5801,11 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     gap: 20px;
   }
 
+  .mq750\:px-\[93px\] {
+    padding-left: 93px;
+    padding-right: 93px;
+  }
+
   .mq750\:pl-\[93px\] {
     padding-left: 93px;
   }
@@ -5858,6 +5872,11 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq450\:gap-\[30px\] {
     gap: 30px;
+  }
+
+  .mq450\:px-\[20px\] {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .mq450\:pb-5 {
