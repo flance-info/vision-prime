@@ -3569,9 +3569,19 @@ body {
   width: 100%;
 }
 
+.error404
+    .navigation .navigation-menu.active .menu {
+  background-color: transparent;
+}
+
 .error404 .er-back-tr{
   background-color: transparent;
   color: #ffffff;
+}
+
+.error404
+.navigation .navigation-menu .mobile-switcher span {
+  background-color: #fff;
 }
 
 .error404

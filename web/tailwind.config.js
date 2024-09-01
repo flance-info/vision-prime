@@ -11,6 +11,7 @@ module.exports = {
 
   theme: {
     extend: {
+
        keyframes: {
         fadeInOut: {
           '0%, 100%': { opacity: 0 },

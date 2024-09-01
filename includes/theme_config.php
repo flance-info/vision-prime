@@ -14,6 +14,12 @@ function starter_customize_register( $wp_customize ) {
 		'capability'        => 'edit_theme_options',
 		'sanitize_callback' => 'absint', // Store the media ID as an integer
 	) );
+	$wp_customize->add_setting( 'stm_theme_settings[logo_image_white]', array(
+		'default'           => '',
+		'type'              => 'option',
+		'capability'        => 'edit_theme_options',
+		'sanitize_callback' => 'absint', // Store the media ID as an integer
+	) );
 	// Add a control for the logo image
 	$wp_customize->add_control( new WP_Customize_Media_Control( $wp_customize, 'starter_logo_image', array(
 		'label'       => __( 'Logo Image', 'starter' ),
@@ -21,6 +27,14 @@ function starter_customize_register( $wp_customize ) {
 		'settings'    => 'stm_theme_settings[logo_image]',
 		'mime_type'   => 'image', // Restrict to images only
 		'description' => __( 'Upload your logo here. The media ID will be stored.', 'starter' ),
+	) ) );
+	// Add a control for the logo image
+	$wp_customize->add_control( new WP_Customize_Media_Control( $wp_customize, 'starter_logo_image_white', array(
+		'label'       => __( 'White Logo Image', 'starter' ),
+		'section'     => 'starter_theme_options_section',
+		'settings'    => 'stm_theme_settings[logo_image_white]',
+		'mime_type'   => 'image', // Restrict to images only
+		'description' => __( 'Upload your White logo here. The media ID will be stored.', 'starter' ),
 	) ) );
 	// Add a setting for the logo width
 	$wp_customize->add_setting( 'ms_lms_starter_logo_width', array(
