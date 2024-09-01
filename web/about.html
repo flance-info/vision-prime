@@ -4,7 +4,10 @@
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="initial-scale=1, width=device-width"/>
 
-	<link rel="stylesheet" href="./output.css"/>
+		<link rel="stylesheet" href="./output.css"/>
+	<script src="./homepage.js" defer></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 	<link
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
@@ -29,16 +32,6 @@
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400&display=swap"
 	/>
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-	<!-- Custom Homepage Script -->
-
-
-	<!-- Alpine.js Intersect Plugin -->
-	<script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
-
-	<!-- Alpine.js -->
-	<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 	<style>
 		@font-face {
@@ -231,6 +224,9 @@ transform transition-transform duration-300 group-hover:rotate-180" src="/wp-con
 
 			</div>
 		</section>
+
+
+
 		<!-- history and mission !-->
 		<section class="self-stretch flex flex-row items-start justify-center pt-0  pb-[180px] box-border max-w-full text-left text-base text-general-1-primary font-subtitles-16 lg:pb-[117px] lg:box-border mq850:pb-[76px] mq850:box-border">
 			<div class="w-[1170px] flex flex-col items-start justify-start gap-[60px] max-w-full lg:gap-[30px] lg:mx-[20px]">
@@ -297,13 +293,19 @@ transform transition-transform duration-300 group-hover:rotate-180" src="/wp-con
 					<div
 							class="self-stretch flex flex-row items-center justify-start flex-wrap content-center gap-[40px] text-41xl text-general-1-primary font-button-dm-sans-16 mq950:gap-[20px]"
 					>
+
+
 						<div
 								class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px]"
 						>
-							<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:15]"
-							   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:15]'">
-								<span class="supports-[counter-set]:sr-only">15</span>
-							</b>
+
+
+							<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]
+									 transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)]
+									 supports-[counter-set]:before:content-[counter(num)]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:15]'">
+										<span class="supports-[counter-set]:sr-only">15</span>
+									</b>
 							<div
 									class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant"
 							>
@@ -315,11 +317,12 @@ transform transition-transform duration-300 group-hover:rotate-180" src="/wp-con
 						>
 
 
-							<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:100]"
-							   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:100]'">
-								<span class="supports-[counter-set]:sr-only">100</span>+
-							</b>
 
+<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]
+									 transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:100]'">
+										<span class="supports-[counter-set]:sr-only">100</span>+
+									</b>
 							<div
 									class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant"
 							>
@@ -331,8 +334,10 @@ transform transition-transform duration-300 group-hover:rotate-180" src="/wp-con
 						>
 
 
-							<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:2500]"
-							   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:2500]'">
+
+							<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]
+									 transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:2500]'">
 								<span class="supports-[counter-set]:sr-only">2500</span>+
 							</b>
 							<div
@@ -344,8 +349,9 @@ transform transition-transform duration-300 group-hover:rotate-180" src="/wp-con
 						<div
 								class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px] text-center"
 						>
-							<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:5000]"
-							   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:5000]'">
+							<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]
+									 transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:5000]'">
 								<span class="supports-[counter-set]:sr-only">5000</span>+
 							</b>
 							<div
