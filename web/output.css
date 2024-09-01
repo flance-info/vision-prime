@@ -558,6 +558,10 @@ video {
   width: 100%;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 .visible {
   visibility: visible;
 }
@@ -1079,6 +1083,10 @@ video {
   margin-top: 20px;
 }
 
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1097,6 +1105,10 @@ video {
 
 .grid {
   display: grid;
+}
+
+.contents {
+  display: contents;
 }
 
 .hidden {
@@ -1409,6 +1421,14 @@ video {
 
 .h-\[890px\] {
   height: 890px;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .max-h-\[1060px\] {
@@ -1993,6 +2013,10 @@ video {
 
 .w-\[987px\] {
   width: 987px;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .min-w-\[100\%\] {
@@ -4358,6 +4382,12 @@ video {
   transition-duration: 150ms;
 }
 
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .duration-300 {
   transition-duration: 300ms;
 }
@@ -5907,6 +5937,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 .hover\:text-yellow-600:hover {
   --tw-text-opacity: 1;
   color: rgb(202 138 4 / var(--tw-text-opacity));
+}
+
+.hover\:text-gray-400:hover {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .hover\:\[box-shadow\:inset_0_0_0_2px\]:hover {

@@ -2,24 +2,30 @@ document.addEventListener("DOMContentLoaded", function () {
 	const tabButtons = document.querySelectorAll(".tab-button");
 	const tabContents = document.querySelectorAll(".tab-content");
 
+	// Check if there are any elements with the class "tab-content"
+	if (tabContents.length > 0) {
+		function showTab(index) {
+			// Hide all tab contents
+			tabContents.forEach(content => content.classList.add("hidden"));
 
-	function showTab(index) {
+			// Remove active classes from all buttons
+			tabButtons.forEach(button => button.classList.remove("bg-elements-neutral-4", "border-l-[4px]", "border-solid", "border-general-1-primary", "bg-transparent"));
 
-		tabContents.forEach(content => content.classList.add("hidden"));
-		tabButtons.forEach(button => button.classList.remove("bg-elements-neutral-4", "border-l-[4px]", "border-solid", "border-general-1-primary" , "bg-transparent"));
+			// Show the selected tab content
+			tabContents[index].classList.remove("hidden");
 
+			// Add active classes to the selected button
+			tabButtons[index].classList.add("bg-elements-neutral-4", "border-l-[4px]", "border-solid", "border-general-1-primary");
+		}
 
-		tabContents[index].classList.remove("hidden");
+		// Add event listeners to all tab buttons
+		tabButtons.forEach((button, index) => {
+			button.addEventListener("click", () => showTab(index));
+		});
 
-		tabButtons[index].classList.add("bg-elements-neutral-4", "border-l-[4px]", "border-solid", "border-general-1-primary");
+		// Show the first tab by default
+		showTab(0);
 	}
-
-	tabButtons.forEach((button, index) => {
-		button.addEventListener("click", () => showTab(index));
-	});
-
-	showTab(0);
-
 });
 
 document.addEventListener("DOMContentLoaded", function () {
