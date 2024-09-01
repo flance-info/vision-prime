@@ -29,6 +29,16 @@
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400&display=swap"
 	/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Custom Homepage Script -->
+
+
+    <!-- Alpine.js Intersect Plugin -->
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
+
+    <!-- Alpine.js -->
+    <script defer  src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 	<style>
 		@font-face {
@@ -290,10 +300,9 @@ transform transition-transform duration-300 group-hover:rotate-180" src="/wp-con
 						<div
 								class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px]"
 						>
-							<b
-									class="relative tracking-[-0.03em] leading-[66px] inline-block min-w-[57px] mq450:text-17xl mq450:leading-[40px] mq950:text-29xl mq950:leading-[53px]"
-							>15</b
-							>
+							<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:15]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:15]'">
+										<span class="supports-[counter-set]:sr-only">15</span>
+									</b>
 							<div
 									class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant"
 							>
@@ -303,10 +312,12 @@ transform transition-transform duration-300 group-hover:rotate-180" src="/wp-con
 						<div
 								class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px]"
 						>
-							<b
-									class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq950:text-29xl mq950:leading-[53px]"
-							>100+</b
-							>
+
+
+							<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:100]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:100]'">
+										<span class="supports-[counter-set]:sr-only">100</span>+
+									</b>
+
 							<div
 									class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant"
 							>
@@ -316,10 +327,11 @@ transform transition-transform duration-300 group-hover:rotate-180" src="/wp-con
 						<div
 								class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px]"
 						>
-							<b
-									class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq950:text-29xl mq950:leading-[53px]"
-							>2,500+</b
-							>
+
+
+							<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:2500]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:2500]'">
+										<span class="supports-[counter-set]:sr-only">2500</span>+
+									</b>
 							<div
 									class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant"
 							>
@@ -329,10 +341,9 @@ transform transition-transform duration-300 group-hover:rotate-180" src="/wp-con
 						<div
 								class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px] text-center"
 						>
-							<b
-									class="w-[206px] relative tracking-[-0.03em] leading-[66px] inline-block mq450:text-17xl mq450:leading-[40px] mq950:text-29xl mq950:leading-[53px]"
-							>5,000+</b
-							>
+							<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:5000]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:5000]'">
+										<span class="supports-[counter-set]:sr-only">5000</span>+
+									</b>
 							<div
 									class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant text-left"
 							>
@@ -344,10 +355,6 @@ transform transition-transform duration-300 group-hover:rotate-180" src="/wp-con
 
 			</div>
 		</section>
-
-
-		
-
 
 		<section
 				class="self-stretch flex flex-row items-start justify-center flex-wrap content-start max-w-full [row-gap:20px] text-center text-base text-general-1-primary font-subtitles-16"
