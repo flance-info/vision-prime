@@ -49,6 +49,9 @@ body {
 	border: none;
 }
 
+.st-wrap{
+	text-wrap: wrap;
+}
 /* Custom class to remove outline */
 .cf7-no-outline {
 	outline: none;
