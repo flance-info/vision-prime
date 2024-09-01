@@ -3087,6 +3087,14 @@ video {
   background-image: url('/wp-content/themes/vision-prime/web/about/public/title1@3x.png');
 }
 
+.bg-\[url\(\'\/wp-content\/themes\/vision-prime\/web\/public\/service\.png\'\)\] {
+  background-image: url('/wp-content/themes/vision-prime/web/public/service.png');
+}
+
+.bg-\[url\(\'\/wp-content\/themes\/vision-prime\/web\/public\/service2\.png\'\)\] {
+  background-image: url('/wp-content/themes/vision-prime/web/public/service2.png');
+}
+
 .bg-cover {
   background-size: cover;
 }
