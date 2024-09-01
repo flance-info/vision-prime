@@ -27,8 +27,8 @@ module.exports = {
         },
       },
       animation: {
-        fadeInOut: 'fadeInOut 3s ease-in-out infinite',
-        fadeIn: 'fadeIn 1s ease-in forwards',
+        fadeInOut: 'fadeIn 3s ease-in forwards',
+        fadeIn: 'fadeIn 3s ease-in forwards',
         fadeOut: 'fadeOut 1s ease-out forwards',
       },
       colors: {
