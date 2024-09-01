@@ -15,6 +15,22 @@ body {
 	width: 100%;
 }
 
+
+.error404 .er-back-tr{
+		 background-color: transparent;
+	color: #ffffff;
+}
+.error404
+.coltr li a:hover {
+    --tw-bg-opacity: 1;
+    background-color: lightskyblue;
+}
+
+.error404
+.coltr ul {
+    --tw-bg-opacity: 1;
+    background-color: transparent;
+}
 . /* Custom class to remove border */
 .cf7-no-border {
 	border: none;
