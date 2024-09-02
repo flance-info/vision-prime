@@ -100,7 +100,7 @@ $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 								$url = esc_url( $menu_item->url );
 								?>
 
-								<b class="self-stretch relative leading-[22px]  hover:[text-decoration:underline]"><a href="<?php echo $url ?>"> <?php echo $title ?></a></b>        <?php
+								<b class="self-stretch relative leading-[22px] hover:text-general-white hover:[text-decoration:underline]"><a href="<?php echo $url ?>"> <?php echo $title ?></a></b>        <?php
 							endforeach;
 							?>
 
@@ -123,7 +123,7 @@ $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 								$url = esc_url( $menu_item->url );
 								?>
 
-								<b class="self-stretch relative leading-[22px]  hover:[text-decoration:underline]"><a href="<?php echo $url ?>"> <?php echo $title ?></a></b>        <?php
+								<b class="self-stretch relative leading-[22px]   hover:text-general-white hover:[text-decoration:underline]"><a href="<?php echo $url ?>"> <?php echo $title ?></a></b>        <?php
 							endforeach;
 							?>
 

@@ -1207,6 +1207,10 @@ video {
   height: 50px;
 }
 
+.h-\[51px\] {
+  height: 51px;
+}
+
 .h-\[520px\] {
   height: 520px;
 }
@@ -1249,10 +1253,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[51px\] {
-  height: 51px;
 }
 
 .max-h-\[1060px\] {
