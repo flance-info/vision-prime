@@ -5512,6 +5512,14 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
   .mq650\:min-w-\[166px\] {
     min-width: 166px;
   }
+
+  .mq650\:pl-\[20px\] {
+    padding-left: 20px;
+  }
+
+  .mq650\:pr-\[10px\] {
+    padding-right: 10px;
+  }
 }
 
 @media screen and (max-width: 450px) {
