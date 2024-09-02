@@ -5505,6 +5505,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 }
 
 @media screen and (max-width: 650px) {
+  .mq650\:hidden {
+    display: none;
+  }
+
   .mq650\:min-w-\[166px\] {
     min-width: 166px;
   }
