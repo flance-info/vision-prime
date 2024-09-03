@@ -1,0 +1,81 @@
+{
+    "id": "section1",
+    "elType": "section",
+    "settings": {
+        "layout": "boxed",
+        "class": "self-stretch flex flex-col items-center justify-between pt-0 px-0 pb-[110px] box-border max-w-full text-left text-base text-general-white font-heading-1-72 lg:pb-[71px] lg:box-border mq850:pb-[46px] mq850:box-border"
+    },
+    "elements": [
+        {
+            "id": "column1",
+            "elType": "column",
+            "settings": {
+                "width": "100"
+            },
+            "elements": [
+                {
+                    "id": "div1",
+                    "elType": "widget",
+                    "widgetType": "divider",
+                    "settings": {
+                        "class": "w-[50%] h-[120px] border-general-1-primary border-r border-solid"
+                    }
+                },
+                {
+                    "id": "heading1",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "Experience",
+                        "size": "h2",
+                        "class": "relative tracking-[0.4em] leading-[18px] uppercase font-medium"
+                    }
+                },
+                {
+                    "id": "heading2",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "Effortless Business Setup in Dubai and the UAE",
+                        "size": "h1",
+                        "class": "m-0 animate-fadeInOut w-[1140px] relative text-53xl leading-[80px] font-normal font-inherit text-center inline-block max-w-full mq450:text-24xl mq450:leading-[50px] mq850:text-39xl mq850:leading-[64px]"
+                    }
+                },
+                {
+                    "id": "text1",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<h3 class=\"m-0 relative text-inherit tracking-[-0.01em] leading-[36px] font-bold font-inherit mq450:text-lgi mq450:leading-[28px]\">Focus on running your business in Dubai, and let us handle the heavy lifting.</h3>"
+                    }
+                },
+                {
+                    "id": "button1",
+                    "elType": "widget",
+                    "widgetType": "button",
+                    "settings": {
+                        "text": "Start now",
+                        "class": "cursor-pointer border-transparent py-[21px] px-10 bg-general-1-primary overflow-hidden flex flex-row items-start justify-start whitespace-nowrap hover:bg-elements-neutral-4 hover:text-general-1-primary hover:border-general-1-primary border-solid border-[2px] text-general-white hover:text-general-1-primary",
+                        "align": "center"
+                    }
+                },
+                {
+                    "id": "text2",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "We totally get it. New company formation in UAE\u2014especially in Dubai, can feel highly, highly overwhelming. Let no one tell you otherwise\u2014it\u2019s a stress you don\u2019t want to take on alone. That\u2019s why Vision Prime is here to handle the heavy lifting for you."
+                    }
+                },
+                {
+                    "id": "text3",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "Whether you\u2019re setting up a mainland, free zone, or offshore company, Vision Prime is ready to guide you through every step with personalized, high-touch services."
+                    }
+                }
+            ]
+        }
+    ]
+}

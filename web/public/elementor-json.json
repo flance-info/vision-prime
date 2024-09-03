@@ -1,0 +1,260 @@
+{
+  "name": "section",
+  "elType": "section",
+  "settings": {
+    "background_background": "classic",
+    "background_image": {
+      "url": "/wp-content/themes/vision-prime/web/public/title2@3x.png",
+      "id": ""
+    },
+    "background_position": "top center",
+    "background_repeat": "no-repeat",
+    "background_size": "cover",
+    "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "110",
+      "left": "0",
+      "isLinked": false
+    },
+    "_margin": {
+      "unit": "%",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "10",
+      "isLinked": false
+    }
+  },
+  "elements": [
+    {
+      "id": "unique_id_1",
+      "elType": "column",
+      "settings": {
+        "_column_size": 100
+      },
+      "elements": [
+        {
+          "id": "unique_id_2",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Experience",
+            "align": "center",
+            "typography_typography": "custom",
+            "typography_font_family": "subtitles-16",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 16
+            },
+            "typography_font_weight": "500",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "unit": "em",
+              "size": 0.4
+            }
+          }
+        },
+        {
+          "id": "unique_id_3",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Effortless Business Setup in Dubai and the UAE",
+            "align": "center",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 53
+            },
+            "typography_line_height": {
+              "unit": "px",
+              "size": 80
+            }
+          }
+        },
+        {
+          "id": "unique_id_4",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Focus on running your business in Dubai, and let us handle the heavy lifting.",
+            "header_size": "h3",
+            "align": "center",
+            "typography_typography": "custom",
+            "typography_font_family": "button-dm-sans-16",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30
+            },
+            "typography_font_weight": "bold"
+          }
+        },
+        {
+          "id": "unique_id_5",
+          "elType": "section",
+          "settings": {
+            "structure": "30"
+          },
+          "elements": [
+            {
+              "id": "unique_id_6",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "unique_id_7",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "icon": "eicon-edit",
+                    "title_text": "Company registration",
+                    "description_text": "",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 48
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "unique_id_8",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "unique_id_9",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "icon": "eicon-wallet",
+                    "title_text": "Accounting outsourcing",
+                    "description_text": "",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 48
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "unique_id_10",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "unique_id_11",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "icon": "eicon-bank",
+                    "title_text": "Bank account opening",
+                    "description_text": "",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 48
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unique_id_12",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Start now",
+            "align": "center",
+            "typography_typography": "custom",
+            "typography_font_family": "subtitles-16",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 16
+            },
+            "typography_font_weight": "500",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "unit": "em",
+              "size": 0.4
+            },
+            "button_text_color": "#ffffff",
+            "background_color": "#000000",
+            "hover_color": "#000000",
+            "button_background_hover_color": "#ffffff",
+            "hover_border_color": "#000000",
+            "border_width": {
+              "unit": "px",
+              "top": "2",
+              "right": "2",
+              "bottom": "2",
+              "left": "2",
+              "isLinked": true
+            }
+          }
+        },
+        {
+          "id": "unique_id_13",
+          "elType": "section",
+          "settings": {
+            "structure": "20"
+          },
+          "elements": [
+            {
+              "id": "unique_id_14",
+              "elType": "column",
+              "settings": {
+                "_column_size": 50
+              },
+              "elements": [
+                {
+                  "id": "unique_id_15",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "We totally get it. New company formation in UAE—especially in Dubai, can feel highly, highly overwhelming. Let no one tell you otherwise—it's a stress you don't want to take on alone. That's why Vision Prime is here to handle the heavy lifting for you.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "body-b3-merriweather-14",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "px",
+                      "size": 26
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "unique_id_16",
+              "elType": "column",
+              "settings": {
+                "_column_size": 50
+              },
+              "elements": [
+                {
+                  "id": "unique_id_17",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Whether you're setting up a mainland, free zone, or offshore company, Vision Prime is ready to guide you through every step with personalized, high-touch services.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "body-b3-merriweather-14",
+                    "typography_font_size": {
+                      "unit": "px",
+      ...
+    }
+  ]
+}

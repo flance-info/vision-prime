@@ -1,7 +1,7 @@
 <header
 		class="self-stretch bg-general-white er-back-tr coltr flex flex-row items-center justify-center py-[15px] box-border top-[0] z-[11111] sticky max-w-full gap-5 text-right text-base text-general-8-secondary font-subtitles-16  lg:box-border  mq450:box-border mq850:box-border"
 >
-	<div class="w-[1170px] flex flex-row items-end justify-between max-w-full ">
+	<div class="w-[1170px] flex flex-row items-end justify-between max-w-full mq650:pl-[20px] mq650:pr-[10px] mq850:items-center">
 		<div class="flex flex-row items-center justify-center py-0 px-[3px]">
 			<?php get_template_part( 'templates/header/parts/logo' ); ?>
 		</div>

@@ -5513,12 +5513,28 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     min-width: 166px;
   }
 
+  .mq650\:flex-col {
+    flex-direction: column;
+  }
+
   .mq650\:pl-\[20px\] {
     padding-left: 20px;
   }
 
   .mq650\:pr-\[10px\] {
     padding-right: 10px;
+  }
+
+  .mq650\:pb-\[46px\] {
+    padding-bottom: 46px;
+  }
+
+  .mq650\:pl-5 {
+    padding-left: 1.25rem;
+  }
+
+  .mq650\:pr-5 {
+    padding-right: 1.25rem;
   }
 }
 
