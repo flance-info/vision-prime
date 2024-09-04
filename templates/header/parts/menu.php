@@ -25,7 +25,7 @@
 					$has_children = isset( $menu_item_parents[ $menu_item->ID ] );
 					?>
 
-					<div class="relative flex flex-col items-end justify-start gap-1.5 group">
+					<div class="relative flex flex-col items-end justify-start gap-1.5 <?php if ($has_children ): ?> group <?php endif ; ?> ">
 						<a class="[text-decoration:none] relative tracking-[0.04em] leading-[18px] uppercase font-medium text-[inherit] whitespace-nowrap" href="<?php echo $url ?>">
 							<?php echo $title ?>
 							<?php if ( $has_children ): ?>

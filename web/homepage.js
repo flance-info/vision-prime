@@ -64,43 +64,46 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function openModal() {
-  document.getElementById("myModal").style.display = "block";
+	document.getElementById("myModal").style.display = "block";
 }
 
 function closeModal() {
-  document.getElementById("myModal").style.display = "none";
+	document.getElementById("myModal").style.display = "none";
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    const slider = document.querySelector('.slider');
-    const slides = slider.children;
-    const nextButton = document.getElementById('next');
-    const prevButton = document.getElementById('prev');
-    let index = 0;
+	const slider = document.querySelector('.slider');
+	if (slider) {
 
-    function showSlide(idx) {
-        slider.style.transform = `translateX(-${idx * 100}%)`;
-    }
+		const slides = slider.children;
+		const nextButton = document.getElementById('next');
+		const prevButton = document.getElementById('prev');
+		let index = 0;
 
-    nextButton.addEventListener('click', () => {
-        if (index < slides.length - 1) {
-            index++;
-        } else {
-            index = 0;
-        }
-        showSlide(index);
-    });
+		function showSlide(idx) {
+			slider.style.transform = `translateX(-${idx * 100}%)`;
+		}
 
-    prevButton.addEventListener('click', () => {
-        if (index > 0) {
-            index--;
-        } else {
-            index = slides.length - 1;
-        }
-        showSlide(index);
-    });
-
-    // Auto-slide (optional)
+		if (nextButton) {
+			nextButton.addEventListener('click', () => {
+				if (index < slides.length - 1) {
+					index++;
+				} else {
+					index = 0;
+				}
+				showSlide(index);
+			});
+		}
+		prevButton.addEventListener('click', () => {
+			if (index > 0) {
+				index--;
+			} else {
+				index = slides.length - 1;
+			}
+			showSlide(index);
+		});
+	}
+	// Auto-slide (optional)
 	/*
     setInterval(() => {
         nextButton.click();
@@ -111,77 +114,83 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    const slides = document.querySelectorAll('.slider');
-    const nextButton = document.getElementById('next');
-    const prevButton = document.getElementById('prev');
-	const nextButtonOne = document.getElementById('nextm');
-    const prevButtonOne = document.getElementById('prevp');
-    let index = 0;
+	const slides = document.querySelectorAll('.slider');
 
-	 nextButton.addEventListener('click', () => {
-        index = (index + 1) % slides.length;
-        showSlide(index);
-    });
+	if (slides) {
+		const nextButton = document.getElementById('next');
+		const prevButton = document.getElementById('prev');
+		const nextButtonOne = document.getElementById('nextm');
+		const prevButtonOne = document.getElementById('prevp');
+		let index = 0;
+		if (nextButton) {
+			nextButton.addEventListener('click', () => {
+				index = (index + 1) % slides.length;
+				showSlide(index);
+			});
+		}
+		if (prevButton) {
+			prevButton.addEventListener('click', () => {
 
-    prevButton.addEventListener('click', () => {
+				index = (index - 1 + slides.length) % slides.length;
+				showSlide(index);
+			});
+		}
+		if (nextButtonOne) {
+			nextButtonOne.addEventListener('click', () => {
 
-        index = (index - 1 + slides.length) % slides.length;
-        showSlide(index);
-    });
+				index = (index + 1) % slides.length;
+				showSlide(index);
+			});
+		}
+		if (prevButtonOne) {
+			prevButtonOne.addEventListener('click', () => {
+				index = (index - 1 + slides.length) % slides.length;
+				showSlide(index);
+			});
+		}
 
-	 nextButtonOne.addEventListener('click', () => {
-
-        index = (index + 1) % slides.length;
-        showSlide(index);
-    });
-
-    prevButtonOne.addEventListener('click', () => {
-        index = (index - 1 + slides.length) % slides.length;
-        showSlide(index);
-    });
-
-    function showSlide(idx) {
-        slides.forEach((slide, i) => {
-            slide.classList.add('hidden');
-            if (i === idx) {
-                slide.classList.remove('hidden');
-            }
-        });
-    }
+		function showSlide(idx) {
+			slides.forEach((slide, i) => {
+				slide.classList.add('hidden');
+				if (i === idx) {
+					slide.classList.remove('hidden');
+				}
+			});
+		}
 
 
+		// Initialize the first slide as visible
+		showSlide(index);
 
-    // Initialize the first slide as visible
-    showSlide(index);
-
-    // Auto-slide (optional)
-    setInterval(() => {
-        nextButton.click();
-    }, 225000); // Change slide every 5 seconds
+		// Auto-slide (optional)
+		setInterval(() => {
+			nextButton.click();
+		}, 225000); // Change slide every 5 seconds
+	}
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Select all menu items that have submenus
-    const dropdownToggles = document.querySelectorAll('.group');
+	// Select all menu items that have submenus
+	const dropdownToggles = document.querySelectorAll('.group');
 
-    dropdownToggles.forEach(toggle => {
-        const dropdown = toggle.querySelector('div');
+	dropdownToggles.forEach(toggle => {
+		const dropdown = toggle.querySelector('div');
 
-        // Mouse hover event for desktop view
-        toggle.addEventListener('mouseenter', () => {
-            dropdown.classList.remove('hidden');
-        });
+		// Mouse hover event for desktop view
+		toggle.addEventListener('mouseenter', () => {
+			dropdown.classList.remove('hidden');
+		});
 
-        toggle.addEventListener('mouseleave', () => {
-            dropdown.classList.add('hidden');
-        });
+		toggle.addEventListener('mouseleave', () => {
+			dropdown.classList.add('hidden');
+		});
 
-        // Click event for mobile view
-        toggle.querySelector('a').addEventListener('click', (e) => {
-            e.preventDefault(); // Prevent link navigation
-            dropdown.classList.toggle('hidden');
-        });
-    });
+		// Click event for mobile view
+		toggle.querySelector('a').addEventListener('click', (e) => {
+			// Prevent link navigation
+			dropdown.classList.toggle('hidden');
+		});
+	});
 });
 
 

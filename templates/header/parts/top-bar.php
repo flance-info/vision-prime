@@ -13,8 +13,8 @@
 						/>
 
 					</div>
-					<a
-							class="[text-decoration:none] relative leading-[18px] text-[inherit] inline-block min-w-[92px] whitespace-nowrap"
+				<a href="tel:+97145677333"
+							class="[text-decoration:none] relative leading-[18px] text-[inherit] inline-block min-w-[92px] whitespace-nowrap hover:[text-decoration:underline]"
 					>+971 4 567-7333</a
 					>
 				</div>
@@ -27,7 +27,7 @@
 						/>
 					</div>
 					<div class="relative leading-[18px] whitespace-nowrap">
-						hello@visionprime.ae
+						<a href="mailto:hello@visionprime.ae" class="hover:[text-decoration:underline]">hello@visionprime.ae</a>
 					</div>
 				</div>
 				<div class="flex flex-row items-start justify-start gap-2.5">
@@ -39,8 +39,11 @@
 						/>
 					</div>
 					<div class="relative leading-[18px]">
+						<a class="hover:[text-decoration:underline]"
+						   href="https://www.google.com/maps/search/Office+105,+Level+1,+Emaar+Square+%E2%80%93+Building+4,+Sheikh+Mohammed+Bin+Rashid+Boulevard+Downtown+Dubai/@25.1975087,55.2699631,16z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D">
 						Office 105, Level 1, Emaar Square – Building 4, Sheikh Mohammed Bin
 						Rashid Boulevard Downtown Dubai
+						</a>
 					</div>
 				</div>
 				<div class="h-4 w-[123px] relative shrink-0 hidden">
