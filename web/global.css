@@ -191,7 +191,9 @@ body .intl-tel-input.separate-dial-code .selected-flag {
 	background-color: #fff;
 	display: table;
 }
-
+body .elementor-element:where(.e-con-full,.elementor-widget) {
+    gap: 0px;
+}
 body .elementor-element {
 	padding: 0px;
 }

@@ -80,6 +80,7 @@ module.exports = {
       "29xl": "48px",
       sm: "14px",
       smi: "13px",
+      med: "20px",
       lg: "18px",
       "35xl": "54px",
       "24xl": "43px",

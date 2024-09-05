@@ -2964,6 +2964,10 @@ video {
   padding-top: 16.5px;
 }
 
+.pt-\[190px\] {
+  padding-top: 190px;
+}
+
 .pt-\[200px\] {
   padding-top: 200px;
 }
@@ -2998,6 +3002,10 @@ video {
 
 .pt-px {
   padding-top: 1px;
+}
+
+.pt-\[90px\] {
+  padding-top: 90px;
 }
 
 .text-left {
@@ -3098,6 +3106,10 @@ video {
 
 .text-xs {
   font-size: 12px;
+}
+
+.text-med {
+  font-size: 20px;
 }
 
 .font-bold {
@@ -3686,6 +3698,10 @@ input.wpcf7-form-control.wpcf7-phonetext.wpcf7-text.wpcf7-validates-as-phonetext
 body .intl-tel-input.separate-dial-code .selected-flag {
   background-color: #fff;
   display: table;
+}
+
+body .elementor-element:where(.e-con-full,.elementor-widget) {
+  gap: 0px;
 }
 
 body .elementor-element {
@@ -5517,14 +5533,6 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     flex-direction: column;
   }
 
-  .mq650\:pl-\[20px\] {
-    padding-left: 20px;
-  }
-
-  .mq650\:pr-\[10px\] {
-    padding-right: 10px;
-  }
-
   .mq650\:pb-\[46px\] {
     padding-bottom: 46px;
   }
@@ -5533,8 +5541,16 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     padding-left: 1.25rem;
   }
 
+  .mq650\:pl-\[20px\] {
+    padding-left: 20px;
+  }
+
   .mq650\:pr-5 {
     padding-right: 1.25rem;
+  }
+
+  .mq650\:pr-\[10px\] {
+    padding-right: 10px;
   }
 }
 
