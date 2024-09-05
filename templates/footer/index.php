@@ -256,10 +256,10 @@ $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 		</copyright>
 	</div>
 </footer>
-<div class="relative z-[11111]" aria-labelledby="modal-title" role="dialog" aria-modal="true" id="myModal" style="display: none;">
+<div class="relative z-[11111111111111] stm-f" aria-labelledby="modal-title" role="dialog" aria-modal="true" id="myModal" style="display: none;">
   <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
   <div class="fixed inset-0 z-10 overflow-y-auto">
-    <div class="flex items-start justify-center min-h-full p-4 text-center sm:items-center sm:p-0">
+    <div class="flex items-start justify-center min-h-full p-4 pt-[40px] text-center sm:items-center sm:p-0">
       <div class="relative bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:max-w-lg sm:w-full">
         <div class="bg-general-1-primary ">
           <div class="sm:flex sm:items-start pr-[25px]">

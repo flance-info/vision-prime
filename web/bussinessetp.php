@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Title</title>
-</head>
+<?php include_once 'header.php'; ?>
 <body>
 <div class="w-full">
-
-	<section class="self-stretch flex flex-col items-start justify-start max-w-full text-center text-base text-general-white font-subtitles-16">
+<section class="self-stretch flex flex-col items-start justify-start max-w-full text-center text-base text-general-white font-subtitles-16">
 			<div class="w-full right-[5%] bg-dark-gray flex
 				flex-col items-center justify-start pt-[90px]
 				pb-[100px] pl-[130px] pr-5 box-border relative gap-[54px]
@@ -40,50 +36,55 @@
 						</h2>
 						<div class="self-stretch flex-1 flex flex-col items-start justify-start gap-[18px] text-left text-sm font-body-b3-merriweather-14">
 							<div class="self-stretch flex flex-row items-start justify-start gap-4">
-								<img class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+								<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
 
 								<div class="flex-1 relative leading-[24px]">
 									Operate anywhere
 								</div>
 							</div>
 							<div class="self-stretch flex flex-row items-start justify-start gap-4">
-								<img class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+								<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
 
 								<div class="flex-1 relative leading-[24px]">
 									Work without a local sponsor
 								</div>
 							</div>
 							<div class="self-stretch flex flex-row items-start justify-start gap-4">
-								<img class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+								<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
 
 								<div class="flex-1 relative leading-[24px]">
 									Bid on government tenders
 								</div>
 							</div>
 							<div class="self-stretch flex flex-row items-start justify-start gap-4">
-								<img class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+								<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
 
 								<div class="flex-1 relative leading-[24px]">
 									Need a physical office space
 								</div>
 							</div>
 							<div class="self-stretch flex flex-row items-start justify-start gap-4">
-								<img class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+								<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
 
 								<div class="relative leading-[24px]">
 									Can sponsor visas for&nbsp;employees
 								</div>
 							</div>
 						</div>
-						<button onclick="openModal()"  class="cursor-pointer py-0 px-[15px]
+						<button onclick="openModal()" class="cursor-pointer py-0 px-[15px]
 							bg-general-1-primary self-stretch overflow-hidden flex flex-row items-start
 							text-general-white
 								hover:text-custom-gold hover:bg-elements-neutral-4 hover:border-solid
-							hover:[box-shadow:inset_0_0_0_2px] hover:border-custom-gold
-							justify-start gap-[15px]">
+							hover:[box-shadow:inset_0_0_0_2px] hover:border-custom-gold items-center
+							justify-center gap-[15px]">
 							<div class="ml-[-285px] h-[51px] w-[270px] relative bg-general-1-primary-variant shrink-0"></div>
-							<div class="w-60 flex flex-col items-start justify-start pt-3 px-0 pb-0 box-border shrink-0
-								">
+							<div class="w-60 flex flex-col items-start justify-start px-0 pb-0 box-border shrink-0
+								" style="
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: auto; */
+">
 								<b class="self-stretch relative text-base leading-[22px] font-button-dm-sans-16  text-center shrink-0">Start Free Trial</b>
 							</div>
 						</button>
@@ -94,47 +95,48 @@
 						</h2>
 						<div class="self-stretch flex flex-col items-start justify-start gap-[18px] text-left text-sm font-body-b3-merriweather-14">
 							<div class="self-stretch flex flex-row items-start justify-start gap-4">
-								<img class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+								<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
 
 								<div class="flex-1 relative leading-[24px]">
 									Exempt from corporate and&nbsp;personal income tax
 								</div>
 							</div>
 							<div class="self-stretch flex flex-row items-start justify-start gap-4">
-								<img class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+								<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
 
 								<div class="flex-1 relative leading-[24px]">
 									Full business control
 								</div>
 							</div>
 							<div class="self-stretch flex flex-row items-start justify-start gap-4">
-								<img class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+								<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
 
 								<div class="flex-1 relative leading-[24px]">
 									Profit repatriation is allowed
 								</div>
 							</div>
 							<div class="self-stretch flex flex-row items-start justify-start gap-4">
-								<img class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+								<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
 
 								<div class="flex-1 relative leading-[24px]">
 									Preferential customs duties
 								</div>
 							</div>
 							<div class="self-stretch flex flex-row items-start justify-start gap-4">
-								<img class="h-6 w-6 relative overflow-hidden shrink-0" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+								<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
 
 								<div class="relative leading-[24px]">
 									Limited access to&nbsp;the&nbsp;mainland market
 								</div>
 							</div>
 						</div>
-						<button onclick="openModal()"  class="cursor-pointer  py-0 px-[15px] bg-general-1-primary self-stretch overflow-hidden flex flex-row items-start justify-start gap-[15px]
+						<button onclick="openModal()" class="cursor-pointer  py-0 px-[15px] bg-general-1-primary self-stretch overflow-hidden flex flex-row items-start justify-start gap-[15px]
 								text-general-white
 								hover:text-custom-gold hover:bg-elements-neutral-4 hover:border-solid
-							hover:[box-shadow:inset_0_0_0_2px] hover:border-custom-gold">
+							hover:[box-shadow:inset_0_0_0_2px] hover:border-custom-gold items-center
+							justify-center">
 							<div class="ml-[-285px] h-[51px] w-[270px] relative bg-general-1-primary-variant shrink-0"></div>
-							<div class="w-60 flex flex-col items-start justify-start pt-3 px-0 pb-0 box-border shrink-0">
+							<div class="w-60 flex flex-col items-start justify-start px-0 pb-0 box-border shrink-0">
 								<b class="self-stretch relative text-base leading-[22px] font-button-dm-sans-16  text-center shrink-0">Start Free Trial</b>
 							</div>
 						</button>
@@ -145,47 +147,48 @@
 						</h2>
 						<div class="self-stretch flex flex-col items-start justify-start gap-[18px] text-left text-sm font-body-b3-merriweather-14">
 							<div class="self-stretch flex flex-row items-start justify-start gap-4">
-								<img class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+								<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
 
 								<div class="flex-1 relative leading-[24px]">
 									No corporate or personal income tax
 								</div>
 							</div>
 							<div class="self-stretch flex flex-row items-start justify-start gap-4">
-								<img class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+								<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
 
 								<div class="flex-1 relative leading-[24px]">
 									Strong confidentiality laws
 								</div>
 							</div>
 							<div class="self-stretch flex flex-row items-start justify-start gap-4">
-								<img class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+								<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
 
 								<div class="flex-1 relative leading-[24px]">
 									Strict reporting requirements
 								</div>
 							</div>
 							<div class="self-stretch flex flex-row items-start justify-start gap-4">
-								<img class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+								<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
 
 								<div class="flex-1 relative leading-[24px]">
 									Office space not required
 								</div>
 							</div>
 							<div class="self-stretch flex flex-row items-start justify-start gap-4">
-								<img class="h-6 w-6 relative overflow-hidden shrink-0" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+								<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
 
 								<div class="relative leading-[24px]">
 									Perfect for holding companies and investment
 								</div>
 							</div>
 						</div>
-						<button onclick="openModal()"  class="cursor-pointer  py-0 px-[15px] bg-general-1-primary self-stretch overflow-hidden flex flex-row items-start justify-start
+						<button onclick="openModal()" class="cursor-pointer  py-0 px-[15px] bg-general-1-primary self-stretch overflow-hidden flex flex-row items-start justify-start
 							text-general-white
 								hover:text-custom-gold hover:bg-elements-neutral-4 hover:border-solid
-							hover:[box-shadow:inset_0_0_0_2px] hover:border-custom-gold gap-[15px]">
+							hover:[box-shadow:inset_0_0_0_2px] hover:border-custom-gold items-center
+							justify-center gap-[15px]">
 							<div class="ml-[-285px] h-[51px] w-[270px] relative bg-general-1-primary-variant shrink-0"></div>
-							<div class="w-60 flex flex-col items-start justify-start pt-3 px-0 pb-0 box-border shrink-0">
+							<div class="w-60 flex flex-col items-start justify-start px-0 pb-0 box-border shrink-0">
 								<b class="self-stretch relative text-base leading-[22px] font-button-dm-sans-16  text-center shrink-0">Start Free Trial</b>
 							</div>
 						</button>
@@ -224,8 +227,6 @@
 
 			</div>
 		</section>
-
-
-	</div>
+</div>
 </body>
 </html>

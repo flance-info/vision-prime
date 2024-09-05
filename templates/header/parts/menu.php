@@ -26,7 +26,7 @@
 					?>
 
 					<div class="relative flex flex-col items-end justify-start gap-1.5 <?php if ($has_children ): ?> group <?php endif ; ?> ">
-						<a class="[text-decoration:none] relative tracking-[0.04em] leading-[18px] uppercase font-medium text-[inherit] whitespace-nowrap" href="<?php echo $url ?>">
+						<a class="[text-decoration:none] relative tracking-[0.04em] leading-[18px] uppercase font-medium text-[inherit] whitespace-nowrap  hover:text-general-1-primary" href="<?php echo $url ?>">
 							<?php echo $title ?>
 							<?php if ( $has_children ): ?>
 								<img class="inline-block h-[18px] w-[18px] relative overflow-hidden shrink-0 min-h-[18px]

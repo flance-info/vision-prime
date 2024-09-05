@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-  "./*.{html,js}",
+  "./*.{html,js, php}",
   "./src/**/*.{html,js}", // Assuming your source files are in a `src` directory
   "!./node_modules",       // Exclude `node_modules`
   "!./build",              // Exclude `build`

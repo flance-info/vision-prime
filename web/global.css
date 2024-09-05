@@ -199,12 +199,47 @@ body .elementor-element {
 }
 
 .cf7-custom-button:hover {
-	background-color: transparent; /* Equivalent to hover:bg-[transparent] */
-	border: 2px solid #ffffff; /* Equivalent to hover:border-custom-gold */
-	box-shadow: inset 0 0 0 2px rgba(162, 144, 97, var(--tw-text-opacity)); /* Equivalent to hover:[box-shadow:inset_0_0_0_2px_var(--custom-gold)] */
-	color: #ffffff; /* Equivalent to hover:border-text-general-white */
-}
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px #ffffff; /* White border effect inside */
+    color: #ffffff;
 
+}
+body .wpcf7
+form.wpcf7-form {
+    --tw-bg-opacity: 1;
+    background-color: rgb(162 144 97 / var(--tw-bg-opacity));
+}
+body .stm-f .wpcf7 form .wpcf7-response-output {
+	  bottom: 20px;
+
+}
+body .stm-f {
+		z-index: 10000000000000;
+}
+body .stm-f
+select.wpcf7-form-control.wpcf7-select{
+        color: #999999;
+}
+body .wpcf7 form  .wpcf7-response-output {
+       color: #dc3232 !important;
+    border: unset;
+    border-color: unset !important;
+    padding-top: 0px;
+    margin: 0px;
+    position: absolute;
+    bottom: 10px;
+    text-align: left;
+    padding-left: 50px;
+}
+body .wpcf7 form
+.wpcf7-not-valid-tip {
+    color: #dc3232;
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+    position: absolute;
+    left: ;
+}
 .cursor-pointer.hover:scale-110 {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	 transition-duration: 300ms;
