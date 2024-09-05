@@ -983,6 +983,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-\[-10px\] {
+  margin-top: -10px;
+}
+
 .mt-\[-110px\] {
   margin-top: -110px;
 }
@@ -1017,10 +1021,6 @@ video {
 
 .mt-\[50px\] {
   margin-top: 50px;
-}
-
-.mt-\[-10px\] {
-  margin-top: -10px;
 }
 
 .mt-\[60px\] {
@@ -3719,6 +3719,7 @@ body .wpcf7
 form.wpcf7-form {
   --tw-bg-opacity: 1;
   background-color: rgb(162 144 97 / var(--tw-bg-opacity));
+  margin-bottom: 0px;
 }
 
 body .stm-f .wpcf7 form .wpcf7-response-output {
@@ -4975,11 +4976,6 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 .hover\:text-yellow-600:hover {
   --tw-text-opacity: 1;
   color: rgb(202 138 4 / var(--tw-text-opacity));
-}
-
-.hover\:text-red-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .hover\:\[box-shadow\:inset_0_0_0_2px\]:hover {

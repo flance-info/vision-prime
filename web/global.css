@@ -208,6 +208,7 @@ body .wpcf7
 form.wpcf7-form {
     --tw-bg-opacity: 1;
     background-color: rgb(162 144 97 / var(--tw-bg-opacity));
+	margin-bottom: 0px;
 }
 body .stm-f .wpcf7 form .wpcf7-response-output {
 	  bottom: 20px;
