@@ -1276,81 +1276,81 @@
 											</div>
 
 											<div class="flex-1 flex flex-row items-center justify-center py-0 px-0 box-border gap-[15px] min-w-[157px] mq450:pl-5 mq450:pr-5 mq450:box-border">
-														<div class="rounded-xl bg-general-white flex flex-row items-center justify-center p-[13px]">
-															<img class="h-6 w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/iconsgoogle-original.svg">
-														</div>
+												<div class="rounded-xl bg-general-white flex flex-row items-center justify-center p-[13px]">
+													<img class="h-6 w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/iconsgoogle-original.svg">
+												</div>
 
-														<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
-															<div class="self-stretch flex flex-row items-start justify-start gap-[5px]">
-																<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector.svg">
+												<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
+													<div class="self-stretch flex flex-row items-start justify-start gap-[5px]">
+														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector.svg">
 
-																<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-1.svg">
+														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-1.svg">
 
-																<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-2.svg">
+														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-2.svg">
 
-																<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-3.svg">
+														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-3.svg">
 
-																<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-4.svg">
-															</div>
-															<div class="w-[95px] relative font-medium inline-block">
-																4.7 on Google
-															</div>
-														</div>
+														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-4.svg">
 													</div>
-													<div class="flex-1 flex flex-row items-center justify-center py-0 px-[46px] box-border gap-[15px] min-w-[157px] z-[1] ml-[-1px] mq450:pl-5 mq450:pr-5 mq450:box-border">
-														<div class="rounded-xl bg-general-white flex flex-row items-center justify-center py-[13.7px] px-[13px]">
-															<img class="h-[22.6px] w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/group-8886.svg">
-														</div>
-														<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
-															<div class="flex flex-row items-start justify-start gap-[5px]">
-																<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-5.svg">
-
-																<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-6.svg">
-
-																<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-7.svg">
-
-																<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-8.svg">
-
-																<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-9.svg">
-															</div>
-															<div class="self-stretch relative font-medium">
-																4.2 on Trustpilot
-															</div>
-														</div>
-													</div>
-													<div class="flex-1 flex flex-row items-center justify-center py-0 px-[47px] box-border gap-[15px] min-w-[157px] z-[2] ml-[-1px] mq450:pl-5 mq450:pr-5 mq450:box-border">
-														<div class="h-[50px] w-[50px] relative rounded-xl bg-general-white">
-															<img class="absolute top-[13px] left-[9px] w-7 h-7 object-cover mix-blend-darken" alt="" src="/wp-content/themes/vision-prime/web/public/image-18@2x.png">
-														</div>
-														<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
-															<div class="flex flex-row items-start justify-start gap-[5px]">
-																<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector.svg">
-
-																<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-1.svg">
-
-																<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-2.svg">
-
-																<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-3.svg">
-
-																<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-4.svg">
-															</div>
-															<div class="self-stretch relative font-medium">
-																5.0 on Capterra
-															</div>
-														</div>
-													</div>
-													<div class="flex flex-row items-center justify-center py-0 px-[39px] gap-[15px] z-[3] ml-[-1px] text-lg">
-														<div class="rounded-xl bg-general-white flex flex-row items-center justify-center pt-[15.6px] px-[13px] pb-[15.7px] box-border w-[50px] h-[50px]">
-															<img class="h-[18.7px] w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/vector-15.svg">
-														</div>
-														<div class="relative">
-															<p class="m-0">
-																<b>2 000+</b>
-															</p>
-															<p class="m-0 text-sm font-medium">Happy Customers</p>
-														</div>
+													<div class="w-[95px] relative font-medium inline-block">
+														4.7 on Google
 													</div>
 												</div>
+											</div>
+											<div class="flex-1 flex flex-row items-center justify-center py-0 px-[46px] box-border gap-[15px] min-w-[157px] z-[1] ml-[-1px] mq450:pl-5 mq450:pr-5 mq450:box-border">
+												<div class="rounded-xl bg-general-white flex flex-row items-center justify-center py-[13.7px] px-[13px]">
+													<img class="h-[22.6px] w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/group-8886.svg">
+												</div>
+												<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
+													<div class="flex flex-row items-start justify-start gap-[5px]">
+														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-5.svg">
+
+														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-6.svg">
+
+														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-7.svg">
+
+														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-8.svg">
+
+														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-9.svg">
+													</div>
+													<div class="self-stretch relative font-medium">
+														4.2 on Trustpilot
+													</div>
+												</div>
+											</div>
+											<div class="flex-1 flex flex-row items-center justify-center py-0 px-[47px] box-border gap-[15px] min-w-[157px] z-[2] ml-[-1px] mq450:pl-5 mq450:pr-5 mq450:box-border">
+												<div class="h-[50px] w-[50px] relative rounded-xl bg-general-white">
+													<img class="absolute top-[13px] left-[9px] w-7 h-7 object-cover mix-blend-darken" alt="" src="/wp-content/themes/vision-prime/web/public/image-18@2x.png">
+												</div>
+												<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
+													<div class="flex flex-row items-start justify-start gap-[5px]">
+														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector.svg">
+
+														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-1.svg">
+
+														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-2.svg">
+
+														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-3.svg">
+
+														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-4.svg">
+													</div>
+													<div class="self-stretch relative font-medium">
+														5.0 on Capterra
+													</div>
+												</div>
+											</div>
+											<div class="flex flex-row items-center justify-center py-0 px-[39px] gap-[15px] z-[3] ml-[-1px] text-lg">
+												<div class="rounded-xl bg-general-white flex flex-row items-center justify-center pt-[15.6px] px-[13px] pb-[15.7px] box-border w-[50px] h-[50px]">
+													<img class="h-[18.7px] w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/vector-15.svg">
+												</div>
+												<div class="relative">
+													<p class="m-0">
+														<b>2 000+</b>
+													</p>
+													<p class="m-0 text-sm font-medium">Happy Customers</p>
+												</div>
+											</div>
+										</div>
 										</div>
 
 								</div>
