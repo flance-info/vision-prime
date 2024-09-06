@@ -5661,6 +5661,16 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     padding-right: 20px;
   }
 
+  .mq650\:px-\[10px\] {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .mq650\:py-\[30px\] {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
   .mq650\:pb-\[46px\] {
     padding-bottom: 46px;
   }
