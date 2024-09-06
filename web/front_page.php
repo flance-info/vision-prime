@@ -1266,14 +1266,20 @@
 										</div>
 
 									</div>
-
-									<div class=" flex  mt-[60px] mq650:mt-[30px]">
-
-										<div class="self-stretch flex flex-row items-start justify-center [row-gap:20px] z-[1] text-sm font-primary-paragraph-paragraph-5 lg:flex-wrap">
-											<div class="flex items-center justify-center w-full gap-6 hidden lg:flex">
+<div class="flex items-center justify-center w-full gap-6 hidden lg:flex mt-[30px]">
 												<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] prev" id="prevp" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-1.svg">
 												<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] next" id="nextm" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-2@2x.png">
 											</div>
+									<div class=" flex  mt-[60px] mq650:mt-[30px]">
+
+
+
+
+										<div class="self-stretch flex flex-row items-start justify-center [row-gap:20px] z-[1] text-sm font-primary-paragraph-paragraph-5 lg:flex-wrap">
+
+
+
+
 
 											<div class="flex-1 flex flex-row items-center justify-center py-0 px-0 box-border gap-[15px] min-w-[157px] mq450:pl-5 mq450:pr-5 mq450:box-border">
 												<div class="rounded-xl bg-general-white flex flex-row items-center justify-center p-[13px]">
@@ -1297,6 +1303,7 @@
 													</div>
 												</div>
 											</div>
+
 											<div class="flex-1 flex flex-row items-center justify-center py-0 px-[46px] box-border gap-[15px] min-w-[157px] z-[1] ml-[-1px] mq450:pl-5 mq450:pr-5 mq450:box-border">
 												<div class="rounded-xl bg-general-white flex flex-row items-center justify-center py-[13.7px] px-[13px]">
 													<img class="h-[22.6px] w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/group-8886.svg">
@@ -1350,6 +1357,8 @@
 													<p class="m-0 text-sm font-medium">Happy Customers</p>
 												</div>
 											</div>
+
+
 										</div>
 										</div>
 
