@@ -133,7 +133,9 @@ module.exports = {
        mq370: {
         raw: "screen and (max-width: 450px)",
       },
-
+minq650:{
+        raw: "screen and (min-width: 650px)",
+      },
       minq450:{
         raw: "screen and (min-width: 450px)",
       },

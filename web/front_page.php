@@ -429,13 +429,48 @@
 				</div>
 			</div>
 		</section>
+
+
 	<section class="self-stretch flex flex-col items-start justify-start max-w-full text-center text-base text-general-white font-subtitles-16">
-			<div class="w-full right-[5%] bg-dark-gray flex
+
+			<div class="w-full max-w-full !m-0 relative top-[-120px] mq650:top-[0px] right-[-5%] lg:right-[0px] flex flex-row items-start
+			justify-between box-border z-[8] text-left font-button-dm-sans-16 mq1500:flex-wrap minq650:hidden">
+					<!-- Left Side (White Background) -->
+					<div class="bg-general-white flex-1 lg:hidden"></div>
+
+					<!-- Middle Section (Primary Background) -->
+					<div class="flex flex-row w-full max-w-[1170px] py-[54px] px-[54px] bg-general-1-primary relative z-10 mr-[-2px] mq650:flex-col mq650:px-[20px]">
+						<div class=" flex flex-col items-start justify-start gap-5  mq1500:flex-1 ">
+							<b class="relative leading-[22px] uppercase">Let’s Work Together</b>
+							<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
+								If you have a potential project or think we’d be the&nbsp;ideal partner to bring it to life, please get in touch at&nbsp;hello@visionprime.ae.
+							</h3>
+						</div>
+						<div class="flex flex-col items-start justify-start pt-9 px-0 pb-0">
+							<button onclick="openModal()" class="cursor-pointer border-general-white border-[2px]
+						border-solid py-[18px] px-[38px] bg-[transparent] overflow-hidden
+						flex flex-row items-start justify-start text-general-white hover:border-custom-gold hover:border-custom-gold
+						hover:text-custom-gold hover:bg-elements-neutral-4">
+								<div class="relative text-base tracking-[0.4em]
+							leading-[18px] uppercase font-medium font-subtitles-16  text-center whitespace-nowrap">
+									Get in touch
+								</div>
+							</button>
+						</div>
+					</div>
+
+					<!-- Right Side (Primary Background) -->
+					<div class="bg-general-1-primary flex-1 relative z-10 mq1500:h-[210px] h-[210px]"></div>
+				</div>
+		<div class="w-full right-[5%] bg-dark-gray flex
 				flex-col items-center justify-start pt-[90px]
 				pb-[100px] pl-[130px] pr-5 box-border relative gap-[54px]
-				 z-[7] lg:pl-[65px] lg:pt-[78px] lg:pb-[65px] lg:box-border mq850:gap-[27px] mq850:pl-8 mq850:pt-[51px] mq850:pb-[42px] lg:right-[0px]">
+				 z-[7] lg:pl-[65px] lg:pt-[78px] lg:pb-[65px] lg:box-border mq850:gap-[27px] mq650:pt-[0px] mq650:px-[20px] mq850:pl-8 mq850:pt-[51px] mq850:pb-[42px] lg:right-[0px]">
+
+
 				<div class="max-w-[1170px] w-full max-h-[1060px] relative bg-dark-gray hidden  z-[0]"></div>
-				<div class="w-full max-w-[1170px] flex flex-col items-start justify-center py-0 pl-0 pr-px box-border  text-general-1-primary ml-[5%]">
+
+				<div class="w-full max-w-[1170px] flex flex-col items-start justify-center py-0 pl-0 pr-px box-border  text-general-1-primary ml-[5%] mq650:ml-[0px]">
 					<div class="h-[120px] relative block left-[50%] ">
 						<div class="h-px w-[120px] !m-[0] top-[-79px]  bg-general-1-primary [transform:_rotate(90deg)] [transform-origin:0_0]"></div>
 					</div>
@@ -621,7 +656,7 @@
 					</div>
 				</div>
 				<div class="w-full max-w-full !m-0 absolute top-[-120px] right-[-5%] lg:right-[0px] flex flex-row items-start
-			justify-between box-border z-[8] text-left font-button-dm-sans-16 mq1500:flex-wrap">
+			justify-between box-border z-[8] text-left font-button-dm-sans-16 mq1500:flex-wrap mq650:hidden">
 					<!-- Left Side (White Background) -->
 					<div class="bg-general-white flex-1 lg:hidden"></div>
 
