@@ -855,7 +855,7 @@
 						</div>
 						<div class="max-w-[1170px] flex flex-col items-start justify-start gap-[60px] w-full text-left text-41xl
 							font-button-dm-sans-16 lg:gap-[30px] lg:pl-[20px]">
-							<div class="self-stretch flex flex-row items-start justify-center gap-10 lg:flex-wrap mq850:gap-5">
+							<div class="self-stretch flex flex-row items-start justify-center gap-10 lg:flex-wrap mq850:gap-5  mq650:justify-start mq650:pr-[20px]">
 								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] ">
 
 
@@ -869,11 +869,11 @@
 								</div>
 
 
-								<div class="flex flex-col items-start justify-start gap-2.5">
+								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] text-center ">
 									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:90]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:90]'">
 										<span class="supports-[counter-set]:sr-only">90</span>%
 									</b>
-									<div class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white">
+									<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left">
 										of customers recommend us
 									</div>
 								</div>
@@ -896,8 +896,8 @@
 									</div>
 								</div>
 							</div>
-							<div class="self-stretch flex flex-row items-start justify-center gap-10 lg:flex-wrap mq850:gap-5">
-								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px]">
+							<div class="self-stretch flex flex-row items-start justify-center gap-10 lg:flex-wrap mq850:gap-5 mq650:justify-start mq650:pr-[20px]">
+								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] ">
 									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:15]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:15]'">
 										<span class="supports-[counter-set]:sr-only">15</span>
 									</b>
@@ -905,7 +905,7 @@
 										service areas
 									</div>
 								</div>
-								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px]">
+								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] ">
 									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:10]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:10]'">
 										<span class="supports-[counter-set]:sr-only">10</span>
 									</b>
@@ -913,7 +913,7 @@
 										partner banks
 									</div>
 								</div>
-								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px] text-center">
+								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] ">
 									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:15]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:15]'">
 										<span class="supports-[counter-set]:sr-only">15</span>
 									</b>
@@ -921,7 +921,7 @@
 										accounting programs
 									</div>
 								</div>
-								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px] text-center">
+								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] text-center ">
 									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:1000]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:1000]'">
 										<span class="supports-[counter-set]:sr-only">1000</span>+
 									</b>
@@ -932,6 +932,44 @@
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+		</section>
+
+	<section class="self-stretch bg-general-white flex flex-col items-center justify-start pt-[22px] pb-[89px] pl-[22px]
+			pr-5 box-border gap-[40px] min-h-[520px] max-w-full text-center text-base text-general-1-primary font-subtitles-16  mq850:pt-5 mq850:pb-[58px] ">
+			<div class="w-[1920px] h-[520px] relative bg-general-white hidden max-w-full"></div>
+			<div class="w-full flex flex-row items-start justify-center py-0 pl-0 pr-0.5 box-border max-w-[1170px">
+				<div class=" flex flex-col items-center justify-start gap-[21px] w-full">
+					<div class="flex flex-row items-center justify-start relative w-full top-[58px] lg:top-[-13px]">
+						<div class="h-px w-[120px] absolute !m-[0] top-[-79px] left-[calc(50%_+_0.5px)] bg-general-1-primary [transform:_rotate(90deg)] [transform-origin:0_0] z-[1]"></div>
+					</div>
+					<div class="self-stretch flex flex-row items-start justify-center py-0 px-5 mt-[100px] lg:mt-[34px]">
+						<div class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[2]">
+							Trusted by
+						</div>
+					</div>
+					<div class="flex flex-row items-start justify-start relative text-41xl text-general-8-secondary font-heading-1-72">
+
+						<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[2] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"> The Global Industry Leaders</h2>
+					</div>
+				</div>
+			</div>
+			<div class="w-full flex flex-col items-start justify-start gap-[49px] max-w-[1170px] text-lg text-general-1-secondary-variant font-button-dm-sans-16 mq850:gap-6">
+				<div class="self-stretch flex flex-row items-start justify-center py-0 pl-5 pr-[21px] box-border max-w-full">
+					<b class="w-full relative leading-[48px] inline-block max-w-full z-[1]">The #1 Choice of business setup Consultancy for global industry
+						leaders.</b>
+				</div>
+				<div class="self-stretch overflow-hidden flex flex-row items-start justify-between opacity-[0.5] gap-5 z-[1] lg:flex-wrap lg:justify-center">
+					<img class="self-stretch w-[86.3px] relative max-h-full overflow-hidden shrink-0 min-h-[30px]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/press-logo.svg">
+
+					<img class="self-stretch w-[205.6px] relative max-h-full overflow-hidden shrink-0 min-h-[30px]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/press-logo-1.svg">
+
+					<img class="self-stretch w-[178.7px] relative max-h-full overflow-hidden shrink-0 min-h-[30px]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/press-logo-2.svg">
+
+					<img class="self-stretch w-[135px] relative max-h-full overflow-hidden shrink-0 min-h-[30px]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/press-logo-3.svg">
+
+					<img class="self-stretch w-[123.8px] relative max-h-full overflow-hidden shrink-0 min-h-[30px]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/press-logo-4.svg">
 				</div>
 			</div>
 		</section>
