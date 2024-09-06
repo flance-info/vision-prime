@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include_once 'header.php'; ?>
+<?php include_once('header.php');
+ ?>
 <body>
 <div class="w-full">
+		<!-- banner !-->
+
+
 		<!-- banner !-->
 
 		<section
@@ -28,15 +32,15 @@
 
 
 						<div class="w-[1140px] flex flex-row items-center justify-center max-w-full text-5xl font-button-dm-sans-16">
-							<h3 class="m-0 relative text-inherit tracking-[-0.01em] items-center text-center leading-[36px] font-bold font-inherit mq450:text-lgi mq450:leading-[28px]">
+							<div class="m-0 relative text-inherit tracking-[-0.01em] items-center text-center leading-[36px] font-bold font-inherit mq450:text-lgi mq450:leading-[28px]">
 								Simplify your business setup in the UAE with our professional, cost-effective solutions. From company formation in Dubai to seamless company registration,
 								we ensure a smooth start for your venture.
-							</h3>
+							</div>
 						</div>
 
 
 						<div class="w-[1139.5px] flex flex-row items-start justify-center max-w-full">
-							<button class="cursor-pointer border-transparent py-[21px] px-10 bg-general-1-primary overflow-hidden flex flex-row items-start justify-start
+							<button onclick="openModal()" class="cursor-pointer border-transparent py-[21px] px-10 bg-general-1-primary overflow-hidden flex flex-row items-start justify-start
 						 whitespace-nowrap hover:bg-elements-neutral-4 hover:text-general-1-primary hover:border-general-1-primary border-solid border-[2px]
 						 text-general-white 					hover:text-general-1-primary">
 								<div class="relative text-base tracking-[0.4em] leading-[18px] uppercase font-medium hover:border-general-1-primary
@@ -51,6 +55,7 @@
 
 			</div>
 		</section>
+
 
 		<!-- main land !-->
 
@@ -212,7 +217,7 @@
 				<div class="self-stretch flex flex-row items-start justify-center gap-[60px] max-w-full text-lg text-general-1-secondary-variant font-button-dm-sans-16 lg:gap-[30px] lg:flex-wrap">
 					<div class="max-w-[440px] flex flex-col items-start justify-start gap-[10px] min-w-[440px] w-full lg:flex-1 mq450:gap-[30px] mq850:min-w-full">
 						<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
-							<button class="tab-button cursor-pointer [border:none] py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full bg-elements-neutral-4 border-l-[4px] border-solid border-general-1-primary">
+							<button class="tab-button cursor-pointer  py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full bg-elements-neutral-4 border-l-[4px] border-solid border-general-1-primary">
 								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
 									<ol class="m-0 font-inherit text-inherit pl-6">
 										<li>1. Select Your Business Activity</li>
@@ -221,7 +226,7 @@
 							</button>
 						</div>
 						<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
-							<button class="tab-button cursor-pointer [border:none] py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
+							<button class="tab-button cursor-pointer  py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
 									<ol class="m-0 font-inherit text-inherit pl-6">
 										<li>2. Choose Your Company Structure</li>
@@ -230,7 +235,7 @@
 							</button>
 						</div>
 						<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
-							<button class="tab-button cursor-pointer [border:none] py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
+							<button class="tab-button cursor-pointer  py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
 									<ol class="m-0 font-inherit text-inherit pl-6">
 										<li>3. Secure a Local Sponsor or Service Agent</li>
@@ -239,7 +244,7 @@
 							</button>
 						</div>
 						<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
-							<button class="tab-button cursor-pointer [border:none] py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
+							<button class="tab-button cursor-pointer  py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
 									<ol class="m-0 font-inherit text-inherit pl-6 st-wrap">
 										<li>4. Choose Office Space and Finalize the Trade name</li>
@@ -249,7 +254,7 @@
 						</div>
 
 						<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
-							<button class="tab-button cursor-pointer [border:none] py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
+							<button class="tab-button cursor-pointer  py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
 									<ol class="m-0 font-inherit text-inherit pl-6">
 										<li>5. Open a Corporate Bank Account</li>
@@ -259,7 +264,7 @@
 						</div>
 
 						<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
-							<button class="tab-button cursor-pointer [border:none] py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
+							<button class="tab-button cursor-pointer  py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
 									<ol class="m-0 font-inherit text-inherit pl-6">
 										<li>6. Obtain the Necessary Approvals</li>
@@ -268,7 +273,7 @@
 							</button>
 						</div>
 						<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
-							<button class="tab-button cursor-pointer [border:none] py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
+							<button class="tab-button cursor-pointer  py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
 									<ol class="m-0 font-inherit text-inherit pl-6">
 										<li>7. Complete the Final License and Registration</li>
@@ -277,7 +282,7 @@
 							</button>
 						</div>
 						<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
-							<button class="tab-button cursor-pointer [border:none] py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
+							<button class="tab-button cursor-pointer  py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
 									<ol class="m-0 font-inherit text-inherit pl-6">
 										<li>8. Apply for a Business Visa in Dubai</li>
@@ -316,8 +321,8 @@
 							</div>
 						</div>
 						<div class="self-stretch relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant text-left">
-							Dubai offers a few different business setup options—Mainland, Free Zone, or Offshore. Deciding which one to go with can be a bit tricky, but no need to stress. We’ll take a close look at your company’s activities
-							and preferences to help you pick the perfect fit for your needs.
+							Selecting the right company form is crucial for successful company formation in the UAE. Whether you're opting for a sole proprietorship, partnership,
+							or using a local service agent, we guide foreign investors through each option, comparing mainland setups with free zone company structures to find the best fit.
 						</div>
 						<button class="cursor-pointer border-general-1-primary border-[2px] border-solid py-[18px]
 							px-[38px] bg-[transparent] overflow-hidden flex flex-row items-start
@@ -335,13 +340,13 @@
 							<b class="w-[84px] relative tracking-[-0.01em] leading-[84px] inline-block shrink-0 mq450:text-[47px] mq450:leading-[50px] mq850:text-[62px] mq850:leading-[67px]">3</b>
 							<div class="flex-1 flex flex-col items-start justify-start pt-1.5 px-0 pb-0 box-border min-w-[287px] max-w-full text-left text-11xl text-general-1-secondary">
 								<h3 class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[36px] font-bold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]">
-									Secure Your Trade License
+									Secure a Local Sponsor or Service Agent
 								</h3>
 							</div>
 						</div>
 						<div class="self-stretch relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant text-left">
-							Getting a trade license in Dubai usually only takes a few days, but to avoid any hiccups, it’s best to leave it to us. We’ll handle the paperwork, and select the right trade license for you, and soon your company
-							will be legally ready to operate. .
+							To start your new business journey in Dubai, you’ll need to secure a local sponsor or finalize a local service agent agreement. Whether you're forming a civil company or another structure,
+							this partnership is essential for navigating legal requirements and ensuring a smooth setup.
 						</div>
 						<button class="cursor-pointer border-general-1-primary border-[2px] border-solid py-[18px]
 							px-[38px] bg-[transparent] overflow-hidden flex flex-row items-start
