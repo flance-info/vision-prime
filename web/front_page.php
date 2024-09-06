@@ -740,7 +740,7 @@
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 					</div>
-					<div class="h-[388px] flex-1  hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+					<div class="h-[388px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
 						<img decoding="async" class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightbank.svg">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
