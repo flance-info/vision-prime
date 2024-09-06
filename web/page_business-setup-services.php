@@ -843,9 +843,9 @@
 
 					<div class="flex-1 flex flex-col items-center justify-start pt-[22px] px-0  box-border gap-[21px] max-w-full">
 						<div class="self-stretch flex flex-row items-start justify-center py-0 px-5">
-							<div class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[1]">
+							<h2 class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[1]">
 								Got a Questions?
-							</div>
+							</h2>
 						</div>
 						<div class="flex flex-row items-center justify-start relative text-41xl text-general-8-secondary font-heading-1-72">
 							<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
@@ -868,32 +868,19 @@
 						</div>
 						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
 							<p class="m-0">
-							A mainland license in the UAE allows businesses to operate within the local market and engage in a wide range of activities. It is issued by the Department of Economic Development (DED) and provides broader operational freedom compared to free zones.
-							</p>
+							A mainland license in the UAE allows businesses to operate within the local market and engage in a wide range of activities. It is issued by the Department of Economic Development (DED) and provides broader operational freedom compared to free zones.	</p>
 						</div>
 					</div>
 
 					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
 						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
 							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
-								How much is a Dubai business visa?
+								What is the difference between a mainland and a free zone company in the UAE?
 							</h3>
 							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
 						</div>
 						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								The cost of a Dubai business visa varies depending on several factors:
-							</p>
-							<ul class="list-disc ml-5">
-								<li>Type of visa: there are different types of business visas, each with its own fee structure.</li>
-								<li>Duration of stay: the visa validity affects the cost.</li>
-								<li>Additional fees: medical tests, Emirates ID, and processing fees can add to the overall expense.</li>
-							</ul>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								Generally, you can expect to pay between AED 3,500 to AED 7,500 for a business visa. However, it's essential to consider the additional costs mentioned above. For a more accurate estimate, we highly recommend
-								consulting with a business setup specialist in Dubai.
-							</p>
+							No, a business setup in Dubai, Mainland, typically requires a local sponsor or service agent, especially for certain business structures. This local partner helps navigate regulations and provides essential support for legal compliance.
 						</div>
 					</div>
 
@@ -905,60 +892,32 @@
 							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
 						</div>
 						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<ol class="list-decimal ml-5">
-								<li>Choose a Business Activity: determine the specific activities your LLC will undertake. Then, choose a location and reserve a business name.</li>
-								<li>Appoint a Local Sponsor: a UAE national must hold a 51% share, though profit-sharing arrangements can vary.</li>
-								<li>Draft Memorandum of Association (MoA): outline company structure, shareholder details, and business activities.</li>
-								<li>Obtain Necessary Approvals: secure permits and licenses from relevant authorities and submit necessary documents to the DED, before finally opening a corporate bank account.</li>
-							</ol>
-							<p class="m-0 mt-4">
-								Note: While this is a general overview, specific requirements and procedures may vary depending on the emirate and type of business. It's advisable to seek guidance from a local business setup consultant like
-								Vision Prime for accurate and up-to-date information.
-							</p>
+							Mainland companies can operate across the UAE and directly engage with the local market, while free zone companies are restricted to operating within their specific free zone and require a local distributor to engage in the UAE market.
+
 						</div>
 					</div>
 
 					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
 						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
 							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
-								How long is the business visa valid for in Dubai?
+								Can I have 100% ownership in my business setup in Dubai, Mainland?
 							</h3>
 							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
 						</div>
 						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								The validity of a Dubai business visa depends on the type of visa:
-							</p>
-							<ul class="list-disc ml-5">
-								<li>Short-term business visas are typically valid for 30 to 90 days. These are suitable for business meetings, conferences, or initial market research.</li>
-								<li>Long-term business visas can be valid for up to 3 years and are often associated with setting up a business or working in the UAE.</li>
-							</ul>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								It's important to note that visa regulations can change, so it's always recommended to check with the UAE immigration authorities or a business setup consultant for the most current information.
-							</p>
+							Yes, you can have 100% ownership of your business setup in Dubai, Mainland, if you establish it as a professional service company. For other business types, a local sponsor may be required, but 100% ownership is possible in certain cases.
 						</div>
 					</div>
 
 					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
 						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
 							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
-								Can you own a 100% business in Dubai?
+								How much tax do I pay on a Mainland company in Dubai?
 							</h3>
 							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
 						</div>
 						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								Yes, you can now own 100% of a business in Dubai.
-							</p>
-							<p class="m-0">
-								This is a significant change from previous regulations. However, it's important to note that this applies to specific sectors and activities. It's advisable to check the eligibility of your business activity
-								before proceeding.
-							</p>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								While free zones have traditionally offered 100% foreign ownership, the recent amendments have extended this possibility to mainland businesses as well, subject to certain conditions.
-							</p>
+							In Dubai, mainland companies benefit from low corporate tax rates. Typically, there is no corporate tax on most business activities unless the company is engaged in oil and gas or foreign banking. Companies need a trade license and can enjoy tax advantages with proper business setup services. For detailed tax obligations, consult with experts during your Dubai mainland company formation process.
 						</div>
 					</div>
 
@@ -970,120 +929,48 @@
 					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
 						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
 							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
-								What is the cheapest way to set up a business in Dubai?
+								Are there ownership restrictions on Mainland businesses set up in Dubai?
 							</h3>
 							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
 						</div>
 						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								Setting up a business in a free zone is usually the most budget-friendly option in Dubai. Free zones offer various packages with different perks and cost structures.
-							</p>
-							<p class="m-0">
-								Here’s a quick breakdown:
-							</p>
-							<ul class="list-disc ml-5">
-								<li><strong>Free Zones:</strong> these zones provide flexible packages that often include office space, visa options, and other benefits. Some popular and cost-effective free zones are:
-									<ul class="list-disc ml-5">
-										<li>Creative Zone</li>
-										<li>Dubai Media City</li>
-										<li>Sharjah Media City</li>
-									</ul>
-								</li>
-								<li><strong>Mainland:</strong> setting up a business on the mainland can be pricier because you’ll need a local sponsor and may have higher office space costs. However, it does offer more flexibility in terms
-									of business activities.
-								</li>
-								<li><strong>E-commerce:</strong> this can be a low-cost option, especially if you choose a dropshipping model, which means you won’t have to worry about managing inventory or warehousing.</li>
-							</ul>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								Overall, free zones are a great way to keep costs down while still enjoying plenty of benefits.
-							</p>
+							In the Dubai Mainland business setup, ownership restrictions depend on the company type. For a limited liability company (LLC), a local sponsor may hold 51% of shares, but full ownership is possible for professional services. Free-zone businesses, however, allow 100% foreign ownership without local sponsors.
 						</div>
 					</div>
 
 					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
 						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
 							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
-								Can I open a company in the UAE without a residence visa?
+								Are there any restrictions on the number of visas for a Mainland business setup in Dubai?
 							</h3>
 							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
 						</div>
 						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								Yes, you can open a company in Dubai and conduct business without a residence visa.
-							</p>
-							<p class="m-0">
-								In Dubai, foreign entrepreneurs can start a company without needing a residence visa, thanks to the city’s business-friendly environment. You can achieve this by setting up in one of Dubai’s free zones, which
-								offer several perks:
-							</p>
-							<ul class="list-disc ml-5">
-								<li><strong>100% Foreign Ownership:</strong> you can fully own your business without needing a local sponsor.</li>
-								<li><strong>Simplified Setup:</strong> getting your company up and running in a free zone is usually faster and easier than on the mainland.</li>
-								<li><strong>Tax Benefits:</strong> many free zones provide corporate tax exemptions.</li>
-							</ul>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								However, keep in mind:
-							</p>
-							<ul class="list-disc ml-5">
-								<li><strong>Visa Requirements for Business Operations:</strong> while you don’t need a residence visa to establish your company, you might need one to visit Dubai for business or to hire employees.</li>
-								<li><strong>Business Activity Restrictions:</strong> some business activities might be limited to specific free zones.</li>
-							</ul>
+					Yes, there are restrictions on the number of visas for a Mainland business setup in Dubai. The number of visas depends on the size of the office space and the company's trade license. Business setup services can provide a detailed analysis based on your business activities and physical address.
 						</div>
 					</div>
 
 					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
 						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
 							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
-								How much is a business permit in Dubai?
+								How long does it take to set up a Mainland company in Dubai?
 							</h3>
 							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
 						</div>
 						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								The cost of a business permit in Dubai can vary widely based on several factors:
-							</p>
-							<ul class="list-disc ml-5">
-								<li><strong>Type of License:</strong> the activities your business will undertake determine the type of license you need, and each comes with different fees.</li>
-								<li><strong>Location:</strong> setting up in a free zone is usually more affordable than on the mainland.</li>
-								<li><strong>Business Structure:</strong> whether you’re a sole proprietor or forming a limited liability company, the legal structure affects the cost.</li>
-								<li><strong>Additional Fees:</strong> don’t forget about extra costs like office space rental, visa fees, and professional services.</li>
-							</ul>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								On average, you might pay between AED 8,000 to AED 30,000 for a basic business license. However, the exact amount can vary based on your specific situation.
-							</p>
-							<p class="m-0">
-								For a precise quote, it’s a good idea to consult with a business setup expert in Dubai.
-							</p>
+							Setting up a Mainland company in Dubai typically takes 2 to 4 weeks, depending on the complexity of your business activities and the efficiency of obtaining approvals. This timeframe includes processing the trade license, office space setup, and bank account arrangements.
 						</div>
 					</div>
 
 					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
 						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
 							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
-								Can I start a business in Dubai without a sponsor?
+								Can I set up a Mainland company without a physical office space?
 							</h3>
 							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
 						</div>
 						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								Yes, You Can Start a Business in Dubai Without a Sponsor.
-							</p>
-							<p class="m-0">
-								Dubai has significantly relaxed its business ownership rules. Previously, a local sponsor was mandatory for setting up a business on the mainland. However, recent reforms have made it possible for foreigners
-								to own 100% of their company in many sectors.
-							</p>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								While free zones have always allowed 100% foreign ownership, the changes now extend to mainland business setups, offering greater flexibility and opportunities for entrepreneurs.
-							</p>
-							<p class="m-0">
-								It's essential to note that not all business activities are eligible for 100% foreign ownership. Certain sectors may still require a local sponsor.
-							</p>
-							<p class="m-0">
-								To ensure you meet the eligibility criteria, it's advisable to consult with a business setup specialist in Dubai.
-							</p>
+							For a Mainland company setup in Dubai, a physical office space is generally required. However, you may use a virtual office address as part of your business setup services if it meets specific requirements. Consult with experts to ensure compliance with Dubai mainland license regulations.
 						</div>
 					</div>
 
@@ -1130,7 +1017,7 @@
 						<img class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightcontent-edit.svg">
 
 						<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
-							<b class="self-stretch relative leading-[24px]">Business Setup and&nbsp;Registration</b>
+							<h3 class="self-stretch relative leading-[24px]">Business Setup and&nbsp;Registration</h3>
 							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
 								From mainland and free zone company setup to offshore company
 								registration, we provide end-to-end solutions for starting a
@@ -1143,10 +1030,9 @@
 						<img class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightcertificate.svg">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
-							<b class="self-stretch relative leading-[24px]">UAE Visas and Passport Services</b>
+							<h3 class="self-stretch relative leading-[24px]">Business Visa Services in the UAE</h3>
 							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
-								Secure your journey to the UAE with our efficient passport
-								and&nbsp;business visa services in&nbsp;Dubai.
+								We assist with obtaining business visas, ensuring smooth processing and compliance with UAE regulations for your business setup needs.
 							</div>
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
@@ -1155,11 +1041,9 @@
 						<img class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightbank.svg">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
-							<b class="self-stretch relative leading-[24px]">Bank Account Opening</b>
+							<h3 class="self-stretch relative leading-[24px]">Bank Account Opening in Emirates</h3>
 							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
-								We make bank account opening in the Emirates with trusted
-								financial institutions incredibly easy, even for foreigners
-								or&nbsp;non-residents with our expert guidance.
+								Facilitate the opening of corporate bank accounts with top Emirates banks, streamlining your business setup and financial operations.
 							</div>
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
@@ -1168,7 +1052,7 @@
 						<img class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklighttrademark-copyright-restricted.svg">
 
 						<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
-							<b class="self-stretch relative leading-[24px]">Trademark and Copyright Registration</b>
+							<h3 class="self-stretch relative leading-[24px]">Trademark and Copyright Registration</h3>
 							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
 								Protect your intellectual property when starting a&nbsp;business in
 								Dubai with our comprehensive copyright and&nbsp;trademark
@@ -1181,11 +1065,9 @@
 						<img class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightwallet.svg">
 
 						<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
-							<b class="self-stretch relative leading-[24px]">Financial, Accounting, and Bookkeeping Services</b>
+							<h3 class="self-stretch relative leading-[24px]">Document Clearing Services</h3>
 							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
-								Streamline your financial operations with our expert
-								accounting, payroll, and bookkeeping services in Dubai. Let’s
-								get your financial foundation off the ground.
+								Efficiently handle all document clearing requirements for your business, including obtaining initial approvals and business licenses.
 							</div>
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
@@ -1194,11 +1076,9 @@
 						<img class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightwork.svg">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
-							<b class="self-stretch relative leading-[24px]">Tax Registration and&nbsp;Consultancy</b>
+							<h3 class="self-stretch relative leading-[24px]">Company Licensing and Trade License in Dubai</h3>
 							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
-								Ensure tax compliance with our corporate tax services in UAE,
-								including VAT, direct, excise tax registration, and
-								international tax calculations.
+								Secure your company's licensing and trade license in Dubai, ensuring compliance with local regulations and a smooth business setup process.
 							</div>
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
@@ -1207,11 +1087,9 @@
 						<img class="w-12 h-12 relative object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightaudit--assurance@2x.png">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
-							<b class="self-stretch relative leading-[24px]">Auditing and Assurance Services</b>
+							<h3 class="self-stretch relative leading-[24px]">Product and Service Certification</h3>
 							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
-								Enhance your business credibility with our comprehensive
-								auditing services in Dubai, including statutory, customs,
-								and&nbsp;internal audits.
+								Obtain the necessary certifications for your products and services to meet regulatory standards and enhance credibility in the UAE market.
 							</div>
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
@@ -1220,11 +1098,9 @@
 						<img class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightlifebuoy-help.svg">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
-							<b class="self-stretch relative leading-[24px]">Business Support and&nbsp;Advisory Services</b>
+							<h3 class="self-stretch relative leading-[24px]">Business Plan Preparation</h3>
 							<div class="self-stretch h-36 relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray inline-block">
-								Receive expert business support for your company, including
-								reporting, legal advice, payment solutions, license,
-								certification, and&nbsp;product development.
+								Get expert assistance in preparing a detailed business plan, which is essential for securing licenses and navigating the UAE business landscape accurately.
 							</div>
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
