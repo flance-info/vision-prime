@@ -818,6 +818,10 @@ video {
   z-index: 0;
 }
 
+.z-\[11111111111111\] {
+  z-index: 11111111111111;
+}
+
 .z-\[11111\] {
   z-index: 11111;
 }
@@ -1563,6 +1567,10 @@ video {
   width: 660px;
 }
 
+.w-\[700px\] {
+  width: 700px;
+}
+
 .w-\[77px\] {
   width: 77px;
 }
@@ -1601,10 +1609,6 @@ video {
 
 .w-px {
   width: 1px;
-}
-
-.w-\[700px\] {
-  width: 700px;
 }
 
 .min-w-\[100\%\] {
@@ -1779,6 +1783,10 @@ video {
   min-width: 69px;
 }
 
+.min-w-\[700px\] {
+  min-width: 700px;
+}
+
 .min-w-\[70px\] {
   min-width: 70px;
 }
@@ -1821,10 +1829,6 @@ video {
 
 .min-w-\[94px\] {
   min-width: 94px;
-}
-
-.min-w-\[700px\] {
-  min-width: 700px;
 }
 
 .max-w-3xl {
@@ -3000,6 +3004,10 @@ video {
   padding-top: 30px;
 }
 
+.pt-\[40px\] {
+  padding-top: 40px;
+}
+
 .pt-\[47px\] {
   padding-top: 47px;
 }
@@ -3010,6 +3018,10 @@ video {
 
 .pt-\[8\.4px\] {
   padding-top: 8.4px;
+}
+
+.pt-\[90px\] {
+  padding-top: 90px;
 }
 
 .pt-\[9px\] {
@@ -5577,6 +5589,18 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq650\:min-w-\[166px\] {
     min-width: 166px;
+  }
+
+  .mq650\:min-w-\[250px\] {
+    min-width: 250px;
+  }
+
+  .mq650\:min-w-\[200px\] {
+    min-width: 200px;
+  }
+
+  .mq650\:min-w-\[50px\] {
+    min-width: 50px;
   }
 
   .mq650\:flex-col {
