@@ -1017,7 +1017,7 @@
 						<img class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightcontent-edit.svg">
 
 						<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
-							<h3 class="self-stretch relative leading-[24px]">Business Setup and&nbsp;Registration</h3>
+							<h3 class="self-stretch relative leading-[24px] font-bold">Business Setup and&nbsp;Registration</h3>
 							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
 								From mainland and free zone company setup to offshore company
 								registration, we provide end-to-end solutions for starting a
@@ -1030,7 +1030,7 @@
 						<img class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightcertificate.svg">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
-							<h3 class="self-stretch relative leading-[24px]">Business Visa Services in the UAE</h3>
+							<h3 class="self-stretch relative leading-[24px] font-bold">Business Visa Services in the UAE</h3>
 							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
 								We assist with obtaining business visas, ensuring smooth processing and compliance with UAE regulations for your business setup needs.
 							</div>
@@ -1041,7 +1041,7 @@
 						<img class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightbank.svg">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
-							<h3 class="self-stretch relative leading-[24px]">Bank Account Opening in Emirates</h3>
+							<h3 class="self-stretch relative leading-[24px] font-bold">Bank Account Opening in Emirates</h3>
 							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
 								Facilitate the opening of corporate bank accounts with top Emirates banks, streamlining your business setup and financial operations.
 							</div>
@@ -1052,7 +1052,7 @@
 						<img class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklighttrademark-copyright-restricted.svg">
 
 						<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
-							<h3 class="self-stretch relative leading-[24px]">Trademark and Copyright Registration</h3>
+							<h3 class="self-stretch relative leading-[24px] font-bold ">Trademark and Copyright Registration</h3>
 							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
 								Protect your intellectual property when starting a&nbsp;business in
 								Dubai with our comprehensive copyright and&nbsp;trademark
@@ -1065,7 +1065,7 @@
 						<img class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightwallet.svg">
 
 						<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
-							<h3 class="self-stretch relative leading-[24px]">Document Clearing Services</h3>
+							<h3 class="self-stretch relative leading-[24px] font-bold">Document Clearing Services</h3>
 							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
 								Efficiently handle all document clearing requirements for your business, including obtaining initial approvals and business licenses.
 							</div>
@@ -1076,7 +1076,7 @@
 						<img class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightwork.svg">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
-							<h3 class="self-stretch relative leading-[24px]">Company Licensing and Trade License in Dubai</h3>
+							<h3 class="self-stretch relative leading-[24px] font-bold">Company Licensing and Trade License in Dubai</h3>
 							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
 								Secure your company's licensing and trade license in Dubai, ensuring compliance with local regulations and a smooth business setup process.
 							</div>
@@ -1087,7 +1087,7 @@
 						<img class="w-12 h-12 relative object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightaudit--assurance@2x.png">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
-							<h3 class="self-stretch relative leading-[24px]">Product and Service Certification</h3>
+							<h3 class="self-stretch relative leading-[24px] font-bold">Product and Service Certification</h3>
 							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
 								Obtain the necessary certifications for your products and services to meet regulatory standards and enhance credibility in the UAE market.
 							</div>
@@ -1098,7 +1098,7 @@
 						<img class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightlifebuoy-help.svg">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
-							<h3 class="self-stretch relative leading-[24px]">Business Plan Preparation</h3>
+							<h3 class="self-stretch relative leading-[24px] font-bold">Business Plan Preparation</h3>
 							<div class="self-stretch h-36 relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray inline-block">
 								Get expert assistance in preparing a detailed business plan, which is essential for securing licenses and navigating the UAE business landscape accurately.
 							</div>
