@@ -445,34 +445,22 @@
 					Why Choose VisionAE?
 				</h2>
 			</div>
-			<div class="w-[1170px] flex flex-row items-start justify-start
-			 gap-[60px] max-w-full lg:gap-[30px] lg:mx-[20px] mt-[30px]">
-
-				<div
-						class="w-[400px] flex flex-col items-start justify-start
-						gap-10 min-w-[400px] max-w-full mq450:gap-5 mq1425:min-w-full mq1875:flex-1"
-				>
-						<div
-								class="self-stretch flex flex-row items-start justify-start
-								relative max-w-full text-left text-41xl text-general-white font-heading-1-72"
-						>
-
-							<div
-									class="m-0 flex-1 relative text-inherit leading-[66px] font-normal font-inherit inline-block max-w-full mq450:text-17xl mq450:leading-[40px] mq950:text-29xl mq950:leading-[53px]"
-							>
-								Top Reasons for using Services
-							</div>
+			<div class="w-[1170px] flex flex-row items-start justify-start gap-[60px] max-w-full lg:gap-[30px] lg:mx-[20px] mt-[30px]">
+				<!-- Left Side -->
+				<div class="w-[400px] flex flex-col items-start justify-start gap-10 min-w-[400px] max-w-full mq450:gap-5 mq1425:min-w-full">
+					<div class="self-stretch flex flex-row items-start justify-start relative max-w-full text-left text-41xl text-general-white font-heading-1-72">
+						<div class="m-0 flex-1 relative text-inherit leading-[66px] font-normal font-inherit inline-block max-w-full mq450:text-17xl mq450:leading-[40px] mq950:text-29xl mq950:leading-[53px]">
+							Top Reasons for using Services
 						</div>
+					</div>
 					<div class="self-stretch relative leading-[26px] z-[1]">
 						At Vision Prime, we streamline your company’s establishment process
-						with expert guidance and tailored solutions. Our comprehensive
+						with expert guidance and tailored solutions. Our comprehensive
 						approach to business setup and company establishment ensures
 						compliance with UAE government regulations and optimizes your
 						launch. Here’s why you should choose us:
 					</div>
-					<b
-							class="self-stretch relative text-lg leading-[24px] font-button-dm-sans-16 z-[1]"
-					>
+					<b class="self-stretch relative text-lg leading-[24px] font-button-dm-sans-16 z-[1]">
 						<ol class="m-0 font-inherit text-inherit pl-6">
 							<li class="mb-0">1. Expertise in Local Regulations</li>
 							<li class="mb-0">2. Customized Business Solutions</li>
@@ -484,72 +472,42 @@
 						planning to final setup, making your journey seamless and
 						successful.
 					</div>
-					<button onclick="openModal()"
-							class="cursor-pointer [border:none] py-[21px] px-10 bg-general-1-primary overflow-hidden flex flex-row items-start justify-start box-border whitespace-nowrap max-w-full z-[1] hover:bg-darkolivegreen"
-					>
-						<div
-								class="h-[18px] relative text-base tracking-[0.4em] leading-[18px] uppercase font-medium font-subtitles-16 text-general-white text-center inline-block"
-						>
+					<button onclick="openModal()" class="cursor-pointer [border:none] py-[21px] px-10 bg-general-1-primary overflow-hidden flex flex-row items-start justify-start box-border whitespace-nowrap max-w-full z-[1] hover:bg-darkolivegreen">
+						<div class="h-[18px] relative text-base tracking-[0.4em] leading-[18px] uppercase font-medium font-subtitles-16 text-general-white text-center inline-block">
 							Take a consultation
 						</div>
 					</button>
 				</div>
-				<div
-						class="flex-1 flex flex-col items-start justify-start px-0 pb-0 box-border min-w-[474px] max-w-full text-5xl font-button-dm-sans-16 mq950:pt-[83px] mq950:box-border mq1425:pt-[127px] mq1425:box-border mq1425:min-w-full"
-				>
-					<div
-							class="self-stretch flex flex-col items-start justify-start gap-10 max-w-full mq950:gap-5"
-					>
-						<div
-								class="self-stretch bg-general-7-secondary-variant overflow-hidden flex flex-row items-start justify-start p-[30px] box-border gap-[25px] max-w-full z-[1] mq1425:flex-wrap"
-						>
+
+				<!-- Right Side -->
+				<div class="w-[700px] flex flex-col items-start justify-start px-0 pb-0 box-border min-w-[700px] max-w-full text-5xl font-button-dm-sans-16 mq950:pt-[83px] mq950:box-border mq1425:pt-[127px] mq1425:box-border mq1425:min-w-full">
+					<div class="self-stretch flex flex-col items-start justify-start gap-10 max-w-full mq950:gap-5">
+						<div class="self-stretch bg-general-7-secondary-variant overflow-hidden flex flex-row items-start justify-start p-[30px] box-border gap-[25px] max-w-full z-[1] mq1425:flex-wrap">
 							<div class="h-[94px] w-[94px] relative">
-								<img
-										class="absolute h-[calc(100%_-_11.5px)] w-[calc(100%_-_11.5px)] top-[5.8px] right-[5.7px] bottom-[5.7px] left-[5.8px] max-w-full overflow-hidden max-h-full object-cover"
-										loading="lazy"
-										alt=""
-										src="/wp-content/themes/vision-prime/web/public/notebook-1434689@2x.png"
-								/>
+								<img class="absolute h-[calc(100%_-_11.5px)] w-[calc(100%_-_11.5px)] top-[5.8px] right-[5.7px] bottom-[5.7px] left-[5.8px] max-w-full overflow-hidden max-h-full object-cover" loading="lazy" alt=""
+									 src="/wp-content/themes/vision-prime/web/public/notebook-1434689@2x.png">
 							</div>
-							<div
-									class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[358px] max-w-full mq1425:min-w-full"
-							>
-								<h4
-										class="m-0 relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]"
-								>
+							<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[358px] max-w-full mq1425:min-w-full">
+								<h4 class="m-0 relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
 									Comprehensive Services for Starting a Business
 								</h4>
-								<div
-										class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 inline-block min-h-[120px]"
-								>
+								<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 inline-block min-h-[120px]">
 									We provide comprehensive services for starting a business,
 									including assistance with obtaining a professional license.
 									Our expert team ensures that every aspect of your setup is
-									handled efficiently, from paperwork to compliance, making the
-									process smooth and straightforward for your new venture.
+									handled efficiently, from paperwork to compliance, making the
+									process smooth and straightforward for your new venture.
 								</div>
 							</div>
 						</div>
-						<div
-								class="self-stretch bg-general-7-secondary-variant overflow-hidden flex flex-row items-start justify-start p-[30px] box-border gap-[25px] max-w-full z-[1] mq1425:flex-wrap"
-						>
-							<img
-									class="h-[94px] w-[94px] relative object-contain"
-									alt=""
-									src="/wp-content/themes/vision-prime/web/public/startup-1-1@2x.png"
-							/>
+						<div class="self-stretch bg-general-7-secondary-variant overflow-hidden flex flex-row items-start justify-start p-[30px] box-border gap-[25px] max-w-full z-[1] mq1425:flex-wrap">
+							<img class="h-[94px] w-[94px] relative object-contain" alt="" src="/wp-content/themes/vision-prime/web/public/startup-1-1@2x.png">
 
-							<div
-									class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[358px] max-w-full mq1425:min-w-full"
-							>
-								<h4
-										class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]"
-								>
+							<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[358px] max-w-full mq1425:min-w-full">
+								<h4 class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
 									Expert Guidance from Business Setup Consultants
 								</h4>
-								<div
-										class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14"
-								>
+								<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14">
 									Our business setup consultants offer expert guidance, ensuring
 									a smooth process from start to finish. Partnering with a
 									trusted local service agent, we handle all regulatory
@@ -559,27 +517,14 @@
 								</div>
 							</div>
 						</div>
-						<div
-								class="self-stretch bg-general-7-secondary-variant overflow-hidden flex flex-row items-start justify-start p-[30px] box-border gap-[25px] max-w-full z-[1] mq1425:flex-wrap"
-						>
-							<img
-									class="h-[94px] w-[94px] relative object-contain"
-									loading="lazy"
-									alt=""
-									src="/wp-content/themes/vision-prime/web/public/mission@2x.png"
-							/>
+						<div class="self-stretch bg-general-7-secondary-variant overflow-hidden flex flex-row items-start justify-start p-[30px] box-border gap-[25px] max-w-full z-[1] mq1425:flex-wrap">
+							<img class="h-[94px] w-[94px] relative object-contain" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/mission@2x.png">
 
-							<div
-									class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[358px] max-w-full mq1425:min-w-full"
-							>
-								<h4
-										class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]"
-								>
+							<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[358px] max-w-full mq1425:min-w-full">
+								<h4 class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
 									Tailored Corporate Services for Foreign Companies
 								</h4>
-								<div
-										class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14"
-								>
+								<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14">
 									In the UAE, our consultants specialize in providing tailored
 									corporate services for foreign companies. We offer expert
 									support to navigate local regulations and streamline your
@@ -591,6 +536,7 @@
 					</div>
 				</div>
 			</div>
+
 		</section>
 
 
