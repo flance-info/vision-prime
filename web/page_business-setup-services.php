@@ -654,12 +654,12 @@
 
 														<div class="max-w-[706px] flex flex-col items-start justify-start gap-7 w-full">
 
-															<h2 class="m-0 w-full m-ful-[670px] relative text-inherit text-11xl
+															<div class="m-0 w-full m-ful-[670px] relative text-inherit text-11xl
 											 tracking-[-0.01em] leading-[36px] font-bold
 											  font-inherit inline-block shrink-0  z-[1]
 											   mq450:text-lg hidden lg:flex font-button-dm-sans-16  ">
 																Idea to thriving reality
-															</h2>
+															</div>
 															<div class="m-0 self-stretch relative text-inherit leading-[36px] italic font-normal font-inherit text-med z-[1] mq450:text-lg mq450:leading-[29px]">
 																Their expert guidance turned my business idea into
 																a&nbsp;thriving reality. From getting the right licenses
@@ -669,12 +669,12 @@
 																successful business in&nbsp;the&nbsp;UAE.
 															</div>
 															<div class="flex flex-col items-start justify-start gap-1 text-5xl font-button-dm-sans-16">
-																<h3 class="m-0 relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit z-[1] mq450:text-lgi mq450:leading-[24px]">
+																<h4 class="m-0 relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit z-[1] mq450:text-lgi mq450:leading-[24px]">
 																	Alex Turner
-																</h3>
-																<div class="relative text-base leading-[26px] font-body-b3-merriweather-14 text-elements-neutral-3 z-[1]">
+																</h4>
+																<h4 class="relative text-base leading-[26px] font-body-b3-merriweather-14 text-elements-neutral-3 z-[1]">
 																	Founder of TurnerHA
-																</div>
+																</h4>
 															</div>
 														</div>
 													</div>
@@ -698,27 +698,27 @@
 
 														<div class="max-w-[706px] flex flex-col items-start justify-start gap-7 w-full">
 
-															<h2 class="m-0 w-full m-ful-[670px] relative text-inherit text-11xl
+															<div class="m-0 w-full m-ful-[670px] relative text-inherit text-11xl
 											 tracking-[-0.01em] leading-[36px] font-bold
 											  font-inherit inline-block shrink-0  z-[1]
 											   mq450:text-lg hidden lg:flex font-button-dm-sans-16  ">
 																Idea to thriving reality
-															</h2>
-															<h3 class="m-0 self-stretch relative text-inherit leading-[36px] italic font-normal font-inherit text-med z-[1] mq450:text-lg mq450:leading-[29px]">
+															</div>
+															<div class="m-0 self-stretch relative text-inherit leading-[36px] italic font-normal font-inherit text-med z-[1] mq450:text-lg mq450:leading-[29px]">
 																Their expert guidance turned my business idea into
 																a&nbsp;thriving reality. From getting the right licenses
 																to opening a bank account, they handled everything
 																effortlessly. I&nbsp;highly recommend their business
 																setup services to&nbsp;anyone looking to start a
 																successful business in&nbsp;the&nbsp;UAE.
-															</h3>
+															</div>
 															<div class="flex flex-col items-start justify-start gap-1 text-5xl font-button-dm-sans-16">
-																<h3 class="m-0 relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit z-[1] mq450:text-lgi mq450:leading-[24px]">
+																<h4 class="m-0 relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit z-[1] mq450:text-lgi mq450:leading-[24px]">
 																	Alex Turner
-																</h3>
-																<div class="relative text-base leading-[26px] font-body-b3-merriweather-14 text-elements-neutral-3 z-[1]">
+																</h4>
+																<h4 class="relative text-base leading-[26px] font-body-b3-merriweather-14 text-elements-neutral-3 z-[1]">
 																	Founder of TurnerHA
-																</div>
+																</h4>
 															</div>
 														</div>
 													</div>
