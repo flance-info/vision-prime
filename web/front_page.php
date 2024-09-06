@@ -102,7 +102,7 @@
 				class="self-stretch flex flex-row items-start justify-center pt-0  pb-[180px] box-border max-w-full text-left text-base text-general-1-primary font-subtitles-16 lg:pb-[117px] lg:box-border mq850:pb-[76px] mq850:box-border"
 		>
 			<div
-					class="w-[1170px] flex flex-col items-start justify-start gap-[60px] max-w-full lg:gap-[30px] lg:mx-[20px] px-[20px]"
+					class="w-[1170px] flex flex-col items-start justify-start gap-[60px] max-w-full lg:gap-[30px] lg:mx-[0px] lg:ml-[0px] px-[20px] mq650:px-[0px]"
 			>
 				<div class="self-stretch flex flex-col items-start justify-center py-0  box-border max-w-full text-center">
 					<div class="h-[120px] relative block left-[50%] ">
@@ -123,7 +123,7 @@
 					</div>
 				</div>
 				<div
-						class="self-stretch flex flex-row items-start justify-center flex-wrap content-start gap-10 max-w-full text-general-9-secondary-variant font-body-b3-merriweather-14 mq850:gap-5"
+						class="self-stretch flex flex-row items-start justify-center flex-wrap content-start gap-10 max-w-full text-general-9-secondary-variant font-body-b3-merriweather-14 mq850:gap-5 mq650:px-[20px]"
 				>
 					<div
 							class="flex-1 relative leading-[26px] inline-block min-w-[367px] max-w-full mq450:min-w-full"
@@ -154,14 +154,14 @@
 					/>
 				</div>
 				<div
-						class="self-stretch flex flex-row items-start justify-center gap-[60px] max-w-full text-lg text-general-1-secondary-variant font-button-dm-sans-16 lg:gap-[30px] lg:flex-wrap"
+						class="self-stretch flex flex-row items-start justify-center gap-[60px] max-w-full text-lg text-general-1-secondary-variant font-button-dm-sans-16 lg:gap-[30px] lg:flex-wrap "
 				>
-					<div class="max-w-[440px] flex flex-col items-start justify-start gap-[10px] min-w-[440px] w-full lg:flex-1 mq450:gap-[30px] mq850:min-w-full">
+					<div class="max-w-[440px] flex flex-col items-start justify-start gap-[10px] min-w-[440px] w-full lg:flex-1 mq450:gap-[30px] mq850:min-w-full mq650:px-[20px]">
 						<div
 								class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full"
 						>
 							<button
-									class="tab-button cursor-pointer  py-[28px] mq650:pl-[1px] px-7 bg-elements-neutral-4 self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
+									class="tab-button cursor-pointer  py-[28px] mq650:pl-[1px] mq650:whitespace-normal px-7 bg-elements-neutral-4 self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
 							>
 								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full"
 								>
@@ -175,7 +175,7 @@
 								class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full"
 						>
 							<button
-									class="tab-button cursor-pointer  py-[28px] mq650:pl-[1px] px-7 self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
+									class="tab-button cursor-pointer  py-[28px] mq650:pl-[1px] mq650:whitespace-normal px-7 self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
 							>
 								<b
 										class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full"
@@ -190,7 +190,7 @@
 								class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full"
 						>
 							<button
-									class="tab-button cursor-pointer  py-[28px] mq650:pl-[1px] px-7   self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
+									class="tab-button cursor-pointer  py-[28px] mq650:pl-[1px] mq650:whitespace-normal  px-7   self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
 							>
 								<b
 										class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full"
@@ -205,7 +205,7 @@
 								class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full"
 						>
 							<button
-									class="tab-button cursor-pointer  py-[28px] mq650:pl-[1px] px-7  self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
+									class="tab-button cursor-pointer  py-[28px] mq650:pl-[1px] mq650:whitespace-normal px-7  self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
 							>
 								<b
 										class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full"
@@ -221,7 +221,7 @@
 								class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full"
 						>
 							<button
-									class="tab-button cursor-pointer  py-[28px] mq650:pl-[1px] px-7   self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
+									class="tab-button cursor-pointer  py-[28px] mq650:pl-[1px] mq650:whitespace-normal px-7   self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
 							>
 								<b
 										class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full"
@@ -233,12 +233,12 @@
 							</button>
 						</div>
 					</div>
-					<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full">
+					<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq650:px-[20px] mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full">
 						<div
-								class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap"
+								class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap mq650:flex-nowrap"
 						>
 							<b
-									class="w-[84px] relative tracking-[-0.01em] leading-[84px] inline-block shrink-0 mq450:text-[47px] mq450:leading-[50px] mq850:text-[62px] mq850:leading-[67px]"
+									class="w-[84px] relative tracking-[-0.01em] leading-[84px] inline-block shrink-0 mq450:text-[47px] mq450:leading-[50px] mq850:text-[62px] mq850:leading-[67px] mq650:w-[30px]"
 							>1</b
 							>
 							<div
@@ -272,12 +272,12 @@
 							</div>
 						</button>
 					</div>
-					<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full">
+					<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq650:px-[20px] mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full">
 						<div
-								class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap"
+								class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap mq650:flex-nowrap"
 						>
 							<b
-									class="w-[84px] relative tracking-[-0.01em] leading-[84px] inline-block shrink-0 mq450:text-[47px] mq450:leading-[50px] mq850:text-[62px] mq850:leading-[67px]"
+									class="w-[84px] relative tracking-[-0.01em] leading-[84px] inline-block shrink-0 mq450:text-[47px] mq450:leading-[50px] mq850:text-[62px] mq850:leading-[67px] mq650:px-[20px]  mq650:w-[30px]"
 							>2</b
 							>
 							<div
@@ -310,12 +310,12 @@
 							</div>
 						</button>
 					</div>
-					<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full">
+					<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq650:px-[20px] mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full">
 						<div
-								class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap"
+								class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap mq650:flex-nowrap"
 						>
 							<b
-									class="w-[84px] relative tracking-[-0.01em] leading-[84px] inline-block shrink-0 mq450:text-[47px] mq450:leading-[50px] mq850:text-[62px] mq850:leading-[67px]"
+									class="w-[84px] relative tracking-[-0.01em] leading-[84px] inline-block shrink-0 mq450:text-[47px] mq450:leading-[50px] mq850:text-[62px] mq850:leading-[67px]  mq650:w-[30px]"
 							>3</b
 							>
 							<div
@@ -348,12 +348,12 @@
 						</button>
 					</div>
 
-					<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full">
+					<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq650:px-[20px] mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full">
 						<div
-								class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap"
+								class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap mq650:flex-nowrap"
 						>
 							<b
-									class="w-[84px] relative tracking-[-0.01em] leading-[84px] inline-block shrink-0 mq450:text-[47px] mq450:leading-[50px] mq850:text-[62px] mq850:leading-[67px]"
+									class="w-[84px] relative tracking-[-0.01em] leading-[84px] inline-block shrink-0 mq450:text-[47px] mq450:leading-[50px] mq850:text-[62px] mq850:leading-[67px]  mq650:w-[30px]"
 							>4</b
 							>
 							<div
@@ -387,12 +387,12 @@
 						</button>
 					</div>
 
-					<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full">
+					<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq650:px-[20px] mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full">
 						<div
-								class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap"
+								class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap mq650:flex-nowrap"
 						>
 							<b
-									class="w-[84px] relative tracking-[-0.01em] leading-[84px] inline-block shrink-0 mq450:text-[47px] mq450:leading-[50px] mq850:text-[62px] mq850:leading-[67px]"
+									class="w-[84px] relative tracking-[-0.01em] leading-[84px] inline-block shrink-0 mq450:text-[47px] mq450:leading-[50px] mq850:text-[62px] mq850:leading-[67px]  mq650:w-[30px]"
 							>5</b
 							>
 							<div

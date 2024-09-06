@@ -5154,6 +5154,11 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     margin-right: 20px;
   }
 
+  .lg\:mx-\[0px\] {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .lg\:ml-\[0px\] {
     margin-left: 0px;
   }
@@ -5587,6 +5592,14 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     display: none;
   }
 
+  .mq650\:w-\[40px\] {
+    width: 40px;
+  }
+
+  .mq650\:w-\[30px\] {
+    width: 30px;
+  }
+
   .mq650\:min-w-\[166px\] {
     min-width: 166px;
   }
@@ -5597,6 +5610,24 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq650\:flex-col {
     flex-direction: column;
+  }
+
+  .mq650\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .mq650\:whitespace-normal {
+    white-space: normal;
+  }
+
+  .mq650\:px-\[0px\] {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .mq650\:px-\[20px\] {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .mq650\:pb-\[46px\] {
