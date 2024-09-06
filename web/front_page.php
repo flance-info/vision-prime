@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include_once('header.php');
- ?>
+<?php include_once( 'header.php' );
+?>
 <body>
 <div class="w-full">
-<div class="w-full">
-	<section class="self-stretch flex flex-col items-center justify-between pt-0 px-0 pb-[110px] box-border max-w-full text-left text-base text-general-white font-heading-1-72 lg:pb-[71px] lg:box-border mq850:pb-[46px] mq850:box-border">
+	<div class="w-full">
+		<section class="self-stretch flex flex-col items-center justify-between pt-0 px-0 pb-[110px] box-border max-w-full text-left text-base text-general-white font-heading-1-72 lg:pb-[71px] lg:box-border mq850:pb-[46px] mq850:box-border">
 			<div class="w-full flex flex-row items-start justify-start relative max-w-full ml-[10%] lg:ml-[0px]">
 				<div class="h-full w-full absolute !m-[0] bottom-[-110px] right-[10%] bg-general-1-primary z-[2] lg:right-[0px]"></div>
 				<div class="flex-1 flex flex-col items-center justify-start pt-0 pb-[110px] box-border gap-10
@@ -264,7 +264,7 @@
 							px-[38px] bg-[transparent] overflow-hidden flex flex-row items-start
 							hover:bg-custom-gold justify-start hover:text-general-white text-general-1-primary ">
 							<div onclick="openModal()"
-									class="relative text-base tracking-[0.4em] leading-[18px] uppercase font-medium
+								 class="relative text-base tracking-[0.4em] leading-[18px] uppercase font-medium
 								font-subtitles-16 text-center
 								 hover:text-general-white
 								 whitespace-nowrap">
@@ -431,38 +431,38 @@
 		</section>
 
 
-	<section class="self-stretch flex flex-col items-start justify-start max-w-full text-center text-base text-general-white font-subtitles-16">
+		<section class="self-stretch flex flex-col items-start justify-start max-w-full text-center text-base text-general-white font-subtitles-16">
 
 			<div class="w-full max-w-full !m-0 relative top-[-120px] mq650:top-[0px] right-[-5%] lg:right-[0px] flex flex-row items-start
 			justify-between box-border z-[8] text-left font-button-dm-sans-16 mq1500:flex-wrap minq650:hidden">
-					<!-- Left Side (White Background) -->
-					<div class="bg-general-white flex-1 lg:hidden"></div>
+				<!-- Left Side (White Background) -->
+				<div class="bg-general-white flex-1 lg:hidden"></div>
 
-					<!-- Middle Section (Primary Background) -->
-					<div class="flex flex-row w-full max-w-[1170px] py-[54px] px-[54px] bg-general-1-primary relative z-10 mr-[-2px] mq650:flex-col mq650:px-[20px]">
-						<div class=" flex flex-col items-start justify-start gap-5  mq1500:flex-1 ">
-							<b class="relative leading-[22px] uppercase">Let’s Work Together</b>
-							<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
-								If you have a potential project or think we’d be the&nbsp;ideal partner to bring it to life, please get in touch at&nbsp;hello@visionprime.ae.
-							</h3>
-						</div>
-						<div class="flex flex-col items-start justify-start pt-9 px-0 pb-0 mq650:item-center ">
-							<button onclick="openModal()" class="cursor-pointer border-general-white border-[2px]
+				<!-- Middle Section (Primary Background) -->
+				<div class="flex flex-row w-full max-w-[1170px] py-[54px] px-[54px] bg-general-1-primary relative z-10 mr-[-2px] mq650:flex-col mq650:px-[20px]">
+					<div class=" flex flex-col items-start justify-start gap-5  mq1500:flex-1 ">
+						<b class="relative leading-[22px] uppercase">Let’s Work Together</b>
+						<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
+							If you have a potential project or think we’d be the&nbsp;ideal partner to bring it to life, please get in touch at&nbsp;hello@visionprime.ae.
+						</h3>
+					</div>
+					<div class="flex flex-col items-start justify-start pt-9 px-0 pb-0 mq650:item-center ">
+						<button onclick="openModal()" class="cursor-pointer border-general-white border-[2px]
 						border-solid py-[18px] px-[38px] bg-[transparent] overflow-hidden
 						flex flex-row items-start justify-start text-general-white hover:border-custom-gold hover:border-custom-gold
 						hover:text-custom-gold hover:bg-elements-neutral-4">
-								<div class="relative text-base tracking-[0.4em]
+							<div class="relative text-base tracking-[0.4em]
 							leading-[18px] uppercase font-medium font-subtitles-16  text-center whitespace-nowrap">
-									Get in touch
-								</div>
-							</button>
-						</div>
+								Get in touch
+							</div>
+						</button>
 					</div>
-
-					<!-- Right Side (Primary Background) -->
-					<div class="bg-general-1-primary flex-1 relative z-10 mq1500:h-[210px] h-[210px]"></div>
 				</div>
-		<div class="w-full right-[5%] bg-dark-gray flex
+
+				<!-- Right Side (Primary Background) -->
+				<div class="bg-general-1-primary flex-1 relative z-10 mq1500:h-[210px] h-[210px]"></div>
+			</div>
+			<div class="w-full right-[5%] bg-dark-gray flex
 				flex-col items-center justify-start pt-[90px]
 				pb-[100px] pl-[130px] pr-5 box-border relative gap-[54px]
 				 z-[7] lg:pl-[65px] lg:pt-[78px] lg:pb-[65px] lg:box-border mq850:gap-[27px] mq650:pt-[0px] mq650:px-[20px] mq850:pl-8 mq850:pt-[51px] mq850:pb-[42px] lg:right-[0px]">
@@ -690,7 +690,7 @@
 		</section>
 
 
-<section class="self-stretch flex flex-col items-start justify-start max-w-full text-center text-base text-general-white font-subtitles-16">
+		<section class="self-stretch flex flex-col items-start justify-start max-w-full text-center text-base text-general-white font-subtitles-16">
 
 			<div class="self-stretch bg-elements-neutral-4 flex flex-col items-center justify-start pt-[132px] px-5 pb-[100px] box-border gap-[100px] max-w-full z-[6] mt-[-110px] text-general-1-primary lg:gap-[89px] lg:pt-[132px] lg:pb-[65px] lg:box-border mq450:gap-[22px] mq650:px-[0px] mq850:gap-[45px] mq850:pb-[42px] mq850:box-border">
 
@@ -822,7 +822,7 @@
 			</div>
 		</section>
 
-<section class="self-stretch flex flex-row items-start justify-start
+		<section class="self-stretch flex flex-row items-start justify-start
 			flex-wrap content-start pt-0 px-0 pb-[110px] box-border max-w-full
 			[row-gap:20px] text-center text-base text-general-1-primary font-subtitles-16
 			lg:pb-[71px] lg:box-border mq450:pb-[46px] mq450:box-border ">
@@ -859,7 +859,8 @@
 								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] ">
 
 
-									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:300]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:300]'">
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:300]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:300]'">
 										<span class="supports-[counter-set]:sr-only">300</span>+
 									</b>
 
@@ -870,7 +871,8 @@
 
 
 								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] text-center ">
-									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:90]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:90]'">
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:90]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:90]'">
 										<span class="supports-[counter-set]:sr-only">90</span>%
 									</b>
 									<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left">
@@ -879,7 +881,8 @@
 								</div>
 								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] text-center">
 
-										<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:3]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:3]'">
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:3]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:3]'">
 										<span class="supports-[counter-set]:sr-only">3</span>
 									</b>
 									<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left">
@@ -888,7 +891,8 @@
 								</div>
 								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] text-center ">
 
-										<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:2]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:2]'">
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:2]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:2]'">
 										<span class="supports-[counter-set]:sr-only">2</span>
 									</b>
 									<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left">
@@ -898,7 +902,8 @@
 							</div>
 							<div class="self-stretch flex flex-row items-start justify-center gap-10 lg:flex-wrap mq850:gap-5 mq650:justify-start mq650:pr-[20px]">
 								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] ">
-									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:15]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:15]'">
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:15]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:15]'">
 										<span class="supports-[counter-set]:sr-only">15</span>
 									</b>
 									<div class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white inline-block min-w-[115px]">
@@ -906,7 +911,8 @@
 									</div>
 								</div>
 								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] ">
-									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:10]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:10]'">
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:10]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:10]'">
 										<span class="supports-[counter-set]:sr-only">10</span>
 									</b>
 									<div class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white inline-block min-w-[125px]">
@@ -914,7 +920,8 @@
 									</div>
 								</div>
 								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] ">
-									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:15]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:15]'">
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:15]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:15]'">
 										<span class="supports-[counter-set]:sr-only">15</span>
 									</b>
 									<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left">
@@ -922,7 +929,8 @@
 									</div>
 								</div>
 								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] text-center ">
-									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:1000]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:1000]'">
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:1000]"
+									   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:1000]'">
 										<span class="supports-[counter-set]:sr-only">1000</span>+
 									</b>
 									<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left">
@@ -936,7 +944,7 @@
 			</div>
 		</section>
 
-	<section class="self-stretch bg-general-white flex flex-col items-center justify-start pt-[22px] pb-[89px] pl-[22px]
+		<section class="self-stretch bg-general-white flex flex-col items-center justify-start pt-[22px] pb-[89px] pl-[22px]
 			pr-5 box-border gap-[40px] min-h-[520px] max-w-full text-center text-base text-general-1-primary font-subtitles-16  mq850:pt-5 mq850:pb-[58px] ">
 			<div class="w-[1920px] h-[520px] relative bg-general-white hidden max-w-full"></div>
 			<div class="w-full flex flex-row items-start justify-center py-0 pl-0 pr-0.5 box-border max-w-[1170px">
@@ -1068,7 +1076,7 @@
 			<div class="h-[375px] mq450:h-[250px] mq350:h-[350px] transition-transform duration-300
 			 ease-in-out hover:scale-105 hover:bg-opacity-75 overflow-hidden flex flex-col items-start
 			 justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info2@3x.png')]
-			 bg-cover bg-no-repeat bg-[top] mq450:px-[5px] mq450:py-[5px]" >
+			 bg-cover bg-no-repeat bg-[top] mq450:px-[5px] mq450:py-[5px]">
 				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px]
 				 font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base">
 					Samuel
@@ -1133,832 +1141,822 @@
 		</div>
 
 
-
 	</section>
-<section class="self-stretch flex flex-row items-start justify-start flex-wrap content-start [row-gap:20px] max-w-full text-center text-base text-general-white font-subtitles-16">
-			<div class="flex-1 bg-general-1-primary flex flex-col items-center justify-start pt-0
+	<section class="self-stretch flex flex-row items-start justify-start flex-wrap content-start [row-gap:20px] max-w-full text-center text-base text-general-white font-subtitles-16">
+		<div class="flex-1 bg-general-1-primary flex flex-col items-center justify-start pt-0
 				 pb-[100px] box-border relative gap-[30px] max-w-full
 				 lg:pb-[65px] lg:box-border mq450:pb-[42px] mq450:box-border
 				  mq850:gap-[15px] mq1500:min-w-full mr-[5%]">
-				<div class="w-full max-w-[1170px] flex-col ml-[5%] mq650:ml-[0px]">
+			<div class="w-full max-w-[1170px] flex-col ml-[5%] mq650:ml-[0px]">
 
-					<div class="w-[1318px] h-[168px] flex flex-row items-start justify-center max-w-full">
-						<div class="self-stretch w-[182px] flex flex-col items-start justify-start gap-[30px]">
-							<div class="self-stretch flex-1 flex flex-row items-center justify-center ">
-								<div class="h-px w-[120px] relative bg-general-white [transform:_rotate(90deg)] shrink-0 z-[1]"></div>
-							</div>
-							<div class="relative tracking-[0.4em] leading-[18px] uppercase font-medium z-[1]">
-								Testimonials
-							</div>
+				<div class="w-[1318px] h-[168px] flex flex-row items-start justify-center max-w-full">
+					<div class="self-stretch w-[182px] flex flex-col items-start justify-start gap-[30px]">
+						<div class="self-stretch flex-1 flex flex-row items-center justify-center ">
+							<div class="h-px w-[120px] relative bg-general-white [transform:_rotate(90deg)] shrink-0 z-[1]"></div>
+						</div>
+						<div class="relative tracking-[0.4em] leading-[18px] uppercase font-medium z-[1]">
+							Testimonials
 						</div>
 					</div>
-					<header class="w-[1318px] flex flex-row items-start justify-center pt-0 px-0 pb-[18px] box-border max-w-full text-center text-41xl text-general-white font-heading-1-72">
-						<div class="w-full flex flex-col items-start justify-start gap-[30px] max-w-full">
-							<div class="self-stretch flex flex-row items-start justify-center py-0 px-5">
-								<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
-									What they say about us?
-								</h2>
-							</div>
-							<b class="self-stretch h-6 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 z-[1]">Join the growing list of customers achieving amazing results
-								with our business setup consultants.</b>
-						</div>
-					</header>
-					<div class="w-[1320px] flex flex-col items-start justify-start gap-[13px] max-w-full text-left text-11xl font-button-dm-sans-16">
-						<div class="ml-[135px] self-stretch flex flex-row items-start justify-center py-0 pl-64 pr-5 box-border max-w-full lg:pl-32 lg:box-border mq850:pl-16 mq850:box-border">
-							<h2 class="m-0 w-full m-ful-[670px] relative text-inherit tracking-[-0.01em]
-							 leading-[36px] font-bold font-inherit inline-block shrink-0  z-[1]
-							  mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px] lg:hidden">
-								Idea to thriving reality
+				</div>
+				<header class="w-[1318px] flex flex-row items-start justify-center pt-0 px-0 pb-[18px] box-border max-w-full text-center text-41xl text-general-white font-heading-1-72">
+					<div class="w-full flex flex-col items-start justify-start gap-[30px] max-w-full">
+						<div class="self-stretch flex flex-row items-start justify-center py-0 px-5">
+							<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
+								What they say about us?
 							</h2>
 						</div>
-						<div class="self-stretch flex flex-row items-start justify-center gap-[11.8px] max-w-full text-3xl font-body-b3-merriweather-14 mq1500:flex-wrap">
-							<img class="h-[49.5px] w-[120px] relative z-[1] lg:hidden cursor-pointer prev top-[100px]" id="prev" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-1.svg">
+						<b class="self-stretch h-6 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 z-[1]">Join the growing list of customers achieving amazing results
+							with our business setup consultants.</b>
+					</div>
+				</header>
+				<div class="w-[1320px] flex flex-col items-start justify-start gap-[13px] max-w-full text-left text-11xl font-button-dm-sans-16">
+					<div class="ml-[135px] self-stretch flex flex-row items-start justify-center py-0 pl-64 pr-5 box-border max-w-full lg:pl-32 lg:box-border mq850:pl-16 mq850:box-border">
+						<h2 class="m-0 w-full m-ful-[670px] relative text-inherit tracking-[-0.01em]
+							 leading-[36px] font-bold font-inherit inline-block shrink-0  z-[1]
+							  mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px] lg:hidden">
+							Idea to thriving reality
+						</h2>
+					</div>
+					<div class="self-stretch flex flex-row items-start justify-center gap-[11.8px] max-w-full text-3xl font-body-b3-merriweather-14 mq1500:flex-wrap">
+						<img class="h-[49.5px] w-[120px] relative z-[1] lg:hidden cursor-pointer prev top-[100px]" id="prev" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-1.svg">
 
-							<div class="flex-1 flex flex-row items-start justify-start gap-[9.2px] min-w-[772px] max-w-full lg:flex-wrap lg:min-w-full">
-								<div class="relative w-full max-w-[1320px] overflow-hidden">
-									<div class="slider flex transition-transform duration-500">
-										<!-- Slider 1 !-->
-										<div class="flex-1 flex flex-col items-start justify-start pt-[16.5px] px-0 pb-0 box-border min-w-[100%]  lg:min-w-full">
-											<div class="self-stretch flex flex-col items-end justify-start gap-14 max-w-full mq850:gap-7">
-												<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border">
-													<div class="flex-1 flex flex-row items-start justify-between max-w-full gap-[140px] lg:flex-wrap">
-														<div class="h-[156px] w-[77px] flex flex-col items-start justify-start pt-24 px-0 pb-0 box-border">
-															<img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full z-[2]" alt="" src="/wp-content/themes/vision-prime/web/public/quotation-mark.svg">
-															<div class="relative block w-[300px] top-[-30px]">
-																<img class="w-[180px] h-[180px] absolute  rounded-83xl-4 overflow-hidden shrink-0 object-cover z-[1]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/images--profile-picturescustomizable@2x.png">
-															</div>
+						<div class="flex-1 flex flex-row items-start justify-start gap-[9.2px] min-w-[772px] max-w-full lg:flex-wrap lg:min-w-full">
+							<div class="relative w-full max-w-[1320px] overflow-hidden">
+								<div class="slider flex transition-transform duration-500">
+									<!-- Slider 1 !-->
+									<div class="flex-1 flex flex-col items-start justify-start pt-[16.5px] px-0 pb-0 box-border min-w-[100%]  lg:min-w-full">
+										<div class="self-stretch flex flex-col items-end justify-start gap-14 max-w-full mq850:gap-7">
+											<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border">
+												<div class="flex-1 flex flex-row items-start justify-between max-w-full gap-[140px] lg:flex-wrap">
+													<div class="h-[156px] w-[77px] flex flex-col items-start justify-start pt-24 px-0 pb-0 box-border">
+														<img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full z-[2]" alt="" src="/wp-content/themes/vision-prime/web/public/quotation-mark.svg">
+														<div class="relative block w-[300px] top-[-30px]">
+															<img class="w-[180px] h-[180px] absolute  rounded-83xl-4 overflow-hidden shrink-0 object-cover z-[1]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/images--profile-picturescustomizable@2x.png">
 														</div>
+													</div>
 
 
-														<div class="max-w-[706px] flex flex-col items-start justify-start gap-7 w-full">
+													<div class="max-w-[706px] flex flex-col items-start justify-start gap-7 w-full">
 
-															<h2 class="m-0 w-full m-ful-[670px] relative text-inherit text-11xl
+														<h2 class="m-0 w-full m-ful-[670px] relative text-inherit text-11xl
 											 tracking-[-0.01em] leading-[36px] font-bold
 											  font-inherit inline-block shrink-0  z-[1]
 											   mq450:text-lg hidden lg:flex font-button-dm-sans-16  ">
-																Idea to thriving reality
-															</h2>
-															<h3 class="m-0 self-stretch relative text-inherit leading-[36px] italic font-normal font-inherit text-med z-[1] mq450:text-lg mq450:leading-[29px]">
-																Their expert guidance turned my business idea into
-																a&nbsp;thriving reality. From getting the right licenses
-																to opening a bank account, they handled everything
-																effortlessly. I&nbsp;highly recommend their business
-																setup services to&nbsp;anyone looking to start a
-																successful business in&nbsp;the&nbsp;UAE.
+															Idea to thriving reality
+														</h2>
+														<h3 class="m-0 self-stretch relative text-inherit leading-[36px] italic font-normal font-inherit text-med z-[1] mq450:text-lg mq450:leading-[29px]">
+															Their expert guidance turned my business idea into
+															a&nbsp;thriving reality. From getting the right licenses
+															to opening a bank account, they handled everything
+															effortlessly. I&nbsp;highly recommend their business
+															setup services to&nbsp;anyone looking to start a
+															successful business in&nbsp;the&nbsp;UAE.
+														</h3>
+														<div class="flex flex-col items-start justify-start gap-1 text-5xl font-button-dm-sans-16">
+															<h3 class="m-0 relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit z-[1] mq450:text-lgi mq450:leading-[24px]">
+																Alex Turner
 															</h3>
-															<div class="flex flex-col items-start justify-start gap-1 text-5xl font-button-dm-sans-16">
-																<h3 class="m-0 relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit z-[1] mq450:text-lgi mq450:leading-[24px]">
-																	Alex Turner
-																</h3>
-																<div class="relative text-base leading-[26px] font-body-b3-merriweather-14 text-elements-neutral-3 z-[1]">
-																	Founder of TurnerHA
-																</div>
+															<div class="relative text-base leading-[26px] font-body-b3-merriweather-14 text-elements-neutral-3 z-[1]">
+																Founder of TurnerHA
 															</div>
 														</div>
 													</div>
 												</div>
-
 											</div>
+
 										</div>
-
-										<!-- Slider 2 !-->
-										<div class="flex-1 flex flex-col items-start justify-start pt-[16.5px] px-0 pb-0 box-border min-w-[100%] lg:min-w-full">
-											<div class="self-stretch flex flex-col items-end justify-start gap-14 max-w-full mq850:gap-7">
-												<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border">
-													<div class="flex-1 flex flex-row items-start justify-between max-w-full gap-[140px] lg:flex-wrap">
-														<div class="h-[156px] w-[77px] flex flex-col items-start justify-start pt-24 px-0 pb-0 box-border">
-															<img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full z-[2]" alt="" src="/wp-content/themes/vision-prime/web/public/quotation-mark.svg">
-															<div class="relative block w-[300px] top-[-30px]">
-																<img class="w-[180px] h-[180px] absolute  rounded-83xl-4 overflow-hidden shrink-0 object-cover z-[1]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/images--profile-picturescustomizable@2x.png">
-															</div>
-														</div>
-
-
-														<div class="max-w-[706px] flex flex-col items-start justify-start gap-7 w-full">
-
-															<h2 class="m-0 w-full m-ful-[670px] relative text-inherit text-11xl
-											 tracking-[-0.01em] leading-[36px] font-bold
-											  font-inherit inline-block shrink-0  z-[1]
-											   mq450:text-lg hidden lg:flex font-button-dm-sans-16  ">
-																Idea to thriving reality
-															</h2>
-															<h3 class="m-0 self-stretch relative text-inherit leading-[36px] italic font-normal font-inherit text-med z-[1] mq450:text-lg mq450:leading-[29px]">
-																Their expert guidance turned my business idea into
-																a&nbsp;thriving reality. From getting the right licenses
-																to opening a bank account, they handled everything
-																effortlessly. I&nbsp;highly recommend their business
-																setup services to&nbsp;anyone looking to start a
-																successful business in&nbsp;the&nbsp;UAE.
-															</h3>
-															<div class="flex flex-col items-start justify-start gap-1 text-5xl font-button-dm-sans-16">
-																<h3 class="m-0 relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit z-[1] mq450:text-lgi mq450:leading-[24px]">
-																	Alex Turner
-																</h3>
-																<div class="relative text-base leading-[26px] font-body-b3-merriweather-14 text-elements-neutral-3 z-[1]">
-																	Founder of TurnerHA
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-
-											</div>
-										</div>
-
 									</div>
-<div class="flex items-center justify-center w-full gap-6 hidden lg:flex mt-[30px]">
-												<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] prev" id="prevp" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-1.svg">
-												<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] next" id="nextm" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-2@2x.png">
-											</div>
-									<div class=" flex  mt-[60px] mq650:mt-[30px]">
 
-
-
-
-										<div class="self-stretch flex flex-row items-start justify-center [row-gap:20px] z-[1] text-sm font-primary-paragraph-paragraph-5 lg:flex-wrap">
-
-
-
-
-
-											<div class="flex-1 flex flex-row items-center justify-center py-0 px-0 box-border gap-[15px] min-w-[157px] mq450:pl-5 mq450:pr-5 mq450:box-border">
-												<div class="rounded-xl bg-general-white flex flex-row items-center justify-center p-[13px]">
-													<img class="h-6 w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/iconsgoogle-original.svg">
-												</div>
-
-												<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
-													<div class="self-stretch flex flex-row items-start justify-start gap-[5px]">
-														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector.svg">
-
-														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-1.svg">
-
-														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-2.svg">
-
-														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-3.svg">
-
-														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-4.svg">
+									<!-- Slider 2 !-->
+									<div class="flex-1 flex flex-col items-start justify-start pt-[16.5px] px-0 pb-0 box-border min-w-[100%] lg:min-w-full">
+										<div class="self-stretch flex flex-col items-end justify-start gap-14 max-w-full mq850:gap-7">
+											<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border">
+												<div class="flex-1 flex flex-row items-start justify-between max-w-full gap-[140px] lg:flex-wrap">
+													<div class="h-[156px] w-[77px] flex flex-col items-start justify-start pt-24 px-0 pb-0 box-border">
+														<img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full z-[2]" alt="" src="/wp-content/themes/vision-prime/web/public/quotation-mark.svg">
+														<div class="relative block w-[300px] top-[-30px]">
+															<img class="w-[180px] h-[180px] absolute  rounded-83xl-4 overflow-hidden shrink-0 object-cover z-[1]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/images--profile-picturescustomizable@2x.png">
+														</div>
 													</div>
-													<div class="w-[95px] relative font-medium inline-block">
-														4.7 on Google
-													</div>
-												</div>
-											</div>
 
-											<div class="flex-1 flex flex-row items-center justify-center py-0 px-[46px] box-border gap-[15px] min-w-[157px] z-[1] ml-[-1px] mq450:pl-5 mq450:pr-5 mq450:box-border">
-												<div class="rounded-xl bg-general-white flex flex-row items-center justify-center py-[13.7px] px-[13px]">
-													<img class="h-[22.6px] w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/group-8886.svg">
-												</div>
-												<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
-													<div class="flex flex-row items-start justify-start gap-[5px]">
-														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-5.svg">
 
-														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-6.svg">
+													<div class="max-w-[706px] flex flex-col items-start justify-start gap-7 w-full">
 
-														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-7.svg">
-
-														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-8.svg">
-
-														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-9.svg">
-													</div>
-													<div class="self-stretch relative font-medium">
-														4.2 on Trustpilot
+														<h2 class="m-0 w-full m-ful-[670px] relative text-inherit text-11xl
+											 tracking-[-0.01em] leading-[36px] font-bold
+											  font-inherit inline-block shrink-0  z-[1]
+											   mq450:text-lg hidden lg:flex font-button-dm-sans-16  ">
+															Idea to thriving reality
+														</h2>
+														<h3 class="m-0 self-stretch relative text-inherit leading-[36px] italic font-normal font-inherit text-med z-[1] mq450:text-lg mq450:leading-[29px]">
+															Their expert guidance turned my business idea into
+															a&nbsp;thriving reality. From getting the right licenses
+															to opening a bank account, they handled everything
+															effortlessly. I&nbsp;highly recommend their business
+															setup services to&nbsp;anyone looking to start a
+															successful business in&nbsp;the&nbsp;UAE.
+														</h3>
+														<div class="flex flex-col items-start justify-start gap-1 text-5xl font-button-dm-sans-16">
+															<h3 class="m-0 relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit z-[1] mq450:text-lgi mq450:leading-[24px]">
+																Alex Turner
+															</h3>
+															<div class="relative text-base leading-[26px] font-body-b3-merriweather-14 text-elements-neutral-3 z-[1]">
+																Founder of TurnerHA
+															</div>
+														</div>
 													</div>
 												</div>
 											</div>
-											<div class="flex-1 flex flex-row items-center justify-center py-0 px-[47px] box-border gap-[15px] min-w-[157px] z-[2] ml-[-1px] mq450:pl-5 mq450:pr-5 mq450:box-border">
-												<div class="h-[50px] w-[50px] relative rounded-xl bg-general-white">
-													<img class="absolute top-[13px] left-[9px] w-7 h-7 object-cover mix-blend-darken" alt="" src="/wp-content/themes/vision-prime/web/public/image-18@2x.png">
-												</div>
-												<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
-													<div class="flex flex-row items-start justify-start gap-[5px]">
-														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector.svg">
-
-														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-1.svg">
-
-														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-2.svg">
-
-														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-3.svg">
-
-														<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-4.svg">
-													</div>
-													<div class="self-stretch relative font-medium">
-														5.0 on Capterra
-													</div>
-												</div>
-											</div>
-											<div class="flex flex-row items-center justify-center py-0 px-[39px] gap-[15px] z-[3] ml-[-1px] text-lg">
-												<div class="rounded-xl bg-general-white flex flex-row items-center justify-center pt-[15.6px] px-[13px] pb-[15.7px] box-border w-[50px] h-[50px]">
-													<img class="h-[18.7px] w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/vector-15.svg">
-												</div>
-												<div class="relative">
-													<p class="m-0">
-														<b>2 000+</b>
-													</p>
-													<p class="m-0 text-sm font-medium">Happy Customers</p>
-												</div>
-											</div>
-
 
 										</div>
-										</div>
+									</div>
 
 								</div>
+								<div class="flex items-center justify-center w-full gap-6 hidden lg:flex mt-[30px]">
+									<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] prev" id="prevp" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-1.svg">
+									<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] next" id="nextm" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-2@2x.png">
+								</div>
+								<div class=" flex  mt-[60px] mq650:mt-[30px]">
 
 
+									<div class="self-stretch flex flex-row items-start justify-center [row-gap:20px] z-[1] text-sm font-primary-paragraph-paragraph-5 lg:flex-wrap">
 
 
-								<img class="h-[49.5px] w-[120px] relative object-contain z-[1] lg:hidden cursor-pointer next top-[100px]" id="next" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-2@2x.png">
+										<div class="flex-1 flex flex-row items-center justify-center py-0 px-0 box-border gap-[15px] min-w-[157px] mq450:pl-5 mq450:pr-5 mq450:box-border">
+											<div class="rounded-xl bg-general-white flex flex-row items-center justify-center p-[13px]">
+												<img class="h-6 w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/iconsgoogle-original.svg">
+											</div>
+
+											<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
+												<div class="self-stretch flex flex-row items-start justify-start gap-[5px]">
+													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector.svg">
+
+													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-1.svg">
+
+													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-2.svg">
+
+													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-3.svg">
+
+													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-4.svg">
+												</div>
+												<div class="w-[95px] relative font-medium inline-block">
+													4.7 on Google
+												</div>
+											</div>
+										</div>
+
+										<div class="flex-1 flex flex-row items-center justify-center py-0 px-[46px] box-border gap-[15px] min-w-[157px] z-[1] ml-[-1px] mq450:pl-5 mq450:pr-5 mq450:box-border">
+											<div class="rounded-xl bg-general-white flex flex-row items-center justify-center py-[13.7px] px-[13px]">
+												<img class="h-[22.6px] w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/group-8886.svg">
+											</div>
+											<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
+												<div class="flex flex-row items-start justify-start gap-[5px]">
+													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-5.svg">
+
+													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-6.svg">
+
+													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-7.svg">
+
+													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-8.svg">
+
+													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-9.svg">
+												</div>
+												<div class="self-stretch relative font-medium">
+													4.2 on Trustpilot
+												</div>
+											</div>
+										</div>
+										<div class="flex-1 flex flex-row items-center justify-center py-0 px-[47px] box-border gap-[15px] min-w-[157px] z-[2] ml-[-1px] mq450:pl-5 mq450:pr-5 mq450:box-border">
+											<div class="h-[50px] w-[50px] relative rounded-xl bg-general-white">
+												<img class="absolute top-[13px] left-[9px] w-7 h-7 object-cover mix-blend-darken" alt="" src="/wp-content/themes/vision-prime/web/public/image-18@2x.png">
+											</div>
+											<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
+												<div class="flex flex-row items-start justify-start gap-[5px]">
+													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector.svg">
+
+													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-1.svg">
+
+													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-2.svg">
+
+													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-3.svg">
+
+													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-4.svg">
+												</div>
+												<div class="self-stretch relative font-medium">
+													5.0 on Capterra
+												</div>
+											</div>
+										</div>
+										<div class="flex flex-row items-center justify-center py-0 px-[39px] gap-[15px] z-[3] ml-[-1px] text-lg">
+											<div class="rounded-xl bg-general-white flex flex-row items-center justify-center pt-[15.6px] px-[13px] pb-[15.7px] box-border w-[50px] h-[50px]">
+												<img class="h-[18.7px] w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/vector-15.svg">
+											</div>
+											<div class="relative">
+												<p class="m-0">
+													<b>2 000+</b>
+												</p>
+												<p class="m-0 text-sm font-medium">Happy Customers</p>
+											</div>
+										</div>
+
+
+									</div>
+								</div>
 
 							</div>
+
+
+							<img class="h-[49.5px] w-[120px] relative object-contain z-[1] lg:hidden cursor-pointer next top-[100px]" id="next" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-2@2x.png">
+
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 
-		</section>
-<section class="self-stretch bg-elements-neutral-4 flex
+	</section>
+	<section class="self-stretch bg-elements-neutral-4 flex
 			flex-col items-center justify-start
 			pt-0 px-5 pb-[100px] box-border gap-20
 			max-w-full text-center text-base text-general-1-primary
 			font-subtitles-16 ">
-			<div class="w-full flex flex-row mb-[-60px] mt-[0px]">
-				<div class="w-[50%] h-[120px] border-general-1-primary border-r border-solid "></div>
-				<div class="w-[50%] "></div>
-			</div>
-			<div class="w-[1920px] h-[1778px] relative bg-elements-neutral-4 hidden max-w-full"></div>
-			<div class="w-[1170px] flex flex-row items-start justify-center max-w-full">
-				<div class="w-full flex flex-row items-start justify-start max-w-full z-[1]">
+		<div class="w-full flex flex-row mb-[-60px] mt-[0px]">
+			<div class="w-[50%] h-[120px] border-general-1-primary border-r border-solid "></div>
+			<div class="w-[50%] "></div>
+		</div>
+		<div class="w-[1920px] h-[1778px] relative bg-elements-neutral-4 hidden max-w-full"></div>
+		<div class="w-[1170px] flex flex-row items-start justify-center max-w-full">
+			<div class="w-full flex flex-row items-start justify-start max-w-full z-[1]">
 
-					<div class="flex-1 flex flex-col items-center justify-start pt-[22px] px-0  box-border gap-[21px] max-w-full">
-						<div class="self-stretch flex flex-row items-start justify-center py-0 px-5">
-							<div class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[1]">
-								Got a Questions?
-							</div>
+				<div class="flex-1 flex flex-col items-center justify-start pt-[22px] px-0  box-border gap-[21px] max-w-full">
+					<div class="self-stretch flex flex-row items-start justify-center py-0 px-5">
+						<div class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[1]">
+							Got a Questions?
 						</div>
-						<div class="flex flex-row items-center justify-start relative text-41xl text-general-8-secondary font-heading-1-72">
-							<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
-								Frequently Asked Questions
-							</h2>
-						</div>
+					</div>
+					<div class="flex flex-row items-center justify-start relative text-41xl text-general-8-secondary font-heading-1-72">
+						<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
+							Frequently Asked Questions
+						</h2>
 					</div>
 				</div>
 			</div>
-			<div class="max-w-[1170px] flex flex-row items-start justify-center flex-wrap content-start gap-5 w-full
+		</div>
+		<div class="max-w-[1170px] flex flex-row items-start justify-center flex-wrap content-start gap-5 w-full
 				 text-left text-lg text-general-8-secondary
 				 font-button-dm-sans-16">
-				<div class="flex-1 flex flex-col items-start justify-start gap-5 min-w-[374px] max-w-full mq450:min-w-full">
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+			<div class="flex-1 flex flex-col items-start justify-start gap-5 min-w-[374px] max-w-full mq450:min-w-full">
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
 
-								What is the minimum investment to start a business in UAE?
-
-
+							What is the minimum investment to start a business in UAE?
 
 
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								The minimum investment to start a business in the UAE varies significantly based on several factors.
-							</p>
-							<p class="m-0">
-								Firstly, the location of your business matters. Free zones often have lower entry barriers, with some allowing startups to begin with as little as AED 10,000. Mainland businesses typically require a higher
-								investment, often starting from AED 300,000.
-							</p>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								Secondly, the type of business you establish influences the cost. Service-based businesses generally have lower startup costs compared to trading or manufacturing companies.
-							</p>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								Lastly, additional expenses like office space, permits, and visas will contribute to the overall investment.
-							</p>
-						</div>
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
 					</div>
-
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								How much is a Dubai business visa?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								The cost of a Dubai business visa varies depending on several factors:
-							</p>
-							<ul class="list-disc ml-5">
-								<li>Type of visa: there are different types of business visas, each with its own fee structure.</li>
-								<li>Duration of stay: the visa validity affects the cost.</li>
-								<li>Additional fees: medical tests, Emirates ID, and processing fees can add to the overall expense.</li>
-							</ul>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								Generally, you can expect to pay between AED 3,500 to AED 7,500 for a business visa. However, it's essential to consider the additional costs mentioned above. For a more accurate estimate, we highly recommend
-								consulting with a business setup specialist in Dubai.
-							</p>
-						</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							The minimum investment to start a business in the UAE varies significantly based on several factors.
+						</p>
+						<p class="m-0">
+							Firstly, the location of your business matters. Free zones often have lower entry barriers, with some allowing startups to begin with as little as AED 10,000. Mainland businesses typically require a higher
+							investment, often starting from AED 300,000.
+						</p>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							Secondly, the type of business you establish influences the cost. Service-based businesses generally have lower startup costs compared to trading or manufacturing companies.
+						</p>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							Lastly, additional expenses like office space, permits, and visas will contribute to the overall investment.
+						</p>
 					</div>
-
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								How is an LLC formed in the UAE?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<ol class="list-decimal ml-5">
-								<li>Choose a Business Activity: determine the specific activities your LLC will undertake. Then, choose a location and reserve a business name.</li>
-								<li>Appoint a Local Sponsor: a UAE national must hold a 51% share, though profit-sharing arrangements can vary.</li>
-								<li>Draft Memorandum of Association (MoA): outline company structure, shareholder details, and business activities.</li>
-								<li>Obtain Necessary Approvals: secure permits and licenses from relevant authorities and submit necessary documents to the DED, before finally opening a corporate bank account.</li>
-							</ol>
-							<p class="m-0 mt-4">
-								Note: While this is a general overview, specific requirements and procedures may vary depending on the emirate and type of business. It's advisable to seek guidance from a local business setup consultant like
-								Vision Prime for accurate and up-to-date information.
-							</p>
-						</div>
-					</div>
-
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								How long is the business visa valid for in Dubai?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								The validity of a Dubai business visa depends on the type of visa:
-							</p>
-							<ul class="list-disc ml-5">
-								<li>Short-term business visas are typically valid for 30 to 90 days. These are suitable for business meetings, conferences, or initial market research.</li>
-								<li>Long-term business visas can be valid for up to 3 years and are often associated with setting up a business or working in the UAE.</li>
-							</ul>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								It's important to note that visa regulations can change, so it's always recommended to check with the UAE immigration authorities or a business setup consultant for the most current information.
-							</p>
-						</div>
-					</div>
-
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								Can you own a 100% business in Dubai?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								Yes, you can now own 100% of a business in Dubai.
-							</p>
-							<p class="m-0">
-								This is a significant change from previous regulations. However, it's important to note that this applies to specific sectors and activities. It's advisable to check the eligibility of your business activity
-								before proceeding.
-							</p>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								While free zones have traditionally offered 100% foreign ownership, the recent amendments have extended this possibility to mainland businesses as well, subject to certain conditions.
-							</p>
-						</div>
-					</div>
-
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								Which business is easy to start in Dubai?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								Dubai is a great place to start a business, with plenty of opportunities for entrepreneurs. Here are a few business sectors that are relatively easy to dive into:
-							</p>
-							<ul class="list-disc ml-5">
-								<li><strong>E-commerce:</strong> with Dubai’s booming online market, setting up an e-commerce store can be a smart move. The barriers to entry are low, and you can reach a global audience with ease. Plus,
-									it’s a flexible business model that can grow with you.
-								</li>
-								<li><strong>Freelancing:</strong> thanks to Dubai’s freelance visa, it’s easier than ever for professionals to go solo. Digital marketing, IT, and business consulting are just a few of the in-demand services
-									you can offer.
-								</li>
-								<li><strong>Food and Beverage:</strong> Dubai’s lively food scene offers plenty of room for cafes, food trucks, and restaurants. The city’s diverse population means you’ll have a steady stream of customers.
-								</li>
-							</ul>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								Many of these businesses benefit from Dubai’s free zones, which make the setup process smoother and offer perks like tax benefits and full foreign ownership.
-							</p>
-						</div>
-					</div>
-
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								Is Dubai startup-friendly?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								Dubai is definitely a hotspot for startups.
-							</p>
-							<p class="m-0">
-								The city has built a thriving ecosystem that supports entrepreneurship with some key advantages:
-							</p>
-							<ul class="list-disc ml-5">
-								<li>Business-Friendly Regulations: easy procedures for setting up and running a company.</li>
-								<li>Tax Incentives: great tax benefits that make starting up even more attractive.</li>
-								<li>World-Class Infrastructure: modern facilities and efficient transportation systems.</li>
-								<li>Strong Investor Interest: a growing network of venture capital and angel investors.</li>
-								<li>Global Connectivity: a strategic location that connects East and West.</li>
-							</ul>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								With all these perks, Dubai is a fantastic place for startups looking to launch and expand their businesses.
-							</p>
-						</div>
-					</div>
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								Is Dubai tax-free for business owners?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								Dubai is well-known for its tax-friendly environment, which is a major draw for entrepreneurs and investors alike.
-							</p>
-							<p class="m-0">
-								Currently, the UAE offers zero personal income tax and no corporate tax on most businesses. However, from June 2023, a corporate tax of 9% will be introduced for businesses exceeding a profit threshold of AED
-								375,000.
-							</p>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								Free zones in Dubai, however, will continue to offer tax incentives, including the possibility of 100% foreign ownership, exemption from import/export duties, and full repatriation of profits.
-							</p>
-							<p class="m-0">
-								Therefore, Dubai remains a favorable destination for businesses seeking to minimize tax liabilities.
-							</p>
-						</div>
-					</div>
-
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								How to make money in Dubai as a foreigner?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								Dubai offers a multitude of opportunities for foreigners to earn money. Here are some popular avenues:
-							</p>
-							<ul class="list-disc ml-5">
-								<li><strong>Start a Business:</strong> Dubai's free zones offer favorable conditions for starting your own business with 100% foreign ownership, making it easier to venture into industries such as trading,
-									IT, and consulting.
-								</li>
-								<li><strong>Invest in Real Estate:</strong> Dubai's property market is one of the most lucrative in the world, offering high rental yields and capital appreciation.</li>
-								<li><strong>Freelancing:</strong> The UAE has introduced a freelance visa, allowing professionals in fields like media, IT, and education to offer their services legally in Dubai.</li>
-								<li><strong>Teaching:</strong> If you have expertise in a specific subject or skill, you can teach it either in institutions or as a private tutor.</li>
-							</ul>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								Additionally, Dubai’s strategic location as a global hub makes it a prime spot for those looking to import/export goods or offer international business services.
-							</p>
-						</div>
-					</div>
-
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								Why do entrepreneurs go to Dubai?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								Dubai has become a magnet for entrepreneurs for several compelling reasons:
-							</p>
-							<ul class="list-disc ml-5">
-								<li><strong>Strategic Location:</strong> Positioned between Europe, Asia, and Africa, Dubai is an ideal hub for international trade and business expansion.</li>
-								<li><strong>Business-Friendly Environment:</strong> Dubai’s government has created an environment that encourages business growth with easy company registration processes, minimal bureaucracy, and supportive
-									regulations.
-								</li>
-								<li><strong>Tax Benefits:</strong> Dubai offers zero personal income tax and has recently introduced a corporate tax that still remains lower than many global rates.</li>
-								<li><strong>Infrastructure:</strong> The city’s world-class infrastructure, including its logistics network, transport systems, and high-speed internet, supports a wide range of industries.</li>
-								<li><strong>Quality of Life:</strong> With a diverse expatriate community, excellent healthcare, education, and recreational options, Dubai offers a high standard of living.</li>
-							</ul>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								These factors make Dubai an attractive destination for entrepreneurs looking to start or expand their businesses globally.
-							</p>
-						</div>
-					</div>
-
-
 				</div>
-				<div class="flex-1 flex flex-col items-start justify-start gap-5 min-w-[374px] max-w-full mq450:min-w-full">
 
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								What is the cheapest way to set up a business in Dubai?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								Setting up a business in a free zone is usually the most budget-friendly option in Dubai. Free zones offer various packages with different perks and cost structures.
-							</p>
-							<p class="m-0">
-								Here’s a quick breakdown:
-							</p>
-							<ul class="list-disc ml-5">
-								<li><strong>Free Zones:</strong> these zones provide flexible packages that often include office space, visa options, and other benefits. Some popular and cost-effective free zones are:
-									<ul class="list-disc ml-5">
-										<li>Creative Zone</li>
-										<li>Dubai Media City</li>
-										<li>Sharjah Media City</li>
-									</ul>
-								</li>
-								<li><strong>Mainland:</strong> setting up a business on the mainland can be pricier because you’ll need a local sponsor and may have higher office space costs. However, it does offer more flexibility in terms
-									of business activities.
-								</li>
-								<li><strong>E-commerce:</strong> this can be a low-cost option, especially if you choose a dropshipping model, which means you won’t have to worry about managing inventory or warehousing.</li>
-							</ul>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								Overall, free zones are a great way to keep costs down while still enjoying plenty of benefits.
-							</p>
-						</div>
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							How much is a Dubai business visa?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
 					</div>
-
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								Can I open a company in the UAE without a residence visa?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								Yes, you can open a company in Dubai and conduct business without a residence visa.
-							</p>
-							<p class="m-0">
-								In Dubai, foreign entrepreneurs can start a company without needing a residence visa, thanks to the city’s business-friendly environment. You can achieve this by setting up in one of Dubai’s free zones, which
-								offer several perks:
-							</p>
-							<ul class="list-disc ml-5">
-								<li><strong>100% Foreign Ownership:</strong> you can fully own your business without needing a local sponsor.</li>
-								<li><strong>Simplified Setup:</strong> getting your company up and running in a free zone is usually faster and easier than on the mainland.</li>
-								<li><strong>Tax Benefits:</strong> many free zones provide corporate tax exemptions.</li>
-							</ul>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								However, keep in mind:
-							</p>
-							<ul class="list-disc ml-5">
-								<li><strong>Visa Requirements for Business Operations:</strong> while you don’t need a residence visa to establish your company, you might need one to visit Dubai for business or to hire employees.</li>
-								<li><strong>Business Activity Restrictions:</strong> some business activities might be limited to specific free zones.</li>
-							</ul>
-						</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							The cost of a Dubai business visa varies depending on several factors:
+						</p>
+						<ul class="list-disc ml-5">
+							<li>Type of visa: there are different types of business visas, each with its own fee structure.</li>
+							<li>Duration of stay: the visa validity affects the cost.</li>
+							<li>Additional fees: medical tests, Emirates ID, and processing fees can add to the overall expense.</li>
+						</ul>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							Generally, you can expect to pay between AED 3,500 to AED 7,500 for a business visa. However, it's essential to consider the additional costs mentioned above. For a more accurate estimate, we highly recommend
+							consulting with a business setup specialist in Dubai.
+						</p>
 					</div>
-
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								How much is a business permit in Dubai?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								The cost of a business permit in Dubai can vary widely based on several factors:
-							</p>
-							<ul class="list-disc ml-5">
-								<li><strong>Type of License:</strong> the activities your business will undertake determine the type of license you need, and each comes with different fees.</li>
-								<li><strong>Location:</strong> setting up in a free zone is usually more affordable than on the mainland.</li>
-								<li><strong>Business Structure:</strong> whether you’re a sole proprietor or forming a limited liability company, the legal structure affects the cost.</li>
-								<li><strong>Additional Fees:</strong> don’t forget about extra costs like office space rental, visa fees, and professional services.</li>
-							</ul>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								On average, you might pay between AED 8,000 to AED 30,000 for a basic business license. However, the exact amount can vary based on your specific situation.
-							</p>
-							<p class="m-0">
-								For a precise quote, it’s a good idea to consult with a business setup expert in Dubai.
-							</p>
-						</div>
-					</div>
-
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								Can I start a business in Dubai without a sponsor?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								Yes, You Can Start a Business in Dubai Without a Sponsor.
-							</p>
-							<p class="m-0">
-								Dubai has significantly relaxed its business ownership rules. Previously, a local sponsor was mandatory for setting up a business on the mainland. However, recent reforms have made it possible for foreigners
-								to own 100% of their company in many sectors.
-							</p>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								While free zones have always allowed 100% foreign ownership, the changes now extend to mainland business setups, offering greater flexibility and opportunities for entrepreneurs.
-							</p>
-							<p class="m-0">
-								It's essential to note that not all business activities are eligible for 100% foreign ownership. Certain sectors may still require a local sponsor.
-							</p>
-							<p class="m-0">
-								To ensure you meet the eligibility criteria, it's advisable to consult with a business setup specialist in Dubai.
-							</p>
-						</div>
-					</div>
-
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								Can I start a business in Dubai without an office?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								Yes, You Can Start a Business in Dubai Without a Physical Office.
-							</p>
-							<p class="m-0">
-								Dubai has embraced the digital age and offers flexible options for entrepreneurs. You can indeed start a business without a physical office space.
-							</p>
-							<p class="m-0">
-								Here are the primary methods:
-							</p>
-							<ul class="list-disc ml-5">
-								<li><strong>Virtual Office License:</strong> many free zones in Dubai offer virtual office licenses, allowing you to register a business without requiring a physical office. This option is ideal for
-									service-based businesses.
-								</li>
-								<li><strong>Flexi Desk Permits:</strong> some free zones provide flexi desk permits, granting you access to shared workspace facilities without committing to a dedicated office.</li>
-								<li><strong>Free Zone Licenses:</strong> certain free zones allow businesses to operate without a physical office, focusing on online activities.</li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								Is home business allowed in Dubai?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								The Dubai government sees the potential in small and medium enterprises (SMEs) and has introduced home business licenses to support entrepreneurs. This means you can legally run a business right from your
-								home.
-							</p>
-							<p class="m-0">
-								While there are some guidelines and regulations to follow, starting a home-based business in Dubai is a practical and achievable option for many.
-							</p>
-						</div>
-					</div>
-
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								How much does it cost to register a company in Dubai?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								The cost to register a company in Dubai can vary quite a bit depending on several factors:
-							</p>
-							<ul class="list-disc ml-5">
-								<li><strong>Type of Company:</strong> sole proprietorship, LLC, or corporation each have different fees.</li>
-								<li><strong>Location:</strong> costs differ between setting up in the mainland versus free zone companies.</li>
-								<li><strong>Business Activities:</strong> specific licenses and permits can add to the expense.</li>
-								<li><strong>Additional Services:</strong> fees for things like visa processing, office space, and professional services can drive up costs.</li>
-							</ul>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								On average, you might spend anywhere from AED 10,000 to AED 30,000 for a basic setup. But this is just a ballpark figure. Here’s how to get a more accurate estimate:
-							</p>
-							<ul class="list-disc ml-5">
-								<li><strong>Free Zones:</strong> offer budget-friendly packages that may include office space and visa options.</li>
-								<li><strong>Mainland:</strong> typically costs more due to local sponsorship requirements and the need for office space.</li>
-								<li><strong>Professional Services:</strong> hiring business consultants can make the process smoother but will add extra fees.</li>
-							</ul>
-							<p class="m-0">
-								For the best cost estimate, it’s a good idea to consult with a business setup specialist in Dubai.
-							</p>
-						</div>
-					</div>
-
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								How much does it cost to put a company in a free zone in Dubai?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								The cost of setting up a company in a Dubai-free zone can vary quite a bit. It depends on factors like the specific free zone, the type of license you need, office space requirements, and any extra services
-								you choose.
-							</p>
-							<p class="m-0">
-								On average, you’ll be looking at around AED 10,000 to AED 30,000 for the initial setup. This usually covers registration fees, license costs, and basic office space.
-							</p>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								Here’s a quick cost breakdown:
-							</p>
-							<ul class="list-disc ml-5">
-								<li><strong>Registration Fees:</strong> these cover incorporating your company and getting the necessary licenses.</li>
-								<li><strong>Office Space:</strong> you might go for a virtual office, but renting physical space will add extra costs.</li>
-								<li><strong>Visa Fees:</strong> if you’re hiring employees, you’ll need to budget for their visas too.</li>
-								<li><strong>Professional Fees:</strong> hiring business setup companies can make the process smoother, but it comes with additional fees.</li>
-							</ul>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								Some popular UAE free zones that offer cost-effective setup options include:
-							</p>
-							<ul class="list-disc ml-5">
-								<li>Creative Zone</li>
-								<li>Sharjah Media City (SHAMS)</li>
-								<li>Dubai Media City (DMC)</li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								Can I open a company in Dubai remotely?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								Yes, you can open a company in Dubai remotely.
-							</p>
-							<p class="m-0">
-								Dubai now offers the Virtual Company License (VCL), which lets you start and run a business in the UAE without ever needing to set foot in the country.
-							</p>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								With a VCL, you can set up your company, get a trade license, and manage your operations all from afar.
-							</p>
-							<p class="m-0">
-								Key benefits of a VCL:
-							</p>
-							<ul class="list-disc ml-5">
-								<li><strong>100% Foreign Ownership:</strong> you own it all!</li>
-								<li><strong>No Physical Office Required:</strong> work from anywhere.</li>
-								<li><strong>Remote Management:</strong> control everything online.</li>
-								<li><strong>Access to UAE Market:</strong> tap into the UAE’s business opportunities.</li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
-						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
-								Can I move to Dubai and start a business?
-							</h3>
-							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
-						</div>
-						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							<p class="m-0">
-								Dubai has become a hotspot for entrepreneurs from all over the globe thanks to its business-friendly environment, tax perks, and prime location.
-							</p>
-							<p class="m-0">
-								Here’s what you’ll typically need to start a business in Dubai:
-							</p>
-							<ul class="list-disc ml-5">
-								<li><strong>Business Setup:</strong> choose your company’s legal structure, get the necessary licenses, and register your business.</li>
-								<li><strong>Residence Visa:</strong> this lets you live and work in Dubai.</li>
-								<li><strong>Office Space:</strong> not always required, but having an office can boost your business’s credibility.</li>
-							</ul>
-							<p class="m-0">&nbsp;</p>
-							<p class="m-0">
-								Dubai offers different options for business setup, including free zones and mainland companies, each with its own requirements and benefits.
-							</p>
-						</div>
-					</div>
-
 				</div>
+
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							How is an LLC formed in the UAE?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<ol class="list-decimal ml-5">
+							<li>Choose a Business Activity: determine the specific activities your LLC will undertake. Then, choose a location and reserve a business name.</li>
+							<li>Appoint a Local Sponsor: a UAE national must hold a 51% share, though profit-sharing arrangements can vary.</li>
+							<li>Draft Memorandum of Association (MoA): outline company structure, shareholder details, and business activities.</li>
+							<li>Obtain Necessary Approvals: secure permits and licenses from relevant authorities and submit necessary documents to the DED, before finally opening a corporate bank account.</li>
+						</ol>
+						<p class="m-0 mt-4">
+							Note: While this is a general overview, specific requirements and procedures may vary depending on the emirate and type of business. It's advisable to seek guidance from a local business setup consultant like
+							Vision Prime for accurate and up-to-date information.
+						</p>
+					</div>
+				</div>
+
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							How long is the business visa valid for in Dubai?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							The validity of a Dubai business visa depends on the type of visa:
+						</p>
+						<ul class="list-disc ml-5">
+							<li>Short-term business visas are typically valid for 30 to 90 days. These are suitable for business meetings, conferences, or initial market research.</li>
+							<li>Long-term business visas can be valid for up to 3 years and are often associated with setting up a business or working in the UAE.</li>
+						</ul>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							It's important to note that visa regulations can change, so it's always recommended to check with the UAE immigration authorities or a business setup consultant for the most current information.
+						</p>
+					</div>
+				</div>
+
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							Can you own a 100% business in Dubai?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							Yes, you can now own 100% of a business in Dubai.
+						</p>
+						<p class="m-0">
+							This is a significant change from previous regulations. However, it's important to note that this applies to specific sectors and activities. It's advisable to check the eligibility of your business activity
+							before proceeding.
+						</p>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							While free zones have traditionally offered 100% foreign ownership, the recent amendments have extended this possibility to mainland businesses as well, subject to certain conditions.
+						</p>
+					</div>
+				</div>
+
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							Which business is easy to start in Dubai?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							Dubai is a great place to start a business, with plenty of opportunities for entrepreneurs. Here are a few business sectors that are relatively easy to dive into:
+						</p>
+						<ul class="list-disc ml-5">
+							<li><strong>E-commerce:</strong> with Dubai’s booming online market, setting up an e-commerce store can be a smart move. The barriers to entry are low, and you can reach a global audience with ease. Plus,
+								it’s a flexible business model that can grow with you.
+							</li>
+							<li><strong>Freelancing:</strong> thanks to Dubai’s freelance visa, it’s easier than ever for professionals to go solo. Digital marketing, IT, and business consulting are just a few of the in-demand services
+								you can offer.
+							</li>
+							<li><strong>Food and Beverage:</strong> Dubai’s lively food scene offers plenty of room for cafes, food trucks, and restaurants. The city’s diverse population means you’ll have a steady stream of customers.
+							</li>
+						</ul>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							Many of these businesses benefit from Dubai’s free zones, which make the setup process smoother and offer perks like tax benefits and full foreign ownership.
+						</p>
+					</div>
+				</div>
+
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							Is Dubai startup-friendly?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							Dubai is definitely a hotspot for startups.
+						</p>
+						<p class="m-0">
+							The city has built a thriving ecosystem that supports entrepreneurship with some key advantages:
+						</p>
+						<ul class="list-disc ml-5">
+							<li>Business-Friendly Regulations: easy procedures for setting up and running a company.</li>
+							<li>Tax Incentives: great tax benefits that make starting up even more attractive.</li>
+							<li>World-Class Infrastructure: modern facilities and efficient transportation systems.</li>
+							<li>Strong Investor Interest: a growing network of venture capital and angel investors.</li>
+							<li>Global Connectivity: a strategic location that connects East and West.</li>
+						</ul>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							With all these perks, Dubai is a fantastic place for startups looking to launch and expand their businesses.
+						</p>
+					</div>
+				</div>
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							Is Dubai tax-free for business owners?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							Dubai is well-known for its tax-friendly environment, which is a major draw for entrepreneurs and investors alike.
+						</p>
+						<p class="m-0">
+							Currently, the UAE offers zero personal income tax and no corporate tax on most businesses. However, from June 2023, a corporate tax of 9% will be introduced for businesses exceeding a profit threshold of AED
+							375,000.
+						</p>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							Free zones in Dubai, however, will continue to offer tax incentives, including the possibility of 100% foreign ownership, exemption from import/export duties, and full repatriation of profits.
+						</p>
+						<p class="m-0">
+							Therefore, Dubai remains a favorable destination for businesses seeking to minimize tax liabilities.
+						</p>
+					</div>
+				</div>
+
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							How to make money in Dubai as a foreigner?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							Dubai offers a multitude of opportunities for foreigners to earn money. Here are some popular avenues:
+						</p>
+						<ul class="list-disc ml-5">
+							<li><strong>Start a Business:</strong> Dubai's free zones offer favorable conditions for starting your own business with 100% foreign ownership, making it easier to venture into industries such as trading,
+								IT, and consulting.
+							</li>
+							<li><strong>Invest in Real Estate:</strong> Dubai's property market is one of the most lucrative in the world, offering high rental yields and capital appreciation.</li>
+							<li><strong>Freelancing:</strong> The UAE has introduced a freelance visa, allowing professionals in fields like media, IT, and education to offer their services legally in Dubai.</li>
+							<li><strong>Teaching:</strong> If you have expertise in a specific subject or skill, you can teach it either in institutions or as a private tutor.</li>
+						</ul>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							Additionally, Dubai’s strategic location as a global hub makes it a prime spot for those looking to import/export goods or offer international business services.
+						</p>
+					</div>
+				</div>
+
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							Why do entrepreneurs go to Dubai?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							Dubai has become a magnet for entrepreneurs for several compelling reasons:
+						</p>
+						<ul class="list-disc ml-5">
+							<li><strong>Strategic Location:</strong> Positioned between Europe, Asia, and Africa, Dubai is an ideal hub for international trade and business expansion.</li>
+							<li><strong>Business-Friendly Environment:</strong> Dubai’s government has created an environment that encourages business growth with easy company registration processes, minimal bureaucracy, and supportive
+								regulations.
+							</li>
+							<li><strong>Tax Benefits:</strong> Dubai offers zero personal income tax and has recently introduced a corporate tax that still remains lower than many global rates.</li>
+							<li><strong>Infrastructure:</strong> The city’s world-class infrastructure, including its logistics network, transport systems, and high-speed internet, supports a wide range of industries.</li>
+							<li><strong>Quality of Life:</strong> With a diverse expatriate community, excellent healthcare, education, and recreational options, Dubai offers a high standard of living.</li>
+						</ul>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							These factors make Dubai an attractive destination for entrepreneurs looking to start or expand their businesses globally.
+						</p>
+					</div>
+				</div>
+
+
 			</div>
-		</section>
+			<div class="flex-1 flex flex-col items-start justify-start gap-5 min-w-[374px] max-w-full mq450:min-w-full">
+
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							What is the cheapest way to set up a business in Dubai?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							Setting up a business in a free zone is usually the most budget-friendly option in Dubai. Free zones offer various packages with different perks and cost structures.
+						</p>
+						<p class="m-0">
+							Here’s a quick breakdown:
+						</p>
+						<ul class="list-disc ml-5">
+							<li><strong>Free Zones:</strong> these zones provide flexible packages that often include office space, visa options, and other benefits. Some popular and cost-effective free zones are:
+								<ul class="list-disc ml-5">
+									<li>Creative Zone</li>
+									<li>Dubai Media City</li>
+									<li>Sharjah Media City</li>
+								</ul>
+							</li>
+							<li><strong>Mainland:</strong> setting up a business on the mainland can be pricier because you’ll need a local sponsor and may have higher office space costs. However, it does offer more flexibility in terms
+								of business activities.
+							</li>
+							<li><strong>E-commerce:</strong> this can be a low-cost option, especially if you choose a dropshipping model, which means you won’t have to worry about managing inventory or warehousing.</li>
+						</ul>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							Overall, free zones are a great way to keep costs down while still enjoying plenty of benefits.
+						</p>
+					</div>
+				</div>
+
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							Can I open a company in the UAE without a residence visa?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							Yes, you can open a company in Dubai and conduct business without a residence visa.
+						</p>
+						<p class="m-0">
+							In Dubai, foreign entrepreneurs can start a company without needing a residence visa, thanks to the city’s business-friendly environment. You can achieve this by setting up in one of Dubai’s free zones, which
+							offer several perks:
+						</p>
+						<ul class="list-disc ml-5">
+							<li><strong>100% Foreign Ownership:</strong> you can fully own your business without needing a local sponsor.</li>
+							<li><strong>Simplified Setup:</strong> getting your company up and running in a free zone is usually faster and easier than on the mainland.</li>
+							<li><strong>Tax Benefits:</strong> many free zones provide corporate tax exemptions.</li>
+						</ul>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							However, keep in mind:
+						</p>
+						<ul class="list-disc ml-5">
+							<li><strong>Visa Requirements for Business Operations:</strong> while you don’t need a residence visa to establish your company, you might need one to visit Dubai for business or to hire employees.</li>
+							<li><strong>Business Activity Restrictions:</strong> some business activities might be limited to specific free zones.</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							How much is a business permit in Dubai?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							The cost of a business permit in Dubai can vary widely based on several factors:
+						</p>
+						<ul class="list-disc ml-5">
+							<li><strong>Type of License:</strong> the activities your business will undertake determine the type of license you need, and each comes with different fees.</li>
+							<li><strong>Location:</strong> setting up in a free zone is usually more affordable than on the mainland.</li>
+							<li><strong>Business Structure:</strong> whether you’re a sole proprietor or forming a limited liability company, the legal structure affects the cost.</li>
+							<li><strong>Additional Fees:</strong> don’t forget about extra costs like office space rental, visa fees, and professional services.</li>
+						</ul>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							On average, you might pay between AED 8,000 to AED 30,000 for a basic business license. However, the exact amount can vary based on your specific situation.
+						</p>
+						<p class="m-0">
+							For a precise quote, it’s a good idea to consult with a business setup expert in Dubai.
+						</p>
+					</div>
+				</div>
+
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							Can I start a business in Dubai without a sponsor?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							Yes, You Can Start a Business in Dubai Without a Sponsor.
+						</p>
+						<p class="m-0">
+							Dubai has significantly relaxed its business ownership rules. Previously, a local sponsor was mandatory for setting up a business on the mainland. However, recent reforms have made it possible for foreigners
+							to own 100% of their company in many sectors.
+						</p>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							While free zones have always allowed 100% foreign ownership, the changes now extend to mainland business setups, offering greater flexibility and opportunities for entrepreneurs.
+						</p>
+						<p class="m-0">
+							It's essential to note that not all business activities are eligible for 100% foreign ownership. Certain sectors may still require a local sponsor.
+						</p>
+						<p class="m-0">
+							To ensure you meet the eligibility criteria, it's advisable to consult with a business setup specialist in Dubai.
+						</p>
+					</div>
+				</div>
+
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							Can I start a business in Dubai without an office?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							Yes, You Can Start a Business in Dubai Without a Physical Office.
+						</p>
+						<p class="m-0">
+							Dubai has embraced the digital age and offers flexible options for entrepreneurs. You can indeed start a business without a physical office space.
+						</p>
+						<p class="m-0">
+							Here are the primary methods:
+						</p>
+						<ul class="list-disc ml-5">
+							<li><strong>Virtual Office License:</strong> many free zones in Dubai offer virtual office licenses, allowing you to register a business without requiring a physical office. This option is ideal for
+								service-based businesses.
+							</li>
+							<li><strong>Flexi Desk Permits:</strong> some free zones provide flexi desk permits, granting you access to shared workspace facilities without committing to a dedicated office.</li>
+							<li><strong>Free Zone Licenses:</strong> certain free zones allow businesses to operate without a physical office, focusing on online activities.</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							Is home business allowed in Dubai?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							The Dubai government sees the potential in small and medium enterprises (SMEs) and has introduced home business licenses to support entrepreneurs. This means you can legally run a business right from your
+							home.
+						</p>
+						<p class="m-0">
+							While there are some guidelines and regulations to follow, starting a home-based business in Dubai is a practical and achievable option for many.
+						</p>
+					</div>
+				</div>
+
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							How much does it cost to register a company in Dubai?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							The cost to register a company in Dubai can vary quite a bit depending on several factors:
+						</p>
+						<ul class="list-disc ml-5">
+							<li><strong>Type of Company:</strong> sole proprietorship, LLC, or corporation each have different fees.</li>
+							<li><strong>Location:</strong> costs differ between setting up in the mainland versus free zone companies.</li>
+							<li><strong>Business Activities:</strong> specific licenses and permits can add to the expense.</li>
+							<li><strong>Additional Services:</strong> fees for things like visa processing, office space, and professional services can drive up costs.</li>
+						</ul>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							On average, you might spend anywhere from AED 10,000 to AED 30,000 for a basic setup. But this is just a ballpark figure. Here’s how to get a more accurate estimate:
+						</p>
+						<ul class="list-disc ml-5">
+							<li><strong>Free Zones:</strong> offer budget-friendly packages that may include office space and visa options.</li>
+							<li><strong>Mainland:</strong> typically costs more due to local sponsorship requirements and the need for office space.</li>
+							<li><strong>Professional Services:</strong> hiring business consultants can make the process smoother but will add extra fees.</li>
+						</ul>
+						<p class="m-0">
+							For the best cost estimate, it’s a good idea to consult with a business setup specialist in Dubai.
+						</p>
+					</div>
+				</div>
+
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							How much does it cost to put a company in a free zone in Dubai?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							The cost of setting up a company in a Dubai-free zone can vary quite a bit. It depends on factors like the specific free zone, the type of license you need, office space requirements, and any extra services
+							you choose.
+						</p>
+						<p class="m-0">
+							On average, you’ll be looking at around AED 10,000 to AED 30,000 for the initial setup. This usually covers registration fees, license costs, and basic office space.
+						</p>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							Here’s a quick cost breakdown:
+						</p>
+						<ul class="list-disc ml-5">
+							<li><strong>Registration Fees:</strong> these cover incorporating your company and getting the necessary licenses.</li>
+							<li><strong>Office Space:</strong> you might go for a virtual office, but renting physical space will add extra costs.</li>
+							<li><strong>Visa Fees:</strong> if you’re hiring employees, you’ll need to budget for their visas too.</li>
+							<li><strong>Professional Fees:</strong> hiring business setup companies can make the process smoother, but it comes with additional fees.</li>
+						</ul>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							Some popular UAE free zones that offer cost-effective setup options include:
+						</p>
+						<ul class="list-disc ml-5">
+							<li>Creative Zone</li>
+							<li>Sharjah Media City (SHAMS)</li>
+							<li>Dubai Media City (DMC)</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							Can I open a company in Dubai remotely?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							Yes, you can open a company in Dubai remotely.
+						</p>
+						<p class="m-0">
+							Dubai now offers the Virtual Company License (VCL), which lets you start and run a business in the UAE without ever needing to set foot in the country.
+						</p>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							With a VCL, you can set up your company, get a trade license, and manage your operations all from afar.
+						</p>
+						<p class="m-0">
+							Key benefits of a VCL:
+						</p>
+						<ul class="list-disc ml-5">
+							<li><strong>100% Foreign Ownership:</strong> you own it all!</li>
+							<li><strong>No Physical Office Required:</strong> work from anywhere.</li>
+							<li><strong>Remote Management:</strong> control everything online.</li>
+							<li><strong>Access to UAE Market:</strong> tap into the UAE’s business opportunities.</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+					<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+						<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq650:min-w-[50px] max-w-full">
+							Can I move to Dubai and start a business?
+						</h3>
+						<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+					</div>
+					<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<p class="m-0">
+							Dubai has become a hotspot for entrepreneurs from all over the globe thanks to its business-friendly environment, tax perks, and prime location.
+						</p>
+						<p class="m-0">
+							Here’s what you’ll typically need to start a business in Dubai:
+						</p>
+						<ul class="list-disc ml-5">
+							<li><strong>Business Setup:</strong> choose your company’s legal structure, get the necessary licenses, and register your business.</li>
+							<li><strong>Residence Visa:</strong> this lets you live and work in Dubai.</li>
+							<li><strong>Office Space:</strong> not always required, but having an office can boost your business’s credibility.</li>
+						</ul>
+						<p class="m-0">&nbsp;</p>
+						<p class="m-0">
+							Dubai offers different options for business setup, including free zones and mainland companies, each with its own requirements and benefits.
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
 
 
-	</div>
+</div>
 </body>
 </html>
