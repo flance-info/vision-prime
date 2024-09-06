@@ -445,9 +445,10 @@
 					Why Choose VisionAE?
 				</h2>
 			</div>
-			<div class="w-[1170px] flex flex-row items-start justify-start gap-[60px] max-w-full lg:gap-[30px] lg:mx-[20px] mt-[30px]">
+
+			<div class="w-[1170px] flex flex-row items-stretch justify-start gap-[60px] max-w-full lg:gap-[30px] lg:mx-[20px] mt-[30px]">
 				<!-- Left Side -->
-				<div class="w-[400px] flex flex-col items-start justify-start gap-10 min-w-[400px] max-w-full mq450:gap-5 mq1425:min-w-full">
+				<div class="w-[400px] flex flex-col items-start justify-between gap-10 min-w-[400px] max-w-full mq450:gap-5 mq1425:min-w-full">
 					<div class="self-stretch flex flex-row items-start justify-start relative max-w-full text-left text-41xl text-general-white font-heading-1-72">
 						<div class="m-0 flex-1 relative text-inherit leading-[66px] font-normal font-inherit inline-block max-w-full mq450:text-17xl mq450:leading-[40px] mq950:text-29xl mq950:leading-[53px]">
 							Top Reasons for using Services
@@ -480,8 +481,8 @@
 				</div>
 
 				<!-- Right Side -->
-				<div class="w-[700px] flex flex-col items-start justify-start px-0 pb-0 box-border min-w-[700px] max-w-full text-5xl font-button-dm-sans-16 mq950:pt-[83px] mq950:box-border mq1425:pt-[127px] mq1425:box-border mq1425:min-w-full">
-					<div class="self-stretch flex flex-col items-start justify-start gap-10 max-w-full mq950:gap-5">
+				<div class="w-[700px] flex flex-col items-start justify-between px-0 pb-0 box-border min-w-[700px] max-w-full text-5xl font-button-dm-sans-16 mq950:pt-[83px] mq950:box-border mq1425:pt-[127px] mq1425:box-border mq1425:min-w-full">
+					<div class="self-stretch flex flex-col items-start justify-between gap-10 max-w-full mq950:gap-5">
 						<div class="self-stretch bg-general-7-secondary-variant overflow-hidden flex flex-row items-start justify-start p-[30px] box-border gap-[25px] max-w-full z-[1] mq1425:flex-wrap">
 							<div class="h-[94px] w-[94px] relative">
 								<img class="absolute h-[calc(100%_-_11.5px)] w-[calc(100%_-_11.5px)] top-[5.8px] right-[5.7px] bottom-[5.7px] left-[5.8px] max-w-full overflow-hidden max-h-full object-cover" loading="lazy" alt=""

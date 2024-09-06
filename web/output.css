@@ -1603,6 +1603,10 @@ video {
   width: 1px;
 }
 
+.w-\[700px\] {
+  width: 700px;
+}
+
 .min-w-\[100\%\] {
   min-width: 100%;
 }
@@ -1817,6 +1821,10 @@ video {
 
 .min-w-\[94px\] {
   min-width: 94px;
+}
+
+.min-w-\[700px\] {
+  min-width: 700px;
 }
 
 .max-w-3xl {
