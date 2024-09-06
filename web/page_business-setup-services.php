@@ -105,48 +105,48 @@
 					</div>
 
 					<div class="max-w-[1170px]w-[1170px] flex flex-col items-start justify-start gap-[30px] w-full text-5xl text-general-1-secondary">
-						<div class="self-stretch flex flex-row items-start justify-start flex-wrap content-start gap-[30px] max-w-full">
-							<div class="flex-1 bg-general-white flex flex-col items-start justify-start pt-10 pb-24 pl-10 pr-5 box-border gap-5 min-w-[370px] max-w-full mq450:pt-[26px] mq450:pb-[62px] mq450:box-border mq450:min-w-full">
-								<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit inline-block  w-full mq450:text-lgi mq450:leading-[24px]">
-									Flexibility to Operate anywhere in&nbsp;the&nbsp;UAE
-								</h3>
-								<div class="max-w-[490px] relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant inline-block  w-full">
-									One of the key benefits of starting a Mainland company in&nbsp;Dubai
-									is&nbsp;the flexibility it provides. When you register a&nbsp;Mainland
-									company in&nbsp;Dubai, you can conduct business activities across the
-									entire UAE without restrictions. With&nbsp;a&nbsp;Mainland business
-									license, your company can operate freely within local markets,
-									secure government contracts, and&nbsp;expand its reach. The UAE
-									government’s regulations ensure that Mainland companies have
-									the&nbsp;agility to grow and&nbsp;adapt, making it an ideal choice
-									for&nbsp;diverse business&nbsp;activities.
-								</div>
-							</div>
-							<div class="flex-1 bg-general-white flex flex-col items-start justify-start py-10 pl-10 pr-5 box-border gap-5 min-w-[370px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
-								<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit inline-block  w-full mq450:text-lgi mq450:leading-[24px]">
-									Cost-Effective Licensing Options for&nbsp;Diverse Business needs
-								</h3>
-								<div class="max-w-[490px] h-[286px] relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant inline-block  w-full">
-									Obtaining a Mainland license in Dubai offers cost-effective
-									solutions tailored to your business setup needs. Whether you’re
-									looking to conduct business as&nbsp;a&nbsp;professional or&nbsp;a&nbsp;commercial
-									entity, the flexibility of&nbsp;choosing between a&nbsp;professional
-									license and&nbsp;a&nbsp;commercial license makes it easier to align
-									with&nbsp;your specific business activities. The&nbsp;Mainland license
-									cost is competitively structured, allowing you to&nbsp;operate
-									efficiently while gaining access to&nbsp;the&nbsp;vast local market. This
-									affordability of the business licenses, combined with the
-									ability to conduct business freely, makes setting up on the
-									Dubai Mainland an&nbsp;attractive&nbsp;option.
-								</div>
-							</div>
-						</div>
-						<div class="self-stretch flex flex-row items-start justify-start flex-wrap content-start gap-[30px] max-w-full">
-							<div class="flex-1 bg-general-white flex flex-col items-start justify-start py-10 pl-10 pr-5 box-border gap-5 min-w-[370px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
-								<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit inline-block  w-full mq450:text-lgi mq450:leading-[24px]">
+					<div class="self-stretch flex flex-row items-stretch justify-start flex-wrap content-start gap-[30px] max-w-full">
+    <div class="flex-1 bg-general-white flex flex-col items-start justify-between pt-10 pb-24 pl-10 pr-5 box-border gap-5 min-w-[370px] max-w-full mq450:pt-[26px] mq450:pb-[62px] mq450:box-border mq450:min-w-full">
+        <h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
+            Flexibility to Operate anywhere in&nbsp;the&nbsp;UAE
+        </h3>
+        <div class="max-w-[490px] relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant inline-block w-full">
+            One of the key benefits of starting a Mainland company in&nbsp;Dubai
+            is&nbsp;the flexibility it provides. When you register a&nbsp;Mainland
+            company in&nbsp;Dubai, you can conduct business activities across the
+            entire UAE without restrictions. With&nbsp;a&nbsp;Mainland business
+            license, your company can operate freely within local markets,
+            secure government contracts, and&nbsp;expand its reach. The UAE
+            government’s regulations ensure that Mainland companies have
+            the&nbsp;agility to grow and&nbsp;adapt, making it an ideal choice
+            for&nbsp;diverse business&nbsp;activities.
+        </div>
+    </div>
+    <div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5 box-border gap-5 min-w-[370px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
+        <h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
+            Cost-Effective Licensing Options for&nbsp;Diverse Business needs
+        </h3>
+        <div class="max-w-[490px] relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant inline-block w-full">
+            Obtaining a Mainland license in Dubai offers cost-effective
+            solutions tailored to your business setup needs. Whether you’re
+            looking to conduct business as&nbsp;a&nbsp;professional or&nbsp;a&nbsp;commercial
+            entity, the flexibility of&nbsp;choosing between a&nbsp;professional
+            license and&nbsp;a&nbsp;commercial license makes it easier to align
+            with&nbsp;your specific business activities. The&nbsp;Mainland license
+            cost is competitively structured, allowing you to&nbsp;operate
+            efficiently while gaining access to&nbsp;the&nbsp;vast local market. This
+            affordability of the business licenses, combined with the
+            ability to conduct business freely, makes setting up on the
+            Dubai Mainland an&nbsp;attractive&nbsp;option.
+        </div>
+    </div>
+</div>
+					<div class="self-stretch flex flex-row items-stretch justify-start flex-wrap content-start gap-[30px] max-w-full">
+							<div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5 box-border gap-5 min-w-[370px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
+								<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
 									Versatile Business Structures for&nbsp;Foreign Companies
 								</h3>
-								<div class="max-w-[490px] relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant inline-block  w-full">
+								<div class="max-w-[490px] relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant inline-block w-full">
 									Mainland company setup in the UAE is ideal for foreign companies
 									seeking versatile business structures. Unlike limited options in
 									free zones, the Mainland allows the&nbsp;formation of various
@@ -159,11 +159,11 @@
 									establishment across multiple sectors.
 								</div>
 							</div>
-							<div class="flex-1 bg-general-white flex flex-col items-start justify-start py-10 pl-10 pr-5 box-border gap-5 min-w-[370px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
-								<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit inline-block  w-full mq450:text-lgi mq450:leading-[24px]">
+							<div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5 box-border gap-5 min-w-[370px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
+								<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
 									Enhanced Visa Dubai and&nbsp;Residency Options for&nbsp;Business Owners
 								</h3>
-								<div class="max-max-w-[490px] relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant inline-block  w-full">
+								<div class="max-w-[490px] relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant inline-block w-full">
 									Securing a Dubai Mainland license offers significant advantages
 									for obtaining residence visas and managing your UAE company’s
 									workforce. Unlike free zone companies, Mainland company setup
@@ -177,6 +177,7 @@
 								</div>
 							</div>
 						</div>
+
 					</div>
 
 				</div>
