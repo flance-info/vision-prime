@@ -1140,7 +1140,7 @@
 				 pb-[100px] box-border relative gap-[30px] max-w-full
 				 lg:pb-[65px] lg:box-border mq450:pb-[42px] mq450:box-border
 				  mq850:gap-[15px] mq1500:min-w-full mr-[5%]">
-				<div class="w-full max-w-[1170px] flex-col ml-[5%]">
+				<div class="w-full max-w-[1170px] flex-col ml-[5%] mq650:ml-[0px]">
 
 					<div class="w-[1318px] h-[168px] flex flex-row items-start justify-center max-w-full">
 						<div class="self-stretch w-[182px] flex flex-col items-start justify-start gap-[30px]">
@@ -1266,8 +1266,16 @@
 										</div>
 
 									</div>
-										<div class=" flex  mt-[60px]">	<div class="self-stretch flex flex-row items-start justify-center [row-gap:20px] z-[1] text-sm font-primary-paragraph-paragraph-5 lg:flex-wrap">
-													<div class="flex-1 flex flex-row items-center justify-center py-0 px-0 box-border gap-[15px] min-w-[157px] mq450:pl-5 mq450:pr-5 mq450:box-border">
+
+									<div class=" flex  mt-[60px] mq650:mt-[30px]">
+
+										<div class="self-stretch flex flex-row items-start justify-center [row-gap:20px] z-[1] text-sm font-primary-paragraph-paragraph-5 lg:flex-wrap">
+											<div class="flex items-center justify-center w-full gap-6 hidden lg:flex">
+												<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] prev" id="prevp" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-1.svg">
+												<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] next" id="nextm" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-2@2x.png">
+											</div>
+
+											<div class="flex-1 flex flex-row items-center justify-center py-0 px-0 box-border gap-[15px] min-w-[157px] mq450:pl-5 mq450:pr-5 mq450:box-border">
 														<div class="rounded-xl bg-general-white flex flex-row items-center justify-center p-[13px]">
 															<img class="h-6 w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/iconsgoogle-original.svg">
 														</div>
@@ -1342,7 +1350,8 @@
 															<p class="m-0 text-sm font-medium">Happy Customers</p>
 														</div>
 													</div>
-												</div></div>
+												</div>
+										</div>
 
 								</div>
 
@@ -1350,10 +1359,7 @@
 
 
 								<img class="h-[49.5px] w-[120px] relative object-contain z-[1] lg:hidden cursor-pointer next top-[100px]" id="next" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-2@2x.png">
-								<div class="flex items-center justify-center w-full gap-6 hidden lg:flex">
-									<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] prev" id="prevp" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-1.svg">
-									<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] next" id="nextm" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-2@2x.png">
-								</div>
+
 							</div>
 						</div>
 					</div>
