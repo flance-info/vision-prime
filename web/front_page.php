@@ -1376,7 +1376,157 @@
 		</div>
 
 	</section>
+<section class="self-stretch bg-general-white flex flex-col items-center justify-start pt-[22px] px-5 pb-[100px] box-border gap-[60px]
+			max-w-full text-center text-base text-general-1-primary
+			font-subtitles-16  ">
+			<div class="w-full flex flex-row mb-[-20px] mt-[-21px]">
+				<div class="w-[50%] h-[120px] border-general-1-primary border-r border-solid "></div>
+				<div class="w-[50%] "></div>
+			</div>
+			<div class="max-w-[1170px] flex flex-row items-start justify-center w-full">
 
+				<div class="w-full flex flex-col items-center justify-start gap-[21px] max-w-full">
+					<div class="self-stretch flex flex-row items-start justify-center py-0 px-5">
+						<div class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[2]">
+							Our Packages
+						</div>
+					</div>
+					<div class="flex flex-row items-start justify-start relative text-41xl text-general-8-secondary font-heading-1-72">
+
+						<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[2] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
+							Business Setup Services in Dubai
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="max-w-[1170px] w-full grid  grid-cols-3 lg:grid-cols-3 mq1050:grid-cols-1 gap-[30px] text-11xl">
+				<!-- Light Plan -->
+				<div class="cursor-pointer  hover:scale-110 bg-general-white transition-transform duration-300 ease-in-out  border-general-1-primary border-[2px] border-solid box-border flex flex-col items-center justify-start py-[47px] px-[38px] gap-[30px] min-w-[277px]">
+					<h2 class="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]">
+						Light
+					</h2>
+					<div class="self-stretch flex flex-col items-start justify-start gap-[18px] text-left text-sm text-general-8-secondary font-body-b3-merriweather-14">
+						<div class="self-stretch flex flex-row items-center justify-start gap-4">
+							<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+							<div class="flex-1 relative leading-[24px]">
+								Dedicated Consultant
+							</div>
+						</div>
+						<div class="self-stretch flex flex-row items-start justify-start gap-4">
+							<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+							<div class="flex-1 relative leading-[24px]">100% Ownership</div>
+						</div>
+						<div class="self-stretch flex flex-row items-start justify-start gap-4">
+							<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+							<div class="flex-1 relative leading-[24px]">
+								Trade license application support
+							</div>
+						</div>
+						<div class="self-stretch flex flex-row items-center justify-start gap-4">
+							<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+							<div class="flex-1 relative leading-[24px]">
+								Virtual office arrangements
+							</div>
+						</div>
+						<div class="self-stretch flex flex-row items-start justify-start gap-4 mq450:flex-wrap">
+							<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+							<div class="h-12 flex-1 relative tracking-[-0.11px] leading-[24px] inline-block min-w-[162px]">
+								Basic corporate bank opening support
+							</div>
+						</div>
+						<div class="self-stretch flex flex-row items-start justify-start gap-4">
+							<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+							<div class="flex-1 relative leading-[24px]">
+								Minimal visa allocation
+							</div>
+						</div>
+						<div class="self-stretch flex flex-row items-start justify-start gap-4">
+							<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+							<div class="flex-1 relative leading-[24px]">
+								Simplified bank opening process
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Standard Plan -->
+				<div class="cursor-pointer hover:scale-110 bg-general-white transition-transform duration-300 ease-in-out  border-general-1-primary border-[2px] border-solid box-border flex flex-col items-center justify-start py-[47px] px-[38px] gap-[30px] min-w-[277px]" style="
+    /* padding-left: 10px; */
+">
+					<h2 class="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]">
+						Standard
+					</h2>
+					<div class="self-stretch flex flex-col items-start justify-start gap-[18px] text-left text-sm text-general-8-secondary font-body-b3-merriweather-14">
+						<div class="self-stretch flex flex-row items-start justify-center gap-4 mq450:flex-wrap">
+							<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+							<div class="flex-1 relative leading-[24px] inline-block min-w-[162px]">
+								Complete company registration across selected jurisdictions
+							</div>
+						</div>
+						<div class="self-stretch flex flex-row items-start justify-start gap-4">
+							<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+							<div class="relative leading-[24px]">Dedicated consultant</div>
+						</div>
+						<div class="self-stretch flex flex-row items-center justify-start py-px px-0 gap-4">
+							<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+							<div class="flex-1 relative leading-[24px]">100% Ownership</div>
+						</div>
+						<div class="self-stretch flex flex-row items-start justify-start gap-4 mq450:flex-wrap">
+							<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+							<div class="flex-1 relative leading-[24px] inline-block min-w-[162px]">
+								Virtual and physical office space acquisition
+							</div>
+						</div>
+						<div class="self-stretch flex flex-row items-start justify-start gap-4">
+							<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+							<div class="flex-1 relative leading-[24px]">
+								Limited visa quota
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Pro Plan -->
+				<div class="cursor-pointer hover:scale-110 bg-general-white transition-transform duration-300 ease-in-out  border-general-1-primary border-[2px] border-solid box-border flex flex-col items-center justify-start py-[47px] px-[38px] gap-[30px] min-w-[277px]">
+					<h2 class="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]">
+						Pro
+					</h2>
+					<div class="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[60px] gap-[18px] text-left text-sm text-general-8-secondary font-body-b3-merriweather-14">
+						<div class="self-stretch flex flex-row items-start justify-start gap-4">
+							<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+							<div class="flex-1 relative leading-[24px]">
+								All-inclusive package
+							</div>
+						</div>
+						<div class="self-stretch flex flex-row items-start justify-start gap-4">
+							<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+							<div class="relative leading-[24px]">
+								Premium office space arrangements
+							</div>
+						</div>
+						<div class="self-stretch flex flex-row items-start justify-start gap-4 mq450:flex-wrap">
+							<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+							<div class="flex-1 relative leading-[24px] inline-block min-w-[162px]">
+								Assistance in tax, legal, and&nbsp;general business consultations
+							</div>
+						</div>
+						<div class="self-stretch flex flex-row items-start justify-start gap-4">
+							<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+							<div class="flex-1 relative leading-[24px]">
+								Complete documentation support
+							</div>
+						</div>
+						<div class="self-stretch flex flex-row items-start justify-start gap-4 mq450:flex-wrap">
+							<img decoding="async" class="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconscheck-6.svg">
+							<div class="flex-1 relative leading-[24px] inline-block min-w-[140px]">
+								Extensive visa allocation and&nbsp;expedited processing
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
 
 	<section class="self-stretch bg-elements-neutral-4 flex
 			flex-col items-center justify-start
