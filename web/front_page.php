@@ -1187,8 +1187,8 @@
 									<!-- Slider 1 !-->
 									<div class="flex-1 flex flex-col items-start justify-start pt-[16.5px] px-0 pb-0 box-border min-w-[100%]  lg:min-w-full">
 										<div class="self-stretch flex flex-col items-end justify-start gap-14 max-w-full mq850:gap-7">
-											<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border">
-												<div class="flex-1 flex flex-row items-start justify-between max-w-full gap-[140px] lg:flex-wrap">
+											<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border mq650:px-[20px]">
+												<div class="flex-1 flex flex-row items-start justify-between max-w-full gap-[140px] lg:flex-wrap mq450:mt-[-50px]">
 													<div class="h-[156px] w-[77px] flex flex-col items-start justify-start pt-24 px-0 pb-0 box-border">
 														<img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full z-[2]" alt="" src="/wp-content/themes/vision-prime/web/public/quotation-mark.svg">
 														<div class="relative block w-[300px] top-[-30px]">
@@ -1231,8 +1231,8 @@
 									<!-- Slider 2 !-->
 									<div class="flex-1 flex flex-col items-start justify-start pt-[16.5px] px-0 pb-0 box-border min-w-[100%] lg:min-w-full">
 										<div class="self-stretch flex flex-col items-end justify-start gap-14 max-w-full mq850:gap-7">
-											<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border">
-												<div class="flex-1 flex flex-row items-start justify-between max-w-full gap-[140px] lg:flex-wrap">
+											<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border mq650:px-[20px]">
+												<div class="flex-1 flex flex-row items-start justify-between max-w-full gap-[140px] lg:flex-wrap mq450:mt-[-50px]">
 													<div class="h-[156px] w-[77px] flex flex-col items-start justify-start pt-24 px-0 pb-0 box-border">
 														<img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full z-[2]" alt="" src="/wp-content/themes/vision-prime/web/public/quotation-mark.svg">
 														<div class="relative block w-[300px] top-[-30px]">
@@ -1274,13 +1274,13 @@
 
 								</div>
 								<div class="flex items-center justify-center w-full gap-6 hidden lg:flex mt-[30px]">
-									<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] prev" id="prevp" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-1.svg">
-									<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] next" id="nextm" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-2@2x.png">
+									<img decoding="async" class="cursor-pointer h-[49.5px] w-[120px] relative z-[1] prev" id="prevp" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-1.svg">
+									<img decoding="async" class="cursor-pointer h-[49.5px] w-[120px] relative z-[1] next" id="nextm" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-2@2x.png">
 								</div>
-								<div class=" flex  mt-[60px] mq650:mt-[30px]">
+								<div class=" flex  mt-[60px] mq650:mt-[30px] mq450:justify-center">
 
 
-									<div class="self-stretch flex flex-row items-start justify-center [row-gap:20px] z-[1] text-sm font-primary-paragraph-paragraph-5 lg:flex-wrap">
+									<div class="self-stretch flex flex-row items-start justify-center [row-gap:20px] z-[1] text-sm font-primary-paragraph-paragraph-5 lg:flex-wrap mq450:flex-col mq450:items-center">
 
 
 										<div class="flex-1 flex flex-row items-center justify-center py-0 px-0 box-border gap-[15px] min-w-[157px] mq450:pl-5 mq450:pr-5 mq450:box-border">
@@ -1376,6 +1376,8 @@
 		</div>
 
 	</section>
+
+
 	<section class="self-stretch bg-elements-neutral-4 flex
 			flex-col items-center justify-start
 			pt-0 px-5 pb-[100px] box-border gap-20

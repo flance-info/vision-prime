@@ -239,7 +239,7 @@ body .wpcf7 form
     font-weight: normal;
     display: block;
     position: absolute;
-    left: ;
+
 }
 .cursor-pointer.hover:scale-110 {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
