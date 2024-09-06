@@ -538,7 +538,7 @@
 								hover:text-custom-gold hover:bg-elements-neutral-4 hover:border-solid
 							hover:[box-shadow:inset_0_0_0_2px] hover:border-custom-gold items-center
 							justify-center gap-[15px]">
-							<div class="ml-[-285px] h-[51px] w-[270px] relative bg-general-1-primary-variant shrink-0"></div>
+							<div class="ml-[-285px] h-[51px] w-[270px] relative bg-general-1-primary-variant shrink-0 z-[-1]"></div>
 							<div class="w-60 flex flex-col items-start justify-start px-0 pb-0 box-border shrink-0
 								" style="
     /* display: flex; */
@@ -596,7 +596,7 @@
 								hover:text-custom-gold hover:bg-elements-neutral-4 hover:border-solid
 							hover:[box-shadow:inset_0_0_0_2px] hover:border-custom-gold items-center
 							justify-center">
-							<div class="ml-[-285px] h-[51px] w-[270px] relative bg-general-1-primary-variant shrink-0"></div>
+							<div class="ml-[-285px] h-[51px] w-[270px] relative bg-general-1-primary-variant shrink-0 z-[-1]"></div>
 							<div class="w-60 flex flex-col items-start justify-start px-0 pb-0 box-border shrink-0">
 								<b class="self-stretch relative text-base leading-[22px] font-button-dm-sans-16  text-center shrink-0">Start Free Trial</b>
 							</div>
@@ -648,7 +648,7 @@
 								hover:text-custom-gold hover:bg-elements-neutral-4 hover:border-solid
 							hover:[box-shadow:inset_0_0_0_2px] hover:border-custom-gold items-center
 							justify-center gap-[15px]">
-							<div class="ml-[-285px] h-[51px] w-[270px] relative bg-general-1-primary-variant shrink-0"></div>
+							<div class="ml-[-285px] h-[51px] w-[270px] relative bg-general-1-primary-variant shrink-0 z-[-1]"></div>
 							<div class="w-60 flex flex-col items-start justify-start px-0 pb-0 box-border shrink-0">
 								<b class="self-stretch relative text-base leading-[22px] font-button-dm-sans-16  text-center shrink-0">Start Free Trial</b>
 							</div>
@@ -2113,8 +2113,8 @@
 			gap-20 w-full text-center text-base text-general-1-primary font-subtitles-16
 			mq450:gap-5 mq850:gap-10 mq1500:flex-wrap">
 		<div class="ml-[5%] lg:ml-[0px] w-full bg-cover bg-no-repeat flex flex-row self-stretch items-center justify-center bg-[url('/wp-content/themes/vision-prime/web/public/form-builder-background@2x.png')]">
-			<div class="w-full max-w-[1170px] flex-row flex mr-[5%] justify-between lg:mr-[0px] lg:ml-[20px] mq850:flex-col mq850:gap-[30px] mq850:justify-center mq850:items-center">
-				<div class="max-w-[650px] w-full flex flex-col items-start justify-start  w-full ">
+			<div class="w-full max-w-[1170px] flex-row flex mr-[5%] justify-between lg:mr-[0px] lg:ml-[20px] mq850:flex-col mq850:gap-[30px] mq850:justify-center mq850:items-center mq650:ml-[0px]">
+				<div class="max-w-[650px] w-full flex flex-col items-start justify-start  w-full mq650:px-[20px] ">
 					<div class="h-[120px] border-general-1-primary border-solid  border-l-[1px]"></div>
 					<div class="max-w-full h-[200px] flex flex-col items-start justify-start relative gap-[21px] w-full z-[1]">
 
@@ -2137,7 +2137,7 @@
 						that have already been&nbsp;completed.
 					</div>
 				</div>
-				<div class="max-w-[440px] w-full flex flex-row items-start justify-start relative  text-left text-gray-200 font-paragraph-16">
+				<div class="max-w-[440px] w-full flex flex-row items-start justify-start relative  text-left text-gray-200 font-paragraph-16 mq650:justify-center">
 
 					<div class="wpcf7 js" id="wpcf7-f486-o1" lang="en-US" dir="ltr">
 						<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p>

@@ -70,7 +70,6 @@ module.exports = {
       borderRadius: {
         xl: "20px",
         "83xl-4": "102.4px",
-
       },
     },
     fontSize: {

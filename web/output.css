@@ -862,6 +862,10 @@ video {
   z-index: 99;
 }
 
+.z-\[-1\] {
+  z-index: -1;
+}
+
 .\!m-0 {
   margin: 0px !important;
 }
@@ -5639,6 +5643,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     justify-content: flex-start;
   }
 
+  .mq650\:justify-center {
+    justify-content: center;
+  }
+
   .mq650\:gap-\[5px\] {
     gap: 5px;
   }
@@ -5656,14 +5664,14 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     padding-right: 0px;
   }
 
-  .mq650\:px-\[20px\] {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   .mq650\:px-\[10px\] {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .mq650\:px-\[20px\] {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .mq650\:py-\[30px\] {
