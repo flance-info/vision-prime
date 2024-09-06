@@ -5613,6 +5613,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     height: 350px;
   }
 
+  .mq650\:h-auto {
+    height: auto;
+  }
+
   .mq650\:w-\[30px\] {
     width: 30px;
   }

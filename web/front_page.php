@@ -446,7 +446,7 @@
 								If you have a potential project or think we’d be the&nbsp;ideal partner to bring it to life, please get in touch at&nbsp;hello@visionprime.ae.
 							</h3>
 						</div>
-						<div class="flex flex-col items-start justify-start pt-9 px-0 pb-0">
+						<div class="flex flex-col items-start justify-start pt-9 px-0 pb-0 mq650:item-center ">
 							<button onclick="openModal()" class="cursor-pointer border-general-white border-[2px]
 						border-solid py-[18px] px-[38px] bg-[transparent] overflow-hidden
 						flex flex-row items-start justify-start text-general-white hover:border-custom-gold hover:border-custom-gold
@@ -715,7 +715,7 @@
 					</div>
 				</div>
 				<div class="w-[1170px] flex flex-row items-start justify-start flex-wrap content-start gap-x-[30px] gap-y-[28.7px] mq650:gap-y-[0px] min-h-[830px] max-w-full text-left text-lg text-general-1-secondary font-button-dm-sans-16">
-					<div class="flex-1 overflow-hidden mq650:h-[350px] hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border mq650:pt-[20px]">
+					<div class="flex-1 overflow-hidden mq650:h-auto hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border mq650:pt-[20px]">
 						<img decoding="async" class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightcontent-edit.svg">
 
 						<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
@@ -728,7 +728,7 @@
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 					</div>
-					<div class="h-[388px] mq650:h-[350px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
+					<div class="h-[388px] mq650:h-auto flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
 						<img decoding="async" class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightcertificate.svg">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
@@ -740,7 +740,7 @@
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 					</div>
-					<div class="h-[388px] mq650:h-[350px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
+					<div class="h-[388px] mq650:h-auto flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
 						<img decoding="async" class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightbank.svg">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
@@ -753,7 +753,7 @@
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 					</div>
-					<div class="flex-1 overflow-hidden mq650:h-[350px] hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
+					<div class="flex-1 overflow-hidden mq650:h-auto hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
 						<img decoding="async" class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklighttrademark-copyright-restricted.svg">
 
 						<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
@@ -766,7 +766,7 @@
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 					</div>
-					<div class="flex-1 overflow-hidden mq650:h-[350px] hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
+					<div class="flex-1 overflow-hidden mq650:h-auto hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
 						<img decoding="async" class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightwallet.svg">
 
 						<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
@@ -779,7 +779,7 @@
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 					</div>
-					<div class="h-[412px] mq650:h-[350px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
+					<div class="h-[412px] mq650:h-auto flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
 						<img decoding="async" class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightwork.svg">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
@@ -792,7 +792,7 @@
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 					</div>
-					<div class="h-[412px] mq650:h-[350px]  flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
+					<div class="h-[412px] mq650:h-auto  flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
 						<img decoding="async" class="w-12 h-12 relative object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightaudit--assurance@2x.png">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
@@ -805,7 +805,7 @@
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 					</div>
-					<div class="h-[412px] mq650:h-[350px]  flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
+					<div class="h-[412px] mq650:h-auto  flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
 						<img decoding="async" class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightlifebuoy-help.svg">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
@@ -822,7 +822,119 @@
 			</div>
 		</section>
 
+<section class="self-stretch flex flex-row items-start justify-start
+			flex-wrap content-start pt-0 px-0 pb-[110px] box-border max-w-full
+			[row-gap:20px] text-center text-base text-general-1-primary font-subtitles-16
+			lg:pb-[71px] lg:box-border mq450:pb-[46px] mq450:box-border ">
+			<div class="h-[110px] w-[110px] relative bg-elements-neutral-4 z-[5] mq1500:hidden"></div>
+			<div class="flex-1 flex flex-row items-center justify-center relative min-w-[1176px] max-w-full mq1500:min-w-full">
+				<div class="h-full w-full absolute !m-[0] bottom-[-110px] left-[-110px] bg-general-1-primary z-[3] lg:hidden"></div>
+				<div class="flex-1 flex flex-col items-center justify-center pt-8
+					 pb-[110px] box-border gap-[100px]
+					bg-[url('/wp-content/themes/vision-prime/web/public/numbers-title-container@3x.png')]
+					bg-cover bg-no-repeat bg-[top] z-[4]  w-full">
 
+					<div class="flex-row w-full max-w-[1170px]">
+						<div class="h-[120px] relative block left-[5px] top-[-95px] flex justify-center items-center lg:left-[50px]">
+							<div class="h-px w-[120px] !m-[0] top-[-79px]  bg-general-1-primary [transform:_rotate(90deg)] [transform-origin:0_0]"></div>
+						</div>
+						<div class="max-w-[1170px] flex flex-row items-start justify-center w-full ml-[-50px] mb-[60px] lg:ml-[0px]">
+							<div class=" flex flex-col items-center justify-start gap-[31px] w-full mq850:gap-[15px]">
+								<div class="self-stretch flex flex-row items-center justify-center py-0 ">
+									<div class="flex flex-row items-center justify-start relative">
+
+										<h2 class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[1]">
+											By the Numbers
+										</h2>
+									</div>
+								</div>
+								<h2 class="m-0 self-stretch relative text-41xl leading-[66px] font-normal font-heading-1-72 text-general-white z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
+									Why Vision Prime?
+								</h2>
+							</div>
+						</div>
+						<div class="max-w-[1170px] flex flex-col items-start justify-start gap-[60px] w-full text-left text-41xl
+							font-button-dm-sans-16 lg:gap-[30px] lg:pl-[20px]">
+							<div class="self-stretch flex flex-row items-start justify-center gap-10 lg:flex-wrap mq850:gap-5">
+								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] ">
+
+
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:300]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:300]'">
+										<span class="supports-[counter-set]:sr-only">300</span>+
+									</b>
+
+									<div class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white inline-block min-w-[94px]">
+										customers
+									</div>
+								</div>
+
+
+								<div class="flex flex-col items-start justify-start gap-2.5">
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:90]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:90]'">
+										<span class="supports-[counter-set]:sr-only">90</span>%
+									</b>
+									<div class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white">
+										of customers recommend us
+									</div>
+								</div>
+								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] text-center">
+
+										<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:3]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:3]'">
+										<span class="supports-[counter-set]:sr-only">3</span>
+									</b>
+									<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left">
+										years of financial responsibility
+									</div>
+								</div>
+								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[166px] mq850:min-w-[60px] mq650:min-w-[166px] text-center ">
+
+										<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:2]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:2]'">
+										<span class="supports-[counter-set]:sr-only">2</span>
+									</b>
+									<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left">
+										regions, single provider
+									</div>
+								</div>
+							</div>
+							<div class="self-stretch flex flex-row items-start justify-center gap-10 lg:flex-wrap mq850:gap-5">
+								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px]">
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:15]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:15]'">
+										<span class="supports-[counter-set]:sr-only">15</span>
+									</b>
+									<div class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white inline-block min-w-[115px]">
+										service areas
+									</div>
+								</div>
+								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px]">
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:10]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:10]'">
+										<span class="supports-[counter-set]:sr-only">10</span>
+									</b>
+									<div class="relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white inline-block min-w-[125px]">
+										partner banks
+									</div>
+								</div>
+								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px] text-center">
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:15]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:15]'">
+										<span class="supports-[counter-set]:sr-only">15</span>
+									</b>
+									<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left">
+										accounting programs
+									</div>
+								</div>
+								<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[191px] max-w-[255px] text-center">
+									<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:1000]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:1000]'">
+										<span class="supports-[counter-set]:sr-only">1000</span>+
+									</b>
+									<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-white text-left">
+										transactions through payment agents
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</div>
 	</div>
 </body>
