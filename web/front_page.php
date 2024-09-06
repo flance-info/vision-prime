@@ -104,7 +104,7 @@
 			<div
 					class="w-[1170px] flex flex-col items-start justify-start gap-[60px] max-w-full lg:gap-[30px] lg:mx-[0px] lg:ml-[0px] px-[20px] mq650:px-[0px]"
 			>
-				<div class="self-stretch flex flex-col items-start justify-center py-0  box-border max-w-full text-center">
+				<div class="self-stretch flex flex-col items-start justify-center py-0  box-border max-w-full text-center mq650:px-[20px]">
 					<div class="h-[120px] relative block left-[50%] ">
 						<div class="h-px w-[120px] !m-[0] top-[-79px]  bg-general-1-primary [transform:_rotate(90deg)] [transform-origin:0_0]"></div>
 					</div>
@@ -692,9 +692,9 @@
 
 <section class="self-stretch flex flex-col items-start justify-start max-w-full text-center text-base text-general-white font-subtitles-16">
 
-			<div class="self-stretch bg-elements-neutral-4 flex flex-col items-center justify-start pt-[132px] px-5 pb-[100px] box-border gap-[100px] max-w-full z-[6] mt-[-110px] text-general-1-primary lg:gap-[89px] lg:pt-[132px] lg:pb-[65px] lg:box-border mq450:gap-[22px] mq850:gap-[45px] mq850:pb-[42px] mq850:box-border">
+			<div class="self-stretch bg-elements-neutral-4 flex flex-col items-center justify-start pt-[132px] px-5 pb-[100px] box-border gap-[100px] max-w-full z-[6] mt-[-110px] text-general-1-primary lg:gap-[89px] lg:pt-[132px] lg:pb-[65px] lg:box-border mq450:gap-[22px] mq650:px-[0px] mq850:gap-[45px] mq850:pb-[42px] mq850:box-border">
 
-				<div class="max-w-[1170px] w-full flex flex-col items-center justify-center py-0 pl-px pr-0 box-border">
+				<div class="max-w-[1170px] w-full flex flex-col items-center justify-center py-0 pl-px pr-0 box-border mq650:px-[20px]">
 					<div class="h-[120px] relative block left-[60px] top-[-25px]  ">
 						<div class="h-px w-[120px] !m-[0] top-[-79px]  bg-general-1-primary [transform:_rotate(90deg)] [transform-origin:0_0]"></div>
 					</div>
@@ -714,8 +714,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="w-[1170px] flex flex-row items-start justify-start flex-wrap content-start gap-x-[30px] gap-y-[28.7px] min-h-[830px] max-w-full text-left text-lg text-general-1-secondary font-button-dm-sans-16">
-					<div class="flex-1 overflow-hidden hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+				<div class="w-[1170px] flex flex-row items-start justify-start flex-wrap content-start gap-x-[30px] gap-y-[28.7px] mq650:gap-y-[0px] min-h-[830px] max-w-full text-left text-lg text-general-1-secondary font-button-dm-sans-16">
+					<div class="flex-1 overflow-hidden mq650:h-[350px] hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border mq650:pt-[20px]">
 						<img decoding="async" class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightcontent-edit.svg">
 
 						<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
@@ -728,7 +728,7 @@
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 					</div>
-					<div class="h-[388px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+					<div class="h-[388px] mq650:h-[350px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
 						<img decoding="async" class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightcertificate.svg">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
@@ -740,7 +740,7 @@
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 					</div>
-					<div class="h-[388px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+					<div class="h-[388px] mq650:h-[350px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
 						<img decoding="async" class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightbank.svg">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
@@ -753,7 +753,7 @@
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 					</div>
-					<div class="flex-1 overflow-hidden hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+					<div class="flex-1 overflow-hidden mq650:h-[350px] hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
 						<img decoding="async" class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklighttrademark-copyright-restricted.svg">
 
 						<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
@@ -766,7 +766,7 @@
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 					</div>
-					<div class="flex-1 overflow-hidden hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+					<div class="flex-1 overflow-hidden mq650:h-[350px] hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
 						<img decoding="async" class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightwallet.svg">
 
 						<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
@@ -779,7 +779,7 @@
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 					</div>
-					<div class="h-[412px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+					<div class="h-[412px] mq650:h-[350px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
 						<img decoding="async" class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightwork.svg">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
@@ -792,7 +792,7 @@
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 					</div>
-					<div class="h-[412px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+					<div class="h-[412px] mq650:h-[350px]  flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
 						<img decoding="async" class="w-12 h-12 relative object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightaudit--assurance@2x.png">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
@@ -805,7 +805,7 @@
 						</div>
 						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 					</div>
-					<div class="h-[412px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+					<div class="h-[412px] mq650:h-[350px]  flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[20px] mq450:pb-5 mq450:box-border">
 						<img decoding="async" class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightlifebuoy-help.svg">
 
 						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
