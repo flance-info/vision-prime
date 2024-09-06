@@ -36,17 +36,19 @@
 							</div>
 						</div>
 						<div class="flex flex-row items-start justify-center gap-[30px] max-w-full text-5xl mq1500:flex-wrap mq650:flex-col">
-							<div class="overflow-hidden flex flex-row items-start justify-center gap-[15px] max-w-full mq850:flex-wrap">
+							<div class="overflow-hidden flex flex-row items-start justify-center gap-[15px] mq370:gap-[1px] max-w-full mq850:flex-wrap">
 								<img decoding="async" class="h-12 w-12 relative object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blackboldcontent-edit@2x.png">
-								<div class="flex flex-col items-start justify-start pt-[9px] px-0 pb-0">
-										Company registration
 
+								<div class="flex flex-col items-start justify-start pt-[9px] px-0 pb-0">
+									<div class="m-0 relative text-inherit leading-[30px] font-normal font-inherit mq450:text-lgi mq450:leading-[24px] ">
+										Company registration
+									</div>
 								</div>
 								<div class="flex flex-col items-start justify-start pt-3 px-0 pb-0">
 									<img decoding="async" class="w-6 h-6 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconschevronright.svg">
 								</div>
 							</div>
-							<div class="overflow-hidden flex flex-row items-start justify-center gap-[15px] max-w-full mq850:flex-wrap">
+							<div class="overflow-hidden flex flex-row items-start justify-center gap-[15px] mq370:gap-[1px] max-w-full mq850:flex-wrap">
 								<img decoding="async" class="h-12 w-12 relative object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blackboldwallet@2x.png">
 								<div class="flex flex-col items-start justify-start pt-[9px] px-0 pb-0">
 									<div class="m-0 relative text-inherit leading-[30px] font-normal font-inherit mq450:text-lgi mq450:leading-[24px]">
@@ -57,7 +59,7 @@
 									<img decoding="async" class="w-6 h-6 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/feather-iconschevronright.svg">
 								</div>
 							</div>
-							<div class="overflow-hidden flex flex-row items-start justify-center gap-[15px] max-w-full mq850:flex-wrap">
+							<div class="overflow-hidden flex flex-row items-start justify-center gap-[15px] mq370:gap-[1px] max-w-full mq850:flex-wrap">
 								<img decoding="async" class="h-12 w-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blackboldbank.svg">
 								<div class="flex flex-col items-start justify-start pt-[9px] px-0 pb-0">
 									<div class="m-0 relative text-inherit leading-[30px] font-normal font-inherit mq450:text-lgi mq450:leading-[24px]">
@@ -159,10 +161,9 @@
 								class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full"
 						>
 							<button
-									class="tab-button cursor-pointer  py-[28px] px-7 bg-elements-neutral-4 self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
+									class="tab-button cursor-pointer  py-[28px] mq650:pl-[1px] px-7 bg-elements-neutral-4 self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
 							>
-								<b
-										class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full"
+								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full"
 								>
 									<ol class="m-0 font-inherit text-inherit pl-6">
 										<li>Schedule a No-Pressure Consultation</li>
@@ -174,7 +175,7 @@
 								class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full"
 						>
 							<button
-									class="tab-button cursor-pointer  py-[28px] px-7 self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
+									class="tab-button cursor-pointer  py-[28px] mq650:pl-[1px] px-7 self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
 							>
 								<b
 										class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full"
@@ -189,7 +190,7 @@
 								class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full"
 						>
 							<button
-									class="tab-button cursor-pointer  py-[28px] px-7   self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
+									class="tab-button cursor-pointer  py-[28px] mq650:pl-[1px] px-7   self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
 							>
 								<b
 										class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full"
@@ -204,7 +205,7 @@
 								class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full"
 						>
 							<button
-									class="tab-button cursor-pointer  py-[28px] px-7  self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
+									class="tab-button cursor-pointer  py-[28px] mq650:pl-[1px] px-7  self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
 							>
 								<b
 										class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full"
@@ -220,7 +221,7 @@
 								class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full"
 						>
 							<button
-									class="tab-button cursor-pointer  py-[28px] px-7   self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
+									class="tab-button cursor-pointer  py-[28px] mq650:pl-[1px] px-7   self-stretch border-general-1-primary border-l-[4px] border-solid box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full"
 							>
 								<b
 										class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full"

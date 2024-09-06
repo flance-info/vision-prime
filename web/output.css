@@ -5591,14 +5591,6 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     min-width: 166px;
   }
 
-  .mq650\:min-w-\[250px\] {
-    min-width: 250px;
-  }
-
-  .mq650\:min-w-\[200px\] {
-    min-width: 200px;
-  }
-
   .mq650\:min-w-\[50px\] {
     min-width: 50px;
   }
@@ -5625,6 +5617,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq650\:pr-\[10px\] {
     padding-right: 10px;
+  }
+
+  .mq650\:pl-\[1px\] {
+    padding-left: 1px;
   }
 }
 
@@ -5792,5 +5788,13 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq450\:leading-\[50px\] {
     line-height: 50px;
+  }
+
+  .mq370\:gap-\[5px\] {
+    gap: 5px;
+  }
+
+  .mq370\:gap-\[1px\] {
+    gap: 1px;
   }
 }
