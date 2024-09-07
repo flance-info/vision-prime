@@ -814,6 +814,10 @@ video {
   z-index: 50;
 }
 
+.z-\[-1\] {
+  z-index: -1;
+}
+
 .z-\[0\] {
   z-index: 0;
 }
@@ -860,10 +864,6 @@ video {
 
 .z-\[99\] {
   z-index: 99;
-}
-
-.z-\[-1\] {
-  z-index: -1;
 }
 
 .\!m-0 {
@@ -4493,6 +4493,10 @@ body .navigation .ms_lms_course_search_box__popup_button {
   width: 50px;
   height: 50px;
   border-radius: 50%
+}
+
+input.wpcf7-form-control.wpcf7-phonetext.wpcf7-text.wpcf7-validates-as-phonetext {
+  width: 100%;
 }
 
 @media (max-width: 767px) {

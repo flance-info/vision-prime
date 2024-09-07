@@ -2154,7 +2154,12 @@
 							</div>
 							<div class="flex-1 bg-general-1-primary flex flex-col
 						items-start justify-start py-[60px] pl-[60px] pr-[53px] box-border
-						gap-5 max-w-full z-[1] mq450:pl-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border">
+						gap-5 max-w-full z-[1] mq450:pl-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border"
+							style="padding-left:50px"
+							>
+
+
+
 								<p><span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" maxlength="400"
 																									  class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required w-80 cf7-no-border cf7-no-outline cf7-bg-white cf7-flex-row cf7-items-start cf7-justify-start cf7-py-15px cf7-pl-15px cf7-pr-15px cf7-box-border font-paragraph-16 text-base cf7-text-gray cf7-whitespace-nowrap cf7-z-index-1 cf7-custom-input"
 																									  aria-required="true" aria-invalid="false" placeholder="Full name *" value="" type="text" name="your-name"></span>

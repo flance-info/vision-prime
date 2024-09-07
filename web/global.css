@@ -944,7 +944,9 @@ body .navigation .ms_lms_course_search_box__popup_button {
 	height: 50px;
 	border-radius: 50%
 }
-
+input.wpcf7-form-control.wpcf7-phonetext.wpcf7-text.wpcf7-validates-as-phonetext {
+    width: 100%;
+}
 @media (max-width: 767px) {
 	body .navigation .ms_lms_course_search_box__popup_button {
 		margin-left: 20px
