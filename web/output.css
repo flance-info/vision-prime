@@ -5301,6 +5301,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
   .lg\:pt-\[78px\] {
     padding-top: 78px;
   }
+
+  .lg\:pr-\[20px\] {
+    padding-right: 20px;
+  }
 }
 
 @media screen and (max-width: 1050px) {
@@ -5332,6 +5336,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq950\:min-w-full {
     min-width: 100%;
+  }
+
+  .mq950\:flex-col {
+    flex-direction: column;
   }
 
   .mq950\:flex-wrap {
