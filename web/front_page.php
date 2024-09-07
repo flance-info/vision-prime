@@ -1227,6 +1227,166 @@
 		</div>
 
 	</section>
+<section class="self-stretch bg-elements-neutral-4 flex flex-col items-center justify-start pt-[22px] px-5 pb-[171px] box-border gap-[68px] max-w-full z-[3] text-center text-base text-general-1-primary font-subtitles-16  lg:pt-5 lg:pb-[111px] ">
+		<div class="w-[1920px] h-[870px] relative bg-elements-neutral-4 hidden max-w-full"></div>
+		<div class="w-[1170px] flex flex-row items-start justify-center max-w-full">
+			<div class="w-full flex flex-col items-center justify-start gap-[21px] max-w-full">
+				<div class="flex flex-row items-center justify-start relative w-full top-[58px] ">
+					<div class="h-px w-[120px] absolute !m-[0] top-[-79px] left-[calc(50%_+_0.5px)] bg-general-1-primary [transform:_rotate(90deg)] [transform-origin:0_0] z-[1]"></div>
+				</div>
+				<div class="self-stretch flex flex-row items-start justify-center py-0 px-5 mt-[100px] ">
+					<div class="relative tracking-[0.4em] leading-[36px] uppercase font-medium inline-block min-w-[126px] z-[2]">
+						Our Team
+					</div>
+				</div>
+				<div class="flex flex-row items-start justify-start relative text-41xl text-general-8-secondary font-heading-1-72">
+
+					<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[2] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
+						Meet the Experts
+					</h2>
+				</div>
+			</div>
+		</div>
+		<div class="w-[1170px] grid grid-cols-4 gap-[30px] max-w-full z-[1] text-left
+		 text-smi text-general-white font-button-dm-sans-16
+		  lg:justify-center lg:grid-cols-2 mq450:grid-cols-2 mq650:gap-[5px] mq350:grid-cols-1  mq350:gap-[10px]">
+			<div class="h-[375px] mq450:h-[250px] mq350:h-[350px]  overflow-hidden flex
+			flex-col items-start justify-end py-[25px] pl-[25px] pr-5 box-border
+			 gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info@3x.png')]
+			 bg-cover bg-no-repeat bg-[top] transition-transform duration-300 ease-in-out hover:scale-105
+			 hover:bg-opacity-75 mq450:px-[5px] mq450:py-[5px]">
+				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em]
+				 leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base 	">
+					Arsen
+				</h3>
+				<div class="relative leading-[22px] font-body-b3-merriweather-14 mq650:text-xs mq650:leading-[12px]">
+					Co-founder / Business Consultant
+				</div>
+				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
+					<div class="relative leading-[18px] font-medium">
+						5 years of experience
+					</div>
+				</div>
+				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
+
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg">
+					</a>
+
+				</div>
+			</div>
+			<div class="h-[375px] mq450:h-[250px]  mq350:h-[350px] transition-transform duration-300
+			ease-in-out hover:scale-105 hover:bg-opacity-75 overflow-hidden flex flex-col items-start
+			justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info1@3x.png')]
+			 bg-cover bg-no-repeat bg-[top] mq450:px-[5px] mq450:py-[5px]">
+				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em]
+				leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base">
+					Elena
+				</h3>
+				<div class="relative leading-[22px] font-body-b3-merriweather-14  mq650:text-xs mq650:leading-[12px]">
+					Founder &amp; CEO
+				</div>
+				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
+					<div class="relative leading-[18px] font-medium">
+						5 years of experience
+					</div>
+				</div>
+				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
+
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg">
+					</a>
+
+				</div>
+			</div>
+			<div class="h-[375px] mq450:h-[250px] mq350:h-[350px] transition-transform duration-300
+			 ease-in-out hover:scale-105 hover:bg-opacity-75 overflow-hidden flex flex-col items-start
+			 justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info2@3x.png')]
+			 bg-cover bg-no-repeat bg-[top] mq450:px-[5px] mq450:py-[5px]">
+				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px]
+				 font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base">
+					Samuel
+				</h3>
+				<div class="relative leading-[22px] font-body-b3-merriweather-14  mq650:text-xs mq650:leading-[12px]">
+					Co-founder / Business Consultant
+				</div>
+				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
+					<div class="relative leading-[18px] font-medium">
+						5 years of experience
+					</div>
+				</div>
+				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
+
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg">
+					</a>
+
+				</div>
+			</div>
+			<div class="h-[375px] mq450:h-[250px] mq350:h-[350px]  overflow-hidden  transition-transform duration-300
+			 ease-in-out hover:scale-105 hover:bg-opacity-75 flex flex-col items-start justify-end pt-[200px] pb-[25px]
+			 pl-[25px] pr-5 gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info3@3x.png')]
+			  bg-cover bg-no-repeat bg-[top] mq450:px-[5px] mq450:py-[5px]">
+				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px]
+				 font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base">
+					Jaiden
+				</h3>
+				<div class="relative leading-[22px] font-body-b3-merriweather-14  mq650:text-xs mq650:leading-[12px]">
+					CEO / Head of Business Consultancy
+				</div>
+				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
+					<div class="relative leading-[18px] font-medium">
+						5 years of experience
+					</div>
+				</div>
+				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg">
+					</a>
+
+				</div>
+			</div>
+		</div>
+
+
+
+	</section>
 
 	<section class="self-stretch bg-general-white flex flex-col items-center justify-start pt-[22px] px-5 pb-[100px] box-border gap-[60px]
 			max-w-full text-center text-base text-general-1-primary
@@ -1251,7 +1411,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="max-w-[1170px] w-full grid  grid-cols-3 lg:grid-cols-3 mq1050:grid-cols-1 gap-[30px] text-11xl">
+		<div class="max-w-[1170px] w-full grid  grid-cols-3 lg:grid-cols-3 mq1050:grid-cols-1 gap-[30px] text-11xl
+		 mq950:grid-cols-2 mq650:grid-cols-1">
 			<!-- Light Plan -->
 			<div class="cursor-pointer  hover:scale-110 bg-general-white transition-transform duration-300 ease-in-out  border-general-1-primary border-[2px] border-solid box-border flex flex-col items-center justify-start py-[47px] px-[38px] mq650:px-[10px] mq650:py-[30px] gap-[30px] min-w-[277px]">
 				<h2 class="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]">

@@ -1962,6 +1962,10 @@ video {
   grid-template-columns: repeat(4, minmax(202px, 1fr));
 }
 
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -5232,6 +5236,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     grid-template-columns: repeat(2, minmax(277px, 481px));
   }
 
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .lg\:flex-wrap {
     flex-wrap: wrap;
   }
@@ -5374,6 +5382,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq950\:grid-cols-\[minmax\(277px\2c _1fr\)\] {
     grid-template-columns: minmax(277px, 1fr);
+  }
+
+  .mq950\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .mq950\:flex-col {
@@ -5685,6 +5697,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     min-width: 50px;
   }
 
+  .mq650\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
   .mq650\:flex-col {
     flex-direction: column;
   }
@@ -5699,6 +5715,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq650\:justify-center {
     justify-content: center;
+  }
+
+  .mq650\:gap-\[5px\] {
+    gap: 5px;
   }
 
   .mq650\:gap-y-\[0px\] {
@@ -5761,8 +5781,20 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     padding-top: 20px;
   }
 
+  .mq650\:text-base {
+    font-size: 16px;
+  }
+
+  .mq650\:text-xs {
+    font-size: 12px;
+  }
+
   .mq650\:leading-\[35px\] {
     line-height: 35px;
+  }
+
+  .mq650\:leading-\[12px\] {
+    line-height: 12px;
   }
 }
 
@@ -5779,6 +5811,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     display: grid;
   }
 
+  .mq450\:h-\[250px\] {
+    height: 250px;
+  }
+
   .mq450\:w-auto {
     width: auto;
   }
@@ -5789,6 +5825,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq450\:grid-cols-\[minmax\(202px\2c _1fr\)\] {
     grid-template-columns: minmax(202px, 1fr);
+  }
+
+  .mq450\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .mq450\:flex-col {
@@ -5826,6 +5866,16 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
   .mq450\:px-\[20px\] {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .mq450\:px-\[5px\] {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .mq450\:py-\[5px\] {
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .mq450\:pb-5 {
@@ -5956,8 +6006,26 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     line-height: 50px;
   }
 
+  .mq450\:leading-\[18px\] {
+    line-height: 18px;
+  }
+
   .mq370\:gap-\[1px\] {
     gap: 1px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .mq350\:h-\[350px\] {
+    height: 350px;
+  }
+
+  .mq350\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .mq350\:gap-\[10px\] {
+    gap: 10px;
   }
 }
 
