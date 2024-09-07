@@ -437,13 +437,13 @@
 
 		<section class="self-stretch flex flex-col items-start justify-start max-w-full text-center text-base text-general-white font-subtitles-16">
 
-			<div class="w-full max-w-full !m-0 relative top-[-120px] mq650:top-[0px] right-[-5%] lg:right-[0px] flex flex-row items-start
-			justify-between box-border z-[8] text-left font-button-dm-sans-16 mq1500:flex-wrap minq650:hidden">
+			<div class="w-full max-w-full !m-0 relative top-[-120px] mq950:top-[0px] right-[-5%] lg:right-[0px] flex flex-row items-start
+			justify-between box-border z-[8] text-left font-button-dm-sans-16 mq1500:flex-wrap minq950:hidden">
 				<!-- Left Side (White Background) -->
 				<div class="bg-general-white flex-1 lg:hidden"></div>
 
 				<!-- Middle Section (Primary Background) -->
-				<div class="flex flex-row w-full max-w-[1170px] py-[54px] px-[54px] bg-general-1-primary relative z-10 mr-[-2px] mq650:flex-col mq650:px-[20px]">
+				<div class="flex flex-row w-full max-w-[1170px] py-[54px] px-[54px] bg-general-1-primary relative z-10 mr-[-2px] mq950:flex-col mq650:flex-col mq650:px-[20px]">
 					<div class=" flex flex-col items-start justify-start gap-5  mq1500:flex-1 ">
 						<b class="relative leading-[22px] uppercase">Let’s Work Together</b>
 						<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
@@ -469,7 +469,8 @@
 			<div class="w-full right-[5%] bg-dark-gray flex
 				flex-col items-center justify-start pt-[90px]
 				pb-[100px] pl-[130px] pr-5 box-border relative gap-[54px]
-				 z-[7] lg:pl-[65px] lg:pt-[78px] lg:pb-[65px] lg:box-border mq850:gap-[27px] mq650:pt-[0px] mq650:px-[20px] mq850:pl-8 mq850:pt-[51px] mq850:pb-[42px] lg:right-[0px]">
+				 z-[7] lg:pl-[65px] lg:pt-[78px] lg:pb-[65px] lg:box-border mq850:gap-[27px] mq950:pt-[0px]
+				  mq650:px-[20px] mq850:pl-8  mq850:pb-[42px] lg:right-[0px]">
 
 
 				<div class="max-w-[1170px] w-full max-h-[1060px] relative bg-dark-gray hidden  z-[0]"></div>
@@ -494,7 +495,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="ml-[5%] mq1050:ml-[0px] w-[1170px] grid flex-row items-start justify-start gap-[30px] max-w-full grid-cols-[repeat(3,_minmax(277px,_1fr))] z-[1] text-11xl lg:justify-center lg:grid-cols-[repeat(2,_minmax(277px,_481px))] mq850:grid-cols-[minmax(277px,_1fr)]">
+				<div class="ml-[5%] mq1050:ml-[0px] w-[1170px] grid flex-row items-start justify-start
+				 gap-[30px] max-w-full grid-cols-[repeat(3,_minmax(277px,_1fr))]
+				 z-[1] text-11xl lg:justify-center
+				 lg:grid-cols-[repeat(2,_minmax(277px,_481px))]
+				  mq950:grid-cols-[minmax(277px,_1fr)]
+				  mq950:flex mq950:overflow-x-auto hide-scrollbar minq450:justify-start mq450:grid minq450:h-[550px]  ">
 					<div class="h-[522px] cursor-pointer  hover:scale-110 transition-transform duration-300 ease-in-out flex flex-col items-start justify-start py-[60px] px-[50px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/basic@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq450:gap-5 mq450:pl-5 mq450:pr-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border">
 						<h2 class="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]">
 							Mainland
@@ -554,7 +560,7 @@
 							</div>
 						</button>
 					</div>
-					<div class="flex flex-col cursor-pointer hover:scale-110 transition-transform duration-300 ease-in-out items-start justify-start py-[60px] px-[50px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/basic1@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq450:gap-5 mq450:pl-5 mq450:pr-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border">
+					<div class=" h-[522px]  flex flex-col cursor-pointer hover:scale-110 transition-transform duration-300 ease-in-out items-start justify-start py-[60px] px-[50px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/basic1@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq450:gap-5 mq450:pl-5 mq450:pr-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border">
 						<h2 class="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]">
 							Free Zone
 						</h2>
@@ -599,14 +605,14 @@
 								text-general-white
 								hover:text-custom-gold hover:bg-elements-neutral-4 hover:border-solid
 							hover:[box-shadow:inset_0_0_0_2px] hover:border-custom-gold items-center
-							justify-center">
+							justify-center mq950:relative	mq950:bottom-[-43px]">
 							<div class="ml-[-285px] h-[51px] w-[270px] relative bg-general-1-primary-variant shrink-0 z-[-1]"></div>
 							<div class="w-60 flex flex-col items-start justify-start px-0 pb-0 box-border shrink-0">
 								<b class="self-stretch relative text-base leading-[22px] font-button-dm-sans-16  text-center shrink-0">Start Free Trial</b>
 							</div>
 						</button>
 					</div>
-					<div class="flex flex-col cursor-pointer hover:scale-110  transition-transform duration-300 ease-in-out items-start justify-start py-[60px] px-[50px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/basic2@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq450:gap-5 mq450:pl-5 mq450:pr-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border">
+					<div class="h-[522px]  flex flex-col cursor-pointer hover:scale-110  transition-transform duration-300 ease-in-out items-start justify-start py-[60px] px-[50px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/basic2@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq450:gap-5 mq450:pl-5 mq450:pr-5 mq450:box-border mq850:pt-[39px] mq850:pb-[39px] mq850:box-border">
 						<h2 class="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]">
 							Offshore
 						</h2>
@@ -651,7 +657,7 @@
 							text-general-white
 								hover:text-custom-gold hover:bg-elements-neutral-4 hover:border-solid
 							hover:[box-shadow:inset_0_0_0_2px] hover:border-custom-gold items-center
-							justify-center gap-[15px]">
+							justify-center gap-[15px] mq950:relative	mq950:bottom-[-43px]">
 							<div class="ml-[-285px] h-[51px] w-[270px] relative bg-general-1-primary-variant shrink-0 z-[-1]"></div>
 							<div class="w-60 flex flex-col items-start justify-start px-0 pb-0 box-border shrink-0">
 								<b class="self-stretch relative text-base leading-[22px] font-button-dm-sans-16  text-center shrink-0">Start Free Trial</b>
@@ -660,7 +666,7 @@
 					</div>
 				</div>
 				<div class="w-full max-w-full !m-0 absolute top-[-120px] right-[-5%] lg:right-[0px] flex flex-row items-start
-			justify-between box-border z-[8] text-left font-button-dm-sans-16 mq1500:flex-wrap mq650:hidden">
+			justify-between box-border z-[8] text-left font-button-dm-sans-16 mq1500:flex-wrap mq950:hidden">
 					<!-- Left Side (White Background) -->
 					<div class="bg-general-white flex-1 lg:hidden"></div>
 

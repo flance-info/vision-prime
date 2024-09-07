@@ -947,6 +947,17 @@ body .navigation .ms_lms_course_search_box__popup_button {
 input.wpcf7-form-control.wpcf7-phonetext.wpcf7-text.wpcf7-validates-as-phonetext {
     width: 100%;
 }
+@media (max-width: 950px) {
+  .hide-scrollbar {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and WebKit browsers */
+  }
+}
+
 @media (max-width: 767px) {
 	body .navigation .ms_lms_course_search_box__popup_button {
 		margin-left: 20px

@@ -139,7 +139,9 @@ module.exports = {
         raw: "screen and (max-width: 350px)",
       },
 
-
+minq950:{
+        raw: "screen and (min-width: 950px)",
+      },
 minq650:{
         raw: "screen and (min-width: 650px)",
       },
