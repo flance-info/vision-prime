@@ -982,7 +982,7 @@
 			</div>
 		</section>
 	</div>
-
+<!-- banner !-->
 	<section class="self-stretch bg-elements-neutral-4 flex flex-col items-center justify-start pt-[22px] px-5 pb-[171px] box-border gap-[68px] max-w-full z-[3] text-center text-base text-general-1-primary font-subtitles-16  lg:pt-5 lg:pb-[111px] ">
 		<div class="w-[1920px] h-[870px] relative bg-elements-neutral-4 hidden max-w-full"></div>
 		<div class="w-[1170px] flex flex-row items-start justify-center max-w-full">
@@ -1142,6 +1142,7 @@
 
 
 	</section>
+	
 	<section class="self-stretch flex flex-row items-start justify-start flex-wrap content-start [row-gap:20px] max-w-full text-center text-base text-general-white font-subtitles-16">
 		<div class="flex-1 bg-general-1-primary flex flex-col items-center justify-start pt-0
 				 pb-[100px] box-border relative gap-[30px] max-w-full
@@ -1376,6 +1377,7 @@
 		</div>
 
 	</section>
+
 	<section class="self-stretch bg-general-white flex flex-col items-center justify-start pt-[22px] px-5 pb-[100px] box-border gap-[60px]
 			max-w-full text-center text-base text-general-1-primary
 			font-subtitles-16  ">
@@ -1528,6 +1530,7 @@
 		</div>
 
 	</section>
+
 
 	<section class="self-stretch bg-elements-neutral-4 flex
 			flex-col items-center justify-start
