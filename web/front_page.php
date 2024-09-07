@@ -1032,14 +1032,14 @@
 					<div class="self-stretch flex flex-row items-start justify-center gap-[11.8px] max-w-full text-3xl font-body-b3-merriweather-14 mq1500:flex-wrap">
 						<img class="h-[49.5px] w-[120px] relative z-[1] lg:hidden cursor-pointer prev top-[100px]" id="prev" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-1.svg">
 
-						<div class="flex-1 flex flex-row items-start justify-start gap-[9.2px] min-w-[772px] max-w-full lg:flex-wrap lg:min-w-full">
+						<div class="flex-1 flex flex-row items-start justify-start gap-[9.2px] min-w-[772px] max-w-full lg:flex-wrap lg:min-w-full mq450:mt-[0px] mq950:mt-[-100px]">
 							<div class="relative w-full max-w-[1320px] overflow-hidden">
 								<div class="slider flex transition-transform duration-500">
 									<!-- Slider 1 !-->
 									<div class="flex-1 flex flex-col items-start justify-start pt-[16.5px] px-0 pb-0 box-border min-w-[100%]  lg:min-w-full">
 										<div class="self-stretch flex flex-col items-end justify-start gap-14 max-w-full mq850:gap-7">
 											<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border mq650:px-[20px]">
-												<div class="flex-1 flex flex-row items-start justify-between max-w-full gap-[140px] lg:flex-wrap mq450:mt-[-50px]">
+												<div class="flex-1 flex flex-row items-start justify-between max-w-full gap-[140px] lg:flex-wrap mq450:mt-[-50px] mq950:justify-center mq950:mr-[100px]">
 													<div class="h-[156px] w-[77px] flex flex-col items-start justify-start pt-24 px-0 pb-0 box-border">
 														<img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full z-[2]" alt="" src="/wp-content/themes/vision-prime/web/public/quotation-mark.svg">
 														<div class="relative block w-[300px] top-[-30px]">
@@ -1131,7 +1131,7 @@
 								<div class=" flex  mt-[60px] mq650:mt-[30px] mq450:justify-center">
 
 
-									<div class="self-stretch flex flex-row items-start justify-center [row-gap:20px] z-[1] text-sm font-primary-paragraph-paragraph-5 lg:flex-wrap mq450:flex-col mq450:items-center">
+									<div class="self-stretch flex flex-row items-start justify-center [row-gap:20px] z-[1] text-sm font-primary-paragraph-paragraph-5 lg:flex-wrap mq450:flex-col mq450:items-center mq950:ml-[30px]">
 
 
 										<div class="flex-1 flex flex-row items-center justify-center py-0 px-0 box-border gap-[15px] min-w-[157px] mq450:pl-5 mq450:pr-5 mq450:box-border">
@@ -1159,7 +1159,7 @@
 
 										<div class="flex-1 flex flex-row items-center justify-center py-0 px-[46px] box-border gap-[15px] min-w-[157px] z-[1] ml-[-1px] mq450:pl-5 mq450:pr-5 mq450:box-border">
 											<div class="rounded-xl bg-general-white flex flex-row items-center justify-center py-[13.7px] px-[13px]">
-												<img class="h-[22.6px] w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/group-8886.svg">
+												<img class="h-[22.6px] w-6 relative lg:min-w-[23px]" alt="" src="/wp-content/themes/vision-prime/web/public/group-8886.svg">
 											</div>
 											<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
 												<div class="flex flex-row items-start justify-start gap-[5px]">
@@ -1179,8 +1179,10 @@
 											</div>
 										</div>
 										<div class="flex-1 flex flex-row items-center justify-center py-0 px-[47px] box-border gap-[15px] min-w-[157px] z-[2] ml-[-1px] mq450:pl-5 mq450:pr-5 mq450:box-border">
-											<div class="h-[50px] w-[50px] relative rounded-xl bg-general-white">
-												<img class="absolute top-[13px] left-[9px] w-7 h-7 object-cover mix-blend-darken" alt="" src="/wp-content/themes/vision-prime/web/public/image-18@2x.png">
+
+
+											<div class="rounded-xl bg-general-white flex flex-row items-center justify-center py-[13.7px] px-[13px]">
+												<img class="h-[22.6px] w-6 relative lg:min-w-[25px]" alt="" src="/wp-content/themes/vision-prime/web/public/image-18@2x.png">
 											</div>
 											<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
 												<div class="flex flex-row items-start justify-start gap-[5px]">
@@ -1227,7 +1229,9 @@
 		</div>
 
 	</section>
-<section class="self-stretch bg-elements-neutral-4 flex flex-col items-center justify-start pt-[22px] px-5 pb-[171px] box-border gap-[68px] max-w-full z-[3] text-center text-base text-general-1-primary font-subtitles-16  lg:pt-5 lg:pb-[111px] ">
+
+
+	<section class="self-stretch bg-elements-neutral-4 flex flex-col items-center justify-start pt-[22px] px-5 pb-[171px] box-border gap-[68px] max-w-full z-[3] text-center text-base text-general-1-primary font-subtitles-16  lg:pt-5 lg:pb-[111px] ">
 		<div class="w-[1920px] h-[870px] relative bg-elements-neutral-4 hidden max-w-full"></div>
 		<div class="w-[1170px] flex flex-row items-start justify-center max-w-full">
 			<div class="w-full flex flex-col items-center justify-start gap-[21px] max-w-full">
