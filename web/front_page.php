@@ -1080,10 +1080,10 @@
 									</div>
 
 									<!-- Slider 2 !-->
-									<div class="flex-1 flex flex-col items-start justify-start pt-[16.5px] px-0 pb-0 box-border min-w-[100%] lg:min-w-full">
+									<div class="flex-1 flex flex-col items-start justify-start pt-[16.5px] px-0 pb-0 box-border min-w-[100%]  lg:min-w-full">
 										<div class="self-stretch flex flex-col items-end justify-start gap-14 max-w-full mq850:gap-7">
 											<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border mq650:px-[20px]">
-												<div class="flex-1 flex flex-row items-start justify-between max-w-full gap-[140px] lg:flex-wrap mq450:mt-[-50px]">
+												<div class="flex-1 flex flex-row items-start justify-between max-w-full gap-[140px] lg:flex-wrap mq450:mt-[-50px] mq950:justify-center mq950:mr-[100px]">
 													<div class="h-[156px] w-[77px] flex flex-col items-start justify-start pt-24 px-0 pb-0 box-border">
 														<img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full z-[2]" alt="" src="/wp-content/themes/vision-prime/web/public/quotation-mark.svg">
 														<div class="relative block w-[300px] top-[-30px]">
