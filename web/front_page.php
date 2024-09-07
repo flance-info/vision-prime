@@ -36,7 +36,7 @@
 							Focus on running your business in Dubai, and let us handle the heavy lifting.
 						</div>
 					</div>
-					<div class="flex flex-row items-start justify-center gap-[30px] max-w-full text-5xl mq1500:flex-wrap mq650:flex-col">
+					<div class="flex flex-row items-start justify-center gap-[30px] max-w-full text-5xl mq1500:flex-wrap mq650:flex-col mq950:flex-col">
 						<div class="overflow-hidden flex flex-row items-start justify-center gap-[15px] mq370:gap-[1px] max-w-full mq850:flex-wrap">
 							<img decoding="async" class="h-12 w-12 relative object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blackboldcontent-edit@2x.png">
 
