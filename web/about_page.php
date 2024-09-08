@@ -767,22 +767,44 @@
 
 
 	<!-- adresses !-->
-	<section class="self-stretch flex flex-row items-center justify-start max-w-full text-left text-lg
-			  text-general-8-secondary min-h-[355px] font-button-dm-sans-16">
-		<div class="w-full flex flex-col items-center justify-between py-0 pl-0 box-border max-w-full gap-5 mq1425:flex-wrap">
 
-			<div class="max-w-[1170px] flex flex-col items-start justify-start gap-[100px] w-full mq950:gap-[25px] mq1425:gap-[50px]">
-				<div class="self-stretch flex flex-row items-start justify-start gap-[30px] mq1425:flex-wrap">
-					<div class="flex-1 flex flex-col items-start justify-start gap-4 min-w-[202px] max-w-[270px]">
-						<b class="relative leading-[24px] inline-block min-w-[75px]">Address</b>
-						<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+
+	<section
+			class="self-stretch flex flex-row items-center justify-start max-w-full text-left text-lg
+			  text-general-8-secondary min-h-[355px] font-button-dm-sans-16  mq1170:mt-[0px] mq1170:px-[20px] mq950:py-[39px]"
+	>
+		<div
+				class="w-full flex flex-col items-center justify-between py-0 pl-0 box-border max-w-full gap-5 mq1425:flex-wrap"
+		>
+
+			<div
+					class="max-w-[1170px] flex flex-col items-start justify-start gap-[100px] w-full mq950:gap-[25px] mq1425:gap-[50px]"
+			>
+				<div
+						class="self-stretch flex flex-row items-start justify-start gap-[30px] mq1425:flex-wrap"
+				>
+					<div
+							class="flex-1 flex flex-col items-start justify-start gap-4 mq950:min-w-[250px] mq650:min-w-[150px]    max-w-[270px]  mq950:max-w-[50%]"
+					>
+						<b class="relative leading-[24px] inline-block min-w-[75px]"
+						>Address</b
+						>
+						<div
+								class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant"
+						>
 							Office 105, Level 1, Emaar Square – Building 4, Sheikh
 							Mohammed Bin Rashid Boulevard Downtown Dubai, United Arab
 							Emirates
 						</div>
 					</div>
-					<div class="flex-1 flex flex-col items-start justify-start gap-4 min-w-[202px] max-w-[270px] text-sm text-general-9-secondary-variant font-body-b3-merriweather-14">
-						<b class="relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-8-secondary min-w-[55px]">Phone</b>
+					<div
+							class="flex-1 flex flex-col items-start justify-start gap-4 mq950:min-w-[250px] mq650:min-w-[150px]    max-w-[270px]  mq950:max-w-[50%] text-sm text-general-9-secondary-variant font-body-b3-merriweather-14"
+					>
+						<b
+								class="relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-8-secondary min-w-[55px]"
+						>Phone</b
+						>
+
 						<div class="self-stretch relative leading-[24px]">
 							<p class="m-0">Business Enquiries</p>
 							<p class="m-0">+971 4 567 7333</p>
@@ -792,17 +814,27 @@
 							<p class="m-0">+971 4 567 8901</p>
 						</div>
 					</div>
-					<div class="flex-1 flex flex-col items-start justify-start gap-4 min-w-[248px] max-w-[270px]">
-						<b class="relative leading-[24px] inline-block min-w-[84px]">Contacts</b>
-						<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-1-primary">
+					<div
+							class="flex-1 flex flex-col items-start justify-start gap-4 mq950:min-w-[250px] mq650:min-w-[150px]     max-w-[270px]  mq950:max-w-[50%]"
+					>
+						<b class="relative leading-[24px] inline-block min-w-[84px]"
+						>Contacts</b
+						>
+						<div
+								class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-1-primary"
+						>
 							<p class="m-0">info@visionprime.ae</p>
 							<p class="m-0">sales@visionprime.ae</p>
 							<p class="m-0">www.visionprime.ae</p>
 						</div>
 					</div>
-					<div class="flex-1 flex flex-col items-start justify-start gap-4 min-w-[248px] max-w-[270px]">
+					<div
+							class="flex-1 flex flex-col items-start justify-start gap-4 mq950:min-w-[250px] mq650:min-w-[150px]     max-w-[270px]  mq950:max-w-[50%]"
+					>
 						<b class="relative leading-[24px]">Working Hours</b>
-						<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+						<div
+								class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant"
+						>
 							<p class="m-0">Monday–Friday: 8:30–17:30</p>
 							<p class="m-0">Saturday: 8:30–12:30</p>
 							<p class="m-0">Sunday: Closed</p>
