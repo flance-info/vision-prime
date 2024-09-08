@@ -305,12 +305,19 @@
 				</div>
 			</div>
 		</div>
-		<div class="w-[1170px] grid flex-row items-start justify-start gap-[30px] max-w-full grid-cols-[repeat(4,_minmax(202px,_1fr))] z-[1] text-left text-smi text-general-white font-button-dm-sans-16 lg:justify-center lg:grid-cols-[repeat(2,_minmax(202px,_351px))] mq450:grid-cols-[minmax(202px,_1fr)]">
-			<div class="h-[375px] overflow-hidden overflow-hidden flex flex-col items-start justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info@3x.png')] bg-cover bg-no-repeat bg-[top] transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-opacity-75">
-				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
+		<div class="w-[1170px] grid grid-cols-4 gap-[30px] max-w-full z-[1] text-left
+		 text-smi text-general-white font-button-dm-sans-16
+		  lg:justify-center lg:grid-cols-2 mq450:grid-cols-2 mq650:gap-[5px] mq350:grid-cols-1  mq350:gap-[10px]">
+			<div class="h-[375px] mq450:h-[250px] mq350:h-[350px]  overflow-hidden flex
+			flex-col items-start justify-end py-[25px] pl-[25px] pr-5 box-border
+			 gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info@3x.png')]
+			 bg-cover bg-no-repeat bg-[top] transition-transform duration-300 ease-in-out hover:scale-105
+			 hover:bg-opacity-75 mq450:px-[5px] mq450:py-[5px]">
+				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em]
+				 leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base 	">
 					Arsen
 				</h3>
-				<div class="relative leading-[22px] font-body-b3-merriweather-14">
+				<div class="relative leading-[22px] font-body-b3-merriweather-14 mq650:text-xs mq650:leading-[12px]">
 					Co-founder / Business Consultant
 				</div>
 				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
@@ -319,20 +326,31 @@
 					</div>
 				</div>
 				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg"></a>
 
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg"></a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg">
+					</a>
 
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg"></a>
-
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg"></a>
 				</div>
 			</div>
-			<div class="h-[375px] transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-opacity-75 overflow-hidden flex flex-col items-start justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info1@3x.png')] bg-cover bg-no-repeat bg-[top]">
-				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
+			<div class="h-[375px] mq450:h-[250px]  mq350:h-[350px] transition-transform duration-300
+			ease-in-out hover:scale-105 hover:bg-opacity-75 overflow-hidden flex flex-col items-start
+			justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info1@3x.png')]
+			 bg-cover bg-no-repeat bg-[top] mq450:px-[5px] mq450:py-[5px]">
+				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em]
+				leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base">
 					Elena
 				</h3>
-				<div class="relative leading-[22px] font-body-b3-merriweather-14">
+				<div class="relative leading-[22px] font-body-b3-merriweather-14  mq650:text-xs mq650:leading-[12px]">
 					Founder &amp; CEO
 				</div>
 				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
@@ -341,20 +359,31 @@
 					</div>
 				</div>
 				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg"></a>
 
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg"></a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg">
+					</a>
 
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg"></a>
-
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg"></a>
 				</div>
 			</div>
-			<div class="h-[375px] transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-opacity-75 overflow-hidden flex flex-col items-start justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info2@3x.png')] bg-cover bg-no-repeat bg-[top]">
-				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
+			<div class="h-[375px] mq450:h-[250px] mq350:h-[350px] transition-transform duration-300
+			 ease-in-out hover:scale-105 hover:bg-opacity-75 overflow-hidden flex flex-col items-start
+			 justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info2@3x.png')]
+			 bg-cover bg-no-repeat bg-[top] mq450:px-[5px] mq450:py-[5px]">
+				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px]
+				 font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base">
 					Samuel
 				</h3>
-				<div class="relative leading-[22px] font-body-b3-merriweather-14">
+				<div class="relative leading-[22px] font-body-b3-merriweather-14  mq650:text-xs mq650:leading-[12px]">
 					Co-founder / Business Consultant
 				</div>
 				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
@@ -363,20 +392,31 @@
 					</div>
 				</div>
 				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg"></a>
 
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg"></a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg">
+					</a>
 
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg"></a>
-
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg"></a>
 				</div>
 			</div>
-			<div class="overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-opacity-75 flex flex-col items-start justify-end pt-[200px] pb-[25px] pl-[25px] pr-5 gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info3@3x.png')] bg-cover bg-no-repeat bg-[top] mq450:pt-[130px] mq450:pb-5 mq450:box-border">
-				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
+			<div class="h-[375px] mq450:h-[250px] mq350:h-[350px]  overflow-hidden  transition-transform duration-300
+			 ease-in-out hover:scale-105 hover:bg-opacity-75 flex flex-col items-start justify-end pt-[200px] pb-[25px]
+			 pl-[25px] pr-5 gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info3@3x.png')]
+			  bg-cover bg-no-repeat bg-[top] mq450:px-[5px] mq450:py-[5px]">
+				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px]
+				 font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base">
 					Jaiden
 				</h3>
-				<div class="relative leading-[22px] font-body-b3-merriweather-14">
+				<div class="relative leading-[22px] font-body-b3-merriweather-14  mq650:text-xs mq650:leading-[12px]">
 					CEO / Head of Business Consultancy
 				</div>
 				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
@@ -385,17 +425,24 @@
 					</div>
 				</div>
 				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg"></a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg">
+					</a>
+					<a href="#">
+						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg">
+					</a>
 
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg"></a>
-
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg"></a>
-
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg"></a>
 				</div>
 			</div>
 		</div>
 
+		
 		<div class="w-[1170px] grid flex-row items-start justify-start gap-[30px] max-w-full grid-cols-[repeat(4,_minmax(202px,_1fr))] z-[1] text-left text-smi text-general-white font-button-dm-sans-16 lg:justify-center lg:grid-cols-[repeat(2,_minmax(202px,_351px))] mq450:grid-cols-[minmax(202px,_1fr)]">
 
 			<!-- Team Member 1: Roxanna -->
@@ -654,7 +701,7 @@
 
 	<!-- top reason !-->
 
-<!-- why vision prime !-->
+	<!-- why vision prime !-->
 	<section class="self-stretch flex flex-row items-start justify-center pt-0  pb-[180px] box-border max-w-full text-left text-base text-general-1-primary font-subtitles-16 lg:pb-[117px] lg:box-border mq850:pb-[76px] mq850:box-border bg-elements-neutral-4">
 		<div class="w-[1170px] flex flex-col items-start justify-start gap-[60px] max-w-full lg:gap-[30px] lg:mx-[20px]">
 			<div class="self-stretch flex flex-col items-start justify-center py-0  box-border max-w-full text-center">
