@@ -5188,6 +5188,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     margin-left: 0px;
   }
 
+  .mq1170\:mt-\[-35px\] {
+    margin-top: -35px;
+  }
+
   .mq1170\:flex {
     display: flex;
   }
@@ -5832,6 +5836,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq650\:mt-\[30px\] {
     margin-top: 30px;
+  }
+
+  .mq650\:mt-\[-60px\] {
+    margin-top: -60px;
   }
 
   .mq650\:hidden {

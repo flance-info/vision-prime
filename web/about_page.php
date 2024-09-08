@@ -444,7 +444,8 @@
 
 		<div class="w-[1170px] grid grid-cols-4 gap-[30px] max-w-full z-[1] text-left
 		 text-smi text-general-white font-button-dm-sans-16
-		  lg:justify-center lg:grid-cols-2 mq450:grid-cols-2 mq650:gap-[5px] mq350:grid-cols-1  mq350:gap-[10px]">
+		  lg:justify-center lg:grid-cols-2 mq450:grid-cols-2 mq650:gap-[5px] mq350:grid-cols-1  mq350:gap-[10px]
+mq650:mt-[-60px] mq1170:mt-[-35px]">
 			<div class="h-[375px] mq450:h-[250px] mq350:h-[350px]  overflow-hidden flex
 			flex-col items-start justify-end py-[25px] pl-[25px] pr-5 box-border
 			 gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/about/public/member-profiles1@3x.png')]
@@ -580,7 +581,7 @@
 		</div>
 
 
-		
+
 	</section>
 
 
