@@ -1,4 +1,4 @@
-<section class="self-stretch flex flex-row items-start justify-center max-w-full bg-general-8-secondary mq650:hidden">
+<section class="self-stretch flex flex-row items-start justify-center max-w-full bg-general-8-secondary mq950:hidden">
 		<div class="w-[1170px] flex flex-col items-end justify-start max-w-full ">
 
 			<div
