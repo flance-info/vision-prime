@@ -5949,6 +5949,11 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     padding-bottom: 40px;
   }
 
+  .mq650\:px-\[15px\] {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .mq650\:pb-\[46px\] {
     padding-bottom: 46px;
   }
@@ -5979,6 +5984,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq650\:pt-\[20px\] {
     padding-top: 20px;
+  }
+
+  .mq650\:pl-\[15px\] {
+    padding-left: 15px;
   }
 
   .mq650\:text-base {
