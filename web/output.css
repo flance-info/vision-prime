@@ -5184,6 +5184,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     margin-top: 0px;
   }
 
+  .mq1170\:ml-\[0px\] {
+    margin-left: 0px;
+  }
+
   .mq1170\:flex {
     display: flex;
   }
@@ -5469,6 +5473,14 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     max-width: 50%;
   }
 
+  .mq950\:flex-auto {
+    flex: 1 1 auto;
+  }
+
+  .mq950\:flex-initial {
+    flex: 0 1 auto;
+  }
+
   .mq950\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -5491,6 +5503,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq950\:items-start {
     align-items: flex-start;
+  }
+
+  .mq950\:items-center {
+    align-items: center;
   }
 
   .mq950\:justify-center {
@@ -5573,6 +5589,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq950\:pt-\[83px\] {
     padding-top: 83px;
+  }
+
+  .mq950\:pr-\[20px\] {
+    padding-right: 20px;
   }
 
   .mq950\:text-29xl {

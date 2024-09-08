@@ -494,7 +494,7 @@
 				 pb-[100px] box-border relative gap-[30px] max-w-full
 				 lg:pb-[65px] lg:box-border mq450:pb-[42px] mq450:box-border
 				  mq850:gap-[15px] mq1500:min-w-full mr-[5%]">
-			<div class="w-full max-w-[1170px] flex-col ml-[5%]">
+			<div class="w-full max-w-[1170px] flex-col ml-[5%] mq1170:ml-[0px]">
 
 				<div class="w-[1318px] h-[168px] flex flex-row items-start justify-center max-w-full">
 					<div class="self-stretch  flex flex-col items-start justify-start gap-[30px]">
@@ -507,7 +507,7 @@
 					</div>
 				</div>
 				<header class="w-[1318px] flex flex-row items-start justify-center pt-0 px-0 pb-[18px]
-					box-border max-w-full text-center text-41xl text-general-white font-heading-1-72 mt-[20px]">
+					box-border max-w-full text-center text-41xl text-general-white font-heading-1-72 mt-[20px] mq950:px-[20px]">
 					<div class="w-full flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<div class="self-stretch flex flex-row items-start justify-center py-0 px-5">
 							<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
@@ -529,11 +529,11 @@
 									<!-- Slider 1 !-->
 									<div class="flex-1 flex flex-col items-start justify-start pt-[16.5px] px-0 pb-0 box-border min-w-[100%]  lg:min-w-full">
 										<div class="self-stretch flex flex-col items-end justify-start gap-14 max-w-full mq850:gap-7">
-											<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border">
-												<div class="w-[980px] flex flex-row items-start justify-start gap-[42px] max-w-full mq950:gap-[21px] mq1425:flex-wrap">
-													<img decoding="async" class="w-[330px] relative max-h-full overflow-hidden shrink-0 min-h-[198px] max-w-full z-[4] mq1425:flex-1" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/about/public/girl.png">
+											<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border mq950:px-[20px]">
+												<div class="w-[980px] flex flex-row items-start justify-start gap-[42px] max-w-full mq950:gap-[21px] mq1425:flex-wrap mq950:justify-center">
+													<img decoding="async" class="w-[330px] relative max-h-full overflow-hidden shrink-0 min-h-[198px] max-w-full z-[4] flex-1 mq950:flex-initial " loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/about/public/girl.png">
 
-													<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[395px] max-w-full mq950:min-w-full text-med mt-[-10px]">
+													<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[395px] max-w-full mq950:min-w-full text-med mt-[-10px] mq950:flex-initial">
 														<i class="self-stretch relative leading-[30px] z-[4] mq450:text-base mq450:leading-[24px]">Vision Prime made starting my business in the UAE so much
 															easier. They know their way around the rules and
 															regulations, and they saved me a ton of time and stress. I
@@ -558,9 +558,9 @@
 
 									<div class="flex-1 flex flex-col items-start justify-start pt-[16.5px] px-0 pb-0 box-border min-w-[100%]  lg:min-w-full">
 										<div class="self-stretch flex flex-col items-end justify-start gap-14 max-w-full mq850:gap-7">
-											<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border">
-												<div class="w-[980px] flex flex-row items-start justify-start gap-[42px] max-w-full mq950:gap-[21px] mq1425:flex-wrap">
-													<img decoding="async" class="w-[330px] relative max-h-full overflow-hidden shrink-0 min-h-[198px] max-w-full z-[4] mq1425:flex-1" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/about/public/girl.png">
+											<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border mq950:px-[20px]">
+												<div class="w-[980px] flex flex-row items-start justify-start gap-[42px] max-w-full mq950:gap-[21px] mq1425:flex-wrap mq950:justify-center">
+													<img decoding="async" class="w-[330px] relative max-h-full overflow-hidden shrink-0 min-h-[198px] max-w-full z-[4] mq1425:flex-1 mq950:flex-initial" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/about/public/girl.png">
 
 													<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[395px] max-w-full mq950:min-w-full text-med mt-[-10px]">
 														<i class="self-stretch relative leading-[30px] z-[4] mq450:text-base mq450:leading-[24px]">Vision Prime made starting my business in the UAE so much
