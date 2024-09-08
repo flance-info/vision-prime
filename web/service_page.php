@@ -112,9 +112,11 @@
 					</div>
 				</div>
 
-				<div class="max-w-[1170px]w-[1170px] flex flex-col items-start justify-start gap-[30px] w-full text-5xl text-general-1-secondary">
-					<div class="self-stretch flex flex-row items-stretch justify-start flex-wrap content-start gap-[30px] max-w-full">
-						<div class="flex-1 bg-general-white flex flex-col items-start justify-between pt-10 pb-24 mq950:justify-start pl-10 pr-5 box-border gap-5 min-w-[300px] max-w-full mq450:pt-[26px] mq450:pb-[62px] mq450:box-border mq450:min-w-full">
+				<div class="max-w-[1170px]w-[1170px] flex flex-col items-start justify-start gap-[30px] mq950:gap-[20px] w-full text-5xl text-general-1-secondary">
+					<div class="self-stretch flex flex-row items-stretch justify-start flex-wrap content-start gap-[30px] mq950:gap-[20px] max-w-full">
+						<div class="flex-1 bg-general-white flex flex-col items-start justify-between pt-10 pb-24 mq950:justify-start pl-10 pr-5
+						mq650:px-[20px]
+						box-border gap-5 min-w-[300px] max-w-full mq450:pt-[26px] mq450:pb-[62px] mq450:box-border   mq450:min-w-full">
 							<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px]
 							 mq950:min-h-[90px]
 							 font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
@@ -132,7 +134,9 @@
 								for&nbsp;diverse business&nbsp;activities.
 							</div>
 						</div>
-						<div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5 box-border mq950:justify-start gap-5 min-w-[300px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
+						<div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5
+						mq650:px-[20px]
+						box-border mq950:justify-start gap-5 min-w-[300px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
 							<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] mq950:min-h-[90px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
 								Cost-Effective Licensing Options for&nbsp;Diverse Business needs
 							</h3>
@@ -151,8 +155,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="self-stretch flex flex-row items-stretch justify-start flex-wrap content-start gap-[30px] max-w-full">
-						<div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5 box-border gap-5 mq950:justify-start min-w-[300px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
+					<div class="self-stretch flex flex-row items-stretch justify-start flex-wrap content-start gap-[30px] mq950:gap-[20px] max-w-full">
+						<div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5
+						mq650:px-[20px]
+						box-border gap-5 mq950:justify-start min-w-[300px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
 							<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] mq950:min-h-[90px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
 								Versatile Business Structures for&nbsp;Foreign Companies
 							</h3>
@@ -169,7 +175,9 @@
 								establishment across multiple sectors.
 							</div>
 						</div>
-						<div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5 box-border gap-5 mq950:justify-start min-w-[300px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
+						<div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5
+						mq650:px-[20px]
+						box-border gap-5 mq950:justify-start min-w-[300px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
 							<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] mq950:min-h-[90px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
 								Enhanced Visa Dubai and&nbsp;Residency Options for&nbsp;Business Owners
 							</h3>
@@ -230,7 +238,7 @@
 					<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full bg-elements-neutral-4 border-l-[4px] border-solid border-general-1-primary">
 							<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
-								<ol class="m-0 font-inherit text-inherit pl-6">
+								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px]">
 									<li>1. Select Your Business Activity</li>
 								</ol>
 							</b>
@@ -239,7 +247,7 @@
 					<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 							<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
-								<ol class="m-0 font-inherit text-inherit pl-6">
+								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px]">
 									<li>2. Choose Your Company Structure</li>
 								</ol>
 							</b>
@@ -248,7 +256,7 @@
 					<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 							<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
-								<ol class="m-0 font-inherit text-inherit pl-6">
+								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px]">
 									<li>3. Secure a Local Sponsor or Service Agent</li>
 								</ol>
 							</b>
@@ -257,7 +265,7 @@
 					<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 							<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
-								<ol class="m-0 font-inherit text-inherit pl-6 st-wrap">
+								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px] st-wrap">
 									<li>4. Choose Office Space and Finalize the Trade name</li>
 								</ol>
 							</b>
@@ -267,7 +275,7 @@
 					<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 							<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
-								<ol class="m-0 font-inherit text-inherit pl-6">
+								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px]">
 									<li>5. Open a Corporate Bank Account</li>
 								</ol>
 							</b>
@@ -277,7 +285,7 @@
 					<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 							<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
-								<ol class="m-0 font-inherit text-inherit pl-6">
+								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px]">
 									<li>6. Obtain the Necessary Approvals</li>
 								</ol>
 							</b>
@@ -286,7 +294,7 @@
 					<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 							<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
-								<ol class="m-0 font-inherit text-inherit pl-6">
+								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px]">
 									<li>7. Complete the Final License and Registration</li>
 								</ol>
 							</b>
@@ -295,7 +303,7 @@
 					<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 							<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
-								<ol class="m-0 font-inherit text-inherit pl-6">
+								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px]">
 									<li>8. Apply for a Business Visa in Dubai</li>
 								</ol>
 							</b>
