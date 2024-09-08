@@ -4,274 +4,529 @@
 ?>
 <body>
 <div class="w-full">
+		<!-- banner !-->
 
 
-	<section class="self-stretch flex flex-col items-center justify-between pt-0 px-0
-	pb-[110px]
-	 box-border max-w-full text-left text-base text-general-white font-heading-1-72
-	 lg:pb-[71px]
-	  lg:box-border mq850:pb-[46px] mq850:box-border">
-		<div class="w-full flex flex-row items-start justify-start relative max-w-full ml-[10%] lg:ml-[0px]">
+		<!-- banner !-->
 
-			<div class="h-full w-full absolute !m-[0] bottom-[-110px] right-[10%] bg-general-1-primary z-[2] lg:right-[0px]"></div>
-			<div class="flex-1 flex flex-col items-center justify-start pt-0 pb-[110px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/title2@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full z-[3] mq1170:px-[20px] lg:pb-[71px] lg:box-border  mq450:pb-[46px] mq450:box-border mq850:gap-10 mq850:box-border">
-				<div class="w-full max-w-[1170px] ml-[calc(91%-100vw)] gap-6 flex flex-col items-center lg:ml-[0px]">
+		<section class="self-stretch flex flex-col items-center justify-between pt-0 px-0 pb-[110px] box-border max-w-full text-left text-base text-general-white font-heading-1-72 lg:pb-[71px] lg:box-border mq850:pb-[46px] mq850:box-border">
+			<div class="w-full flex flex-row items-start justify-start relative max-w-full ml-[10%] lg:ml-[0px]">
+				<div class="h-full w-full absolute !m-[0] bottom-[-110px] right-[10%] bg-general-1-primary z-[2] lg:right-[0px]"></div>
+				<div class="flex-1 flex flex-col items-center justify-start pt-0 pb-[110px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/title1@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full z-[3] lg:pl-[140px] lg:pr-[140px] lg:pb-[71px] lg:box-border mq450:pl-5 mq450:pr-5 mq450:pb-[46px] mq450:box-border mq850:gap-10 mq850:box-border">
+					<div class="w-full max-w-[1170px] ml-[calc(91%-100vw)] gap-6 flex flex-col items-center lg:ml-[0px]">
 
 
-					<div class="w-full flex flex-row mb-[10px] mt-[0px]">
-						<div class="w-[50%] h-[120px] border-general-1-primary border-r border-solid "></div>
-						<div class="w-[50%] "></div>
-					</div>
-					<div class="w-[1140px] flex flex-row items-start justify-center max-w-full text-center text-general-1-primary font-subtitles-16">
-						<div class="relative tracking-[0.4em] leading-[18px] uppercase font-medium">
-							Vision Prime
+						<div class="w-full flex flex-row mb-[10px] mt-[0px]">
+							<div class="w-[50%] h-[120px] border-general-1-primary border-r border-solid "></div>
+							<div class="w-[50%] "></div>
 						</div>
-					</div>
-					<h1 class="m-0 animate-fadeInOut w-[1140px] relative text-53xl leading-[80px] font-normal font-inherit text-center inline-block max-w-full mq450:text-24xl mq450:leading-[50px] mq850:text-39xl mq850:leading-[64px]">
-						Your Premier Business Setup Partner in the UAE
-					</h1>
-
-
-					<div class="w-[1140px] flex flex-row items-start justify-center max-w-full text-5xl font-button-dm-sans-16">
-						<div class="m-0 relative text-inherit tracking-[-0.01em] leading-[36px] font-bold font-inherit mq450:text-lgi mq450:leading-[28px]">
-							Clients run their businesses, while we are taking care of the rest.
+						<div class="w-[1140px] flex flex-row items-start justify-center max-w-full text-center text-general-1-primary font-subtitles-16">
+							<div class="relative tracking-[0.4em] leading-[18px] uppercase font-medium">
+								Dubai Mainland Company Formation
+							</div>
 						</div>
-					</div>
+						<h1 class="m-0 animate-fadeInOut w-[1140px] relative text-53xl leading-[80px] font-normal font-inherit text-center inline-block max-w-full mq450:text-24xl mq450:leading-[50px] mq850:text-39xl mq850:leading-[64px]">
+							Tailored Solutions for Your Business Activities
+						</h1>
 
-					<div class="w-[1140px] flex flex-row items-start justify-center flex-wrap content-start gap-[30px] max-w-full font-body-b3-merriweather-14">
-						<div class="flex-1 relative leading-[26px] inline-block min-w-[361px] max-w-full lg:min-w-full">
-							Vision Prime is your go-to partner for setting up and managing successful small to medium-sized businesses in the UAE. We take care of the paperwork and red tape—like business registration, admin,
-							and&nbsp;regulatory compliance—so you can focus on what you do best:
+
+						<div class="w-[1140px] flex flex-row items-center justify-center max-w-full text-5xl font-button-dm-sans-16">
+							<div class="m-0 relative text-inherit tracking-[-0.01em] items-center text-center leading-[36px] font-bold font-inherit mq450:text-lgi mq450:leading-[28px]">
+								Simplify your business setup in the UAE with our professional, cost-effective solutions. From company formation in Dubai to seamless company registration,
+								we ensure a smooth start for your venture.
+							</div>
 						</div>
-						<div class="flex-1 relative leading-[26px] inline-block min-w-[361px] max-w-full lg:min-w-full">
-							growing your business.
-
-							What sets us apart is our hands-on, white-glove approach. We’re not just working with you to tick off tasks; we want to see you succeed too.
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</section>
 
 
-	<!-- history and mission !-->
-	<section class="self-stretch flex flex-row items-start justify-center pt-0  pb-[180px] box-border max-w-full text-left text-base text-general-1-primary font-subtitles-16 lg:pb-[117px] lg:box-border mq850:pb-[76px] mq850:box-border">
-		<div class="w-[1170px] flex flex-col items-start justify-start gap-[60px] max-w-full lg:gap-[30px] lg:mx-[20px]">
-			<div class="self-stretch flex flex-col items-start justify-center py-0  box-border max-w-full text-center">
-				<div class="h-[120px] relative block left-[50%] ">
-					<div class="h-px w-[120px] !m-[0] top-[-79px]  bg-general-1-primary [transform:_rotate(90deg)] [transform-origin:0_0]"></div>
-				</div>
-				<div class="w-full flex flex-col items-center justify-start pt-[22px] px-0 pb-[5px] box-border gap-[21px] max-w-full">
+						<div class="w-[1139.5px] flex flex-row items-start justify-center max-w-full">
+							<button onclick="openModal()" class="cursor-pointer border-transparent py-[21px] px-10 bg-general-1-primary overflow-hidden flex flex-row items-start justify-start
+						 whitespace-nowrap hover:bg-elements-neutral-4 hover:text-general-1-primary hover:border-general-1-primary border-solid border-[2px]
+						 text-general-white 					hover:text-general-1-primary">
+								<div class="relative text-base tracking-[0.4em] leading-[18px] uppercase font-medium hover:border-general-1-primary
+							font-subtitles-16 text-center hover:text-general-1-primary  whitespace-nowrap">
+									Book a 30 minutes free consultation
+								</div>
+							</button>
 
-					<div class="self-stretch flex flex-row items-start justify-center py-0 ">
-						<div class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[1]">
-							History and Mission
-						</div>
-					</div>
-					<div class="flex flex-row items-start justify-start relative text-41xl text-general-8-secondary font-heading-1-72">
-						<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
-							Your Business, Our Expertise
-						</h2>
-					</div>
-				</div>
-			</div>
-
-			<div class="self-stretch flex flex-col items-start justify-start gap-[60px] max-w-full text-left text-general-9-secondary-variant font-body-b3-merriweather-14 mq1425:gap-[30px] hidden mq1170:flex">
-				<div class="self-stretch flex flex-row items-start justify-start flex-wrap content-start gap-[30px] max-w-full">
-					<div class="flex-1 relative leading-[26px] inline-block min-w-[370px] max-w-full mq450:min-w-full">
-						<p class="m-[0px]">
-							For over a decade, Vision Prime has been helping companies
-							like yours get off the ground and thrive in Dubai. We’ve seen
-							the challenges small and medium-sized companies face when it
-							comes to business setup. And we’ve built our services around
-							solving them. And with deep experience in the international
-							business world, we know exactly what it takes to succeed here.
-						</p>
-						<p class="m-[0px]">&nbsp;</p>
-						<p class="m-[0px]">
-							Vision Prime is more than just a service provider—we’re your
-							business partner. We’ll handle the paperwork, regulations, and
-							financial details
-						</p>
-					</div>
-					<div class="flex-1 relative leading-[26px] inline-block min-w-[370px] max-w-full mq450:min-w-full">
-						<p class="m-[0px]">
-							so you can focus on what you do best. But we don’t stop there.
-							We offer smart advice, and cost-saving ideas, and act as a
-							sounding board to help validate your own ideas.
-						</p>
-						<p class="m-[0px]">&nbsp;</p>
-						<p class="m-[0px]">
-							Even better, we get involved in your banking relationships,
-							offering a&nbsp;level of support that’s hard to find elsewhere.
-							From providing guarantees to overseeing payments, we make sure
-							your financial operations run smoothly from day one.
-						</p>
-					</div>
-				</div>
-				<div class="self-stretch flex flex-row items-center justify-start flex-wrap content-center gap-[40px] text-41xl text-general-1-primary font-button-dm-sans-16 mq950:gap-[10px]  mq950:gap-x-[5px] mq950:items-start   items-start mq650:gap-x-[0px]">
-
-
-					<div class=" flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px] mq650:w-[50%] mq950:w-[23%] mq650:min-w-[100px]  mq950:min-w-[150px]">
-
-
-						<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:15]"
-						   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:15]'">
-							<span class="supports-[counter-set]:sr-only">15</span>
-						</b>
-						<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							years of experience
-						</div>
-					</div>
-					<div class=" flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px] mq650:w-[50%] mq950:w-[23%] mq650:min-w-[100px]  mq950:min-w-[150px] ">
-
-
-						<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:100]"
-						   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:100]'">
-							<span class="supports-[counter-set]:sr-only">100</span>+
-						</b>
-						<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							dedicated team
-						</div>
-					</div>
-					<div class=" flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px] mq650:w-[50%] mq950:w-[23%] mq650:min-w-[100px]  mq950:min-w-[150px]">
-
-
-						<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:2500]"
-						   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:2500]'">
-							<span class="supports-[counter-set]:sr-only">2500</span>+
-						</b>
-						<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-							consultations
-						</div>
-					</div>
-					<div class=" flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px] mq650:w-[50%] mq950:w-[23%] mq650:min-w-[100px] text-center  mq950:min-w-[150px]">
-						<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:5000]"
-						   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:5000]'">
-							<span class="supports-[counter-set]:sr-only">5000</span>+
-						</b>
-						<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant text-left">
-							audit completed
 						</div>
 					</div>
 				</div>
-
 
 			</div>
-			<div class="self-stretch flex flex-row items-center justify-start flex-wrap content-center gap-[40px] text-41xl text-general-1-primary font-button-dm-sans-16 mq950:gap-[20px] mq1170:hidden">
+		</section>
 
 
-				<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px]">
+		<!-- main land !-->
 
 
-					<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:15]"
-					   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:15]'">
-						<span class="supports-[counter-set]:sr-only">15</span>
-					</b>
-					<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-						years of experience
+		<section class="self-stretch flex flex-row items-start justify-center pt-0  pb-[180px] box-border max-w-full text-left text-base bg-elements-neutral-4 font-subtitles-16 lg:pb-[117px] lg:box-border mq850:pb-[76px] mq850:box-border">
+			<div class="w-[1170px] flex flex-col items-start justify-start gap-[60px] max-w-full lg:gap-[30px] lg:mx-[20px]">
+				<div class="self-stretch flex flex-col items-start justify-center py-0  box-border max-w-full text-center">
+					<div class="h-[120px] relative block left-[50%] ">
+						<div class="h-px w-[120px] !m-[0] top-[-79px]  bg-general-1-primary [transform:_rotate(90deg)] [transform-origin:0_0]"></div>
 					</div>
-				</div>
-				<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px]">
+					<div class="w-full flex flex-col items-center justify-start pt-[22px] px-0 pb-[5px] box-border gap-[21px] max-w-full">
 
-
-					<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:100]"
-					   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:100]'">
-						<span class="supports-[counter-set]:sr-only">100</span>+
-					</b>
-					<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-						dedicated team
-					</div>
-				</div>
-				<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px]">
-
-
-					<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:2500]"
-					   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:2500]'">
-						<span class="supports-[counter-set]:sr-only">2500</span>+
-					</b>
-					<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-						consultations
-					</div>
-				</div>
-				<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px] text-center">
-					<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:5000]"
-					   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:5000]'">
-						<span class="supports-[counter-set]:sr-only">5000</span>+
-					</b>
-					<div class="self-stretch relative text-lg leading-[30px] font-body-b3-merriweather-14 text-general-9-secondary-variant text-left">
-						audit completed
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- vision values !-->
-	<section class="self-stretch flex flex-col items-center justify-between pt-0 px-0 ] box-border max-w-full text-left text-base text-general-white font-heading-1-72 ">
-		<div class="w-full flex flex-row items-start justify-start relative max-w-full ml-[10%] lg:ml-[0px]">
-
-			<div class="flex-1 flex flex-col items-center justify-start pt-0 pb-[110px] box-border gap-10 bg-dark-gray max-w-full z-[3] mq1170:px-[20px] lg:pb-[71px] lg:box-border mq450:pl-5 mq450:pr-5 mq450:pb-[46px] mq450:box-border mq850:gap-10 mq850:box-border">
-				<div class="w-full max-w-[1170px] ml-[calc(91%-100vw)] gap-6 flex flex-col items-center lg:ml-[0px]">
-
-
-					<div class="w-full flex flex-row mb-[10px] mt-[0px]">
-						<div class="w-[50%] h-[120px] border-general-1-primary border-r border-solid "></div>
-						<div class="w-[50%] "></div>
-					</div>
-					<div class="w-[1140px] flex flex-row items-start justify-center max-w-full text-center text-general-1-primary font-subtitles-16">
-						<div class="relative tracking-[0.4em] leading-[18px] uppercase font-medium">
-							Vision and Values
+						<div class="self-stretch flex flex-row items-start justify-center py-0 ">
+							<div class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[1]">
+								Mainland
+							</div>
+						</div>
+						<div class="flex flex-row items-start justify-start relative text-41xl text-general-8-secondary font-heading-1-72">
+							<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
+								Company Formation in Dubai Explained
+							</h2>
 						</div>
 					</div>
-					<div class="flex flex-row items-start justify-start relative text-41xl  font-heading-1-72">
-						<h2 class="m-0 w-full relative text-inherit leading-[66px] text-center font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
-							Setting Up a Company with No Regret
-						</h2>
+				</div>
+
+				<div class="self-stretch flex flex-col items-start justify-start gap-[60px] max-w-full text-left text-general-9-secondary-variant font-body-b3-merriweather-14 mq1425:gap-[30px]">
+					<div class="self-stretch flex flex-row items-start justify-start flex-wrap content-start gap-[30px] max-w-full">
+						<div class="flex-1 relative leading-[26px] inline-block min-w-[370px] max-w-full mq450:min-w-full">
+
+							What exactly is a Mainland company in Dubai, and why is it crucial
+							for your business setup? Mainland company formation in Dubai allows
+							businesses to operate within the local market and across the UAE.
+							Licensed by the Department of Economic Development (DED), Mainland
+							companies provide the flexibility to conduct business directly with
+							consumers, secure government contracts, and expand without
+							geographical restrictions. Whether you’re establishing a limited
+							liability company or exploring opportunities as foreign investors,
+							the Dubai Mainland offers a robust platform for growth. Here’s a
+							look at the key benefits and steps involved in setting up your
+							Mainland company!
+
+						</div>
+						<div class="flex-1 relative leading-[26px] inline-block min-w-[370px] max-w-full mq450:min-w-full">
+							<img decoding="async" class="h-[286px] flex-1 relative max-w-full overflow-hidden object-cover min-w-[367px] mq450:min-w-full" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/company-registration-in-dubai--mainland-vs-free-zone-vs-offshore-1@2x.png">
+						</div>
 					</div>
 
-
-					<div class="w-[1140px] flex flex-row items-start justify-center flex-wrap content-start gap-[30px] max-w-full font-body-b3-merriweather-14 mt-[50px]">
-						<div class="flex-1 flex flex-col mq950:flex-row mq350:flex-col items-start justify-start gap-[40px] min-w-[367px] max-w-full mq950:gap-[20px] mq950:min-w-full ">
-							<div class="self-stretch overflow-hidden flex flex-col items-start justify-start gap-[16px]">
-								<h3 class="m-[0px] self-stretch relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
-									Partnership
+					<div class="max-w-[1170px]w-[1170px] flex flex-col items-start justify-start gap-[30px] w-full text-5xl text-general-1-secondary">
+					<div class="self-stretch flex flex-row items-stretch justify-start flex-wrap content-start gap-[30px] max-w-full">
+    <div class="flex-1 bg-general-white flex flex-col items-start justify-between pt-10 pb-24 pl-10 pr-5 box-border gap-5 min-w-[370px] max-w-full mq450:pt-[26px] mq450:pb-[62px] mq450:box-border mq450:min-w-full">
+        <h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
+            Flexibility to Operate anywhere in&nbsp;the&nbsp;UAE
+        </h3>
+        <div class="max-w-[490px] relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant inline-block w-full">
+            One of the key benefits of starting a Mainland company in&nbsp;Dubai
+            is&nbsp;the flexibility it provides. When you register a&nbsp;Mainland
+            company in&nbsp;Dubai, you can conduct business activities across the
+            entire UAE without restrictions. With&nbsp;a&nbsp;Mainland business
+            license, your company can operate freely within local markets,
+            secure government contracts, and&nbsp;expand its reach. The UAE
+            government’s regulations ensure that Mainland companies have
+            the&nbsp;agility to grow and&nbsp;adapt, making it an ideal choice
+            for&nbsp;diverse business&nbsp;activities.
+        </div>
+    </div>
+    <div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5 box-border gap-5 min-w-[370px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
+        <h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
+            Cost-Effective Licensing Options for&nbsp;Diverse Business needs
+        </h3>
+        <div class="max-w-[490px] relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant inline-block w-full">
+            Obtaining a Mainland license in Dubai offers cost-effective
+            solutions tailored to your business setup needs. Whether you’re
+            looking to conduct business as&nbsp;a&nbsp;professional or&nbsp;a&nbsp;commercial
+            entity, the flexibility of&nbsp;choosing between a&nbsp;professional
+            license and&nbsp;a&nbsp;commercial license makes it easier to align
+            with&nbsp;your specific business activities. The&nbsp;Mainland license
+            cost is competitively structured, allowing you to&nbsp;operate
+            efficiently while gaining access to&nbsp;the&nbsp;vast local market. This
+            affordability of the business licenses, combined with the
+            ability to conduct business freely, makes setting up on the
+            Dubai Mainland an&nbsp;attractive&nbsp;option.
+        </div>
+    </div>
+</div>
+					<div class="self-stretch flex flex-row items-stretch justify-start flex-wrap content-start gap-[30px] max-w-full">
+							<div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5 box-border gap-5 min-w-[370px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
+								<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
+									Versatile Business Structures for&nbsp;Foreign Companies
 								</h3>
-								<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-[#878995]">
-									Our consultants believe in building strong, collaborative
-									relationships with our clients. We’re not just service
-									providers; we’re partners in your success.
+								<div class="max-w-[490px] relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant inline-block w-full">
+									Mainland company setup in the UAE is ideal for foreign companies
+									seeking versatile business structures. Unlike limited options in
+									free zones, the Mainland allows the&nbsp;formation of various
+									entities, including civil companies, enabling you to engage in
+									diverse business activities. This&nbsp;flexibility is particularly
+									beneficial for companies looking to establish a strong presence
+									in the local market. Whether you’re focused on providing
+									professional services or&nbsp;commercial activities, UAE Mainland
+									company formation offers a dynamic environment for growth and
+									establishment across multiple sectors.
 								</div>
 							</div>
-							<div class="self-stretch overflow-hidden flex flex-col items-start justify-start pt-[0px] px-[0px] pb-[2px] gap-[16px]">
-								<h3 class="m-[0px] self-stretch relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
-									Efficiency
+							<div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5 box-border gap-5 min-w-[370px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
+								<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
+									Enhanced Visa Dubai and&nbsp;Residency Options for&nbsp;Business Owners
 								</h3>
-								<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-[#878995]">
-									We value time and resources. Our streamlined processes ensure
-									that your business gets off the ground quickly and smoothly.
+								<div class="max-w-[490px] relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant inline-block w-full">
+									Securing a Dubai Mainland license offers significant advantages
+									for obtaining residence visas and managing your UAE company’s
+									workforce. Unlike free zone companies, Mainland company setup
+									provides streamlined access to&nbsp;residence visas for owners and
+									employees, aligning with&nbsp;the regulations of the UAE government.
+									This flexibility supports your business activities by enabling
+									you to&nbsp;effectively reach your target market and manage your
+									team. With a Mainland license, you benefit from easier visa
+									processes, helping you build a strong presence in Dubai and&nbsp;the
+									broader UAE.
 								</div>
 							</div>
 						</div>
-						<div class="flex-1 flex flex-col mq950:flex-row  mq350:flex-col items-start justify-start gap-[40px] min-w-[367px] max-w-full mq950:gap-[20px] mq950:min-w-full">
-							<div class="self-stretch overflow-hidden flex flex-col items-start justify-start gap-[16px]">
-								<h3 class="m-[0px] self-stretch relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
-									Expertise
+
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+
+
+		<!-- Steps to Set Up a Business !-->
+
+
+		<section class="self-stretch flex flex-row items-start justify-center pt-0  pb-[180px] box-border max-w-full text-left text-base text-general-1-primary font-subtitles-16 lg:pb-[117px] lg:box-border mq850:pb-[76px] mq850:box-border">
+			<div class="w-[1170px] flex flex-col items-start justify-start gap-[60px] max-w-full lg:gap-[30px] lg:mx-[20px]">
+				<div class="self-stretch flex flex-col items-start justify-center py-0  box-border max-w-full text-center">
+					<div class="h-[120px] relative block left-[50%] ">
+						<div class="h-px w-[120px] !m-[0] top-[-79px]  bg-general-1-primary [transform:_rotate(90deg)] [transform-origin:0_0]"></div>
+					</div>
+					<div class="w-full flex flex-col items-center justify-start pt-[22px] px-0 pb-[5px] box-border gap-[21px] max-w-full">
+
+						<div class="self-stretch flex flex-row items-start justify-center py-0 ">
+							<div class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[1]">
+								Steps to Set Up a Business in
+							</div>
+						</div>
+						<div class="flex flex-row items-start justify-start relative text-41xl text-general-8-secondary font-heading-1-72">
+							<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
+								Dubai Mainland
+							</h2>
+						</div>
+						<b class="self-stretch relative text-lg leading-[24px] font-button-dm-sans-16 text-general-1-secondary-variant mt-[20px]">Understanding the Dubai Mainland company formation cost and
+						navigating the process of obtaining a trade license are crucial
+						steps compared to a free zone company setup. Here’s a guide from
+						our business setup consultants to the essential steps involved in
+						setting up your business on the Dubai Mainland.</b>
+					</div>
+				</div>
+
+				<div class="self-stretch flex flex-row items-start justify-center gap-[60px] max-w-full text-lg text-general-1-secondary-variant font-button-dm-sans-16 lg:gap-[30px] lg:flex-wrap">
+					<div class="max-w-[440px] flex flex-col items-start justify-start gap-[10px] min-w-[440px] w-full lg:flex-1 mq450:gap-[30px] mq850:min-w-full">
+						<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
+							<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full bg-elements-neutral-4 border-l-[4px] border-solid border-general-1-primary">
+								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
+									<ol class="m-0 font-inherit text-inherit pl-6">
+										<li>1. Select Your Business Activity</li>
+									</ol>
+								</b>
+							</button>
+						</div>
+						<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
+							<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
+								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
+									<ol class="m-0 font-inherit text-inherit pl-6">
+										<li>2. Choose Your Company Structure</li>
+									</ol>
+								</b>
+							</button>
+						</div>
+						<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
+							<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
+								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
+									<ol class="m-0 font-inherit text-inherit pl-6">
+										<li>3. Secure a Local Sponsor or Service Agent</li>
+									</ol>
+								</b>
+							</button>
+						</div>
+						<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
+							<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
+								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
+									<ol class="m-0 font-inherit text-inherit pl-6 st-wrap">
+										<li>4. Choose Office Space and Finalize the Trade name</li>
+									</ol>
+								</b>
+							</button>
+						</div>
+
+						<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
+							<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
+								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
+									<ol class="m-0 font-inherit text-inherit pl-6">
+										<li>5. Open a Corporate Bank Account</li>
+									</ol>
+								</b>
+							</button>
+						</div>
+
+						<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
+							<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
+								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
+									<ol class="m-0 font-inherit text-inherit pl-6">
+										<li>6. Obtain the Necessary Approvals</li>
+									</ol>
+								</b>
+							</button>
+						</div>
+						<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
+							<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
+								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
+									<ol class="m-0 font-inherit text-inherit pl-6">
+										<li>7. Complete the Final License and Registration</li>
+									</ol>
+								</b>
+							</button>
+						</div>
+						<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
+							<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
+								<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
+									<ol class="m-0 font-inherit text-inherit pl-6">
+										<li>8. Apply for a Business Visa in Dubai</li>
+									</ol>
+								</b>
+							</button>
+						</div>
+
+					</div>
+						<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-11xl text-general-1-secondary mq950:gap-[15px] mq950:py-[39px] mq950:px-[30px] mq950:box-border mq950:min-w-full">
+						<div class="self-stretch flex flex-row items-center justify-start gap-[25px] max-w-full mq950:flex-wrap">
+							<img decoding="async" class="h-[94px] w-[94px] relative object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/startup-1@2x.png">
+
+							<h2 class="m-0 flex-1 relative text-inherit tracking-[-0.01em] leading-[36px] font-bold font-inherit inline-block min-w-[280px] max-w-full mq450:text-lg mq450:leading-[22px] mq950:text-5xl mq950:leading-[29px]">
+								Step 1: Select Your Business Activity
+							</h2>
+						</div>
+						<div class="self-stretch relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+							Our experts will guide you in choosing the right business
+							activity in&nbsp;Dubai to align with your goals. Whether you need a
+							professional, commercial, or industrial trade license, we’ll
+							ensure your business license meets the Department of Economic
+							Development requirements for a smooth setup.
+						</div>
+						<img decoding="async" class="self-stretch h-[314px] relative max-w-full overflow-hidden shrink-0 object-cover" alt="" src="/wp-content/themes/vision-prime/web/public/company-registration-in-dubai--mainland-vs-free-zone-vs-offshore-1-1@2x.png">
+					</div>
+
+					<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full hidden">
+						<div class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap">
+							<img decoding="async" class="h-[94px] w-[94px] relative object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/startup-1@2x.png">
+
+
+								<div class="flex-1 flex flex-col items-start justify-start pt-1.5 px-0 pb-0 box-border min-w-[287px] max-w-full text-left text-11xl text-general-1-secondary">
+								<h3 class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[36px] font-bold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]">
+									Step 2: Choose Your Company Structure
+
 								</h3>
-								<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-[#878995]">
-									Our team brings a wealth of knowledge and experience to every
-									project. We stay up-to-date on industry trends to deliver the
-									best possible solutions.
+							</div>
+						</div>
+						<div class="self-stretch relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant text-left">
+						Selecting the right company form is crucial for successful company formation in the UAE. Whether you're opting for a sole proprietorship, partnership, or using a local service agent, we guide foreign investors through each option, comparing mainland setups with free zone company structures to find the best fit.
+						</div>
+					<img decoding="async" class="self-stretch h-[314px] relative max-w-full overflow-hidden shrink-0 object-cover" alt="" src="/wp-content/themes/vision-prime/web/public/company-registration-in-dubai--mainland-vs-free-zone-vs-offshore-1-1@2x.png">
+					</div>
+					<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full hidden">
+						<div class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap">
+							<img decoding="async" class="h-[94px] w-[94px] relative object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/startup-1@2x.png">
+
+							<div class="flex-1 flex flex-col items-start justify-start pt-1.5 px-0 pb-0 box-border min-w-[287px] max-w-full text-left text-11xl text-general-1-secondary">
+								<h3 class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[36px] font-bold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]">
+									Step 3: Secure a Local Sponsor or Service Agent
+								</h3>
+							</div>
+						</div>
+						<div class="self-stretch relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant text-left">
+							To start your new business journey in Dubai, you’ll need to secure a local sponsor or finalize a local service agent agreement. Whether you're forming a civil company or another structure, this partnership is essential for navigating legal requirements and ensuring a smooth setup.
+						</div>
+						<img decoding="async" class="self-stretch h-[314px] relative max-w-full overflow-hidden shrink-0 object-cover" alt="" src="/wp-content/themes/vision-prime/web/public/company-registration-in-dubai--mainland-vs-free-zone-vs-offshore-1-1@2x.png">
+					</div>
+
+					<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full hidden">
+						<div class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap">
+							<b class="w-[84px] relative tracking-[-0.01em] leading-[84px] inline-block shrink-0 mq450:text-[47px] mq450:leading-[50px] mq850:text-[62px] mq850:leading-[67px]">4</b>
+							<div class="flex-1 flex flex-col items-start justify-start pt-1.5 px-0 pb-0 box-border min-w-[287px] max-w-full text-left text-11xl text-general-1-secondary">
+								<h3 class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[36px] font-bold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]">
+									Step 4: Choose Office Space and Finalize the Trade name.
+
+								</h3>
+							</div>
+						</div>
+						<div class="self-stretch relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant text-left">
+							Selecting the right office space is a key step in your business setup. Ensure your trade name aligns with UAE guidelines, as it’s required for your trade license application. The right location and name are essential for a successful business launch.
+						</div>
+						<img decoding="async" class="self-stretch h-[314px] relative max-w-full overflow-hidden shrink-0 object-cover" alt="" src="/wp-content/themes/vision-prime/web/public/company-registration-in-dubai--mainland-vs-free-zone-vs-offshore-1-1@2x.png">
+					</div>
+
+					<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full hidden">
+						<div class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap">
+							<img decoding="async" class="h-[94px] w-[94px] relative object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/startup-1@2x.png">
+	<div class="flex-1 flex flex-col items-start justify-start pt-1.5 px-0 pb-0 box-border min-w-[287px] max-w-full text-left text-11xl text-general-1-secondary">
+								<h3 class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[36px] font-bold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]">
+									Step 5: Open a Corporate Bank Account
+								</h3>
+							</div>
+						</div>
+						<div class="self-stretch relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant text-left">
+							Once you open a company, the next crucial step is to establish a corporate bank account. This involves navigating the requirements of the digital government regulatory authority and selecting the best bank accounts for your business needs. A proper setup ensures compliance with corporate tax regulations and smooth financial operations.
+						</div>
+						<img decoding="async" class="self-stretch h-[314px] relative max-w-full overflow-hidden shrink-0 object-cover" alt="" src="/wp-content/themes/vision-prime/web/public/company-registration-in-dubai--mainland-vs-free-zone-vs-offshore-1-1@2x.png">
+					</div>
+
+
+						<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full hidden">
+						<div class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap">
+							<img decoding="async" class="h-[94px] w-[94px] relative object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/startup-1@2x.png">
+
+
+								<div class="flex-1 flex flex-col items-start justify-start pt-1.5 px-0 pb-0 box-border min-w-[287px] max-w-full text-left text-11xl text-general-1-secondary">
+								<h3 class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[36px] font-bold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]">
+									Step 6: Obtain the Necessary Approvals
+								</h3>
+							</div>
+						</div>
+						<div class="self-stretch relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant text-left">
+					For local company formation in Dubai, securing approvals from relevant government entities is essential. Whether you're ordering a free zone setup or a public joint stock company, our business consultants will guide you through the approval process, ensuring compliance with all local regulations for a smooth setup.	</div>
+						<img decoding="async" class="self-stretch h-[314px] relative max-w-full overflow-hidden shrink-0 object-cover" alt="" src="/wp-content/themes/vision-prime/web/public/company-registration-in-dubai--mainland-vs-free-zone-vs-offshore-1-1@2x.png">
+					</div>
+
+
+						<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full hidden">
+						<div class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap">
+							<img decoding="async" class="h-[94px] w-[94px] relative object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/startup-1@2x.png">
+	<div class="flex-1 flex flex-col items-start justify-start pt-1.5 px-0 pb-0 box-border min-w-[287px] max-w-full text-left text-11xl text-general-1-secondary">
+								<h3 class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[36px] font-bold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]">
+									Step 7: Complete the Final License and Registration
+								</h3>
+							</div>
+						</div>
+						<div class="self-stretch relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant text-left">
+					Finalize your mainland license application by completing the registration process. Submit your approved business plan and any additional documents required for your business operations. This step ensures that you meet all regulatory requirements and obtain your official business license.	</div>
+					<img decoding="async" class="self-stretch h-[314px] relative max-w-full overflow-hidden shrink-0 object-cover" alt="" src="/wp-content/themes/vision-prime/web/public/company-registration-in-dubai--mainland-vs-free-zone-vs-offshore-1-1@2x.png">
+					</div>
+
+						<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full hidden">
+						<div class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap">
+							<img decoding="async" class="h-[94px] w-[94px] relative object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/startup-1@2x.png">
+<div class="flex-1 flex flex-col items-start justify-start pt-1.5 px-0 pb-0 box-border min-w-[287px] max-w-full text-left text-11xl text-general-1-secondary">
+								<h3 class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[36px] font-bold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]">
+									Step 8: Apply for a Business Visa in Dubai
+								</h3>
+							</div>
+						</div>
+						<div class="self-stretch relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant text-left">
+					Once your Dubai company is established, apply for business visas for yourself and your employees. Ensure your business location complies with visa regulations for mainland companies. This step is crucial for legal employment and operational activities within Dubai.	</div>
+						<img decoding="async" class="self-stretch h-[314px] relative max-w-full overflow-hidden shrink-0 object-cover" alt="" src="/wp-content/themes/vision-prime/web/public/company-registration-in-dubai--mainland-vs-free-zone-vs-offshore-1-1@2x.png">
+					</div>
+
+
+
+
+				</div>
+
+
+
+			</div>
+		</section>
+
+		<section class="self-stretch flex flex-col items-center justify-center pt-0
+				 pb-[180px] box-border max-w-full text-left text-base text-general-white
+				font-subtitles-16 lg:pb-[117px] lg:box-border mq850:pb-[76px]
+				mq850:box-border bg-dark-gray ">
+			<div class="max-w-[1170px] flex flex-col items-start justify-start
+			 gap-[30px] w-full lg:gap-[30px] lg:mx-[20px]">
+				<div class="h-[120px] relative block border-solid border-general-1-primary border-solid border-l-[1px] ">
+
+					</div>
+				<h2 class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[1] text-general-1-primary">
+					Why Choose VisionAE?
+				</h2>
+			</div>
+
+			<div class="w-[1170px] flex flex-row items-stretch justify-start gap-[60px] max-w-full lg:gap-[30px] lg:mx-[20px] mt-[30px]">
+				<!-- Left Side -->
+				<div class="w-[400px] flex flex-col items-start justify-between gap-10 min-w-[400px] max-w-full mq450:gap-5 mq1425:min-w-full">
+					<div class="self-stretch flex flex-row items-start justify-start relative max-w-full text-left text-41xl text-general-white font-heading-1-72">
+						<div class="m-0 flex-1 relative text-inherit leading-[66px] font-normal font-inherit inline-block max-w-full mq450:text-17xl mq450:leading-[40px] mq950:text-29xl mq950:leading-[53px]">
+							Top Reasons for using Services
+						</div>
+					</div>
+					<div class="self-stretch relative leading-[26px] z-[1]">
+						At Vision Prime, we streamline your company’s establishment process
+						with expert guidance and tailored solutions. Our comprehensive
+						approach to business setup and company establishment ensures
+						compliance with UAE government regulations and optimizes your
+						launch. Here’s why you should choose us:
+					</div>
+					<b class="self-stretch relative text-lg leading-[24px] font-button-dm-sans-16 z-[1]">
+						<ol class="m-0 font-inherit text-inherit pl-6">
+							<li class="mb-0">1. Expertise in Local Regulations</li>
+							<li class="mb-0">2. Customized Business Solutions</li>
+							<li>3. Efficient Processing and Support</li>
+						</ol>
+					</b>
+					<div class="self-stretch relative leading-[26px] z-[1]">
+						Our dedicated team will support you through every step, from
+						planning to final setup, making your journey seamless and
+						successful.
+					</div>
+					<button onclick="openModal()" class="cursor-pointer [border:none] py-[21px] px-10 bg-general-1-primary overflow-hidden flex flex-row items-start justify-start box-border whitespace-nowrap max-w-full z-[1] hover:bg-darkolivegreen">
+						<div class="h-[18px] relative text-base tracking-[0.4em] leading-[18px] uppercase font-medium font-subtitles-16 text-general-white text-center inline-block">
+							Take a consultation
+						</div>
+					</button>
+				</div>
+
+				<!-- Right Side -->
+				<div class="w-[700px] flex flex-col items-start justify-between px-0 pb-0 box-border min-w-[700px] max-w-full text-5xl font-button-dm-sans-16 mq950:pt-[83px] mq950:box-border mq1425:pt-[127px] mq1425:box-border mq1425:min-w-full">
+					<div class="self-stretch flex flex-col items-start justify-between gap-10 max-w-full mq950:gap-5">
+						<div class="self-stretch bg-general-7-secondary-variant overflow-hidden flex flex-row items-start justify-start p-[30px] box-border gap-[25px] max-w-full z-[1] mq1425:flex-wrap">
+							<div class="h-[94px] w-[94px] relative">
+								<img decoding="async" class="absolute h-[calc(100%_-_11.5px)] w-[calc(100%_-_11.5px)] top-[5.8px] right-[5.7px] bottom-[5.7px] left-[5.8px] max-w-full overflow-hidden max-h-full object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/notebook-1434689@2x.png">
+							</div>
+							<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[358px] max-w-full mq1425:min-w-full">
+								<h4 class="m-0 relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
+									Comprehensive Services for Starting a Business
+								</h4>
+								<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 inline-block min-h-[120px]">
+									We provide comprehensive services for starting a business,
+									including assistance with obtaining a professional license.
+									Our expert team ensures that every aspect of your setup is
+									handled efficiently, from paperwork to compliance, making the
+									process smooth and straightforward for your new venture.
 								</div>
 							</div>
-							<div class="self-stretch overflow-hidden flex flex-col items-start justify-start pt-[0px] px-[0px] pb-[2px] gap-[16px]">
-								<h3 class="m-[0px] self-stretch relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
-									Integrity
-								</h3>
-								<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-[#878995]">
-									Trust is essential in business. We operate with honesty,
-									transparency, and&nbsp;professionalism in everything we do.
+						</div>
+						<div class="self-stretch bg-general-7-secondary-variant overflow-hidden flex flex-row items-start justify-start p-[30px] box-border gap-[25px] max-w-full z-[1] mq1425:flex-wrap">
+							<img decoding="async" class="h-[94px] w-[94px] relative object-contain" alt="" src="/wp-content/themes/vision-prime/web/public/startup-1-1@2x.png">
+
+							<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[358px] max-w-full mq1425:min-w-full">
+								<h4 class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
+									Expert Guidance from Business Setup Consultants
+								</h4>
+								<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14">
+									Our business setup consultants offer expert guidance, ensuring
+									a smooth process from start to finish. Partnering with a
+									trusted local service agent, we handle all regulatory
+									requirements and paperwork, streamlining your business setup
+									and helping you navigate the UAE’s complex regulations with
+									ease.
+								</div>
+							</div>
+						</div>
+						<div class="self-stretch bg-general-7-secondary-variant overflow-hidden flex flex-row items-start justify-start p-[30px] box-border gap-[25px] max-w-full z-[1] mq1425:flex-wrap">
+							<img decoding="async" class="h-[94px] w-[94px] relative object-contain" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/mission@2x.png">
+
+							<div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[358px] max-w-full mq1425:min-w-full">
+								<h4 class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
+									Tailored Corporate Services for Foreign Companies
+								</h4>
+								<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14">
+									In the UAE, our consultants specialize in providing tailored
+									corporate services for foreign companies. We offer expert
+									support to navigate local regulations and streamline your
+									business setup, ensuring a smooth entry into the market and
+									efficient management of corporate requirements.
 								</div>
 							</div>
 						</div>
@@ -279,669 +534,525 @@
 				</div>
 			</div>
 
-		</div>
-	</section>
-
-	<div class="w-[120px] h-[1px] relative bg-general-white [transform:_rotate(90deg)] hidden z-[7]"></div>
+		</section>
 
 
-	<section class="self-stretch bg-elements-neutral-4 flex flex-col items-center justify-start pt-[22px] px-5 pb-[171px] box-border gap-[68px] max-w-full z-[3] text-center text-base text-general-1-primary font-subtitles-16  lg:pt-5 lg:pb-[111px] ">
-		<div class="w-[1920px] h-[870px] relative bg-elements-neutral-4 hidden max-w-full"></div>
-		<div class="w-[1170px] flex flex-row items-start justify-center max-w-full">
-			<div class="w-full flex flex-col items-center justify-start gap-[21px] max-w-full">
-				<div class="flex flex-row items-center justify-start relative w-full top-[58px] ">
-					<div class="h-px w-[120px] absolute !m-[0] top-[-79px] left-[calc(50%_+_0.5px)] bg-general-1-primary [transform:_rotate(90deg)] [transform-origin:0_0] z-[1]"></div>
-				</div>
-				<div class="self-stretch flex flex-row items-start justify-center py-0 px-5 mt-[100px] ">
-					<div class="relative tracking-[0.4em] leading-[36px] uppercase font-medium inline-block min-w-[126px] z-[2]">
-						Our Team
-					</div>
-				</div>
-				<div class="flex flex-row items-start justify-start relative text-41xl text-general-8-secondary font-heading-1-72">
-
-					<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[2] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
-						Meet the Experts
-					</h2>
-				</div>
-			</div>
-		</div>
-		<div class="w-[1170px] grid grid-cols-4 gap-[30px] max-w-full z-[1] text-left
-		 text-smi text-general-white font-button-dm-sans-16
-		  lg:justify-center lg:grid-cols-2 mq450:grid-cols-2 mq650:gap-[5px] mq350:grid-cols-1  mq350:gap-[10px]">
-			<div class="h-[375px] mq450:h-[250px] mq350:h-[350px]  overflow-hidden flex
-			flex-col items-start justify-end py-[25px] pl-[25px] pr-5 box-border
-			 gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info@3x.png')]
-			 bg-cover bg-no-repeat bg-[top] transition-transform duration-300 ease-in-out hover:scale-105
-			 hover:bg-opacity-75 mq450:px-[5px] mq450:py-[5px]">
-				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em]
-				 leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base 	">
-					Arsen
-				</h3>
-				<div class="relative leading-[22px] font-body-b3-merriweather-14 mq650:text-xs mq650:leading-[12px]">
-					Co-founder / Business Consultant
-				</div>
-				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
-					<div class="relative leading-[18px] font-medium">
-						5 years of experience
-					</div>
-				</div>
-				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
-
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg">
-					</a>
-
-				</div>
-			</div>
-			<div class="h-[375px] mq450:h-[250px]  mq350:h-[350px] transition-transform duration-300
-			ease-in-out hover:scale-105 hover:bg-opacity-75 overflow-hidden flex flex-col items-start
-			justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info1@3x.png')]
-			 bg-cover bg-no-repeat bg-[top] mq450:px-[5px] mq450:py-[5px]">
-				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em]
-				leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base">
-					Elena
-				</h3>
-				<div class="relative leading-[22px] font-body-b3-merriweather-14  mq650:text-xs mq650:leading-[12px]">
-					Founder &amp; CEO
-				</div>
-				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
-					<div class="relative leading-[18px] font-medium">
-						5 years of experience
-					</div>
-				</div>
-				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
-
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg">
-					</a>
-
-				</div>
-			</div>
-			<div class="h-[375px] mq450:h-[250px] mq350:h-[350px] transition-transform duration-300
-			 ease-in-out hover:scale-105 hover:bg-opacity-75 overflow-hidden flex flex-col items-start
-			 justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info2@3x.png')]
-			 bg-cover bg-no-repeat bg-[top] mq450:px-[5px] mq450:py-[5px]">
-				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px]
-				 font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base">
-					Samuel
-				</h3>
-				<div class="relative leading-[22px] font-body-b3-merriweather-14  mq650:text-xs mq650:leading-[12px]">
-					Co-founder / Business Consultant
-				</div>
-				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
-					<div class="relative leading-[18px] font-medium">
-						5 years of experience
-					</div>
-				</div>
-				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
-
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg">
-					</a>
-
-				</div>
-			</div>
-			<div class="h-[375px] mq450:h-[250px] mq350:h-[350px]  overflow-hidden  transition-transform duration-300
-			 ease-in-out hover:scale-105 hover:bg-opacity-75 flex flex-col items-start justify-end pt-[200px] pb-[25px]
-			 pl-[25px] pr-5 gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/public/member-info3@3x.png')]
-			  bg-cover bg-no-repeat bg-[top] mq450:px-[5px] mq450:py-[5px]">
-				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px]
-				 font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base">
-					Jaiden
-				</h3>
-				<div class="relative leading-[22px] font-body-b3-merriweather-14  mq650:text-xs mq650:leading-[12px]">
-					CEO / Head of Business Consultancy
-				</div>
-				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
-					<div class="relative leading-[18px] font-medium">
-						5 years of experience
-					</div>
-				</div>
-				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg">
-					</a>
-
-				</div>
-			</div>
-		</div>
-
-		<div class="w-[1170px] grid grid-cols-4 gap-[30px] max-w-full z-[1] text-left
-		 text-smi text-general-white font-button-dm-sans-16
-		  lg:justify-center lg:grid-cols-2 mq450:grid-cols-2 mq650:gap-[5px] mq350:grid-cols-1  mq350:gap-[10px]
-mq650:mt-[-60px] mq1170:mt-[-35px]">
-			<div class="h-[375px] mq450:h-[250px] mq350:h-[350px]  overflow-hidden flex
-			flex-col items-start justify-end py-[25px] pl-[25px] pr-5 box-border
-			 gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/about/public/member-profiles1@3x.png')]
-			 bg-cover bg-no-repeat bg-[top] transition-transform duration-300 ease-in-out hover:scale-105
-			 hover:bg-opacity-75 mq450:px-[5px] mq450:py-[5px]">
-				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em]
-				 leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base 	">
-					Roxanna
-				</h3>
-				<div class="relative leading-[22px] font-body-b3-merriweather-14 mq650:text-xs mq650:leading-[12px]">
-					Founder & CEO
-				</div>
-				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
-					<div class="relative leading-[18px] font-medium">
-						5 years of experience
-					</div>
-				</div>
-				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
-
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg">
-					</a>
-
-				</div>
-			</div>
-			<div class="h-[375px] mq450:h-[250px]  mq350:h-[350px] transition-transform duration-300
-			ease-in-out hover:scale-105 hover:bg-opacity-75 overflow-hidden flex flex-col items-start
-			justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/about/public/member-profiles2@3x.png')]
-			 bg-cover bg-no-repeat bg-[top] mq450:px-[5px] mq450:py-[5px]">
-				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em]
-				leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base">
-					Boris
-				</h3>
-				<div class="relative leading-[22px] font-body-b3-merriweather-14  mq650:text-xs mq650:leading-[12px]">
-					Co-founder / Business Consultant
-				</div>
-				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
-					<div class="relative leading-[18px] font-medium">
-						5 years of experience
-					</div>
-				</div>
-				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
-
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg">
-					</a>
-
-				</div>
-			</div>
-			<div class="h-[375px] mq450:h-[250px] mq350:h-[350px] transition-transform duration-300
-			 ease-in-out hover:scale-105 hover:bg-opacity-75 overflow-hidden flex flex-col items-start
-			 justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/about/public/member-profiles3@3x.png')]
-			 bg-cover bg-no-repeat bg-[top] mq450:px-[5px] mq450:py-[5px]">
-				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px]
-				 font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base">
-					Camilla
-				</h3>
-				<div class="relative leading-[22px] font-body-b3-merriweather-14  mq650:text-xs mq650:leading-[12px]">
-					CEO / Head of Business Consultancy
-				</div>
-				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
-					<div class="relative leading-[18px] font-medium">
-						5 years of experience
-					</div>
-				</div>
-				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
-
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg">
-					</a>
-
-				</div>
-			</div>
-			<div class="h-[375px] mq450:h-[250px] mq350:h-[350px]  overflow-hidden  transition-transform duration-300
-			 ease-in-out hover:scale-105 hover:bg-opacity-75 flex flex-col items-start justify-end pt-[200px] pb-[25px]
-			 pl-[25px] pr-5 gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/about/public/member-profiles4@3x.png')]
-			  bg-cover bg-no-repeat bg-[top] mq450:px-[5px] mq450:py-[5px]">
-				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px]
-				 font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base">
-					Valentine
-				</h3>
-				<div class="relative leading-[22px] font-body-b3-merriweather-14  mq650:text-xs mq650:leading-[12px]">
-					Co-founder / Business Consultant
-				</div>
-				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
-					<div class="relative leading-[18px] font-medium">
-						5 years of experience
-					</div>
-				</div>
-				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--facebook.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--twitter.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--instagram.svg">
-					</a>
-					<a href="#">
-						<img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="" src="/wp-content/themes/vision-prime/web/public/link--pinterest.svg">
-					</a>
-
-				</div>
-			</div>
-		</div>
+		<!-- Join Our Happy Customers !-->
 
 
-	</section>
 
-
-	<!-- success stories !-->
-	<section class="self-stretch flex flex-row items-start justify-start flex-wrap content-start [row-gap:20px] max-w-full text-center text-base text-general-white font-subtitles-16">
-		<div class="flex-1 bg-general-1-primary flex flex-col items-center justify-start pt-0
+<section class="self-stretch flex flex-row items-start justify-start flex-wrap content-start [row-gap:20px] max-w-full text-center text-base text-general-white font-subtitles-16">
+			<div class="flex-1 bg-general-1-primary flex flex-col items-center justify-start pt-0
 				 pb-[100px] box-border relative gap-[30px] max-w-full
 				 lg:pb-[65px] lg:box-border mq450:pb-[42px] mq450:box-border
 				  mq850:gap-[15px] mq1500:min-w-full mr-[5%]">
-			<div class="w-full max-w-[1170px] flex-col ml-[5%] mq1170:ml-[0px]">
+				<div class="w-full max-w-[1170px] flex-col ml-[5%]">
 
-				<div class="w-[1318px] h-[168px] flex flex-row items-start justify-center max-w-full">
-					<div class="self-stretch  flex flex-col items-start justify-start gap-[30px]">
-						<div class="self-stretch flex-1 flex flex-row items-center justify-center ">
-							<div class="h-px w-[120px] relative bg-general-white [transform:_rotate(90deg)] shrink-0 z-[1]"></div>
-						</div>
-						<div class="relative tracking-[0.4em] leading-[18px] uppercase font-medium z-[1]">
-							Success Stories
+					<div class="w-[1318px] h-[168px] flex flex-row items-start justify-center max-w-full">
+						<div class="self-stretch w-[182px] flex flex-col items-start justify-start gap-[30px]">
+							<div class="self-stretch flex-1 flex flex-row items-center justify-center ">
+								<div class="h-px w-[120px] relative bg-general-white [transform:_rotate(90deg)] shrink-0 z-[1]"></div>
+							</div>
+							<div class="relative tracking-[0.4em] leading-[18px] uppercase font-medium z-[1]">
+								Testimonials
+							</div>
 						</div>
 					</div>
-				</div>
-				<header class="w-[1318px] flex flex-row items-start justify-center pt-0 px-0 pb-[18px]
-					box-border max-w-full text-center text-41xl text-general-white font-heading-1-72 mt-[20px] mq950:px-[20px]">
-					<div class="w-full flex flex-col items-start justify-start gap-[30px] max-w-full">
-						<div class="self-stretch flex flex-row items-start justify-center py-0 px-5">
-							<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
-								How We’ve helped others Succeed
-							</h2>
+					<header class="w-[1318px] flex flex-row items-start justify-center pt-0 px-0 pb-[18px] box-border max-w-full text-center text-41xl text-general-white font-heading-1-72">
+						<div class="w-full flex flex-col items-start justify-start gap-[30px] max-w-full">
+							<div class="self-stretch flex flex-row items-start justify-center py-0 px-5">
+								<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
+									Join Our Happy Customers
+								</h2>
+							</div>
+							<b class="self-stretch h-6 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 z-[1]">Join the growing list of customers achieving amazing results
+								with our business setup consultants.</b>
 						</div>
-						<b class="self-stretch h-6 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 z-[1]">
-							A Satisfied Customer is the Best Business Strategy</b>
-					</div>
-				</header>
-				<div class="w-[1320px] flex flex-col items-start justify-start gap-[13px] max-w-full text-left text-11xl font-button-dm-sans-16">
+					</header>
+					<div class="w-[1320px] flex flex-col items-start justify-start gap-[13px] max-w-full text-left text-11xl font-button-dm-sans-16">
+						<div class="ml-[135px] self-stretch flex flex-row items-start justify-center py-0 pl-64 pr-5 box-border max-w-full lg:pl-32 lg:box-border mq850:pl-16 mq850:box-border">
+							<div class="m-0 w-full m-ful-[670px] relative text-inherit tracking-[-0.01em]
+							 leading-[36px] font-bold font-inherit inline-block shrink-0  z-[1]
+							  mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px] lg:hidden">
+								Idea to thriving reality
+							</div>
+						</div>
+						<div class="self-stretch flex flex-row items-start justify-center gap-[11.8px] max-w-full text-3xl font-body-b3-merriweather-14 mq1500:flex-wrap">
+							<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] lg:hidden cursor-pointer prev top-[100px]" id="prev" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-1.svg">
 
-					<div class="self-stretch flex flex-row items-start justify-center gap-[11.8px] max-w-full text-3xl font-body-b3-merriweather-14 mq1500:flex-wrap">
-						<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] lg:hidden cursor-pointer prev top-[100px]" id="prev" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-1.svg">
+							<div class="flex-1 flex flex-row items-start justify-start gap-[9.2px] min-w-[772px] max-w-full lg:flex-wrap lg:min-w-full">
+								<div class="relative w-full max-w-[1320px] overflow-hidden">
+									<div class="slider flex transition-transform duration-500">
+										<!-- Slider 1 !-->
+										<div class="flex-1 flex flex-col items-start justify-start pt-[16.5px] px-0 pb-0 box-border min-w-[100%]  lg:min-w-full">
+											<div class="self-stretch flex flex-col items-end justify-start gap-14 max-w-full mq850:gap-7">
+												<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border">
+													<div class="flex-1 flex flex-row items-start justify-between max-w-full gap-[140px] lg:flex-wrap">
+														<div class="h-[156px] w-[77px] flex flex-col items-start justify-start pt-24 px-0 pb-0 box-border">
+															<img decoding="async" class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full z-[2]" alt="" src="/wp-content/themes/vision-prime/web/public/quotation-mark.svg">
+															<div class="relative block w-[300px] top-[-30px]">
+																<img decoding="async" class="w-[180px] h-[180px] absolute  rounded-83xl-4 overflow-hidden shrink-0 object-cover z-[1]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/images--profile-picturescustomizable@2x.png">
+															</div>
+														</div>
 
-						<div class="flex-1 flex flex-row items-start justify-start gap-[9.2px] min-w-[772px] max-w-full lg:flex-wrap lg:min-w-full">
-							<div class="relative w-full max-w-[1320px] overflow-hidden">
-								<div class="slider flex transition-transform duration-500">
-									<!-- Slider 1 !-->
-									<div class="flex-1 flex flex-col items-start justify-start pt-[16.5px] px-0 pb-0 box-border min-w-[100%]  lg:min-w-full">
-										<div class="self-stretch flex flex-col items-end justify-start gap-14 max-w-full mq850:gap-7">
-											<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border mq950:px-[20px]">
-												<div class="w-[980px] flex flex-row items-start justify-start gap-[42px] max-w-full mq950:gap-[21px] mq1425:flex-wrap mq950:justify-center">
-													<img decoding="async" class="w-[330px] relative max-h-full overflow-hidden shrink-0 min-h-[198px] max-w-full z-[4] flex-1 mq950:flex-initial " loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/about/public/girl.png">
 
-													<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[395px] max-w-full mq950:min-w-full text-med mt-[-10px] mq950:flex-initial">
-														<i class="self-stretch relative leading-[30px] z-[4] mq450:text-base mq450:leading-[24px]">Vision Prime made starting my business in the UAE so much
-															easier. They know their way around the rules and
-															regulations, and they saved me a ton of time and stress. I
-															really appreciate their helpfulness and support.</i>
-														<div class="flex flex-row items-start justify-start py-[0px] px-[1px] text-5xl font-button-dm-sans-16">
-															<div class="flex flex-col items-start justify-start gap-[4px]">
-																<div class="m-[0px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit z-[4] mq450:text-lgi mq450:leading-[24px]">
-																	Flo Akinbiyi
-																</div>
-																<div class="relative text-base leading-[26px] font-body-b3-merriweather-14 text-elements-neutral-3 inline-block min-w-[120px] z-[4]">
-																	Akinbiyi Group
-																</div>
+														<div class="max-w-[706px] flex flex-col items-start justify-start gap-7 w-full">
+
+															<div class="m-0 w-full m-ful-[670px] relative text-inherit text-11xl
+											 tracking-[-0.01em] leading-[36px] font-bold
+											  font-inherit inline-block shrink-0  z-[1]
+											   mq450:text-lg hidden lg:flex font-button-dm-sans-16  ">
+																Idea to thriving reality
+															</div>
+															<div class="m-0 self-stretch relative text-inherit leading-[36px] italic font-normal font-inherit text-med z-[1] mq450:text-lg mq450:leading-[29px]">
+																Their expert guidance turned my business idea into
+																a&nbsp;thriving reality. From getting the right licenses
+																to opening a bank account, they handled everything
+																effortlessly. I&nbsp;highly recommend their business
+																setup services to&nbsp;anyone looking to start a
+																successful business in&nbsp;the&nbsp;UAE.
+															</div>
+															<div class="flex flex-col items-start justify-start gap-1 text-5xl font-button-dm-sans-16">
+																<h4 class="m-0 relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit z-[1] mq450:text-lgi mq450:leading-[24px]">
+																	Alex Turner
+																</h4>
+																<h4 class="relative text-base leading-[26px] font-body-b3-merriweather-14 text-elements-neutral-3 z-[1]">
+																	Founder of TurnerHA
+																</h4>
 															</div>
 														</div>
 													</div>
 												</div>
+
 											</div>
 										</div>
-									</div>
 
-									<!-- Slider 2 !-->
-
-									<div class="flex-1 flex flex-col items-start justify-start pt-[16.5px] px-0 pb-0 box-border min-w-[100%]  lg:min-w-full">
-										<div class="self-stretch flex flex-col items-end justify-start gap-14 max-w-full mq850:gap-7">
-											<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border mq950:px-[20px]">
-												<div class="w-[980px] flex flex-row items-start justify-start gap-[42px] max-w-full mq950:gap-[21px] mq1425:flex-wrap mq950:justify-center">
-													<img decoding="async" class="w-[330px] relative max-h-full overflow-hidden shrink-0 min-h-[198px] max-w-full z-[4] mq1425:flex-1 mq950:flex-initial" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/about/public/girl.png">
-
-													<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[395px] max-w-full mq950:min-w-full text-med mt-[-10px]">
-														<i class="self-stretch relative leading-[30px] z-[4] mq450:text-base mq450:leading-[24px]">Vision Prime made starting my business in the UAE so much
-															easier. They know their way around the rules and
-															regulations, and they saved me a ton of time and stress. I
-															really appreciate their helpfulness and support.</i>
-														<div class="flex flex-row items-start justify-start py-[0px] px-[1px] text-5xl font-button-dm-sans-16">
-															<div class="flex flex-col items-start justify-start gap-[4px]">
-																<h3 class="m-[0px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit z-[4] mq450:text-lgi mq450:leading-[24px]">
-																	Flo Akinbiyi
-																</h3>
-																<div class="relative text-base leading-[26px] font-body-b3-merriweather-14 text-elements-neutral-3 inline-block min-w-[120px] z-[4]">
-																	Akinbiyi Group
-
-																</div>
+										<!-- Slider 2 !-->
+										<div class="flex-1 flex flex-col items-start justify-start pt-[16.5px] px-0 pb-0 box-border min-w-[100%] lg:min-w-full">
+											<div class="self-stretch flex flex-col items-end justify-start gap-14 max-w-full mq850:gap-7">
+												<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border">
+													<div class="flex-1 flex flex-row items-start justify-between max-w-full gap-[140px] lg:flex-wrap">
+														<div class="h-[156px] w-[77px] flex flex-col items-start justify-start pt-24 px-0 pb-0 box-border">
+															<img decoding="async" class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full z-[2]" alt="" src="/wp-content/themes/vision-prime/web/public/quotation-mark.svg">
+															<div class="relative block w-[300px] top-[-30px]">
+																<img decoding="async" class="w-[180px] h-[180px] absolute  rounded-83xl-4 overflow-hidden shrink-0 object-cover z-[1]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/images--profile-picturescustomizable@2x.png">
+															</div>
+														</div>
 
 
+														<div class="max-w-[706px] flex flex-col items-start justify-start gap-7 w-full">
+
+															<div class="m-0 w-full m-ful-[670px] relative text-inherit text-11xl
+											 tracking-[-0.01em] leading-[36px] font-bold
+											  font-inherit inline-block shrink-0  z-[1]
+											   mq450:text-lg hidden lg:flex font-button-dm-sans-16  ">
+																Idea to thriving reality
+															</div>
+															<div class="m-0 self-stretch relative text-inherit leading-[36px] italic font-normal font-inherit text-med z-[1] mq450:text-lg mq450:leading-[29px]">
+																Their expert guidance turned my business idea into
+																a&nbsp;thriving reality. From getting the right licenses
+																to opening a bank account, they handled everything
+																effortlessly. I&nbsp;highly recommend their business
+																setup services to&nbsp;anyone looking to start a
+																successful business in&nbsp;the&nbsp;UAE.
+															</div>
+															<div class="flex flex-col items-start justify-start gap-1 text-5xl font-button-dm-sans-16">
+																<h4 class="m-0 relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit z-[1] mq450:text-lgi mq450:leading-[24px]">
+																	Alex Turner
+																</h4>
+																<h4 class="relative text-base leading-[26px] font-body-b3-merriweather-14 text-elements-neutral-3 z-[1]">
+																	Founder of TurnerHA
+																</h4>
 															</div>
 														</div>
 													</div>
 												</div>
+
 											</div>
 										</div>
+
 									</div>
+										<div class=" flex  mt-[60px]">	<div class="self-stretch flex flex-row items-start justify-center [row-gap:20px] z-[1] text-sm font-primary-paragraph-paragraph-5 lg:flex-wrap">
+													<div class="flex-1 flex flex-row items-center justify-center py-0 px-0 box-border gap-[15px] min-w-[157px] mq450:pl-5 mq450:pr-5 mq450:box-border">
+														<div class="rounded-xl bg-general-white flex flex-row items-center justify-center p-[13px]">
+															<img decoding="async" class="h-6 w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/iconsgoogle-original.svg">
+														</div>
+
+														<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
+															<div class="self-stretch flex flex-row items-start justify-start gap-[5px]">
+																<img decoding="async" class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector.svg">
+
+																<img decoding="async" class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-1.svg">
+
+																<img decoding="async" class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-2.svg">
+
+																<img decoding="async" class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-3.svg">
+
+																<img decoding="async" class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-4.svg">
+															</div>
+															<div class="w-[95px] relative font-medium inline-block">
+																4.7 on Google
+															</div>
+														</div>
+													</div>
+													<div class="flex-1 flex flex-row items-center justify-center py-0 px-[46px] box-border gap-[15px] min-w-[157px] z-[1] ml-[-1px] mq450:pl-5 mq450:pr-5 mq450:box-border">
+														<div class="rounded-xl bg-general-white flex flex-row items-center justify-center py-[13.7px] px-[13px]">
+															<img decoding="async" class="h-[22.6px] w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/group-8886.svg">
+														</div>
+														<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
+															<div class="flex flex-row items-start justify-start gap-[5px]">
+																<img decoding="async" class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-5.svg">
+
+																<img decoding="async" class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-6.svg">
+
+																<img decoding="async" class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-7.svg">
+
+																<img decoding="async" class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-8.svg">
+
+																<img decoding="async" class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-9.svg">
+															</div>
+															<div class="self-stretch relative font-medium">
+																4.2 on Trustpilot
+															</div>
+														</div>
+													</div>
+													<div class="flex-1 flex flex-row items-center justify-center py-0 px-[47px] box-border gap-[15px] min-w-[157px] z-[2] ml-[-1px] mq450:pl-5 mq450:pr-5 mq450:box-border">
+														<div class="h-[50px] w-[50px] relative rounded-xl bg-general-white">
+															<img decoding="async" class="absolute top-[13px] left-[9px] w-7 h-7 object-cover mix-blend-darken" alt="" src="/wp-content/themes/vision-prime/web/public/image-18@2x.png">
+														</div>
+														<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
+															<div class="flex flex-row items-start justify-start gap-[5px]">
+																<img decoding="async" class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector.svg">
+
+																<img decoding="async" class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-1.svg">
+
+																<img decoding="async" class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-2.svg">
+
+																<img decoding="async" class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-3.svg">
+
+																<img decoding="async" class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-4.svg">
+															</div>
+															<div class="self-stretch relative font-medium">
+																5.0 on Capterra
+															</div>
+														</div>
+													</div>
+													<div class="flex flex-row items-center justify-center py-0 px-[39px] gap-[15px] z-[3] ml-[-1px] text-lg">
+														<div class="rounded-xl bg-general-white flex flex-row items-center justify-center pt-[15.6px] px-[13px] pb-[15.7px] box-border w-[50px] h-[50px]">
+															<img decoding="async" class="h-[18.7px] w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/vector-15.svg">
+														</div>
+														<div class="relative">
+															<p class="m-0">
+																<b>2 000+</b>
+															</p>
+															<p class="m-0 text-sm font-medium">Happy Customers</p>
+														</div>
+													</div>
+												</div></div>
 
 								</div>
-							</div>
 
 
-							<img decoding="async" class="h-[49.5px] w-[120px] relative object-contain z-[1] lg:hidden cursor-pointer next top-[100px]" id="next" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-2@2x.png">
-							<div class="flex items-center justify-center w-full gap-6 hidden lg:flex">
-								<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] prev" id="prevp" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-1.svg">
-								<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] next" id="nextm" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-2@2x.png">
+
+
+								<img decoding="async" class="h-[49.5px] w-[120px] relative object-contain z-[1] lg:hidden cursor-pointer next top-[100px]" id="next" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-2@2x.png">
+								<div class="flex items-center justify-center w-full gap-6 hidden lg:flex">
+									<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] prev" id="prevp" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-1.svg">
+									<img decoding="async" class="h-[49.5px] w-[120px] relative z-[1] next" id="nextm" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-2@2x.png">
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 
-	</section>
+		</section>
+		<!-- end of Join Our Happy Customers !-->
 
-	<section class="self-stretch bg-general-white flex flex-col items-center justify-start pt-[22px] pb-[89px] pl-[22px]
-			pr-5 box-border gap-[40px] min-h-[520px] max-w-full text-center text-base text-general-1-primary font-subtitles-16  mq850:pt-5 mq850:pb-[58px] ">
-		<div class="w-[1920px] h-[520px] relative bg-general-white hidden max-w-full"></div>
-		<div class="w-full flex flex-row items-start justify-center py-0 pl-0 pr-0.5 box-border max-w-[1170px">
-			<div class=" flex flex-col items-center justify-start gap-[21px] w-full">
-				<div class="flex flex-row items-center justify-start relative w-full top-[58px] lg:top-[-13px]">
-					<div class="h-px w-[120px] absolute !m-[0] top-[-79px] left-[calc(50%_+_0.5px)] bg-general-1-primary [transform:_rotate(90deg)] [transform-origin:0_0] z-[1]"></div>
-				</div>
-				<div class="self-stretch flex flex-row items-start justify-center py-0 px-5 mt-[100px] lg:mt-[34px]">
-					<div class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[2]">
-						Trusted by
+
+		<!-- Faqs !-->
+
+		<section class="self-stretch  flex
+			flex-col items-center justify-start
+			pt-0 px-5 pb-[100px] box-border gap-20
+			max-w-full text-center text-base text-general-1-primary
+			font-subtitles-16 ">
+			<div class="w-full flex flex-row mb-[-60px] mt-[0px]">
+				<div class="w-[50%] h-[120px] border-general-1-primary border-r border-solid "></div>
+				<div class="w-[50%] "></div>
+			</div>
+			<div class="w-[1920px] h-[1778px] relative bg-elements-neutral-4 hidden max-w-full"></div>
+			<div class="w-[1170px] flex flex-row items-start justify-center max-w-full">
+				<div class="w-full flex flex-row items-start justify-start max-w-full z-[1]">
+
+					<div class="flex-1 flex flex-col items-center justify-start pt-[22px] px-0  box-border gap-[21px] max-w-full">
+						<div class="self-stretch flex flex-row items-start justify-center py-0 px-5">
+							<h2 class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[1]">
+								Got a Questions?
+							</h2>
+						</div>
+						<div class="flex flex-row items-center justify-start relative text-41xl text-general-8-secondary font-heading-1-72">
+							<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
+								Frequently Asked Questions
+							</h2>
+						</div>
 					</div>
 				</div>
-				<div class="flex flex-row items-start justify-start relative text-41xl text-general-8-secondary font-heading-1-72">
+			</div>
+			<div class="max-w-[1170px] flex flex-row items-start justify-center flex-wrap content-start gap-5 w-full
+				 text-left text-lg text-general-8-secondary
+				 font-button-dm-sans-16">
+				<div class="flex-1 flex flex-col items-start justify-start gap-5 min-w-[374px] max-w-full mq450:min-w-full">
+					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+								What is a mainland license in the UAE?
+							</h3>
+							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+						</div>
+						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+							<p class="m-0">
+							A mainland license in the UAE allows businesses to operate within the local market and engage in a wide range of activities. It is issued by the Department of Economic Development (DED) and provides broader operational freedom compared to free zones.	</p>
+						</div>
+					</div>
 
-					<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[2] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]"> The Leading Businesses</h2>
+					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+								What is the difference between a mainland and a free zone company in the UAE?
+							</h3>
+							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+						</div>
+						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+							No, a business setup in Dubai, Mainland, typically requires a local sponsor or service agent, especially for certain business structures. This local partner helps navigate regulations and provides essential support for legal compliance.
+						</div>
+					</div>
+
+					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+								How is an LLC formed in the UAE?
+							</h3>
+							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+						</div>
+						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+							Mainland companies can operate across the UAE and directly engage with the local market, while free zone companies are restricted to operating within their specific free zone and require a local distributor to engage in the UAE market.
+
+						</div>
+					</div>
+
+					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+								Can I have 100% ownership in my business setup in Dubai, Mainland?
+							</h3>
+							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+						</div>
+						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+							Yes, you can have 100% ownership of your business setup in Dubai, Mainland, if you establish it as a professional service company. For other business types, a local sponsor may be required, but 100% ownership is possible in certain cases.
+						</div>
+					</div>
+
+					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+								How much tax do I pay on a Mainland company in Dubai?
+							</h3>
+							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+						</div>
+						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+							In Dubai, mainland companies benefit from low corporate tax rates. Typically, there is no corporate tax on most business activities unless the company is engaged in oil and gas or foreign banking. Companies need a trade license and can enjoy tax advantages with proper business setup services. For detailed tax obligations, consult with experts during your Dubai mainland company formation process.
+						</div>
+					</div>
+
+
+
+				</div>
+				<div class="flex-1 flex flex-col items-start justify-start gap-5 min-w-[374px] max-w-full mq450:min-w-full">
+
+					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+								Are there ownership restrictions on Mainland businesses set up in Dubai?
+							</h3>
+							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+						</div>
+						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+							In the Dubai Mainland business setup, ownership restrictions depend on the company type. For a limited liability company (LLC), a local sponsor may hold 51% of shares, but full ownership is possible for professional services. Free-zone businesses, however, allow 100% foreign ownership without local sponsors.
+						</div>
+					</div>
+
+					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+								Are there any restrictions on the number of visas for a Mainland business setup in Dubai?
+							</h3>
+							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+						</div>
+						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+					Yes, there are restrictions on the number of visas for a Mainland business setup in Dubai. The number of visas depends on the size of the office space and the company's trade license. Business setup services can provide a detailed analysis based on your business activities and physical address.
+						</div>
+					</div>
+
+					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+								How long does it take to set up a Mainland company in Dubai?
+							</h3>
+							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+						</div>
+						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+							Setting up a Mainland company in Dubai typically takes 2 to 4 weeks, depending on the complexity of your business activities and the efficiency of obtaining approvals. This timeframe includes processing the trade license, office space setup, and bank account arrangements.
+						</div>
+					</div>
+
+					<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
+						<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
+							<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+								Can I set up a Mainland company without a physical office space?
+							</h3>
+							<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
+						</div>
+						<div class="accordion-content hidden self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
+							For a Mainland company setup in Dubai, a physical office space is generally required. However, you may use a virtual office address as part of your business setup services if it meets specific requirements. Consult with experts to ensure compliance with Dubai mainland license regulations.
+						</div>
+					</div>
+
+
 				</div>
 			</div>
-		</div>
-		<div class="w-full flex flex-col items-start justify-start gap-[49px] max-w-[1170px] text-lg text-general-1-secondary-variant font-button-dm-sans-16 mq850:gap-6">
-			<div class="self-stretch flex flex-row items-start justify-center py-0 pl-5 pr-[21px] box-border max-w-full">
-				<b class="w-full relative leading-[48px] inline-block max-w-full z-[1] mq650:leading-[35px]">The #1 Choice of business setup Consultancy for global industry
-					leaders.</b>
+		</section>
+
+
+
+
+		<section class="self-stretch flex flex-col items-start justify-start max-w-full text-center text-base text-general-white font-subtitles-16">
+
+			<div class="self-stretch bg-elements-neutral-4 flex flex-col items-center justify-start  px-5
+			pb-[100px] box-border gap-[100px] max-w-full z-[6] text-general-1-primary lg:gap-[89px]
+			lg:pt-[132px] lg:pb-[65px] lg:box-border mq450:gap-[22px] mq850:gap-[45px] mq850:pb-[42px] mq850:box-border">
+
+				<div class="max-w-[1170px] w-full flex flex-col items-center justify-center py-0 pl-px pr-0 box-border">
+					<div class="h-[120px] relative block left-[60px]   ">
+						<div class="h-px w-[120px] !m-[0] top-[-79px]  bg-general-1-primary [transform:_rotate(90deg)] [transform-origin:0_0]"></div>
+					</div>
+					<div class=" flex flex-col items-center justify-start gap-[21px] max-w-full mt-[20px]">
+						<div class="self-stretch flex flex-row items-center justify-center py-0 px-5">
+							<div class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[2]">
+								Need more?
+							</div>
+						</div>
+						<div class="flex flex-row items-center justify-center relative text-41xl text-general-1-secondary font-heading-1-72">
+
+							<h2 class="m-0 max-w-[1000px] w-full relative text-inherit leading-[66px] font-normal font-inherit
+						 inline-block z-[2] mq450:text-17xl mq450:leading-[40px] mq450:w-auto mq850:text-29xl mq850:leading-[53px] break-words">
+							Our Other Business Setup Services
+							</h2>
+
+						</div>
+						<b class="self-stretch relative text-lg leading-[24px] font-button-dm-sans-16 text-general-1-secondary-variant z-[1] pt-[30px]">Explore our comprehensive range of services designed to support
+						your business setup and company formation in Dubai. From expert
+						advice to streamlined processes, we offer tailored solutions to
+						meet all your business needs.</b>
+					</div>
+				</div>
+				<div class="w-[1170px] flex flex-row items-start justify-start flex-wrap content-start gap-x-[30px] gap-y-[28.7px] min-h-[830px] max-w-full text-left text-lg text-general-1-secondary font-button-dm-sans-16">
+					<div class="flex-1 overflow-hidden hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+						<img decoding="async" class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightcontent-edit.svg">
+
+						<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
+							<h3 class="self-stretch relative leading-[24px] font-bold">Business Setup and&nbsp;Registration</h3>
+							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
+								From mainland and free zone company setup to offshore company
+								registration, we provide end-to-end solutions for starting a
+								business in&nbsp;the&nbsp;UAE.
+							</div>
+						</div>
+						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
+					</div>
+					<div class="h-[388px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+						<img decoding="async" class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightcertificate.svg">
+
+						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
+							<h3 class="self-stretch relative leading-[24px] font-bold">Business Visa Services in the UAE</h3>
+							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
+								We assist with obtaining business visas, ensuring smooth processing and compliance with UAE regulations for your business setup needs.
+							</div>
+						</div>
+						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
+					</div>
+					<div class="h-[388px] flex-1  hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+						<img decoding="async" class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightbank.svg">
+
+						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
+							<h3 class="self-stretch relative leading-[24px] font-bold">Bank Account Opening in Emirates</h3>
+							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
+								Facilitate the opening of corporate bank accounts with top Emirates banks, streamlining your business setup and financial operations.
+							</div>
+						</div>
+						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
+					</div>
+					<div class="flex-1 overflow-hidden hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+						<img decoding="async" class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklighttrademark-copyright-restricted.svg">
+
+						<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
+							<h3 class="self-stretch relative leading-[24px] font-bold ">Trademark and Copyright Registration</h3>
+							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
+								Protect your intellectual property when starting a&nbsp;business in
+								Dubai with our comprehensive copyright and&nbsp;trademark
+								registration services.
+							</div>
+						</div>
+						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
+					</div>
+					<div class="flex-1 overflow-hidden hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+						<img decoding="async" class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightwallet.svg">
+
+						<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
+							<h3 class="self-stretch relative leading-[24px] font-bold">Document Clearing Services</h3>
+							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
+								Efficiently handle all document clearing requirements for your business, including obtaining initial approvals and business licenses.
+							</div>
+						</div>
+						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
+					</div>
+					<div class="h-[412px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+						<img decoding="async" class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightwork.svg">
+
+						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
+							<h3 class="self-stretch relative leading-[24px] font-bold">Company Licensing and Trade License in Dubai</h3>
+							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
+								Secure your company's licensing and trade license in Dubai, ensuring compliance with local regulations and a smooth business setup process.
+							</div>
+						</div>
+						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
+					</div>
+					<div class="h-[412px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+						<img decoding="async" class="w-12 h-12 relative object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightaudit--assurance@2x.png">
+
+						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
+							<h3 class="self-stretch relative leading-[24px] font-bold">Product and Service Certification</h3>
+							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
+								Obtain the necessary certifications for your products and services to meet regulatory standards and enhance credibility in the UAE market.
+							</div>
+						</div>
+						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
+					</div>
+					<div class="h-[412px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+						<img decoding="async" class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightlifebuoy-help.svg">
+
+						<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
+							<h3 class="self-stretch relative leading-[24px] font-bold">Business Plan Preparation</h3>
+							<div class="self-stretch h-36 relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray inline-block">
+								Get expert assistance in preparing a detailed business plan, which is essential for securing licenses and navigating the UAE business landscape accurately.
+							</div>
+						</div>
+						<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
+					</div>
+				</div>
 			</div>
-			<div class="self-stretch overflow-hidden flex flex-row items-start justify-between opacity-[0.5] gap-5 z-[1] lg:flex-wrap lg:justify-center">
-				<img decoding="async" class="self-stretch w-[86.3px] relative max-h-full overflow-hidden shrink-0 min-h-[30px]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/press-logo.svg">
-
-				<img decoding="async" class="self-stretch w-[205.6px] relative max-h-full overflow-hidden shrink-0 min-h-[30px]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/press-logo-1.svg">
-
-				<img decoding="async" class="self-stretch w-[178.7px] relative max-h-full overflow-hidden shrink-0 min-h-[30px]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/press-logo-2.svg">
-
-				<img decoding="async" class="self-stretch w-[135px] relative max-h-full overflow-hidden shrink-0 min-h-[30px]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/press-logo-3.svg">
-
-				<img decoding="async" class="self-stretch w-[123.8px] relative max-h-full overflow-hidden shrink-0 min-h-[30px]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/press-logo-4.svg">
-			</div>
-		</div>
-	</section>
-
-
-	<div class="w-[124px] hidden flex-row items-end justify-start gap-[1px]">
-		<b class="h-[24px] flex-1 relative leading-[24px] flex items-end">Get details</b>
-		<div class="h-[24px] w-[24px] relative">
-			<img class="absolute top-[2px] left-[2px] w-[22px] h-[22px]" alt="" src="/wp-content/themes/vision-prime/web/about/public/iconsiconly-blacklightarrow-chevronright.svg">
-
-			<div class="absolute top-[12px] left-[3px] bg-general-1-primary w-[12px] h-[2px]"></div>
-		</div>
+		</section>
 	</div>
-	<b class="w-[130px] h-0 relative text-base leading-[22px] uppercase hidden">What We Offer</b>
-
-	<!-- top reason !-->
-
-	<!-- why vision prime !-->
-	<section class="self-stretch flex flex-row items-start justify-center pt-0  pb-[180px] box-border max-w-full text-left text-base text-general-1-primary font-subtitles-16 lg:pb-[117px] lg:box-border mq850:pb-[76px] mq850:box-border bg-elements-neutral-4">
-		<div class="w-[1170px] flex flex-col items-start justify-start gap-[60px] max-w-full lg:gap-[30px] lg:mx-[20px]">
-			<div class="self-stretch flex flex-col items-start justify-center py-0  box-border max-w-full text-center">
-				<div class="h-[120px] relative block left-[50%] ">
-					<div class="h-px w-[120px] !m-[0] top-[-79px]  bg-general-1-primary [transform:_rotate(90deg)] [transform-origin:0_0]"></div>
-				</div>
-				<div class="w-full flex flex-col items-center justify-start pt-[22px] px-0 pb-[5px] box-border gap-[21px] max-w-full">
-
-					<div class="self-stretch flex flex-row items-start justify-center py-0 ">
-						<div class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[1]">
-							Why Vision Prime
-						</div>
-					</div>
-					<div class="flex flex-row items-start justify-start relative text-41xl text-general-8-secondary font-heading-1-72">
-						<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
-							Top Reasons for using Services
-						</h2>
-					</div>
-					<div class="self-stretch flex flex-row items-start justify-center py-[0px] px-[20px] mq950:px-[0px] box-border max-w-full">
-
-						<div class="self-stretch flex flex-row items-start justify-center py-0 pl-5 pr-[21px] mq950:px-[0px] max-w-full text-general-1-secondary-variant font-button-dm-sans-16">
-							<b class="w-full relative leading-[48px] inline-block max-w-full z-[1] mq950:leading-[29px] ">At Vision Prime, we streamline your company’s establishment
-								process with expert guidance and tailored solutions.</b>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="self-stretch flex flex-col items-start justify-start gap-[60px] max-w-full text-left text-general-8-secondary font-body-b3-merriweather-14 mq1425:gap-[30px]">
-				<div class="self-stretch flex flex-row items-start justify-start flex-wrap content-start gap-[30px] max-w-full">
-					<div class="flex-1 flex flex-col items-start justify-start gap-[40px] min-w-[367px] mq950:min-w-[250px] mq950:w-[50%]  max-w-full mq450:min-w-full mq950:gap-[20px]">
-						<div class="self-stretch overflow-hidden flex flex-col items-start justify-start gap-[16px]">
-							<b class="relative leading-[24px] inline-block min-w-[85px]">Expertise</b>
-							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-1-primary">
-                    <span class="text-general-9-secondary-variant">Our team consists of highly skilled professionals
-                      extensive knowledge and&nbsp;experience in accounting,
-                      auditing, advisory and
-                    </span>
-								<span><a href="">bookkeeping services in&nbsp;UA</a></span>
-								<span>
-                      <span class="tracking-[0.01em] text-general-9-secondary-variant">E</span>
-                    </span>
-								<span class="tracking-[0.01em] text-general-9-secondary-variant">
-                      <span>.</span>
-                    </span>
-							</div>
-						</div>
-						<div class="self-stretch overflow-hidden flex flex-col items-start justify-start gap-[16px]">
-							<b class="relative leading-[24px] whitespace-nowrap">Strategic Guidance</b>
-							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-								Our advisory services provide valuable insights and
-								strategic guidance to&nbsp;optimize financial performance and
-								achieve business goals
-								<span class="tracking-[0.01em]">.</span>
-							</div>
-						</div>
-						<div class="self-stretch overflow-hidden flex flex-col items-start justify-start gap-[16px]">
-							<b class="relative leading-[24px] whitespace-nowrap">Time and Resource Savings</b>
-							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-								By outsourcing these services to us, clients can focus on
-								their core competencies while we handle their financial
-								needs efficiently.
-							</div>
-						</div>
-						<div class="self-stretch overflow-hidden flex flex-col items-start justify-start gap-[16px]">
-							<b class="relative leading-[24px] whitespace-nowrap">Competitive Advantage</b>
-							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-								Our services enable clients to gain a competitive edge by
-								leveraging our expertise and insights.
-							</div>
-						</div>
-					</div>
-					<div class="flex-1 flex flex-col items-start justify-start gap-[40px] min-w-[367px] mq950:min-w-[250px] mq950:w-[50%] max-w-full mq450:min-w-full mq950:gap-[20px]">
-						<div class="self-stretch overflow-hidden flex flex-col items-start justify-start gap-[16px]">
-							<b class="relative leading-[24px] whitespace-nowrap">Accuracy and Compliance</b>
-							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-								We ensure accurate financial information and help clients
-								stay compliant with&nbsp;relevant regulations and standards.
-							</div>
-						</div>
-						<div class="self-stretch overflow-hidden flex flex-col items-start justify-start gap-[16px]">
-							<b class="relative leading-[24px]">Risk Management</b>
-							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-								We help clients identify and mitigate financial risks,
-								enhancing overall stability and security.
-							</div>
-						</div>
-						<div class="self-stretch overflow-hidden flex flex-col items-start justify-start gap-[16px]">
-							<b class="relative leading-[24px]">Trusted Partners</b>
-							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-								We build long-term relationships based in trust,
-								confidentiality, and integrity, providing reliable supports
-								and solutions.
-							</div>
-						</div>
-						<div class="self-stretch overflow-hidden flex flex-col items-start justify-start gap-[16px]">
-							<b class="relative leading-[24px]">Customized Solutions</b>
-							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">
-								We tailor our services to meet specific clients
-								requirements, ensuring personalized and effective solutions.
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-		</div>
-	</section>
-
-
-	<!-- adresses !-->
-
-
-	<section
-			class="self-stretch flex flex-row items-center justify-start max-w-full text-left text-lg
-			  text-general-8-secondary min-h-[355px] font-button-dm-sans-16  mq1170:mt-[0px] mq1170:px-[20px] mq950:py-[39px]"
-	>
-		<div
-				class="w-full flex flex-col items-center justify-between py-0 pl-0 box-border max-w-full gap-5 mq1425:flex-wrap"
-		>
-
-			<div
-					class="max-w-[1170px] flex flex-col items-start justify-start gap-[100px] w-full mq950:gap-[25px] mq1425:gap-[50px]"
-			>
-				<div
-						class="self-stretch flex flex-row items-start justify-start gap-[30px] mq1425:flex-wrap"
-				>
-					<div
-							class="flex-1 flex flex-col items-start justify-start gap-4 mq950:min-w-[250px] mq650:min-w-[150px]    max-w-[270px]  mq950:max-w-[50%]"
-					>
-						<b class="relative leading-[24px] inline-block min-w-[75px]"
-						>Address</b
-						>
-						<div
-								class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant"
-						>
-							Office 105, Level 1, Emaar Square – Building 4, Sheikh
-							Mohammed Bin Rashid Boulevard Downtown Dubai, United Arab
-							Emirates
-						</div>
-					</div>
-					<div
-							class="flex-1 flex flex-col items-start justify-start gap-4 mq950:min-w-[250px] mq650:min-w-[150px]    max-w-[270px]  mq950:max-w-[50%] text-sm text-general-9-secondary-variant font-body-b3-merriweather-14"
-					>
-						<b
-								class="relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-8-secondary min-w-[55px]"
-						>Phone</b
-						>
-
-						<div class="self-stretch relative leading-[24px]">
-							<p class="m-0">Business Enquiries</p>
-							<p class="m-0">+971 4 567 7333</p>
-						</div>
-						<div class="self-stretch relative leading-[24px]">
-							<p class="m-0">Customer Service/Complaints</p>
-							<p class="m-0">+971 4 567 8901</p>
-						</div>
-					</div>
-					<div
-							class="flex-1 flex flex-col items-start justify-start gap-4 mq950:min-w-[250px] mq650:min-w-[150px]     max-w-[270px]  mq950:max-w-[50%]"
-					>
-						<b class="relative leading-[24px] inline-block min-w-[84px]"
-						>Contacts</b
-						>
-						<div
-								class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-1-primary"
-						>
-							<p class="m-0">info@visionprime.ae</p>
-							<p class="m-0">sales@visionprime.ae</p>
-							<p class="m-0">www.visionprime.ae</p>
-						</div>
-					</div>
-					<div
-							class="flex-1 flex flex-col items-start justify-start gap-4 mq950:min-w-[250px] mq650:min-w-[150px]     max-w-[270px]  mq950:max-w-[50%]"
-					>
-						<b class="relative leading-[24px]">Working Hours</b>
-						<div
-								class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant"
-						>
-							<p class="m-0">Monday–Friday: 8:30–17:30</p>
-							<p class="m-0">Saturday: 8:30–12:30</p>
-							<p class="m-0">Sunday: Closed</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</section>
-</div>
 
 
 </body>
