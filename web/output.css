@@ -2764,6 +2764,16 @@ video {
   padding-bottom: 1px;
 }
 
+.py-\[40px\] {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.px-\[40px\] {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -5753,6 +5763,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     width: 30px;
   }
 
+  .mq650\:w-full {
+    width: 100%;
+  }
+
   .mq650\:min-w-\[150px\] {
     min-width: 150px;
   }
@@ -5815,6 +5829,16 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
   .mq650\:py-\[30px\] {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  .mq650\:px-\[40px\] {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .mq650\:py-\[40px\] {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .mq650\:pb-\[46px\] {
