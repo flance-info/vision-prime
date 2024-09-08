@@ -208,11 +208,11 @@
 			</div>
 		</div>
 	</section>
-
+	<!-- vision values !-->
 	<section class="self-stretch flex flex-col items-center justify-between pt-0 px-0 ] box-border max-w-full text-left text-base text-general-white font-heading-1-72 ">
 		<div class="w-full flex flex-row items-start justify-start relative max-w-full ml-[10%] lg:ml-[0px]">
 
-			<div class="flex-1 flex flex-col items-center justify-start pt-0 pb-[110px] box-border gap-10 bg-dark-gray max-w-full z-[3] lg:pl-[140px] lg:pr-[140px] lg:pb-[71px] lg:box-border mq450:pl-5 mq450:pr-5 mq450:pb-[46px] mq450:box-border mq850:gap-10 mq850:box-border">
+			<div class="flex-1 flex flex-col items-center justify-start pt-0 pb-[110px] box-border gap-10 bg-dark-gray max-w-full z-[3] mq1170:px-[20px] lg:pb-[71px] lg:box-border mq450:pl-5 mq450:pr-5 mq450:pb-[46px] mq450:box-border mq850:gap-10 mq850:box-border">
 				<div class="w-full max-w-[1170px] ml-[calc(91%-100vw)] gap-6 flex flex-col items-center lg:ml-[0px]">
 
 
@@ -226,14 +226,14 @@
 						</div>
 					</div>
 					<div class="flex flex-row items-start justify-start relative text-41xl  font-heading-1-72">
-						<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
+						<h2 class="m-0 w-full relative text-inherit leading-[66px] text-center font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
 							Setting Up a Company with No Regret
 						</h2>
 					</div>
 
 
 					<div class="w-[1140px] flex flex-row items-start justify-center flex-wrap content-start gap-[30px] max-w-full font-body-b3-merriweather-14 mt-[50px]">
-						<div class="flex-1 flex flex-col items-start justify-start gap-[40px] min-w-[367px] max-w-full mq950:gap-[20px] mq950:min-w-full ">
+						<div class="flex-1 flex flex-col mq950:flex-row mq350:flex-col items-start justify-start gap-[40px] min-w-[367px] max-w-full mq950:gap-[20px] mq950:min-w-full ">
 							<div class="self-stretch overflow-hidden flex flex-col items-start justify-start gap-[16px]">
 								<h3 class="m-[0px] self-stretch relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
 									Partnership
@@ -254,7 +254,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="flex-1 flex flex-col items-start justify-start gap-[40px] min-w-[367px] max-w-full mq950:gap-[20px] mq950:min-w-full">
+						<div class="flex-1 flex flex-col mq950:flex-row  mq350:flex-col items-start justify-start gap-[40px] min-w-[367px] max-w-full mq950:gap-[20px] mq950:min-w-full">
 							<div class="self-stretch overflow-hidden flex flex-col items-start justify-start gap-[16px]">
 								<h3 class="m-[0px] self-stretch relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
 									Expertise

@@ -5473,6 +5473,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     grid-template-columns: minmax(277px, 1fr);
   }
 
+  .mq950\:flex-row {
+    flex-direction: row;
+  }
+
   .mq950\:flex-col {
     flex-direction: column;
   }
@@ -6185,6 +6189,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq350\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .mq350\:flex-col {
+    flex-direction: column;
   }
 
   .mq350\:gap-\[10px\] {
