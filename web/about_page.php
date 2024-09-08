@@ -654,7 +654,7 @@
 
 	<!-- top reason !-->
 
-
+<!-- why vision prime !-->
 	<section class="self-stretch flex flex-row items-start justify-center pt-0  pb-[180px] box-border max-w-full text-left text-base text-general-1-primary font-subtitles-16 lg:pb-[117px] lg:box-border mq850:pb-[76px] mq850:box-border bg-elements-neutral-4">
 		<div class="w-[1170px] flex flex-col items-start justify-start gap-[60px] max-w-full lg:gap-[30px] lg:mx-[20px]">
 			<div class="self-stretch flex flex-col items-start justify-center py-0  box-border max-w-full text-center">
@@ -673,10 +673,10 @@
 							Top Reasons for using Services
 						</h2>
 					</div>
-					<div class="self-stretch flex flex-row items-start justify-center py-[0px] pl-[21px] pr-[20px] box-border max-w-full">
+					<div class="self-stretch flex flex-row items-start justify-center py-[0px] px-[20px] mq950:px-[0px] box-border max-w-full">
 
-						<div class="self-stretch flex flex-row items-start justify-center py-0 pl-5 pr-[21px] box-border max-w-full text-general-1-secondary-variant font-button-dm-sans-16">
-							<b class="w-full relative leading-[48px] inline-block max-w-full z-[1]">At Vision Prime, we streamline your company’s establishment
+						<div class="self-stretch flex flex-row items-start justify-center py-0 pl-5 pr-[21px] mq950:px-[0px] max-w-full text-general-1-secondary-variant font-button-dm-sans-16">
+							<b class="w-full relative leading-[48px] inline-block max-w-full z-[1] mq950:leading-[29px] ">At Vision Prime, we streamline your company’s establishment
 								process with expert guidance and tailored solutions.</b>
 						</div>
 					</div>
@@ -685,7 +685,7 @@
 
 			<div class="self-stretch flex flex-col items-start justify-start gap-[60px] max-w-full text-left text-general-8-secondary font-body-b3-merriweather-14 mq1425:gap-[30px]">
 				<div class="self-stretch flex flex-row items-start justify-start flex-wrap content-start gap-[30px] max-w-full">
-					<div class="flex-1 flex flex-col items-start justify-start gap-[40px] min-w-[367px] max-w-full mq450:min-w-full mq950:gap-[20px]">
+					<div class="flex-1 flex flex-col items-start justify-start gap-[40px] min-w-[367px] mq950:min-w-[250px] mq950:w-[50%]  max-w-full mq450:min-w-full mq950:gap-[20px]">
 						<div class="self-stretch overflow-hidden flex flex-col items-start justify-start gap-[16px]">
 							<b class="relative leading-[24px] inline-block min-w-[85px]">Expertise</b>
 							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-1-primary">
@@ -727,7 +727,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="flex-1 flex flex-col items-start justify-start gap-[40px] min-w-[367px] max-w-full mq450:min-w-full mq950:gap-[20px]">
+					<div class="flex-1 flex flex-col items-start justify-start gap-[40px] min-w-[367px] mq950:min-w-[250px] mq950:w-[50%] max-w-full mq450:min-w-full mq950:gap-[20px]">
 						<div class="self-stretch overflow-hidden flex flex-col items-start justify-start gap-[16px]">
 							<b class="relative leading-[24px] whitespace-nowrap">Accuracy and Compliance</b>
 							<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-general-9-secondary-variant">

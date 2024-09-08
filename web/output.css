@@ -5449,6 +5449,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     width: 23%;
   }
 
+  .mq950\:w-\[50\%\] {
+    width: 50%;
+  }
+
   .mq950\:min-w-\[250px\] {
     min-width: 250px;
   }
@@ -5548,6 +5552,11 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
   .mq950\:py-\[30px\] {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  .mq950\:px-\[0px\] {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .mq950\:pl-\[20px\] {
