@@ -624,7 +624,7 @@
 		</div>
 		<div class="w-full flex flex-col items-start justify-start gap-[49px] max-w-[1170px] text-lg text-general-1-secondary-variant font-button-dm-sans-16 mq850:gap-6">
 			<div class="self-stretch flex flex-row items-start justify-center py-0 pl-5 pr-[21px] box-border max-w-full">
-				<b class="w-full relative leading-[48px] inline-block max-w-full z-[1]">The #1 Choice of business setup Consultancy for global industry
+				<b class="w-full relative leading-[48px] inline-block max-w-full z-[1] mq650:leading-[35px]">The #1 Choice of business setup Consultancy for global industry
 					leaders.</b>
 			</div>
 			<div class="self-stretch overflow-hidden flex flex-row items-start justify-between opacity-[0.5] gap-5 z-[1] lg:flex-wrap lg:justify-center">
