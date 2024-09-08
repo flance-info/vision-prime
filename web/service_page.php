@@ -90,7 +90,7 @@
 
 			<div class="self-stretch flex flex-col items-start justify-start gap-[60px] max-w-full text-left text-general-9-secondary-variant font-body-b3-merriweather-14 mq1425:gap-[30px]">
 				<div class="self-stretch flex flex-row items-start justify-start flex-wrap content-start gap-[30px] max-w-full">
-					<div class="flex-1 relative leading-[26px] inline-block min-w-[300px] max-w-full mq450:min-w-full">
+					<div class="flex-1 relative leading-[26px] inline-block min-w-[300px] max-w-full mq450:min-w-full mq950:text-base mq950:leading-[20px]">
 
 						What exactly is a Mainland company in Dubai, and why is it crucial
 						for your business setup? Mainland company formation in Dubai allows
@@ -114,8 +114,10 @@
 
 				<div class="max-w-[1170px]w-[1170px] flex flex-col items-start justify-start gap-[30px] w-full text-5xl text-general-1-secondary">
 					<div class="self-stretch flex flex-row items-stretch justify-start flex-wrap content-start gap-[30px] max-w-full">
-						<div class="flex-1 bg-general-white flex flex-col items-start justify-between pt-10 pb-24 pl-10 pr-5 box-border gap-5 min-w-[370px] max-w-full mq450:pt-[26px] mq450:pb-[62px] mq450:box-border mq450:min-w-full">
-							<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
+						<div class="flex-1 bg-general-white flex flex-col items-start justify-between pt-10 pb-24 mq950:justify-start pl-10 pr-5 box-border gap-5 min-w-[300px] max-w-full mq450:pt-[26px] mq450:pb-[62px] mq450:box-border mq450:min-w-full">
+							<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px]
+							 mq950:min-h-[90px]
+							 font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
 								Flexibility to Operate anywhere in&nbsp;the&nbsp;UAE
 							</h3>
 							<div class="max-w-[490px] relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant inline-block w-full">
@@ -130,8 +132,8 @@
 								for&nbsp;diverse business&nbsp;activities.
 							</div>
 						</div>
-						<div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5 box-border gap-5 min-w-[370px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
-							<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
+						<div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5 box-border mq950:justify-start gap-5 min-w-[300px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
+							<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] mq950:min-h-[90px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
 								Cost-Effective Licensing Options for&nbsp;Diverse Business needs
 							</h3>
 							<div class="max-w-[490px] relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant inline-block w-full">
@@ -150,8 +152,8 @@
 						</div>
 					</div>
 					<div class="self-stretch flex flex-row items-stretch justify-start flex-wrap content-start gap-[30px] max-w-full">
-						<div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5 box-border gap-5 min-w-[370px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
-							<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
+						<div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5 box-border gap-5 mq950:justify-start min-w-[300px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
+							<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] mq950:min-h-[90px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
 								Versatile Business Structures for&nbsp;Foreign Companies
 							</h3>
 							<div class="max-w-[490px] relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant inline-block w-full">
@@ -167,8 +169,8 @@
 								establishment across multiple sectors.
 							</div>
 						</div>
-						<div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5 box-border gap-5 min-w-[370px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
-							<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
+						<div class="flex-1 bg-general-white flex flex-col items-start justify-between py-10 pl-10 pr-5 box-border gap-5 mq950:justify-start min-w-[300px] max-w-full mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq450:min-w-full">
+							<h3 class="m-0 max-w-[490px] relative text-inherit tracking-[-0.01em] leading-[30px] mq950:min-h-[90px] font-bold font-inherit inline-block w-full mq450:text-lgi mq450:leading-[24px]">
 								Enhanced Visa Dubai and&nbsp;Residency Options for&nbsp;Business Owners
 							</h3>
 							<div class="max-w-[490px] relative text-base leading-[26px] font-body-b3-merriweather-14 text-general-9-secondary-variant inline-block w-full">
