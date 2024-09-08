@@ -5441,6 +5441,11 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     top: 0px;
   }
 
+  .mq950\:mx-\[0px\] {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .mq950\:ml-\[30px\] {
     margin-left: 30px;
   }
@@ -6070,6 +6075,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq450\:h-\[250px\] {
     height: 250px;
+  }
+
+  .mq450\:h-\[300px\] {
+    height: 300px;
   }
 
   .mq450\:w-auto {
