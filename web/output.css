@@ -1843,6 +1843,14 @@ video {
   min-width: 94px;
 }
 
+.min-w-\[300px\] {
+  min-width: 300px;
+}
+
+.min-w-\[350px\] {
+  min-width: 350px;
+}
+
 .max-w-3xl {
   max-width: 48rem;
 }

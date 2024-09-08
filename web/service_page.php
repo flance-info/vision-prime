@@ -90,7 +90,7 @@
 
 			<div class="self-stretch flex flex-col items-start justify-start gap-[60px] max-w-full text-left text-general-9-secondary-variant font-body-b3-merriweather-14 mq1425:gap-[30px]">
 				<div class="self-stretch flex flex-row items-start justify-start flex-wrap content-start gap-[30px] max-w-full">
-					<div class="flex-1 relative leading-[26px] inline-block min-w-[370px] max-w-full mq450:min-w-full">
+					<div class="flex-1 relative leading-[26px] inline-block min-w-[300px] max-w-full mq450:min-w-full">
 
 						What exactly is a Mainland company in Dubai, and why is it crucial
 						for your business setup? Mainland company formation in Dubai allows
@@ -105,8 +105,10 @@
 						Mainland company!
 
 					</div>
-					<div class="flex-1 relative leading-[26px] inline-block min-w-[370px] max-w-full mq450:min-w-full">
-						<img decoding="async" class="h-[286px] flex-1 relative max-w-full overflow-hidden object-cover min-w-[367px] mq450:min-w-full" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/company-registration-in-dubai--mainland-vs-free-zone-vs-offshore-1@2x.png">
+					<div class="flex flex-1 relative leading-[26px] inline-block min-w-[300px] max-w-full mq450:min-w-full">
+						<img decoding="async" class="h-[286px] flex-1 relative
+						max-w-full overflow-hidden object-cover min-w-[300px]
+						mq450:min-w-full" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/company-registration-in-dubai--mainland-vs-free-zone-vs-offshore-1@2x.png">
 					</div>
 				</div>
 
