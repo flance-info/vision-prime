@@ -8,11 +8,9 @@
 
 		<section
 				class="self-stretch flex flex-col items-center justify-between pt-0 px-0 pb-[110px] box-border
-				max-w-full text-left text-base text-general-white font-heading-1-72 lg:pb-[71px]
-				 lg:box-border mq850:pb-[46px] mq850:box-border"
-		>
+				max-w-full text-left text-base text-general-white font-heading-1-72 lg:pb-[0px]">
 			<div class="w-full flex flex-row items-start justify-start relative max-w-full ml-[10%] lg:ml-[0px]">
-				<div class="h-[800px] w-full absolute !m-[0] top-[100px] right-[10%] bg-general-1-primary z-[2] lg:right-[0px] mq1170:hidden">
+				<div class="h-[840px] w-full absolute !m-[0] top-[100px] right-[10%] bg-general-1-primary z-[2] lg:right-[0px] mq1170:hidden">
 				</div>
 
 				<div class="flex-1 flex flex-col items-center justify-start pt-0 pb-[110px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/title2@3x.png')]
@@ -74,8 +72,10 @@
 				</div>
 			</div>
 
-			<div class="w-full flex flex-row  mt-[0px] relative bg-general-1-primary min-h-[300px] items-center justify-center z-10 min-h-[300px]mq1170:px-[20px]">
-				<div class="w-[1140px] flex flex-row leading-[24px] gap-[40px] px-[40px] mq650:flex-col mq650:py-[30px]">
+
+			<div class="w-full  flex-row  mt-[0px] relative hidden mq1170:flex
+			 bg-general-1-primary min-h-[300px] items-center justify-center z-10 min-h-[300px] mq1170:px-[20px]">
+				<div class="w-[1140px] flex flex-row leading-[24px] gap-[40px] mq650:flex-col mq950:py-[30px]">
 					<div class="w-[50%] mq650:w-full">
 						<p>Let no one tell you otherwise—starting a new business in Dubai isn’t something you want to tackle solo.
 							It can be very soul-crushing,
@@ -96,11 +96,10 @@
 				</div>
 			</div>
 
-	</div>
 	</section>
 	<section
 			class="self-stretch flex flex-row items-center justify-start max-w-full text-left text-lg
-			  text-general-8-secondary min-h-[355px] font-button-dm-sans-16 mt-[180px] mq1170:px-[20px]"
+			  text-general-8-secondary min-h-[355px] font-button-dm-sans-16 mt-[180px] mq1170:mt-[0px] mq1170:px-[20px] mq950:py-[39px]"
 	>
 		<div
 				class="w-full flex flex-col items-center justify-between py-0 pl-0 box-border max-w-full gap-5 mq1425:flex-wrap"

@@ -1275,6 +1275,10 @@ video {
   height: 100vh;
 }
 
+.h-\[840px\] {
+  height: 840px;
+}
+
 .max-h-\[1060px\] {
   max-height: 1060px;
 }
@@ -5176,6 +5180,14 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 }
 
 @media (max-width: 1200px) {
+  .mq1170\:mt-\[0px\] {
+    margin-top: 0px;
+  }
+
+  .mq1170\:flex {
+    display: flex;
+  }
+
   .mq1170\:hidden {
     display: none;
   }
@@ -5360,6 +5372,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
   .lg\:pt-\[78px\] {
     padding-top: 78px;
   }
+
+  .lg\:pb-\[0px\] {
+    padding-bottom: 0px;
+  }
 }
 
 @media screen and (max-width: 1050px) {
@@ -5494,6 +5510,11 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
   .mq950\:py-\[39px\] {
     padding-top: 39px;
     padding-bottom: 39px;
+  }
+
+  .mq950\:py-\[30px\] {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .mq950\:pl-\[20px\] {
