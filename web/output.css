@@ -1343,6 +1343,10 @@ video {
   min-height: 100%;
 }
 
+.min-h-\[165px\] {
+  min-height: 165px;
+}
+
 .w-11 {
   width: 2.75rem;
 }

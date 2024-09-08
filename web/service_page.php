@@ -999,12 +999,12 @@
 				</div>
 			</div>
 			<div class="w-[1170px] flex flex-row items-start justify-start flex-wrap content-start gap-x-[30px] gap-y-[28.7px] min-h-[830px] max-w-full text-left text-lg text-general-1-secondary font-button-dm-sans-16">
-				<div class="flex-1 overflow-hidden hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+				<div class="h-[388px] flex-1 overflow-hidden hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
 					<img decoding="async" class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightcontent-edit.svg">
 
 					<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
 						<h3 class="self-stretch relative leading-[24px] font-bold">Business Setup and&nbsp;Registration</h3>
-						<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
+						<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray min-h-[165px]">
 							From mainland and free zone company setup to offshore company
 							registration, we provide end-to-end solutions for starting a
 							business in&nbsp;the&nbsp;UAE.
@@ -1017,7 +1017,7 @@
 
 					<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
 						<h3 class="self-stretch relative leading-[24px] font-bold">Business Visa Services in the UAE</h3>
-						<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
+						<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray min-h-[165px]">
 							We assist with obtaining business visas, ensuring smooth processing and compliance with UAE regulations for your business setup needs.
 						</div>
 					</div>
@@ -1028,18 +1028,18 @@
 
 					<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
 						<h3 class="self-stretch relative leading-[24px] font-bold">Bank Account Opening in Emirates</h3>
-						<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
+						<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray min-h-[165px]">
 							Facilitate the opening of corporate bank accounts with top Emirates banks, streamlining your business setup and financial operations.
 						</div>
 					</div>
 					<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 				</div>
-				<div class="flex-1 overflow-hidden hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+				<div class="h-[388px] flex-1 overflow-hidden hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
 					<img decoding="async" class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklighttrademark-copyright-restricted.svg">
 
 					<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
 						<h3 class="self-stretch relative leading-[24px] font-bold ">Trademark and Copyright Registration</h3>
-						<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
+						<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray min-h-[165px]">
 							Protect your intellectual property when starting a&nbsp;business in
 							Dubai with our comprehensive copyright and&nbsp;trademark
 							registration services.
@@ -1047,40 +1047,41 @@
 					</div>
 					<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 				</div>
-				<div class="flex-1 overflow-hidden hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+				<div class="h-[388px] flex-1 overflow-hidden hover:bg-general-white cursor-pointer flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
 					<img decoding="async" class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightwallet.svg">
 
 					<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
 						<h3 class="self-stretch relative leading-[24px] font-bold">Document Clearing Services</h3>
-						<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
-							Efficiently handle all document clearing requirements for your business, including obtaining initial approvals and business licenses.
+						<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray min-h-[165px]">
+							Efficiently handle all document clearing requirements for your business,
+							including obtaining initial approvals and business licenses.
 						</div>
 					</div>
 					<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 				</div>
-				<div class="h-[412px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+				<div class="h-[388px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
 					<img decoding="async" class="w-12 h-12 relative" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightwork.svg">
 
 					<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
 						<h3 class="self-stretch relative leading-[24px] font-bold">Company Licensing and Trade License in Dubai</h3>
-						<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
+						<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray min-h-[165px]">
 							Secure your company's licensing and trade license in Dubai, ensuring compliance with local regulations and a smooth business setup process.
 						</div>
 					</div>
 					<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 				</div>
-				<div class="h-[412px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+				<div class="h-[388px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
 					<img decoding="async" class="w-12 h-12 relative object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightaudit--assurance@2x.png">
 
 					<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
 						<h3 class="self-stretch relative leading-[24px] font-bold">Product and Service Certification</h3>
-						<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray">
+						<div class="self-stretch relative text-sm leading-[24px] font-body-b3-merriweather-14 text-dimgray min-h-[165px]">
 							Obtain the necessary certifications for your products and services to meet regulatory standards and enhance credibility in the UAE market.
 						</div>
 					</div>
 					<a href="#" class="self-stretch relative text-base leading-[24px] font-bold text-general-1-primary hover:[text-decoration:underline]">Read more</a>
 				</div>
-				<div class="h-[412px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
+				<div class="h-[388px] flex-1 hover:bg-general-white cursor-pointer overflow-hidden flex flex-col items-start justify-start p-[25px] box-border gap-[30px] min-w-[256px] mq450:gap-[15px] mq450:pt-[132px] mq450:pb-5 mq450:box-border">
 					<img decoding="async" class="w-12 h-12 relative overflow-hidden shrink-0" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/iconsiconly-blacklightlifebuoy-help.svg">
 
 					<div class="self-stretch flex-1 overflow-hidden flex flex-col items-center justify-start gap-3.5">
