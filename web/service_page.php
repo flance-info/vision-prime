@@ -982,7 +982,7 @@
 
 	<div class="self-stretch bg-elements-neutral-4 flex flex-col items-center justify-start  px-5
 			pb-[100px] box-border gap-[100px] max-w-full z-[6] text-general-1-primary lg:gap-[89px]
-			lg:pt-[132px] lg:pb-[65px] lg:box-border mq450:gap-[22px] mq850:gap-[45px] mq850:pb-[42px] mq850:box-border">
+			lg:pb-[65px] lg:box-border mq450:gap-[22px] mq850:gap-[45px] mq850:pb-[42px] mq850:box-border">
 
 		<div class="max-w-[1170px] w-full flex flex-col items-center justify-center py-0 pl-px pr-0 box-border">
 			<div class="h-[120px] relative block left-[60px]   ">
