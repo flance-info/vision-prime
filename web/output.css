@@ -6080,6 +6080,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     min-width: 100%;
   }
 
+  .mq450\:min-w-\[100px\] {
+    min-width: 100px;
+  }
+
   .mq450\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }

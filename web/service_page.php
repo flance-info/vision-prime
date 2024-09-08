@@ -856,7 +856,7 @@
 		<div class="flex-1 flex flex-col items-start justify-start gap-5 min-w-[374px] max-w-full mq450:min-w-full">
 			<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
 				<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq450:min-w-[100px] max-w-full">
 						What is a mainland license in the UAE?
 					</h3>
 					<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
@@ -869,7 +869,7 @@
 
 			<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
 				<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq450:min-w-[100px] max-w-full">
 						What is the difference between a mainland and a free zone company in the UAE?
 					</h3>
 					<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
@@ -881,7 +881,7 @@
 
 			<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
 				<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq450:min-w-[100px] max-w-full">
 						How is an LLC formed in the UAE?
 					</h3>
 					<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
@@ -894,7 +894,7 @@
 
 			<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
 				<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq450:min-w-[100px] max-w-full">
 						Can I have 100% ownership in my business setup in Dubai, Mainland?
 					</h3>
 					<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
@@ -906,7 +906,7 @@
 
 			<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
 				<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq450:min-w-[100px] max-w-full">
 						How much tax do I pay on a Mainland company in Dubai?
 					</h3>
 					<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
@@ -923,7 +923,7 @@
 
 			<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
 				<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq450:min-w-[100px] max-w-full">
 						Are there ownership restrictions on Mainland businesses set up in Dubai?
 					</h3>
 					<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
@@ -936,7 +936,7 @@
 
 			<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
 				<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq450:min-w-[100px] max-w-full">
 						Are there any restrictions on the number of visas for a Mainland business setup in Dubai?
 					</h3>
 					<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
@@ -949,7 +949,7 @@
 
 			<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
 				<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq450:min-w-[100px] max-w-full">
 						How long does it take to set up a Mainland company in Dubai?
 					</h3>
 					<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
@@ -961,7 +961,7 @@
 
 			<div class="accordion-item self-stretch border-general-1-primary border-[2px] border-solid box-border overflow-hidden flex flex-col items-start justify-start py-[22px] px-7 gap-6 max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border">
 				<div class="accordion-header self-stretch flex flex-row items-center justify-start gap-4 max-w-full cursor-pointer mq850:flex-wrap">
-					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] max-w-full">
+					<h3 class="flex-1 font-bold relative leading-[24px] inline-block min-w-[314px] mq450:min-w-[100px] max-w-full">
 						Can I set up a Mainland company without a physical office space?
 					</h3>
 					<img decoding="async" class="h-4 w-4 relative transform transition-transform duration-300" alt="" src="/wp-content/themes/vision-prime/web/public/f-a-q-answers-two.svg">
