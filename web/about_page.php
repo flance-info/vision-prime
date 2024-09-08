@@ -69,7 +69,7 @@
 		</section>
 		<section
 				class="self-stretch flex flex-row items-center justify-start max-w-full text-left text-lg
-			  text-general-8-secondary min-h-[355px] font-button-dm-sans-16 mt-[180px]"
+			  text-general-8-secondary min-h-[355px] font-button-dm-sans-16 mt-[180px] mq1170:px-[20px]"
 		>
 			<div
 					class="w-full flex flex-col items-center justify-between py-0 pl-0 box-border max-w-full gap-5 mq1425:flex-wrap"
@@ -82,7 +82,7 @@
 							class="self-stretch flex flex-row items-start justify-start gap-[30px] mq1425:flex-wrap"
 					>
 						<div
-								class="flex-1 flex flex-col items-start justify-start gap-4 min-w-[202px] max-w-[270px]"
+								class="flex-1 flex flex-col items-start justify-start gap-4 mq950:min-w-[250px] mq650:min-w-[150px]    max-w-[270px]  mq950:max-w-[50%]"
 						>
 							<b class="relative leading-[24px] inline-block min-w-[75px]"
 							>Address</b
@@ -96,12 +96,13 @@
 							</div>
 						</div>
 						<div
-								class="flex-1 flex flex-col items-start justify-start gap-4 min-w-[202px] max-w-[270px] text-sm text-general-9-secondary-variant font-body-b3-merriweather-14"
+								class="flex-1 flex flex-col items-start justify-start gap-4 mq950:min-w-[250px] mq650:min-w-[150px]    max-w-[270px]  mq950:max-w-[50%] text-sm text-general-9-secondary-variant font-body-b3-merriweather-14"
 						>
 							<b
 									class="relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-8-secondary min-w-[55px]"
 							>Phone</b
 							>
+
 							<div class="self-stretch relative leading-[24px]">
 								<p class="m-0">Business Enquiries</p>
 								<p class="m-0">+971 4 567 7333</p>
@@ -112,7 +113,7 @@
 							</div>
 						</div>
 						<div
-								class="flex-1 flex flex-col items-start justify-start gap-4 min-w-[248px] max-w-[270px]"
+								class="flex-1 flex flex-col items-start justify-start gap-4 mq950:min-w-[250px] mq650:min-w-[150px]     max-w-[270px]  mq950:max-w-[50%]"
 						>
 							<b class="relative leading-[24px] inline-block min-w-[84px]"
 							>Contacts</b
@@ -126,7 +127,7 @@
 							</div>
 						</div>
 						<div
-								class="flex-1 flex flex-col items-start justify-start gap-4 min-w-[248px] max-w-[270px]"
+								class="flex-1 flex flex-col items-start justify-start gap-4 mq950:min-w-[250px] mq650:min-w-[150px]     max-w-[270px]  mq950:max-w-[50%]"
 						>
 							<b class="relative leading-[24px]">Working Hours</b>
 							<div

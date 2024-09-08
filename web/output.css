@@ -1259,6 +1259,10 @@ video {
   height: calc(100% - 11.5px);
 }
 
+.h-auto {
+  height: auto;
+}
+
 .h-full {
   height: 100%;
 }
@@ -1269,10 +1273,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-auto {
-  height: auto;
 }
 
 .max-h-\[1060px\] {
@@ -5166,6 +5166,11 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 }
 
 @media (max-width: 1200px) {
+  .mq1170\:px-\[20px\] {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .lg\:left-\[50px\] {
     left: 50px;
   }
@@ -5396,8 +5401,16 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     height: 310px;
   }
 
+  .mq950\:min-w-\[250px\] {
+    min-width: 250px;
+  }
+
   .mq950\:min-w-full {
     min-width: 100%;
+  }
+
+  .mq950\:max-w-\[50\%\] {
+    max-width: 50%;
   }
 
   .mq950\:grid-cols-2 {
@@ -5442,6 +5455,11 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq950\:overflow-x-auto {
     overflow-x: auto;
+  }
+
+  .mq950\:px-\[20px\] {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .mq950\:px-\[30px\] {
@@ -5719,6 +5737,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq650\:w-\[30px\] {
     width: 30px;
+  }
+
+  .mq650\:min-w-\[150px\] {
+    min-width: 150px;
   }
 
   .mq650\:min-w-\[166px\] {
@@ -6072,10 +6094,6 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 }
 
 @media screen and (min-width: 450px) {
-  .minq450\:h-\[550px\] {
-    height: 550px;
-  }
-
   .minq450\:min-h-\[550px\] {
     min-height: 550px;
   }
