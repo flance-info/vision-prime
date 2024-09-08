@@ -5441,12 +5441,24 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     height: 310px;
   }
 
+  .mq950\:w-\[25\%\] {
+    width: 25%;
+  }
+
+  .mq950\:w-\[23\%\] {
+    width: 23%;
+  }
+
   .mq950\:min-w-\[250px\] {
     min-width: 250px;
   }
 
   .mq950\:min-w-full {
     min-width: 100%;
+  }
+
+  .mq950\:min-w-\[150px\] {
+    min-width: 150px;
   }
 
   .mq950\:max-w-\[50\%\] {
@@ -5467,6 +5479,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq950\:flex-wrap {
     flex-wrap: wrap;
+  }
+
+  .mq950\:items-start {
+    align-items: flex-start;
   }
 
   .mq950\:justify-center {
@@ -5491,6 +5507,19 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq950\:gap-\[25px\] {
     gap: 25px;
+  }
+
+  .mq950\:gap-\[5px\] {
+    gap: 5px;
+  }
+
+  .mq950\:gap-\[10px\] {
+    gap: 10px;
+  }
+
+  .mq950\:gap-x-\[5px\] {
+    -moz-column-gap: 5px;
+         column-gap: 5px;
   }
 
   .mq950\:overflow-x-auto {
@@ -5838,6 +5867,11 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq650\:gap-y-\[0px\] {
     row-gap: 0px;
+  }
+
+  .mq650\:gap-x-\[0px\] {
+    -moz-column-gap: 0px;
+         column-gap: 0px;
   }
 
   .mq650\:whitespace-normal {
