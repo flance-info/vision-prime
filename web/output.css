@@ -5474,6 +5474,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     height: 310px;
   }
 
+  .mq950\:h-\[330px\] {
+    height: 330px;
+  }
+
   .mq950\:min-h-\[90px\] {
     min-height: 90px;
   }
@@ -5585,6 +5589,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq950\:overflow-x-auto {
     overflow-x: auto;
+  }
+
+  .mq950\:p-\[20px\] {
+    padding: 20px;
   }
 
   .mq950\:px-\[20px\] {
@@ -6146,6 +6154,11 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
   .mq450\:py-\[5px\] {
     padding-top: 5px;
     padding-bottom: 5px;
+  }
+
+  .mq450\:px-\[0px\] {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .mq450\:pb-5 {
