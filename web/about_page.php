@@ -114,7 +114,7 @@
 				<div class="self-stretch flex flex-row items-center justify-start flex-wrap content-center gap-[40px] text-41xl text-general-1-primary font-button-dm-sans-16 mq950:gap-[20px]">
 
 
-					<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px]">
+					<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px] mq650:w-[50%] mq650:min-w-[100px]">
 
 
 						<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:15]"
@@ -125,7 +125,7 @@
 							years of experience
 						</div>
 					</div>
-					<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px]">
+					<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px] mq650:w-[50%] mq650:min-w-[100px]">
 
 
 						<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:100]"
@@ -136,7 +136,7 @@
 							dedicated team
 						</div>
 					</div>
-					<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px]">
+					<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px] mq650:w-[50%] mq650:min-w-[100px]">
 
 
 						<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:2500]"
@@ -147,7 +147,7 @@
 							consultations
 						</div>
 					</div>
-					<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px] text-center">
+					<div class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[206px] max-w-[262px] mq650:w-[50%] mq650:min-w-[100px] text-center">
 						<b class="relative tracking-[-0.03em] leading-[66px] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px] transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)] [--num:5000]"
 						   x-data="{ shown: false }" x-intersect="shown = true" :class="shown &amp;&amp; '[--num:5000]'">
 							<span class="supports-[counter-set]:sr-only">5000</span>+

@@ -5788,6 +5788,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     width: 100%;
   }
 
+  .mq650\:w-\[50\%\] {
+    width: 50%;
+  }
+
   .mq650\:min-w-\[150px\] {
     min-width: 150px;
   }
@@ -5798,6 +5802,14 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq650\:min-w-\[50px\] {
     min-width: 50px;
+  }
+
+  .mq650\:min-w-\[100px\] {
+    min-width: 100px;
+  }
+
+  .mq650\:max-w-\[100px\] {
+    max-width: 100px;
   }
 
   .mq650\:grid-cols-1 {
