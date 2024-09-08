@@ -5208,6 +5208,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     display: none;
   }
 
+  .mq1170\:flex-col {
+    flex-direction: column;
+  }
+
   .mq1170\:px-\[20px\] {
     padding-left: 20px;
     padding-right: 20px;

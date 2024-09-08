@@ -459,7 +459,7 @@
 				font-subtitles-16 lg:pb-[117px] lg:box-border mq850:pb-[76px]
 				mq850:box-border bg-dark-gray ">
 		<div class="max-w-[1170px] flex flex-col items-start justify-start
-			 gap-[30px] w-full lg:gap-[30px] lg:mx-[20px]">
+			 gap-[30px] w-full lg:gap-[30px] lg:mx-[20px] mq1170:px-[20px]">
 			<div class="h-[120px] relative block border-solid border-general-1-primary border-solid border-l-[1px] ">
 
 			</div>
@@ -468,7 +468,10 @@
 			</h2>
 		</div>
 
-		<div class="w-[1170px] flex flex-row items-stretch justify-start gap-[60px] max-w-full lg:gap-[30px] lg:mx-[20px] mt-[30px]">
+		<div class="w-[1170px] flex flex-row items-stretch justify-start gap-[60px] max-w-full
+		lg:gap-[30px] lg:mx-[20px] mt-[30px]
+		mq1170:px-[20px]
+		 mq1170:flex-col">
 			<!-- Left Side -->
 			<div class="w-[400px] flex flex-col items-start justify-between gap-10 min-w-[400px] max-w-full mq450:gap-5 mq1425:min-w-full">
 				<div class="self-stretch flex flex-row items-start justify-start relative max-w-full text-left text-41xl text-general-white font-heading-1-72">
