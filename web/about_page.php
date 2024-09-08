@@ -12,7 +12,7 @@
 				 lg:box-border mq850:pb-[46px] mq850:box-border"
 		>
 			<div class="w-full flex flex-row items-start justify-start relative max-w-full ml-[10%] lg:ml-[0px]">
-				<div class="h-[800px] w-full absolute !m-[0] top-[100px] right-[10%] bg-general-1-primary z-[2] lg:right-[0px]">
+				<div class="h-[800px] w-full absolute !m-[0] top-[100px] right-[10%] bg-general-1-primary z-[2] lg:right-[0px] mq1170:hidden">
 				</div>
 
 				<div class="flex-1 flex flex-col items-center justify-start pt-0 pb-[110px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/title2@3x.png')]
@@ -48,7 +48,7 @@
 							</div>
 						</div>
 
-						<div class="w-full flex flex-row  mt-[0px] absolute  items-center justify-center min-h-[300px] bottom-[-300px] mq1170:px-[20px]">
+						<div class="w-full flex flex-row  mt-[0px] absolute  items-center justify-center min-h-[300px] bottom-[-300px] mq1170:px-[20px] mq1170:hidden">
 							<div class="w-[1140px] flex flex-row leading-[24px]">
 								<div class="w-[50%] pr-[20px]">
 									<p>Let no one tell you otherwise—starting a new business in Dubai isn’t something you want to tackle solo.
@@ -73,8 +73,7 @@
 					</div>
 				</div>
 
-
-			</div>
+					</div>
 		</section>
 		<section
 				class="self-stretch flex flex-row items-center justify-start max-w-full text-left text-lg
