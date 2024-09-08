@@ -499,19 +499,23 @@
 					successful.
 				</div>
 
-				<button onclick="openModal()" class="cursor-pointer border-transparent py-[21px] px-10 bg-general-1-primary overflow-hidden flex flex-row items-start justify-start
+				<div class="mq1170:w-full mq1170:flex mq950:justify-center " >
+
+					<button onclick="openModal()" class="cursor-pointer border-transparent py-[21px] px-10 bg-general-1-primary overflow-hidden flex flex-row items-start justify-start
 						 whitespace-nowrap hover:bg-elements-neutral-4 hover:text-general-1-primary hover:border-general-1-primary border-solid border-[2px]
 						 text-general-white
 						 					hover:text-general-1-primary
 							mq650:px-[15px] mq650:pl-[15px]">
-					<div class="relative text-base tracking-[0.4em] leading-[18px] uppercase font-medium hover:border-general-1-primary
+						<div class="relative text-base tracking-[0.4em] leading-[18px] uppercase font-medium hover:border-general-1-primary
 							font-subtitles-16 text-center
 							 hover:text-general-1-primary
 							 whitespace-nowrap
 								mq650:text-base mq650:whitespace-normal">
-						Take a consultation
-					</div>
-				</button>
+							Take a consultation
+						</div>
+					</button>
+
+				</div>
 			</div>
 
 			<!-- Right Side -->
