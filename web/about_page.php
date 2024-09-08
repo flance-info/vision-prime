@@ -8,13 +8,17 @@
 	<div class="w-full ">
 		<section
 				class="self-stretch flex flex-col items-center justify-between pt-0 px-0 pb-[110px] box-border
-				max-w-full text-left text-base text-general-white font-heading-1-72 lg:pb-[71px] lg:box-border mq850:pb-[46px] mq850:box-border"
+				max-w-full text-left text-base text-general-white font-heading-1-72 lg:pb-[71px]
+				 lg:box-border mq850:pb-[46px] mq850:box-border"
 		>
 			<div class="w-full flex flex-row items-start justify-start relative max-w-full ml-[10%] lg:ml-[0px]">
 				<div class="h-[800px] w-full absolute !m-[0] top-[100px] right-[10%] bg-general-1-primary z-[2] lg:right-[0px]">
 				</div>
 
-				<div class="flex-1 flex flex-col items-center justify-start pt-0 pb-[110px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/title2@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full z-[3] lg:pl-[140px] lg:pr-[140px] lg:pb-[71px] lg:box-border mq450:pl-5 mq450:pr-5 mq450:pb-[46px] mq450:box-border mq850:gap-10 mq850:box-border">
+				<div class="flex-1 flex flex-col items-center justify-start pt-0 pb-[110px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/title2@3x.png')]
+				 bg-cover bg-no-repeat bg-[top] max-w-full z-[3]
+				 lg:px-[20px] lg:pb-[71px] lg:box-border mq450:pl-5 mq450:pr-5 mq450:pb-[46px]
+				  mq450:box-border mq850:gap-10 mq850:box-border">
 					<div class="w-full max-w-[1170px] ml-[calc(91%-100vw)] gap-6 flex flex-col items-center lg:ml-[0px]">
 
 
@@ -27,7 +31,12 @@
 								Contact Us
 							</div>
 						</div>
-						<h1 class="m-0 animate-fadeInOut w-[1140px] relative text-53xl leading-[80px] font-normal font-inherit text-center inline-block max-w-full mq450:text-24xl mq450:leading-[50px] mq850:text-39xl mq850:leading-[64px]">
+						<h1 class="m-0 animate-fadeInOut w-[1140px] relative text-53xl leading-[80px
+						 font-normal font-inherit text-center inline-block
+						 max-w-full mq450:text-24xl mq450:leading-[50px] mq850:text-39xl mq850:leading-[64px]
+
+
+">
 							Speak with Our Business Setup Consultants in Dubai/UAE
 						</h1>
 
@@ -39,7 +48,7 @@
 							</div>
 						</div>
 
-						<div class="w-full flex flex-row  mt-[0px] absolute  items-center justify-center min-h-[300px] bottom-[-300px]">
+						<div class="w-full flex flex-row  mt-[0px] absolute  items-center justify-center min-h-[300px] bottom-[-300px] mq1170:px-[20px]">
 							<div class="w-[1140px] flex flex-row leading-[24px]">
 								<div class="w-[50%] pr-[20px]">
 									<p>Let no one tell you otherwise—starting a new business in Dubai isn’t something you want to tackle solo.
