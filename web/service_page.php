@@ -3,7 +3,7 @@
 <?php include_once( 'header.php' );
 ?>
 <body>
-<div class="w-full">
+
 	<!-- banner !-->
 
 
@@ -12,7 +12,10 @@
 	<section class="self-stretch flex flex-col items-center justify-between pt-0 px-0 pb-[110px] box-border max-w-full text-left text-base text-general-white font-heading-1-72 lg:pb-[71px] lg:box-border mq850:pb-[46px] mq850:box-border">
 		<div class="w-full flex flex-row items-start justify-start relative max-w-full ml-[10%] lg:ml-[0px]">
 			<div class="h-full w-full absolute !m-[0] bottom-[-110px] right-[10%] bg-general-1-primary z-[2] lg:right-[0px]"></div>
-			<div class="flex-1 flex flex-col items-center justify-start pt-0 pb-[110px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/title1@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full z-[3] lg:pl-[140px] lg:pr-[140px] lg:pb-[71px] lg:box-border mq450:pl-5 mq450:pr-5 mq450:pb-[46px] mq450:box-border mq850:gap-10 mq850:box-border">
+			<div class="flex-1 flex flex-col items-center justify-start pt-0 pb-[110px] box-border gap-10 bg-[url('/wp-content/themes/vision-prime/web/public/title1@3x.png')]
+			bg-cover bg-no-repeat bg-[top] max-w-full z-[3] lg:pl-[140px] lg:pr-[140px] lg:pb-[71px]
+			 lg:box-border mq450:pl-5 mq450:pr-5 mq450:pb-[46px] mq450:box-border
+			  mq850:gap-10 mq850:box-border mq950:px-[20px]">
 				<div class="w-full max-w-[1170px] ml-[calc(91%-100vw)] gap-6 flex flex-col items-center lg:ml-[0px]">
 
 
@@ -1058,7 +1061,7 @@
 			</div>
 		</div>
 	</section>
-</div>
+
 
 
 </body>
