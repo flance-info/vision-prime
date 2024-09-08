@@ -238,7 +238,7 @@
 					<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full bg-elements-neutral-4 border-l-[4px] border-solid border-general-1-primary">
 							<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
-								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px]">
+								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px] st-wrap">
 									<li>1. Select Your Business Activity</li>
 								</ol>
 							</b>
@@ -247,7 +247,7 @@
 					<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 							<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
-								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px]">
+								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px] st-wrap">
 									<li>2. Choose Your Company Structure</li>
 								</ol>
 							</b>
@@ -256,7 +256,7 @@
 					<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 							<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
-								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px]">
+								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px] st-wrap">
 									<li>3. Secure a Local Sponsor or Service Agent</li>
 								</ol>
 							</b>
@@ -265,7 +265,7 @@
 					<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 							<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
-								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px] st-wrap">
+								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px] st-wrap st-wrap">
 									<li>4. Choose Office Space and Finalize the Trade name</li>
 								</ol>
 							</b>
@@ -275,7 +275,7 @@
 					<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 							<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
-								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px]">
+								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px] st-wrap">
 									<li>5. Open a Corporate Bank Account</li>
 								</ol>
 							</b>
@@ -285,7 +285,7 @@
 					<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 							<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
-								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px]">
+								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px] st-wrap">
 									<li>6. Obtain the Necessary Approvals</li>
 								</ol>
 							</b>
@@ -294,7 +294,7 @@
 					<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 							<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
-								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px]">
+								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px] st-wrap">
 									<li>7. Complete the Final License and Registration</li>
 								</ol>
 							</b>
@@ -303,7 +303,7 @@
 					<div class="self-stretch flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<button class="tab-button cursor-pointer py-[28px] px-7 self-stretch box-border flex flex-row items-start justify-start whitespace-nowrap max-w-full">
 							<b class="flex-1 relative text-lg leading-[24px] inline-block font-button-dm-sans-16 text-general-1-secondary-variant text-left max-w-full">
-								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px]">
+								<ol class="m-0 font-inherit text-inherit pl-6 mq950:pl-[0px] st-wrap">
 									<li>8. Apply for a Business Visa in Dubai</li>
 								</ol>
 							</b>
@@ -498,8 +498,17 @@
 					planning to final setup, making your journey seamless and
 					successful.
 				</div>
-				<button onclick="openModal()" class="cursor-pointer [border:none] py-[21px] px-10 bg-general-1-primary overflow-hidden flex flex-row items-start justify-start box-border whitespace-nowrap max-w-full z-[1] hover:bg-darkolivegreen">
-					<div class="h-[18px] relative text-base tracking-[0.4em] leading-[18px] uppercase font-medium font-subtitles-16 text-general-white text-center inline-block">
+
+				<button onclick="openModal()" class="cursor-pointer border-transparent py-[21px] px-10 bg-general-1-primary overflow-hidden flex flex-row items-start justify-start
+						 whitespace-nowrap hover:bg-elements-neutral-4 hover:text-general-1-primary hover:border-general-1-primary border-solid border-[2px]
+						 text-general-white
+						 					hover:text-general-1-primary
+							mq650:px-[15px] mq650:pl-[15px]">
+					<div class="relative text-base tracking-[0.4em] leading-[18px] uppercase font-medium hover:border-general-1-primary
+							font-subtitles-16 text-center
+							 hover:text-general-1-primary
+							 whitespace-nowrap
+								mq650:text-base mq650:whitespace-normal">
 						Take a consultation
 					</div>
 				</button>
