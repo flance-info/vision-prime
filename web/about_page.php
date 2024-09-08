@@ -452,10 +452,10 @@
 			 hover:bg-opacity-75 mq450:px-[5px] mq450:py-[5px]">
 				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em]
 				 leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base 	">
-					Arsen
+					Roxanna
 				</h3>
 				<div class="relative leading-[22px] font-body-b3-merriweather-14 mq650:text-xs mq650:leading-[12px]">
-					Co-founder / Business Consultant
+					Founder & CEO
 				</div>
 				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
 					<div class="relative leading-[18px] font-medium">
@@ -485,10 +485,10 @@
 			 bg-cover bg-no-repeat bg-[top] mq450:px-[5px] mq450:py-[5px]">
 				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em]
 				leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base">
-					Elena
+					Boris
 				</h3>
 				<div class="relative leading-[22px] font-body-b3-merriweather-14  mq650:text-xs mq650:leading-[12px]">
-					Founder &amp; CEO
+					Co-founder / Business Consultant
 				</div>
 				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
 					<div class="relative leading-[18px] font-medium">
@@ -518,10 +518,10 @@
 			 bg-cover bg-no-repeat bg-[top] mq450:px-[5px] mq450:py-[5px]">
 				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px]
 				 font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base">
-					Samuel
+					Camilla
 				</h3>
 				<div class="relative leading-[22px] font-body-b3-merriweather-14  mq650:text-xs mq650:leading-[12px]">
-					Co-founder / Business Consultant
+					CEO / Head of Business Consultancy
 				</div>
 				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
 					<div class="relative leading-[18px] font-medium">
@@ -551,10 +551,10 @@
 			  bg-cover bg-no-repeat bg-[top] mq450:px-[5px] mq450:py-[5px]">
 				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px]
 				 font-bold font-inherit mq450:text-lgi mq450:leading-[18px] mq650:text-base">
-					Jaiden
+					Valentine
 				</h3>
 				<div class="relative leading-[22px] font-body-b3-merriweather-14  mq650:text-xs mq650:leading-[12px]">
-					CEO / Head of Business Consultancy
+					Co-founder / Business Consultant
 				</div>
 				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
 					<div class="relative leading-[18px] font-medium">
@@ -580,97 +580,7 @@
 		</div>
 
 
-		<div class="w-[1170px] grid flex-row items-start justify-start gap-[30px] max-w-full grid-cols-[repeat(4,_minmax(202px,_1fr))] z-[1] text-left text-smi text-general-white font-button-dm-sans-16 lg:justify-center lg:grid-cols-[repeat(2,_minmax(202px,_351px))] mq450:grid-cols-[minmax(202px,_1fr)]">
-
-			<!-- Team Member 1: Roxanna -->
-			<div class="h-[375px] overflow-hidden overflow-hidden flex flex-col items-start justify-end py-[25px] pl-[25px] pr-5 box-border
-			 gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/about/public/member-profiles1@3x.png')] bg-cover bg-no-repeat bg-[top] transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-opacity-75">
-				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
-					Roxanna
-				</h3>
-				<div class="relative leading-[22px] font-body-b3-merriweather-14">
-					Founder &amp; CEO
-				</div>
-				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
-					<div class="relative leading-[18px] font-medium">
-						5 years of experience
-					</div>
-				</div>
-				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" loading="lazy" alt="Facebook" src="/wp-content/themes/vision-prime/web/about/public/link--facebook.svg"></a>
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" loading="lazy" alt="Twitter" src="/wp-content/themes/vision-prime/web/about/public/link--twitter.svg"></a>
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" alt="Instagram" src="/wp-content/themes/vision-prime/web/about/public/link--instagram.svg"></a>
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px] transition-transform duration-300 ease-in-out hover:scale-110" alt="Pinterest" src="/wp-content/themes/vision-prime/web/about/public/link--pinterest.svg"></a>
-				</div>
-			</div>
-
-			<!-- Team Member 2: Boris -->
-			<div class="h-[375px] transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-opacity-75 overflow-hidden flex flex-col items-start justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px]
-			bg-[url('/wp-content/themes/vision-prime/web/about/public/member-profiles2@3x.png')] bg-cover bg-no-repeat bg-[top]">
-				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
-					Boris
-				</h3>
-				<div class="relative leading-[22px] font-body-b3-merriweather-14">
-					Co-founder / Business Consultant
-				</div>
-				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
-					<div class="relative leading-[18px] font-medium">
-						5 years of experience
-					</div>
-				</div>
-				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="Facebook" src="/wp-content/themes/vision-prime/web/about/public/link--facebook.svg"></a>
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="Twitter" src="/wp-content/themes/vision-prime/web/about/public/link--twitter.svg"></a>
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="Instagram" src="/wp-content/themes/vision-prime/web/about/public/link--instagram.svg"></a>
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="Pinterest" src="/wp-content/themes/vision-prime/web/about/public/link--pinterest.svg"></a>
-				</div>
-			</div>
-
-			<!-- Team Member 3: Camilla -->
-			<div class="h-[375px] transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-opacity-75 overflow-hidden flex flex-col items-start justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/about/public/member-profiles3@3x.png')] bg-cover bg-no-repeat bg-[top]">
-				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
-					Camilla
-				</h3>
-				<div class="relative leading-[22px] font-body-b3-merriweather-14">
-					CEO / Head of Business Consultancy
-				</div>
-				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
-					<div class="relative leading-[18px] font-medium">
-						5 years of experience
-					</div>
-				</div>
-				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="Facebook" src="/wp-content/themes/vision-prime/web/about/public/link--facebook.svg"></a>
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="Twitter" src="/wp-content/themes/vision-prime/web/about/public/link--twitter.svg"></a>
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="Instagram" src="/wp-content/themes/vision-prime/web/about/public/link--instagram.svg"></a>
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="Pinterest" src="/wp-content/themes/vision-prime/web/about/public/link--pinterest.svg"></a>
-				</div>
-			</div>
-
-			<!-- Team Member 4: Valentine -->
-			<div class="h-[375px] overflow-hidden flex flex-col items-start justify-end py-[25px] pl-[25px] pr-5 box-border gap-[5px] bg-[url('/wp-content/themes/vision-prime/web/about/public/member-profiles4@3x.png')] bg-cover bg-no-repeat bg-[top] transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-opacity-75">
-				<h3 class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[30px] font-bold font-inherit mq450:text-lgi mq450:leading-[24px]">
-					Valentine
-				</h3>
-				<div class="relative leading-[22px] font-body-b3-merriweather-14">
-					Co-founder / Business Consultant
-				</div>
-				<div class="flex flex-row items-center justify-center pt-0 px-0 pb-2.5 text-gray-100">
-					<div class="relative leading-[18px] font-medium">
-						5 years of experience
-					</div>
-				</div>
-				<div class="overflow-hidden flex flex-row items-center justify-start gap-2.5">
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="Facebook" src="/wp-content/themes/vision-prime/web/about/public/link--facebook.svg"></a>
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="Twitter" src="/wp-content/themes/vision-prime/web/about/public/link--twitter.svg"></a>
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="Instagram" src="/wp-content/themes/vision-prime/web/about/public/link--instagram.svg"></a>
-					<a href="#"> <img decoding="async" class="h-[33px] w-[33px] relative rounded min-h-[33px]" alt="Pinterest" src="/wp-content/themes/vision-prime/web/about/public/link--pinterest.svg"></a>
-				</div>
-			</div>
-
-		</div>
-
-
+		
 	</section>
 
 
