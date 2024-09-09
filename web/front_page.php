@@ -1128,19 +1128,19 @@
 									<img decoding="async" class="cursor-pointer h-[49.5px] w-[120px] relative z-[1] prev" id="prevp" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-1.svg">
 									<img decoding="async" class="cursor-pointer h-[49.5px] w-[120px] relative z-[1] next" id="nextm" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-2@2x.png">
 								</div>
-								<div class=" flex  mt-[60px] mq650:mt-[30px] mq450:justify-center mq950:px-[20px]">
+								<div class=" flex  mt-[60px] mq650:mt-[30px] mq450:justify-center mq950:pl-[20px] mq950:pr-[0px]">
 
 
 									<div class="self-stretch flex flex-row items-start justify-center [row-gap:20px] z-[1] text-sm font-primary-paragraph-paragraph-5 lg:flex-wrap mq450:flex-col mq450:items-center mq950:ml-[0px] mq650:ml-[30x]">
 
 
-										<div class="flex-1 flex flex-row items-center justify-center py-0 px-0 box-border gap-[15px] min-w-[157px] mq450:pl-5 mq450:pr-5 mq450:box-border">
+										<div class="flex-1 flex flex-row items-center justify-center py-0 px-0 box-border gap-[15px] min-w-[157px] mq450:pl-0 mq450:pr-5 mq450:box-border">
 											<div class="rounded-xl bg-general-white flex flex-row items-center justify-center p-[13px]">
 												<img class="h-6 w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/iconsgoogle-original.svg">
 											</div>
 
 											<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
-												<div class="self-stretch flex flex-row items-start justify-start gap-[5px]">
+												<div class="self-stretch flex flex-row items-start justify-start gap-[2px]">
 													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector.svg">
 
 													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-1.svg">
@@ -1162,7 +1162,7 @@
 												<img class="h-[22.6px] w-6 relative lg:min-w-[23px]" alt="" src="/wp-content/themes/vision-prime/web/public/group-8886.svg">
 											</div>
 											<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
-												<div class="flex flex-row items-start justify-start gap-[5px]">
+												<div class="flex flex-row items-start justify-start gap-[2px]">
 													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-5.svg">
 
 													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-6.svg">
@@ -1185,7 +1185,7 @@
 												<img class="h-[22.6px] w-6 relative lg:min-w-[25px]" alt="" src="/wp-content/themes/vision-prime/web/public/image-18@2x.png">
 											</div>
 											<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
-												<div class="flex flex-row items-start justify-start gap-[5px]">
+												<div class="flex flex-row items-start justify-start gap-[2px]">
 													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector.svg">
 
 													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-1.svg">

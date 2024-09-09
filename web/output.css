@@ -2222,6 +2222,10 @@ video {
   gap: 9px;
 }
 
+.gap-\[2px\] {
+  gap: 2px;
+}
+
 .gap-x-\[30px\] {
   -moz-column-gap: 30px;
        column-gap: 30px;
@@ -5648,6 +5652,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     padding-top: 83px;
   }
 
+  .mq950\:pr-\[0px\] {
+    padding-right: 0px;
+  }
+
   .mq950\:text-29xl {
     font-size: 48px;
   }
@@ -6229,6 +6237,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq450\:pt-\[52px\] {
     padding-top: 52px;
+  }
+
+  .mq450\:pl-0 {
+    padding-left: 0px;
   }
 
   .mq450\:text-13xl {
