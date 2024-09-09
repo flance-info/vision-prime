@@ -1066,7 +1066,7 @@
 														</h3>
 														<div class="flex flex-col items-start justify-start gap-1 text-5xl font-button-dm-sans-16">
 															<h3 class="m-0 relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit z-[1] mq450:text-lgi mq450:leading-[24px]">
-																Alex Turner
+																Alex Turnersss
 															</h3>
 															<div class="relative text-base leading-[26px] font-body-b3-merriweather-14 text-elements-neutral-3 z-[1]">
 																Founder of TurnerHA
@@ -1201,7 +1201,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="flex flex-row items-center justify-center py-0 px-[39px] gap-[15px] z-[3] ml-[-1px] text-lg">
+										<div class="flex flex-row items-center justify-center py-0 px-[39px] gap-[15px] z-[3] ml-[-1px] text-lg mq450:ml-[15px]">
 											<div class="rounded-xl bg-general-white flex flex-row items-center justify-center pt-[15.6px] px-[13px] pb-[15.7px] box-border w-[50px] h-[50px]">
 												<img class="h-[18.7px] w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/vector-15.svg">
 											</div>

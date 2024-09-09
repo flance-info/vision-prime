@@ -78,6 +78,8 @@ document.addEventListener('DOMContentLoaded', () => {
 		const slides = slider.children;
 		const nextButton = document.getElementById('next');
 		const prevButton = document.getElementById('prev');
+		const nextButtonOne = document.getElementById('nextm');
+		const prevButtonOne = document.getElementById('prevp');
 		let index = 0;
 
 		function showSlide(idx) {
@@ -94,21 +96,37 @@ document.addEventListener('DOMContentLoaded', () => {
 				showSlide(index);
 			});
 		}
-		prevButton.addEventListener('click', () => {
-			if (index > 0) {
-				index--;
-			} else {
-				index = slides.length - 1;
-			}
-			showSlide(index);
-		});
+		if (nextButtonOne) {
+			nextButtonOne.addEventListener('click', () => {
+				if (index < slides.length - 1) {
+					index++;
+				} else {
+					index = 0;
+				}
+				showSlide(index);
+			});
+		}
+		if (prevButton) {
+			prevButton.addEventListener('click', () => {
+				if (index > 0) {
+					index--;
+				} else {
+					index = slides.length - 1;
+				}
+				showSlide(index);
+			});
+		}
+		if (prevButtonOne) {
+			prevButtonOne.addEventListener('click', () => {
+				if (index > 0) {
+					index--;
+				} else {
+					index = slides.length - 1;
+				}
+				showSlide(index);
+			});
+		}
 	}
-	// Auto-slide (optional)
-	/*
-    setInterval(() => {
-        nextButton.click();
-    }, 20000); // Change slide every 5 seconds
-    */
 
 });
 
@@ -117,10 +135,10 @@ document.addEventListener('DOMContentLoaded', () => {
 	const slides = document.querySelectorAll('.slider');
 
 	if (slides) {
-		const nextButton = document.getElementById('next');
-		const prevButton = document.getElementById('prev');
-		const nextButtonOne = document.getElementById('nextm');
-		const prevButtonOne = document.getElementById('prevp');
+	//	const nextButton = document.getElementById('next');
+	//	const prevButton = document.getElementById('prev');
+	//	const nextButtonOne = document.getElementById('nextm');
+	//	const prevButtonOne = document.getElementById('prevp');
 		let index = 0;
 		if (nextButton) {
 			nextButton.addEventListener('click', () => {
@@ -137,8 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 		if (nextButtonOne) {
 			nextButtonOne.addEventListener('click', () => {
-
-				index = (index + 1) % slides.length;
+			index = (index + 1) % slides.length;
 				showSlide(index);
 			});
 		}
@@ -157,15 +174,6 @@ document.addEventListener('DOMContentLoaded', () => {
 				}
 			});
 		}
-
-
-		// Initialize the first slide as visible
-		showSlide(index);
-
-		// Auto-slide (optional)
-		setInterval(() => {
-			nextButton.click();
-		}, 225000); // Change slide every 5 seconds
 	}
 });
 
