@@ -863,6 +863,11 @@ nav .parent > ul.sub-menu:before {
 	.admin-bar .stm-h {
 		margin-top: 32px;
 	}
+
+	body .wpcf7 form.wpcf7-form {
+
+		padding-bottom: 25px;
+	}
 }
 @media (max-width: 782px) {
 	.admin-bar .stm-h {

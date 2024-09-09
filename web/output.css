@@ -1255,6 +1255,10 @@ video {
   height: 870px;
 }
 
+.h-\[90px\] {
+  height: 90px;
+}
+
 .h-\[94px\] {
   height: 94px;
 }
@@ -1277,10 +1281,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[90px\] {
-  height: 90px;
 }
 
 .max-h-\[1060px\] {
@@ -4432,6 +4432,10 @@ nav .parent > ul.sub-menu:before {
 @media (max-width: 950px) {
   .admin-bar .stm-h {
     margin-top: 32px;
+  }
+
+  body .wpcf7 form.wpcf7-form {
+    padding-bottom: 25px;
   }
 }
 

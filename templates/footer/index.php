@@ -72,15 +72,16 @@ $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 		<div
 				class="flex-1 flex flex-col items-start justify-start relative gap-[22px] min-w-[277px] max-w-full text-base text-gray-400"
 		>
-			<div
-					class="flex flex-row items-center justify-center py-0 px-[3px]"
-			>
-				<img
-						class="h-[60px] w-[97.1px] relative"
-						loading="lazy"
-						alt=""
-						src="/wp-content/themes/vision-prime/web/public/union.svg"
-				/>
+			<div class="flex flex-row items-center justify-center py-0 px-[3px]">
+
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+					<img
+							class="h-[60px] w-[97.1px] relative"
+							loading="lazy"
+							alt=""
+							src="/wp-content/themes/vision-prime/web/public/union.svg"
+					/>
+				</a>
 			</div>
 			<div
 					class="self-stretch flex flex-row items-center justify-center py-0 pl-0 pr-[30px] gap-[30px] mq450:gap-[15px] mq450:flex-wrap"
