@@ -5460,6 +5460,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     margin-top: -100px;
   }
 
+  .mq950\:ml-\[-100px\] {
+    margin-left: -100px;
+  }
+
   .mq950\:box-border {
     box-sizing: border-box;
   }
