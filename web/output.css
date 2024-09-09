@@ -6336,6 +6336,14 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     line-height: 50px;
   }
 
+  .mq450\:tracking-\[0\.4em\] {
+    letter-spacing: 0.4em;
+  }
+
+  .mq450\:tracking-\[0\.2em\] {
+    letter-spacing: 0.2em;
+  }
+
   .mq370\:gap-\[1px\] {
     gap: 1px;
   }

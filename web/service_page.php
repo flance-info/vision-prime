@@ -51,7 +51,8 @@
 							font-subtitles-16 text-center
 							 hover:text-general-1-primary
 							 whitespace-nowrap
-								mq650:text-base mq650:whitespace-normal">
+								mq650:text-base mq650:whitespace-normal
+							mq450:tracking-[0.2em]">
 								Book a 30 minutes free consultation
 							</div>
 						</button>
@@ -90,7 +91,7 @@
 
 			<div class="self-stretch flex flex-col items-start justify-start gap-[60px] max-w-full text-left text-general-9-secondary-variant font-body-b3-merriweather-14 mq1425:gap-[30px]">
 				<div class="self-stretch flex flex-row items-start justify-start flex-wrap content-start gap-[30px] max-w-full">
-					<div class="flex-1 relative leading-[26px] inline-block min-w-[300px] max-w-full mq450:min-w-full mq950:text-base mq950:leading-[20px]">
+					<div class="flex-1 relative leading-[26px] inline-block min-w-[300px] max-w-full mq450:min-w-full">
 
 						What exactly is a Mainland company in Dubai, and why is it crucial
 						for your business setup? Mainland company formation in Dubai allows
@@ -366,7 +367,8 @@
 
 				<div class="tab-content flex-1 bg-elements-neutral-4 flex flex-col items-start justify-start p-[60px] box-border gap-[31px] min-w-[435px] max-w-full text-center text-[78px] text-general-1-primary mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq850:gap-[15px] mq850:pl-[30px] mq850:pr-[30px] mq850:box-border mq850:min-w-full hidden">
 					<div class="self-stretch flex flex-row items-start justify-start gap-6 max-w-full mq850:flex-wrap">
-						<b class="w-[84px] relative tracking-[-0.01em] leading-[84px] inline-block shrink-0 mq450:text-[47px] mq450:leading-[50px] mq850:text-[62px] mq850:leading-[67px]">4</b>
+						<img decoding="async" class="h-[94px] w-[94px] relative object-cover" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/startup-1@2x.png">
+
 						<div class="flex-1 flex flex-col items-start justify-start pt-1.5 px-0 pb-0 box-border min-w-[287px] max-w-full text-left text-11xl text-general-1-secondary">
 							<h3 class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[36px] font-bold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]">
 								Step 4: Choose Office Space and Finalize the Trade name.
@@ -580,12 +582,12 @@
 
 
 	<!-- Join Our Happy Customers !-->
-	<section class="self-stretch flex flex-row items-start justify-start flex-wrap content-start [row-gap:20px] max-w-full text-center text-base text-general-white font-subtitles-16">
+		<section class="self-stretch flex flex-row items-start justify-start flex-wrap content-start [row-gap:20px] max-w-full text-center text-base text-general-white font-subtitles-16">
 		<div class="flex-1 bg-general-1-primary flex flex-col items-center justify-start pt-0
 				 pb-[100px] box-border relative gap-[30px] max-w-full
 				 lg:pb-[65px] lg:box-border mq450:pb-[42px] mq450:box-border
 				  mq850:gap-[15px] mq1500:min-w-full mr-[5%]">
-			<div class="w-full max-w-[1170px] flex-col ml-[5%] mq650:ml-[0px]">
+			<div class="w-full max-w-[1170px] flex-col ml-[5%] mq950:mx-[0px]">
 
 				<div class="w-[1318px] h-[168px] flex flex-row items-start justify-center max-w-full">
 					<div class="self-stretch w-[182px] flex flex-col items-start justify-start gap-[30px]">
@@ -597,7 +599,7 @@
 						</div>
 					</div>
 				</div>
-				<header class="w-[1318px] flex flex-row items-start justify-center pt-0 px-0 pb-[18px] box-border max-w-full text-center text-41xl text-general-white font-heading-1-72">
+				<header class="w-[1318px] flex flex-row items-start justify-center pt-0 px-0 pb-[18px] mq950:px-[10px] box-border max-w-full text-center text-41xl text-general-white font-heading-1-72">
 					<div class="w-full flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<div class="self-stretch flex flex-row items-start justify-center py-0 px-5">
 							<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
@@ -627,7 +629,7 @@
 										<div class="self-stretch flex flex-col items-end justify-start gap-14 max-w-full mq850:gap-7">
 											<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border mq650:px-[20px]">
 												<div class="flex-1 flex flex-row items-start justify-between max-w-full gap-[140px] lg:flex-wrap mq450:mt-[-50px] mq950:justify-center mq950:mr-[0px]">
-													<div class="h-[156px] w-[77px] flex flex-col items-start justify-start pt-24 px-0 pb-0 box-border">
+													<div class="h-[156px] w-[77px] flex flex-col mq950:ml-[-100px] items-start justify-start pt-24 px-0 pb-0 box-border">
 														<img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full z-[2]" alt="" src="/wp-content/themes/vision-prime/web/public/quotation-mark.svg">
 														<div class="relative block w-[300px] top-[-30px]">
 															<img class="w-[180px] h-[180px] absolute  rounded-83xl-4 overflow-hidden shrink-0 object-cover z-[1]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/images--profile-picturescustomizable@2x.png">
@@ -671,7 +673,7 @@
 										<div class="self-stretch flex flex-col items-end justify-start gap-14 max-w-full mq850:gap-7">
 											<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border mq650:px-[20px]">
 												<div class="flex-1 flex flex-row items-start justify-between max-w-full gap-[140px] lg:flex-wrap mq450:mt-[-50px] mq950:justify-center mq950:mr-[0px]">
-													<div class="h-[156px] w-[77px] flex flex-col items-start justify-start pt-24 px-0 pb-0 box-border">
+													<div class="h-[156px] w-[77px] flex flex-col mq950:ml-[-100px] items-start justify-start pt-24 px-0 pb-0 box-border">
 														<img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full z-[2]" alt="" src="/wp-content/themes/vision-prime/web/public/quotation-mark.svg">
 														<div class="relative block w-[300px] top-[-30px]">
 															<img class="w-[180px] h-[180px] absolute  rounded-83xl-4 overflow-hidden shrink-0 object-cover z-[1]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/images--profile-picturescustomizable@2x.png">
@@ -715,19 +717,19 @@
 									<img decoding="async" class="cursor-pointer h-[49.5px] w-[120px] relative z-[1] prev" id="prevp" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-1.svg">
 									<img decoding="async" class="cursor-pointer h-[49.5px] w-[120px] relative z-[1] next" id="nextm" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-2@2x.png">
 								</div>
-								<div class=" flex  mt-[60px] mq650:mt-[30px] mq450:justify-center">
+								<div class=" flex  mt-[60px] mq650:mt-[30px] mq450:justify-center mq950:pl-[20px] mq950:pr-[0px]">
 
 
-									<div class="self-stretch flex flex-row items-start justify-center [row-gap:20px] z-[1] text-sm font-primary-paragraph-paragraph-5 lg:flex-wrap mq450:flex-col mq450:items-center mq950:ml-[30px]">
+									<div class="self-stretch flex flex-row items-start justify-center [row-gap:20px] z-[1] text-sm font-primary-paragraph-paragraph-5 lg:flex-wrap mq450:flex-col mq450:items-center mq950:ml-[0px] mq650:ml-[30x]">
 
 
-										<div class="flex-1 flex flex-row items-center justify-center py-0 px-0 box-border gap-[15px] min-w-[157px] mq450:pl-5 mq450:pr-5 mq450:box-border">
+										<div class="flex-1 flex flex-row items-center justify-center py-0 px-0 box-border gap-[15px] min-w-[157px] mq450:pl-0 mq450:pr-5 mq450:box-border">
 											<div class="rounded-xl bg-general-white flex flex-row items-center justify-center p-[13px]">
 												<img class="h-6 w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/iconsgoogle-original.svg">
 											</div>
 
 											<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
-												<div class="self-stretch flex flex-row items-start justify-start gap-[5px]">
+												<div class="self-stretch flex flex-row items-start justify-start gap-[2px]">
 													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector.svg">
 
 													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-1.svg">
@@ -749,7 +751,7 @@
 												<img class="h-[22.6px] w-6 relative lg:min-w-[23px]" alt="" src="/wp-content/themes/vision-prime/web/public/group-8886.svg">
 											</div>
 											<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
-												<div class="flex flex-row items-start justify-start gap-[5px]">
+												<div class="flex flex-row items-start justify-start gap-[2px]">
 													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-5.svg">
 
 													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-6.svg">
@@ -772,7 +774,7 @@
 												<img class="h-[22.6px] w-6 relative lg:min-w-[25px]" alt="" src="/wp-content/themes/vision-prime/web/public/image-18@2x.png">
 											</div>
 											<div class="flex-1 flex flex-col items-start justify-start gap-[3px]">
-												<div class="flex flex-row items-start justify-start gap-[5px]">
+												<div class="flex flex-row items-start justify-start gap-[2px]">
 													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector.svg">
 
 													<img class="h-4 w-[16.5px] relative min-h-[16px]" alt="" src="/wp-content/themes/vision-prime/web/public/vector-1.svg">
@@ -788,7 +790,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="flex flex-row items-center justify-center py-0 px-[39px] gap-[15px] z-[3] ml-[-1px] text-lg">
+										<div class="flex flex-row items-center justify-center py-0 px-[39px] gap-[15px] z-[3] ml-[-1px] text-lg mq450:ml-[15px]">
 											<div class="rounded-xl bg-general-white flex flex-row items-center justify-center pt-[15.6px] px-[13px] pb-[15.7px] box-border w-[50px] h-[50px]">
 												<img class="h-[18.7px] w-6 relative" alt="" src="/wp-content/themes/vision-prime/web/public/vector-15.svg">
 											</div>
