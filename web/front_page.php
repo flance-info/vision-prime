@@ -1505,7 +1505,15 @@
 			</div>
 
 			<!-- Pro Plan -->
-			<div class="cursor-pointer hover:scale-110 bg-general-white transition-transform duration-300 ease-in-out  border-general-1-primary border-[2px] border-solid box-border flex flex-col items-center justify-start py-[47px] px-[38px] mq650:px-[10px] mq650:py-[30px] gap-[30px] min-w-[277px]">
+			<div class="cursor-pointer hover:scale-110 bg-general-white
+			transition-transform duration-300 ease-in-out  border-general-1-primary border-[2px]
+			 border-solid box-border flex flex-col mq950:col-span-1
+			  mq950:col-start-1 mq950:col-end-3 mq950:mx-auto
+			  mq950:max-w-[350px]
+			   mq450:col-auto
+
+			   items-center justify-start py-[47px] px-[38px]
+			  mq650:px-[10px] mq650:py-[30px] gap-[30px] min-w-[277px]">
 				<h2 class="m-0 self-stretch relative text-inherit leading-[36px] font-semibold font-inherit mq450:text-lg mq450:leading-[22px] mq850:text-5xl mq850:leading-[29px]">
 					Pro
 				</h2>
@@ -1542,6 +1550,8 @@
 					</div>
 				</div>
 			</div>
+
+
 		</div>
 
 	</section>
