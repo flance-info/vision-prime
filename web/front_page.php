@@ -72,7 +72,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="w-[1139.5px] flex flex-row items-start justify-center max-w-full">
+					<div class="w-[1139.5px] flex flex-row items-start justify-center max-w-full mq950:mt-[8px]">
 						<button onclick="openModal()" class="cursor-pointer border-transparent py-[21px] px-10 bg-general-1-primary overflow-hidden flex flex-row items-start justify-start
 						 whitespace-nowrap hover:bg-elements-neutral-4 hover:text-general-1-primary hover:border-general-1-primary border-solid border-[2px]
 						 text-general-white 					hover:text-general-1-primary">

@@ -5498,6 +5498,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     margin-left: 0px;
   }
 
+  .mq950\:mt-\[8px\] {
+    margin-top: 8px;
+  }
+
   .mq950\:box-border {
     box-sizing: border-box;
   }
