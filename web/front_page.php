@@ -1084,7 +1084,7 @@
 										<div class="self-stretch flex flex-col items-end justify-start gap-14 max-w-full mq850:gap-7">
 											<div class="self-stretch flex flex-row items-start justify-end py-0 pl-[49px] pr-[41px] box-border max-w-full lg:pl-6 lg:box-border mq650:px-[20px]">
 												<div class="flex-1 flex flex-row items-start justify-between max-w-full gap-[140px] lg:flex-wrap mq450:mt-[-50px] mq950:justify-center mq950:mr-[0px]">
-													<div class="h-[156px] w-[77px] flex flex-col items-start justify-start pt-24 px-0 pb-0 box-border">
+													<div class="h-[156px] w-[77px] flex flex-col mq950:ml-[-100px] items-start justify-start pt-24 px-0 pb-0 box-border">
 														<img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full z-[2]" alt="" src="/wp-content/themes/vision-prime/web/public/quotation-mark.svg">
 														<div class="relative block w-[300px] top-[-30px]">
 															<img class="w-[180px] h-[180px] absolute  rounded-83xl-4 overflow-hidden shrink-0 object-cover z-[1]" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/images--profile-picturescustomizable@2x.png">
