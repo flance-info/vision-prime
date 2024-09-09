@@ -1,5 +1,8 @@
+<div class="header-placeholder hidden h-[90px] mq950:block "></div>
 <header
-		class="self-stretch bg-general-white er-back-tr coltr flex flex-row items-center justify-center py-[15px] box-border top-[0] z-[11111] sticky max-w-full gap-5 text-right text-base text-general-8-secondary font-subtitles-16  lg:box-border  mq450:box-border mq850:box-border"
+		class="stm-h self-stretch bg-general-white er-back-tr coltr
+		flex flex-row items-center justify-center py-[15px] box-border
+		top-[0] z-[11111] sticky mq950:fixed mq780: max-w-full gap-5 text-right text-base text-general-8-secondary font-subtitles-16  lg:box-border  mq450:box-border mq850:box-border"
 >
 	<div class="w-[1170px] flex flex-row items-end justify-between max-w-full mq650:pl-[20px] mq650:pr-[10px]
 	mq950:pl-[20px] mq950:pr-[10px]
@@ -67,7 +70,7 @@ transform transition-transform duration-300 group-hover:rotate-180" src="/wp-con
 		?>
 		<div class="navigation mr-[20px] hidden mq1024:flex">
 			<div class="navigation-menu">
-				<ul class="starter-menu menu">
+				<ul class="starter-menu menu ">
 					<?php wp_nav_menu( $menu_args ); ?>
 				</ul>
 

@@ -859,6 +859,17 @@ nav .parent > ul.sub-menu:before {
 
 }
 
+@media (max-width: 950px) {
+	.admin-bar .stm-h {
+		margin-top: 32px;
+	}
+}
+@media (max-width: 782px) {
+	.admin-bar .stm-h {
+		margin-top: 46px;
+	}
+}
+
 @media (max-width: 1024px) {
 	.navigation .navigation-menu.active .menu {
 		display: block;
@@ -868,6 +879,8 @@ nav .parent > ul.sub-menu:before {
 		right: -15px;
 		margin-top: -1px;
 		padding: 0 0 20px;
+		padding-left: 20px;
+		padding-right: 20px;
 		transition: all .15s;
 		background-color: #fff;
 		visibility: visible;
