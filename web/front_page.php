@@ -998,7 +998,7 @@
 				 pb-[100px] box-border relative gap-[30px] max-w-full
 				 lg:pb-[65px] lg:box-border mq450:pb-[42px] mq450:box-border
 				  mq850:gap-[15px] mq1500:min-w-full mr-[5%]">
-			<div class="w-full max-w-[1170px] flex-col ml-[5%] mq650:ml-[0px]">
+			<div class="w-full max-w-[1170px] flex-col ml-[5%] mq950:mx-[0px]">
 
 				<div class="w-[1318px] h-[168px] flex flex-row items-start justify-center max-w-full">
 					<div class="self-stretch w-[182px] flex flex-col items-start justify-start gap-[30px]">
@@ -1010,7 +1010,7 @@
 						</div>
 					</div>
 				</div>
-				<header class="w-[1318px] flex flex-row items-start justify-center pt-0 px-0 pb-[18px] box-border max-w-full text-center text-41xl text-general-white font-heading-1-72">
+				<header class="w-[1318px] flex flex-row items-start justify-center pt-0 px-0 pb-[18px] mq950:px-[10px] box-border max-w-full text-center text-41xl text-general-white font-heading-1-72">
 					<div class="w-full flex flex-col items-start justify-start gap-[30px] max-w-full">
 						<div class="self-stretch flex flex-row items-start justify-center py-0 px-5">
 							<h2 class="m-0 w-full relative text-inherit leading-[66px] font-normal font-inherit inline-block z-[1] mq450:text-17xl mq450:leading-[40px] mq850:text-29xl mq850:leading-[53px]">
@@ -1128,10 +1128,10 @@
 									<img decoding="async" class="cursor-pointer h-[49.5px] w-[120px] relative z-[1] prev" id="prevp" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-1.svg">
 									<img decoding="async" class="cursor-pointer h-[49.5px] w-[120px] relative z-[1] next" id="nextm" loading="lazy" alt="" src="/wp-content/themes/vision-prime/web/public/union-2@2x.png">
 								</div>
-								<div class=" flex  mt-[60px] mq650:mt-[30px] mq450:justify-center">
+								<div class=" flex  mt-[60px] mq650:mt-[30px] mq450:justify-center mq950:px-[20px]">
 
 
-									<div class="self-stretch flex flex-row items-start justify-center [row-gap:20px] z-[1] text-sm font-primary-paragraph-paragraph-5 lg:flex-wrap mq450:flex-col mq450:items-center mq950:ml-[30px]">
+									<div class="self-stretch flex flex-row items-start justify-center [row-gap:20px] z-[1] text-sm font-primary-paragraph-paragraph-5 lg:flex-wrap mq450:flex-col mq450:items-center mq950:ml-[0px] mq650:ml-[30x]">
 
 
 										<div class="flex-1 flex flex-row items-center justify-center py-0 px-0 box-border gap-[15px] min-w-[157px] mq450:pl-5 mq450:pr-5 mq450:box-border">

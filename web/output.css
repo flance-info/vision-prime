@@ -5448,6 +5448,11 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
     top: 0px;
   }
 
+  .mq950\:mx-\[0px\] {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .mq950\:ml-\[30px\] {
     margin-left: 30px;
   }
@@ -5462,6 +5467,10 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq950\:ml-\[-100px\] {
     margin-left: -100px;
+  }
+
+  .mq950\:ml-\[0px\] {
+    margin-left: 0px;
   }
 
   .mq950\:box-border {
@@ -5612,6 +5621,11 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
   .mq950\:py-\[39px\] {
     padding-top: 39px;
     padding-bottom: 39px;
+  }
+
+  .mq950\:px-\[10px\] {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .mq950\:pl-\[0px\] {
@@ -5883,6 +5897,14 @@ body .navigation .stm_lms_account_dropdown ul.dropdown-menu li .dropdown_menu_it
 
   .mq650\:mt-\[30px\] {
     margin-top: 30px;
+  }
+
+  .mq650\:ml-\[20x\] {
+    margin-left: 20x;
+  }
+
+  .mq650\:ml-\[30x\] {
+    margin-left: 30x;
   }
 
   .mq650\:hidden {
