@@ -1066,7 +1066,7 @@
 														</h3>
 														<div class="flex flex-col items-start justify-start gap-1 text-5xl font-button-dm-sans-16">
 															<h3 class="m-0 relative text-inherit tracking-[-0.01em] leading-[30px] font-bold font-inherit z-[1] mq450:text-lgi mq450:leading-[24px]">
-																Alex Turnersss
+																Alex Turner
 															</h3>
 															<div class="relative text-base leading-[26px] font-body-b3-merriweather-14 text-elements-neutral-3 z-[1]">
 																Founder of TurnerHA
