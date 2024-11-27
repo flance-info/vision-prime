@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision Prime - Business Setup Consultants in Dubai/UAE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'vision-gold': '#BFA16B',
+                        'vision-dark': '#1E1E1E',
+                    },
+                    backgroundImage: {
+                        'dubai-skyline': "url('/path-to-dubai-skyline.jpg')",
+                        'dubai-night': "url('/path-to-dubai-night.jpg')",
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-gray-800">
+    <header class="bg-white shadow-md fixed w-full z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <img src="/api/placeholder/120/40" alt="Vision Prime Logo" class="h-10">
+            <nav class="hidden md:block">
+                <ul class="flex space-x-6 text-sm font-semibold">
+                    <li><a href="#" class="text-gray-700 hover:text-gray-900">BUSINESS SETUP SERVICES</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-gray-900">FINANCIAL SERVICES</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-gray-900">COMPLEX BUSINESS SUPPORT</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-gray-900">ABOUT</a></li>
+                    <li><a href="#" class="text-vision-gold hover:text-yellow-600">CONTACT</a></li>
+                </ul>
+            </nav>
+            <button class="md:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <main class="pt-16">
+        <section class="relative h-screen bg-dubai-skyline bg-cover bg-center">
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+            <div class="relative container mx-auto px-4 h-full flex flex-col justify-center text-white">
+                <h2 class="text-vision-gold uppercase tracking-wider mb-4">CONTACT US</h2>
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">Speak with Our Business Setup Consultants in Dubai/UAE</h1>
+                <p class="text-lg md:text-xl mb-8 max-w-3xl">Book a free consultation with one of our Company Formation Specialists now and find out all the information you need about starting your own company in the UAE.</p>
+                <a href="#contact" class="bg-vision-gold text-vision-dark px-8 py-3 font-semibold inline-block hover:bg-opacity-90 transition duration-300">Book a Consultation</a>
+            </div>
+        </section>
+
+        <section class="bg-vision-gold text-white py-16">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <p class="mb-4 leading-relaxed">Let no one tell you otherwise—starting a new business in Dubai isn't something you want to tackle solo. It can be very soul-crushing, with mountains of head-scratching confusion and a mountain of regulatory and admin hurdles to jump over.</p>
+                    </div>
+                    <div>
+                        <p class="leading-relaxed">With over a decade of consultancy experience, our team knows the UAE business scene inside and out. We offer tailored services for everything from company registration and licensing to visa processing and financial services. We handle it all with precision and efficiency, so you can focus on what you do best—growing your business.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div>
+                        <h3 class="font-bold text-lg mb-3">Address</h3>
+                        <p class="text-sm leading-relaxed">Office 105, Level 1, Emaar Square - Building 4, Sheikh Mohammed Bin Rashid Boulevard Downtown Dubai, United Arab Emirates</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-3">Phone</h3>
+                        <p class="text-sm mb-2"><span class="font-semibold">Business Enquiries</span><br>+971 4 567 7333</p>
+                        <p class="text-sm"><span class="font-semibold">Customer Service/Complaints</span><br>+971 4 567 8901</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-3">Contacts</h3>
+                        <p class="text-sm">info@visionprime.ae<br>sales@visionprime.ae<br>www.visionprime.ae</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-3">Working Hours</h3>
+                        <p class="text-sm">Monday - Friday: 9:30 - 17:30<br>Saturday: 9:30 - 13:30<br>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="relative py-16 bg-dubai-night bg-cover bg-center">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="relative container mx-auto px-4 flex flex-col md:flex-row">
+                <div class="w-full md:w-1/2 text-white mb-8 md:mb-0">
+                    <h2 class="text-4xl font-bold mb-6">Let's Discuss Your Project</h2>
+                    <p class="leading-relaxed">By contacting us you can make a direct appointment with our agents in London or arrange your visit to our "Sales Office" and "Meeting Room" in the Emirates of Dubai. Our investors always have access to the support and assistance service for in-depth information on the investments and the conditions we can offer. It's also possible to book guided visits to construction sites or to buildings that have already been completed.</p>
+                </div>
+                <div class="w-full md:w-1/2 bg-vision-gold p-8">
+                    <form id="contactForm" class="space-y-4">
+                        <input type="text" name="fullName" placeholder="Full Name" required class="w-full p-3 bg-white bg-opacity-20 text-white placeholder-white placeholder-opacity-75 border border-white border-opacity-50 focus:outline-none focus:border-opacity-100">
+                        <input type="email" name="email" placeholder="Your E-mail" required class="w-full p-3 bg-white bg-opacity-20 text-white placeholder-white placeholder-opacity-75 border border-white border-opacity-50 focus:outline-none focus:border-opacity-100">
+                        <input type="tel" name="phone" placeholder="Phone number" required class="w-full p-3 bg-white bg-opacity-20 text-white placeholder-white placeholder-opacity-75 border border-white border-opacity-50 focus:outline-none focus:border-opacity-100">
+                        <select name="service" required class="w-full p-3 bg-white bg-opacity-20 text-white border border-white border-opacity-50 focus:outline-none focus:border-opacity-100">
+                            <option value="">Select a service required</option>
+                            <option value="business-setup">Business Setup</option>
+                            <option value="financial-services">Financial Services</option>
+                            <option value="complex-support">Complex Business Support</option>
+                        </select>
+                        <textarea name="message" placeholder="Your request" required class="w-full p-3 h-32 bg-white bg-opacity-20 text-white placeholder-white placeholder-opacity-75 border border-white border-opacity-50 focus:outline-none focus:border-opacity-100"></textarea>
+                        <button type="submit" class="bg-vision-dark text-white px-8 py-3 font-semibold hover:bg-opacity-90 transition duration-300">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-vision-dark text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-8">
+                <img src="/api/placeholder/120/40" alt="Vision Prime Logo" class="h-12 mb-4 md:mb-0">
+                <div class="text-center md:text-right">
+                    <p class="font-bold text-xl mb-2">800-LICENSE (542 3673)</p>
+                    <p class="text-sm mb-1">If you are calling from outside the UAE, please contact us on:</p>
+                    <p class="font-semibold mb-1">+971 4 567 7333</p>
+                    <p class="text-sm">hello@visionprime.ae</p>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <ul class="flex flex-wrap justify-center md:justify-start space-x-4 mb-4 md:mb-0">
+                    <li><a href="#" class="text-sm hover:text-vision-gold">About</a></li>
+                    <li><a href="#" class="text-sm hover:text-vision-gold">Business Setup</a></li>
+                    <li><a href="#" class="text-sm hover:text-vision-gold">Our Services</a></li>
+                    <li><a href="#" class="text-sm hover:text-vision-gold">Resources</a></li>
+                    <li><a href="#" class="text-sm hover:text-vision-gold">Careers</a></li>
+                    <li><a href="#" class="text-sm hover:text-vision-gold">Contact Us</a></li>
+                    <li><a href="#" class="text-sm hover:text-vision-gold">Privacy Policy</a></li>
+                    <li><a href="#" class="text-sm hover:text-vision-gold">Terms & Conditions</a></li>
+                </ul>
+                <div class="flex space-x-4">
+                    <!-- Placeholder for social media icons -->
+                    <a href="#" class="text-white hover:text-vision-gold">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="#" class="text-white hover:text-vision-gold">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+                    </a>
+                    <a href="#" class="text-white hover:text-vision-gold">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064

@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-  "./*.{html,js}",
+  "./*.{html,js, php}",
   "./src/**/*.{html,js}", // Assuming your source files are in a `src` directory
   "!./node_modules",       // Exclude `node_modules`
   "!./build",              // Exclude `build`
@@ -11,12 +11,33 @@ module.exports = {
 
   theme: {
     extend: {
+
+       keyframes: {
+        fadeInOut: {
+          '0%, 100%': { opacity: 0 },
+          '50%': { opacity: 1 },
+        },
+        fadeIn: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        },
+        fadeOut: {
+          '0%': { opacity: 1 },
+          '100%': { opacity: 0 },
+        },
+      },
+      animation: {
+        fadeInOut: 'fadeIn 3s ease-in forwards',
+        fadeIn: 'fadeIn 3s ease-in forwards',
+        fadeOut: 'fadeOut 1s ease-out forwards',
+      },
       colors: {
         "general-white": "#fff",
         "general-8-secondary": "#000",
         darkslategray: "#333",
         "general-1-secondary": "#0e163d",
         "general-1-primary": "#a29061",
+        'custom-gold': "rgba(162, 144, 97, var(--tw-text-opacity))",
         "general-1-secondary-variant": "#414562",
         "elements-neutral-2": "#bfd4e4",
         gray: {
@@ -59,6 +80,7 @@ module.exports = {
       "29xl": "48px",
       sm: "14px",
       smi: "13px",
+      med: "20px",
       lg: "18px",
       "35xl": "54px",
       "24xl": "43px",
@@ -87,7 +109,10 @@ module.exports = {
       lg: {
         max: "1200px",
       },
-      mq1050: {
+       mq1050: {
+        raw: "screen and (max-width: 1050px)",
+      },
+      mq1024: {
         raw: "screen and (max-width: 1050px)",
       },
       mq950: {

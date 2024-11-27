@@ -1,0 +1,45 @@
+{
+    "id": "section1",
+    "elType": "section",
+    "settings": {
+        "layout": "boxed"
+    },
+    "elements": [
+        {
+            "id": "column1",
+            "elType": "column",
+            "settings": {
+                "width": "100"
+            },
+            "elements": [
+                {
+                    "id": "heading1",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "Effortless Business Setup in Dubai and the UAE",
+                        "size": "h1"
+                    }
+                },
+                {
+                    "id": "text1",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "Focus on running your business in Dubai, and let us handle the heavy lifting."
+                    }
+                },
+                {
+                    "id": "button1",
+                    "elType": "widget",
+                    "widgetType": "button",
+                    "settings": {
+                        "text": "Start Now",
+                        "size": "lg",
+                        "url": "#"
+                    }
+                }
+            ]
+        }
+    ]
+}

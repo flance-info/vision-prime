@@ -1,4 +1,5 @@
 <?php
+
 // phpcs:ignoreFile
 if ( ! function_exists( 'vcn_starter_styles_and_scripts' ) && ! is_admin() ) {
 	function vcn_starter_styles_and_scripts() {
@@ -11,7 +12,29 @@ if ( ! function_exists( 'vcn_starter_styles_and_scripts' ) && ! is_admin() ) {
 }
 add_action( 'wp_enqueue_scripts', 'vcn_starter_styles_and_scripts' );
 function vision_prime_enqueue_styles() {
-	// Enqueue the output.css file located in your theme directory
+	wp_enqueue_script(
+		'homepage-script',
+		get_template_directory_uri() . '/web/homepage.js',
+		array( 'jquery' ),
+		time(),
+		true
+	);
+
+	wp_enqueue_script(
+		'alpinejs-intersect',
+		'https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js',
+		array(),
+		null,
+		true
+	);
+	wp_enqueue_script(
+		'alpinejs',
+		'https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js',
+		array(),
+		null,
+		true
+	);
+
 	wp_enqueue_style(
 		'vision-prime-output',
 		get_template_directory_uri() . '/web/output.css',
@@ -76,6 +99,10 @@ function vision_prime_enqueue_styles() {
         }
         "
 	);
+
+	wp_register_style( 'starter-navigation', get_template_directory_uri() . '/assets/css/components/header/navigation.css', array(), time() );
+		wp_enqueue_script( 'starter-header', get_template_directory_uri() . '/assets/js/components/header/header.js', array( 'jquery' ), time(), true );
+		wp_enqueue_style( 'starter-navigation' );
 }
 
 add_action( 'wp_enqueue_scripts', 'vision_prime_enqueue_styles' );
