@@ -209,13 +209,14 @@ $description_tag = $settings['description_html_tag'] ?? 'div';
 
 						</div>
 					</div>
-					
+
 					<<?php echo esc_attr($description_tag); ?> class="description self-stretch relative text-base leading-[26px]
 					 font-body-b3-merriweather-14 text-general-9-secondary-variant text-left" >
 							<?php echo wp_kses_post(  $post['post_description'] ); ?>
 					</<?php echo esc_attr($description_tag); ?>>
-
-					<img decoding="async" class="self-stretch h-[314px] relative max-w-full overflow-hidden shrink-0 object-cover" alt="" src="/wp-content/themes/vision-prime/assets/images/wyn-img.png">
+					<?php $bg_image    = ! empty( $post["post_image"]['url'] ) ? esc_url( $post["post_image"]['url'] ) : ''; ?>
+					<img decoding="async" class="self-stretch h-[314px] relative max-w-full
+					overflow-hidden shrink-0 object-cover side-img" alt="" src="<?php echo esc_url($bg_image); ?>">
 				</div>
 
 <?php endforeach; ?>
