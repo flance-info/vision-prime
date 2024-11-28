@@ -76,7 +76,8 @@ document.addEventListener('DOMContentLoaded', () => {
 	if (slider) {
 
 		const slides = slider.children;
-		const nextButton = document.getElementById('next');
+		const nextButton = document.getElementById('nexttest');
+		console.log('nex', nextButton);
 		const prevButton = document.getElementById('prev');
 		const nextButtonOne = document.getElementById('nextm');
 		const prevButtonOne = document.getElementById('prevp');
@@ -84,15 +85,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
 		function showSlide(idx) {
 			slider.style.transform = `translateX(-${idx * 100}%)`;
+			console.log('idx', idx);
 		}
 
 		if (nextButton) {
+				console.log('nexss', nextButton);
 			nextButton.addEventListener('click', () => {
 				if (index < slides.length - 1) {
 					index++;
 				} else {
 					index = 0;
 				}
+				console.log(index);
 				showSlide(index);
 			});
 		}
@@ -129,9 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 
 });
-
-
-document.addEventListener('DOMContentLoaded', () => {
+function sliding(){
 	const slides = document.querySelectorAll('.slider');
 
 	if (slides) {
@@ -175,6 +177,10 @@ document.addEventListener('DOMContentLoaded', () => {
 			});
 		}
 	}
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+	//sliding();
 });
 
 document.addEventListener('DOMContentLoaded', () => {
