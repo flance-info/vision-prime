@@ -27,7 +27,7 @@ $bg_image        = ! empty( $settings["section_background_image"]['url'] ) ? esc
 				<div class="self-stretch flex flex-row items-start justify-center py-0 px-5 mt-[100px] lg:mt-[34px]">
 					<<?php echo esc_attr( $label_tag ); ?>
 						class="relative tracking-[0.4em] leading-[36px] uppercase font-medium z-[2] label elementor-inline-editing"
-						<?php echo $this->get_render_attribute_string( 'heading' ); ?>>
+						<?php echo $this->get_render_attribute_string( 'label' ); ?>>
 						<?php echo esc_html( $settings['label'] ); ?>
 					</<?php echo esc_attr( $label_tag ); ?>>
 
