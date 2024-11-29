@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../../../../fractal-new/wp-content/themes/fractal/.idea/fractal.iml" filepath="$PROJECT_DIR$/../../../../fractal-new/wp-content/themes/fractal/.idea/fractal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../html/.idea/html.iml" filepath="$PROJECT_DIR$/../../../html/.idea/html.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../../../edulingua/wp-content/themes/ms-lms-starter-theme/.idea/ms-lms-starter-theme.iml" filepath="$PROJECT_DIR$/../../../../edulingua/wp-content/themes/ms-lms-starter-theme/.idea/ms-lms-starter-theme.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/vision-prime.iml" filepath="$PROJECT_DIR$/.idea/vision-prime.iml" />
     </modules>

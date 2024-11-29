@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="ms-lms-starter-theme" />
     <orderEntry type="module" module-name="fractal" />
+    <orderEntry type="module" module-name="html" />
   </component>
 </module>
