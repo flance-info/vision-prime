@@ -18,19 +18,23 @@
 
 }
 
-.stm-gt{
+.stm-gt {
   margin-left: calc(100% - 1140px);
 }
-.stm-g-int{
+
+.stm-g-int {
   argin-left: calc(1140px - 100%);
 }
 
-.stm-rt{
+.stm-rt {
 
-    right: 5%;
+  right: 5%;
   @media (max-width: 1025px) {
-	 right: 0%;
+	right: 0%;
+  }
 }
+.stm-w {
+    min-width: 300px;
 }
 
 
