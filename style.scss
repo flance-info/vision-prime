@@ -24,3 +24,14 @@
 .stm-g-int{
   argin-left: calc(1140px - 100%);
 }
+
+.stm-rt{
+
+    right: 5%;
+  @media (max-width: 1025px) {
+	 right: 0%;
+}
+}
+
+
+

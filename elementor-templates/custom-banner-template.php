@@ -11,6 +11,7 @@ $heading_tag     = $settings['heading_html_tag'] ?? 'h1';
 $description_tag = $settings['description_html_tag'] ?? 'div';
 
 $bg_image    = ! empty( $settings["section_background_image"]['url'] ) ? esc_url( $settings["section_background_image"]['url'] ) : '';
+
 ?>
 <div class="w-full">
 

@@ -21,4 +21,13 @@
   argin-left: calc(1140px - 100%);
 }
 
+.stm-rt {
+  right: 5%;
+}
+@media (max-width: 1025px) {
+  .stm-rt {
+    right: 0%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
