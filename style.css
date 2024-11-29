@@ -13,4 +13,12 @@
   background: #F2F7F9;
 }
 
+.stm-gt {
+  margin-left: calc(100% - 1140px);
+}
+
+.stm-g-int {
+  argin-left: calc(1140px - 100%);
+}
+
 /*# sourceMappingURL=style.css.map */
