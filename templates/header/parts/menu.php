@@ -24,6 +24,8 @@
 					$menu_item_parents[ $menu_item->menu_item_parent ][] = $menu_item;
 				}
 				echo '<div class="flex flex-row items-center justify-center py-5 px-0 box-border gap-[30px] max-w-full mq1024:hidden mq850:gap-5">';
+
+
 				foreach ( $menu_item_parents[0] as $menu_item ) { // Start with the top-level items
 					$title        = esc_html( $menu_item->title );
 					$url          = esc_url( $menu_item->url );
@@ -46,6 +48,8 @@ transform transition-transform duration-300 group-hover:rotate-180" src="/wp-con
 											<a href="<?php echo esc_url( $child->url ); ?>" class="block px-4 py-2  hover:bg-elements-neutral-4">
 												<?php echo esc_html( $child->title ); ?>
 											</a>
+											<?php print_r($menu_item_parents[ $child->ID ]) ?>
+
 										</li>
 									<?php endforeach; ?>
 								</ul>
