@@ -41,14 +41,28 @@ transform transition-transform duration-300 group-hover:rotate-180" src="/wp-con
 							<?php endif ?>
 						</a>
 						<?php if ( $has_children ): ?>
-							<div class="absolute right-[0px] hidden mt-2 bg-white shadow-lg rounded-md w-48 group-hover:block z-10 w-full text-left min-h-[100px] top-[8px] er-back-tr">
-								<ul class="py-2">
+							<div class="absolute hidden mt-2 bg-white  group-hover:block z-10 w-full text-left min-h-[100px] top-[8px] er-back-tr stm-m-par">
+								<ul class="py-2 stm-menu-ul">
 									<?php foreach ( $menu_item_parents[ $menu_item->ID ] as $child ): ?>
-										<li>
-											<a href="<?php echo esc_url( $child->url ); ?>" class="block px-4 py-2  hover:bg-elements-neutral-4">
+										<li class="stm-top-li hover:bg-elements-neutral-4">
+											<a href="<?php echo esc_url( $child->url ); ?>" class="block px-4 py-2  ">
 												<?php echo esc_html( $child->title ); ?>
+												<img class="inline-block h-[18px] w-[18px] relative overflow-hidden shrink-0 min-h-[18px]
+transform transition-transform duration-300 group-hover:rotate-180" src="/wp-content/themes/vision-prime/web/public/feather-iconschevrondown.svg" >
 											</a>
-											<?php print_r($menu_item_parents[ $child->ID ]) ?>
+										<?php if ( isset( $menu_item_parents[ $child->ID ] ) ): // Check if this child has more children ?>
+												<div class="absolute left-full top-0 hidden mt-0 bg-white z-10 text-left stm-s-men">
+													<ul class="py-2">
+														<?php foreach ( $menu_item_parents[ $child->ID ] as $grandchild ): ?>
+															<li class="stm-ch-li hover:bg-elements-neutral-4">
+																<a href="<?php echo esc_url( $grandchild->url ); ?>" class="block px-4 py-2">
+																	<?php echo esc_html( $grandchild->title ); ?>
+																</a>
+															</li>
+														<?php endforeach; ?>
+													</ul>
+												</div>
+											<?php endif; ?>
 
 										</li>
 									<?php endforeach; ?>
