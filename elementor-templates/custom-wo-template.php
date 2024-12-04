@@ -12,6 +12,7 @@ $heading_tag     = $settings['heading_html_tag'] ?? 'h2';
 $label_tag     = $settings['label_html_tag'] ?? 'div';
 $description_tag = $settings['description_html_tag'] ?? 'div';
 $description_2_tag = $settings['description_2_html_tag'] ?? 'div';
+$subdescription_tag = $settings['subdescription_html_tag'] ?? 'div';
 $subtitle_tag    = $settings['subtitle_html_tag'] ?? 'h3';
 $title_tag    = $settings['title_html_tag'] ?? 'h3';
 
@@ -59,113 +60,71 @@ $title_tag    = $settings['title_html_tag'] ?? 'h3';
 					<?php echo esc_html( $settings['title'] ); ?>
 				</<?php echo esc_attr( $title_tag ); ?>>
 
+				<?php foreach ( $settings['faq_items'] as $index => $post ) : ?>
+					<?php if ( $index >= 3 ) {
+						continue;
+					}
+					$bg_image = ! empty( $post["post_image"]['url'] ) ? esc_url( $post["post_image"]['url'] ) : '';
+					?>
 
-						<div class="banking-options">
+								<div class="banking-options">
 							<div class="internet-banking-3674177-wrapper">
 								<img
-										class="internet-banking-3674177-icon"
+										class="internet-banking-3674177-icon side-img"
 										loading="lazy"
 										alt=""
-										src="/html/public/internetbanking-3674177@2x.png"
+										src="<?php echo esc_url($bg_image); ?>"
 								/>
 							</div>
 							<div class="account-setup-parent">
-								<h2 class="account-setup">Account Setup</h2>
-								<div class="we-guide-you">
-									We guide you through the entire process of opening
-									a business bank account, from initial application to account
-									activation.
-								</div>
-							</div>
-						</div>
-						<div class="banking-options">
-							<img
-									class="document-4133407-icon"
-									loading="lazy"
-									alt=""
-									src="/html/public/document-4133407@2x.png"
-							/>
 
-							<div class="account-setup-parent">
-								<h2 class="account-setup">Documentation Assistance</h2>
-								<div class="we-guide-you">
-									We help with gathering and verifying essential documents
-									such as your Emirates ID card, residence visa, salary
-									certificate, and proof of address (utility bills and rental
-									agreements).
-								</div>
+								<<?php echo esc_attr( $subtitle_tag ); ?> class=" subtitle
+							account-setup elementor-inline-editing">
+						<?php echo esc_html( $post['post_title'] ); ?>
+					</<?php echo esc_attr($subtitle_tag); ?>>
+
+					<<?php echo esc_attr($subdescription_tag); ?> class="subdescription_tag we-guide-you elementor-inline-editing" >
+							<?php echo $post['post_description'] ; ?>
+					</<?php echo esc_attr($subdescription_tag); ?>>
+
 							</div>
 						</div>
-						<div class="banking-options">
-							<div class="banking-options-inner">
-								<div class="idea-1786324-wrapper">
-									<img
-											class="idea-1786324-icon"
-											loading="lazy"
-											alt=""
-											src="/html/public/idea-1786324@2x.png"
-									/>
-								</div>
-							</div>
-							<div class="account-setup-parent">
-								<h2 class="account-setup">Banking Solutions</h2>
-								<div class="we-guide-you">
-									Access to various account types, including current accounts,
-									savings accounts, and corporate accounts, with features like
-									online banking and mobile banking.
-								</div>
-							</div>
-						</div>
+
+					<?php endforeach; ?>
 					</div>
 					<div class="financial-options-parent">
-						<div class="financial-options">
-							<img
-									class="wallet-icon"
-									loading="lazy"
-									alt=""
-									src="/html/public/wallet@2x.png"
-							/>
+						<?php foreach ( $settings['faq_items'] as $index => $post ) : ?>
+					<?php if ( $index < 3 ) {
+						continue;
+					}
+					$bg_image = ! empty( $post["post_image"]['url'] ) ? esc_url( $post["post_image"]['url'] ) : '';
+					?>
 
+								<div class="banking-options">
+							<div class="internet-banking-3674177-wrapper">
+								<img
+										class="internet-banking-3674177-icon side-img"
+										loading="lazy"
+										alt=""
+										src="<?php echo esc_url($bg_image); ?>"
+								/>
+							</div>
 							<div class="account-setup-parent">
-								<h2 class="account-setup">Minimum Balance Management</h2>
-								<div class="we-guide-you">
-									Prevent being hit with unnecessary fees and see that you are
-									in compliance with minimum balance requirements.
-								</div>
+
+								<<?php echo esc_attr( $subtitle_tag ); ?> class=" subtitle
+							account-setup elementor-inline-editing">
+						<?php echo esc_html( $post['post_title'] ); ?>
+					</<?php echo esc_attr($subtitle_tag); ?>>
+
+					<<?php echo esc_attr($subdescription_tag); ?> class="subdescription_tag we-guide-you elementor-inline-editing" >
+							<?php echo $post['post_description'] ; ?>
+					</<?php echo esc_attr($subdescription_tag); ?>>
+
 							</div>
 						</div>
-						<div class="financial-options">
-							<img
-									class="wallet-icon"
-									loading="lazy"
-									alt=""
-									src="/html/public/transaction@2x.png"
-							/>
 
-							<div class="account-setup-parent">
-								<h2 class="account-setup">Debit and Credit Facilities</h2>
-								<div class="we-guide-you">
-									Obtain debit cards with Abu Dhabi commercial bank and other
-									banking services tailored to your everyday banking needs.
-								</div>
-							</div>
-						</div>
-						<div class="financial-options">
-							<img
-									class="wallet-icon"
-									loading="lazy"
-									alt=""
-									src="/html/public/callcenter@2x.png"
-							/>
+					<?php endforeach; ?>
 
-							<div class="account-setup-parent">
-								<h2 class="account-setup">Ongoing Support</h2>
-								<div class="we-guide-you">
-									Help with transferring money, receiving money, and other
-									financial transactions, all provided constantly.
-								</div>
-							</div>
-						</div>
 
 						<<?php echo esc_attr( $description_2_tag ); ?>
 					class="we-guide-you

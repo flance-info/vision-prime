@@ -201,11 +201,12 @@ class WO_Widget extends FractalBaseElementor {
 		$this->register_section_styles();
 		$this->register_typography_controls( 'heading', 'Heading', '.heading', 'h2' );
 		$this->register_typography_controls( 'label', 'Label', '.label', 'div' );
+		$this->register_typography_controls( 'title', 'Title', '.title', 'h3' );
 		$this->register_typography_controls( 'description', 'Description', '.description', 'b' );
 		$this->register_typography_controls( 'description_2', '2 Description', '.description_2', 'div' );
 		$this->register_typography_controls( 'subdescription', 'Services Description', '.subdescription', 'div' );
 		$this->register_typography_controls( 'subtitle', 'Subtitle', '.subtitle', 'h3' );
-		$this->register_typography_controls( 'title', 'Title', '.title', 'h3' );
+
 
 		$this->register_universal_style_controls(
 			'side_img',                   // Section ID
