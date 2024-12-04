@@ -32,14 +32,14 @@ $socials_youtube_url   = get_theme_mod( 'ms_lms_starter_socials_youtube' );
 						<h2
 								class="m-0 self-stretch relative text-35xl text-left  leading-[60px] font-normal font-heading-1-72 text-general-white mq450:text-13xl mq450:leading-[36px] mq850:text-24xl mq850:leading-[48px]"
 						>
-							<?php echo esc_html(get_theme_mod('footer_1_heading', 'Default Footer 1 Heading')); ?>
+							<?php echo esc_html(get_theme_mod('footer_2_heading', 'Default Footer 1 Heading')); ?>
 						</h2>
 					</div>
 				</div>
 				<div
 						class="self-stretch relative leading-[30px] font-paragraph-16 text-general-white text-left z-[1]"
 				>
-					<?php echo esc_html(get_theme_mod('footer_1_description', 'Default Footer 1 Description')); ?>
+					<?php echo esc_html(get_theme_mod('footer_2_description', 'Default Footer 1 Description')); ?>
 				</div>
 			</div>
 			<div

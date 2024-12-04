@@ -129,3 +129,63 @@ function starter_customize_register( $wp_customize ) {
 
 add_action( 'customize_register', 'starter_customize_register' );
 
+function theme_customize_register($wp_customize) {
+    // Footer 1 Section
+    $wp_customize->add_section('footer_1_section', array(
+        'title'    => __('Footer 1', 'vision-prime'),
+        'priority' => 30,
+    ));
+
+    // Footer 1 Heading
+    $wp_customize->add_setting('footer_1_heading', array(
+        'default'           => __('Let’s Discuss Your Project', 'vision-prime'),
+        'sanitize_callback' => 'sanitize_text_field',
+    ));
+    $wp_customize->add_control('footer_1_heading', array(
+        'label'    => __('Footer 1 Heading', 'vision-prime'),
+        'section'  => 'footer_1_section',
+        'type'     => 'text',
+    ));
+
+    // Footer 1 Description
+    $wp_customize->add_setting('footer_1_description', array(
+        'default'           => __('By contacting us you can make a direct appointment with our agents in London or arrange your visit to our “Sales Office” and “Meeting Room” in the Emirate of Dubai. Our investors always have access to the support and assistance service for in-depth information on the investments and the conditions we can offer. It is also possible to book guided visits to construction sites or to buildings that have already been completed.', 'vision-prime'),
+        'sanitize_callback' => 'sanitize_textarea_field',
+    ));
+    $wp_customize->add_control('footer_1_description', array(
+        'label'    => __('Footer 1 Description', 'vision-prime'),
+        'section'  => 'footer_1_section',
+        'type'     => 'textarea',
+    ));
+
+    // Footer 2 Section
+    $wp_customize->add_section('footer_2_section', array(
+        'title'    => __('Footer 2', 'vision-prime'),
+        'priority' => 31,
+    ));
+
+    // Footer 2 Heading
+    $wp_customize->add_setting('footer_2_heading', array(
+        'default'           => __('Let’s Discuss Your Project', 'vision-prime'),
+        'sanitize_callback' => 'sanitize_text_field',
+    ));
+    $wp_customize->add_control('footer_2_heading', array(
+        'label'    => __('Footer 2 Heading', 'vision-prime'),
+        'section'  => 'footer_2_section',
+        'type'     => 'text',
+    ));
+
+    // Footer 2 Description
+    $wp_customize->add_setting('footer_2_description', array(
+        'default'           => __('By contacting us you can make a direct appointment with our agents in London or arrange your visit to our “Sales Office” and “Meeting Room” in the Emirate of Dubai. Our investors always have access to the support and assistance service for in-depth information on the investments and the conditions we can offer. It is also possible to book guided visits to construction sites or to buildings that have already been completed.', 'vision-prime'),
+        'sanitize_callback' => 'sanitize_textarea_field',
+    ));
+    $wp_customize->add_control('footer_2_description', array(
+        'label'    => __('Footer 2 Description', 'vision-prime'),
+        'section'  => 'footer_2_section',
+        'type'     => 'textarea',
+    ));
+}
+add_action('customize_register', 'theme_customize_register');
+
+
