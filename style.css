@@ -7,7 +7,7 @@
  * License: GNU General Public License v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:vision-prime
- * Version: 1.0
+ * Version: 4.0
  */
 .stm-faqs-it .accordion-item {
   background: #F2F7F9;
@@ -99,7 +99,7 @@
   background-color: var(--general-1-primary);
   height: 1px;
   transform: rotate(90deg);
-  top: 50px;
+  top: 60px;
 }
 
 .scarica-gratis-il {
@@ -356,6 +356,10 @@
   }
 }
 @media screen and (max-width: 1050px) {
+  .stm-g-int .flex.flex-row.w-full.max-w-\[1170px\].py-\[54px\].px-\[54px\].relative.z-10.mr-\[-2px\].justify-between.mq925\:flex-col {
+    display: flex;
+    flex-direction: column;
+  }
   .stm-serv-inner {
     display: none;
     padding-top: 788px;
@@ -400,6 +404,26 @@
     gap: var(--gap-xl);
     padding-bottom: 47px;
     box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 600px) {
+  .financial-options {
+    align-self: stretch;
+    background-color: var(--general-7-secondary-variant);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-11xl);
+    box-sizing: border-box;
+    gap: var(--gap-6xl);
+    max-width: 100%;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+  copyright {
+    padding: 0px !important;
+    padding-bottom: 20px !important;
   }
 }
 @media screen and (max-width: 450px) {

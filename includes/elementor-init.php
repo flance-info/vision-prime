@@ -4,6 +4,7 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
+
 // Register the widget
 function register_custom_banner_widget() {
 
@@ -12,7 +13,6 @@ function register_custom_banner_widget() {
 		$widgets_directory = get_stylesheet_directory() . '/elementor-widgets/';
 		$widget_files      = glob( $widgets_directory . '*.php' );
 		foreach ( $widget_files as $file ) {
-
 			require_once( $file );
 		}
 

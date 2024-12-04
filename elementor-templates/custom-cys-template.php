@@ -65,7 +65,7 @@ $subtitle_tag    = $settings['subtitle_html_tag'] ?? 'h3';
 
 						<img decoding="async" class="w-12 h-12 relative" loading="lazy" alt="" src="<?php echo esc_url($bg_image); ?>">
 
-					<div class="self-stretch overflow-hidden flex flex-col items-center justify-start gap-3.5">
+					<div class="self-stretch flex flex-col items-center justify-start gap-3.5">
 
 
 							<<?php echo esc_attr( $subtitle_tag ); ?> class=" subtitle
@@ -76,7 +76,7 @@ $subtitle_tag    = $settings['subtitle_html_tag'] ?? 'h3';
 						<<?php echo esc_attr($description_tag); ?> class="description self-stretch
 						relative text-sm leading-[24px]
 						font-body-b3-merriweather-14 text-dimgray min-h-[165px]" >
-							<?php echo wp_kses_post(  $post['post_description'] ); ?>
+							<?php echo $post['post_description'] ; ?>
 					</<?php echo esc_attr($description_tag); ?>>
 
 					</div>

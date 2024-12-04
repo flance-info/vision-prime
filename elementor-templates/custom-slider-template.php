@@ -111,12 +111,16 @@ $post_author_position_tag = $settings['post_author_position_html_tag'] ?? 'h3';
 
 													<div class="max-w-[706px] flex flex-col items-start justify-start gap-7 w-full">
 
-														<h2 class="m-0 w-full m-ful-[670px] relative text-inherit text-11xl
+						<<?php echo esc_attr( $sub_heading_1 ); ?>
+				class="m-0 w-full m-ful-[670px] relative text-inherit text-11xl
 											 tracking-[-0.01em] leading-[36px] font-bold
 											  font-inherit inline-block shrink-0  z-[1]
-											   mq450:text-lg hidden lg:flex font-button-dm-sans-16  ">
-															Idea to thriving reality
-														</h2>
+											   mq450:text-lg hidden lg:flex font-button-dm-sans-16
+				sub_heading_1 elementor-inline-editing" <?php echo $this->get_render_attribute_string( 'sub_heading_1' ); ?>>
+		<?php echo esc_html( $settings['sub_heading_1'] ); ?>
+	</<?php echo esc_attr($sub_heading_1); ?>>
+
+
 
 														<<?php echo esc_attr($description_tag); ?> class="description m-0 self-stretch relative text-inherit leading-[36px]
 														italic font-normal font-inherit text-med z-[1] mq450:text-lg mq450:leading-[29px]" >
