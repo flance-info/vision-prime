@@ -60,8 +60,14 @@ $title_tag    = $settings['title_html_tag'] ?? 'h3';
 					<?php echo esc_html( $settings['title'] ); ?>
 				</<?php echo esc_attr( $title_tag ); ?>>
 
-				<?php foreach ( $settings['faq_items'] as $index => $post ) : ?>
-					<?php if ( $index >= 3 ) {
+				<?php
+					$faq_items   = $settings['faq_items'];
+						$total_items = count( $faq_items );
+						$half_point  = ceil( $total_items / 2 );
+
+
+				foreach ( $settings['faq_items'] as $index => $post ) : ?>
+					<?php if ( $index >= $half_point  ) {
 						continue;
 					}
 					$bg_image = ! empty( $post["post_image"]['url'] ) ? esc_url( $post["post_image"]['url'] ) : '';
@@ -93,8 +99,12 @@ $title_tag    = $settings['title_html_tag'] ?? 'h3';
 					<?php endforeach; ?>
 					</div>
 					<div class="financial-options-parent">
-						<?php foreach ( $settings['faq_items'] as $index => $post ) : ?>
-					<?php if ( $index < 3 ) {
+						<?php
+
+
+
+						foreach ( $settings['faq_items'] as $index => $post ) : ?>
+					<?php if ( $index < $half_point ) {
 						continue;
 					}
 					$bg_image = ! empty( $post["post_image"]['url'] ) ? esc_url( $post["post_image"]['url'] ) : '';
